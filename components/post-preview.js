@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import Avatar from '../components/avatar'
-import DateComponent from '../components/date'
-import CoverImage from './cover-image'
+import Link from "next/link";
+import Avatar from "../components/avatar";
+import DateComponent from "../components/date";
+import CoverImage from "./cover-image";
 
 export default function PostPreview({
   title,
@@ -12,20 +12,20 @@ export default function PostPreview({
   slug,
 }) {
   return (
-    <div>
-      <div className="mb-5">
-        <CoverImage title={title} slug={slug} url={coverImage.url} />
-      </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`} className="hover:underline">
-          {title}
-        </Link>
-      </h3>
-      <div className="text-lg mb-4">
-        <DateComponent dateString={date} />
-      </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      {author && <Avatar name={author.name} picture={author.picture} />}
-    </div>
-  )
+    <>
+      <article className="flex flex-col items-start justify-between bg-white rounded-2xl">
+        <div className="max-w-full rounded-2xl overflow-hidden shadow-sm">
+          <img className="w-full" src={coverImage.url} alt={title} />
+          <div className="p-6">
+            <div className="">
+              <div className="font-medium text-xl mb-2">{title}</div>
+            </div>
+            <div className="pt-3 text-slate-500 text-sm">
+              <DateComponent dateString={date} />
+            </div>
+          </div>
+        </div>
+      </article>
+    </>
+  );
 }
