@@ -5,17 +5,25 @@
 @tailwind utilities;
 
 
-html {
-    font-weight: 400;
-}
+
+ 
 
 h1, h2, h3, h4, h5 ,h6 {
-    font-weight: 700;
     line-height: 120%;
+}
+
+p {
+  font-family: var(--font-roboto-mono) !important;
 }
 
 .sticky-thc {
     position: sticky;
     top: 0;
     z-index: 9999999999;
+  }
+
+  .bkg {
+ background-image: url("/bkg.png");
+  background-repeat: no-repeat, repeat;
+      background-position: bottom right; /* Center the image */
   }

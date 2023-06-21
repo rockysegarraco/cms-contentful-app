@@ -7,6 +7,7 @@ export default function HeroHero({
   excerpt,
   author,
   slug,
+  topic,
 }) {
   return (
     <div className="mb-16">
@@ -19,10 +20,11 @@ export default function HeroHero({
           />
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
           <div className="p-6">
-            <h1 className="lg:text-4xl font-medium text-white lg:leading-[3rem] leading-[2rem] text-2xl">
+            <div className="text-sm uppercase text-white pb-3">{topic}</div>
+            <h1 className="lg:text-4xl font-semibold text-white lg:leading-[3rem] leading-[2rem] text-2xl">
               <a href={`/posts/${slug}`}>{title}</a>
             </h1>
-            <div className="flex flex-wrap items-center gap-y-3 overflow-hidden text-sm leading-6 text-gray-300 py-3">
+            <div className="flex flex-wrap items-center gap-y-3 overflow-hidden text-sm leading-6 text-gray-300 py-3 uppercase">
               <DateComponent dateString={date} />
             </div>
           </div>

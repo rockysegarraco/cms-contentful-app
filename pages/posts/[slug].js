@@ -11,6 +11,7 @@ import Layout from "../../components/layout";
 import { getAllPostsWithSlug, getPostAndMorePosts } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import { CMS_NAME } from "../../lib/constants";
+import Newsletter from "../../components/newsletter";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -21,13 +22,13 @@ export default function Post({ post, morePosts, preview }) {
 
   return (
     <Layout preview={preview}>
+      <Header />
       <Container>
-        <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article>
+            <article className="mb-16">
               <Head>
                 <title>
                   {`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
@@ -41,12 +42,9 @@ export default function Post({ post, morePosts, preview }) {
               />
               <PostBody content={post.content} />
             </article>
-            <SectionSeparator />
-            {morePosts && morePosts.length > 0 && (
-              <MoreStories posts={morePosts} />
-            )}
           </>
         )}
+        <Newsletter />
       </Container>
     </Layout>
   );

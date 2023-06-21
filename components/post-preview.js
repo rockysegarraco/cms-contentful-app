@@ -10,21 +10,28 @@ export default function PostPreview({
   excerpt,
   author,
   slug,
+  topic,
 }) {
   return (
     <>
-      <article className="flex flex-col items-start justify-between bg-white rounded-2xl">
-        <div className="max-w-full rounded-2xl overflow-hidden shadow-sm">
-          <img className="w-full" src={coverImage.url} alt={title} />
-          <div className="p-6">
-            <div className="">
-              <div className="font-medium text-xl mb-2">{title}</div>
-            </div>
-            <div className="pt-3 text-slate-500 text-sm">
-              <DateComponent dateString={date} />
+      <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
+        <a href={`/posts/${slug}`}>
+          <div className="max-w-full rounded-2xl overflow-hidden">
+            <img className="w-full" src={coverImage.url} alt={title} />
+
+            <div className="p-6">
+              <div className="text-sm uppercase text-secondary-950 pb-3">
+                {topic}
+              </div>
+              <div className="font-semibold text-xl mb-2 text-dark-950">
+                {title}
+              </div>
+              <div className="pt-3 text-dark-950 text-sm uppercase">
+                <DateComponent dateString={date} />
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </article>
     </>
   );
