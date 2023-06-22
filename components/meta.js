@@ -34,7 +34,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`SmartCommerce - Accelerate E-commerce from all existing touchpoints - SmartCommerce`}
+        content={`SmartCommerce - Accelerate E-commerce from all existing touchpoints`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
