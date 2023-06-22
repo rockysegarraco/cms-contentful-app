@@ -4,7 +4,7 @@ import {
   ArrowLongLeftIcon,
 } from "@heroicons/react/20/solid";
 
-const pages = [{ name: "Blog Home", href: "/", current: false }];
+const pages = [{ name: "Blog Home", href: "/blog", current: false }];
 
 export default function Breadcrumb() {
   return (

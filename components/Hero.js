@@ -3,22 +3,16 @@ import ReactPlayer from "react-player";
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden bg-white bkg p-0 py-16 lg:py-32">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 lg:grid-cols-2">
+    <div className="relative isolate overflow-hidden bkg p-0 py-8 lg:py-32">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-2">
         <div>
-          <h1 className="text-5xl md:text-6xl lg:text-6xl mb-12 md:text-left sm:leading-[5rem] lg:leading-[5rem] leading-[3.5rem] font-bold text-info-950">
+          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
             Make everything shoppable
             <span className="text-secondary-950">.</span>
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="text-lg leading-8 text-gray-600">
             SmartCommerce is a simple tool that transforms all of your marketing
             touchpoins into e-commerce launch points.
-            <br />
-            <br />
-            Our Master Product Engine maintains up-to-the-minute stock status at
-            the store level. Letting you bypass dead-ends like out-of-stocks,
-            seasonal product changes and third-part sellers, to keep your
-            e-commerce sales moving!
             <br />
             <br />
             <span className="font-semibold text-info-950">
@@ -35,13 +29,11 @@ export default function Hero() {
           </div>
         </div>
         <div>
-          <div>
-            <ReactPlayer
-              width="100%"
-              controls
-              url="https://vimeo.com/3155182"
-            />
-          </div>
+          <ReactPlayer
+            width="100%"
+            controls
+            url="https://youtu.be/d9MyW72ELq0"
+          />
         </div>
       </div>
     </div>

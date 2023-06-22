@@ -11,6 +11,7 @@ module.exports = {
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
         success: "#0070f3",
+        "dark-accent": "#111749",
         cyan: "#79FFE1",
         primary: {
           950: "#4363f9",
@@ -27,6 +28,9 @@ module.exports = {
         secondary: {
           950: "#F26B21",
           100: "#FEF0E9",
+        },
+        success: {
+          100: "#EFFAF3",
         },
         info: {
           950: "#252D6C",
@@ -54,10 +58,10 @@ module.exports = {
         tight: 1.2,
       },
       fontSize: {
-        "5xl": "2.5rem",
+        "5xl": "3.5rem",
         "6xl": "4rem",
         "7xl": "4.5rem",
-        "8xl": "6.25rem",
+        "8xl": "5rem",
       },
       fontFamily: {
         sans: ["var(--font-poppins)"],

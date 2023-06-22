@@ -1,6 +1,11 @@
 import Container from "../components/container";
 import Layout from "../components/layout";
 import Hero from "../components/Hero";
+import Brands from "../components/brands";
+import Success from "../components/success";
+import Short from "../components/short";
+import Stats from "../components/stats";
+import Cta from "../components/cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 
@@ -15,10 +20,12 @@ export default function Index() {
           </title>
         </Head>
         <Hero />
-        <Container>
-          <style>{"body { background-color: #f5f5f7; }"}</style>
-          <h1>Homepage</h1>
-        </Container>
+        <Brands />
+        <Short />
+        <Success />
+        <Stats />
+        <Cta />
+        <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>
     </>
   );
