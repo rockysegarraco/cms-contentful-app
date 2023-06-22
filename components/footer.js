@@ -80,9 +80,12 @@ export default function Footer() {
           <div className="space-y-8">
             <img className="h-12" src="/logo-white.svg" alt="Company name" />
             <p className="text-sm leading-6 text-gray-300">
-              SmartCommerce is a simple tool that transforms all of your
-              marketing touchpoins into e-commerce
-              <br /> launch points.
+              75 5th Street NW, Suite2000
+              <br />
+              Atlanta, Georgia 30308
+              <br />
+              <br />
+              1.800.571.3520
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -101,7 +104,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
+                  Products
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -118,7 +121,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Support
+                  Company
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
@@ -137,7 +140,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Company
+                  Resources
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
