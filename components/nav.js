@@ -61,7 +61,10 @@ const resources = [
 ];
 
 const users = [
-  { name: "Request Form", href: "#" },
+  {
+    name: "Request Form",
+    href: "https://smartcommerce.wufoo.com/forms/smartcommerce-campaign-order-form/",
+  },
   { name: "SmartSuite - Log In", href: "https://smartsuite.co/en-us/backend/" },
   { name: "HappyFox Support", href: "#" },
 ];

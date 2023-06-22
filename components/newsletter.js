@@ -12,7 +12,7 @@ export default function Newsletter() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="http://www.google.com"
+              href="https://smartcommerce.us20.list-manage.com/subscribe?u=5d71f8753fa72eab4b72788c2&id=8a974f182a%20"
               className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Subscribe Now
