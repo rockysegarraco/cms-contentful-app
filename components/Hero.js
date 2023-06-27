@@ -1,7 +1,14 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
+import { useEffect, useState } from 'react'
 
 export default function Hero() {
+  const [isLoaded, setIsLoaded] = useState(false)
+
+  useEffect(() => {
+    setIsLoaded(true)
+  }, [])
+
   return (
     <div className="relative isolate overflow-hidden bkg p-0 py-8 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-2">
@@ -29,11 +36,12 @@ export default function Hero() {
           </div>
         </div>
         <div>
+        {isLoaded ? (
           <ReactPlayer
             width="100%"
             controls
             url="https://youtu.be/d9MyW72ELq0"
-          />
+          /> ) : null }
         </div>
       </div>
     </div>

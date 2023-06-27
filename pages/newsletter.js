@@ -1,16 +1,14 @@
 import Container from "../components/container";
-import MoreStories from "../components/more-stories";
-import HeroPost from "../components/hero-post";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
+import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
 import Newsletter from "../components/newsletter";
-import HeroHero from "../components/HeroHero";
+import NewsletterCard from "../components/NewsletterCard";
 
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
+
   return (
     <>
       <Layout preview={preview}>
@@ -27,7 +25,7 @@ export default function Index({ preview, allPosts }) {
         <Container>
           <Newsletter />
           <style>{"body { background-color: #f5f5f7; }"}</style>
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {morePosts.length > 0 && <NewsletterCard posts={morePosts} />}
         </Container>
       </Layout>
     </>
@@ -35,8 +33,9 @@ export default function Index({ preview, allPosts }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = (await getAllPostsForHome(preview)) ?? [];
+  const allPosts = (await fetchNewsletter());
   return {
     props: { preview, allPosts },
+    revalidate: 60
   };
 }

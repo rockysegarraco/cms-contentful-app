@@ -16,6 +16,7 @@ import Newsletter from "../../components/newsletter";
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
 
+  console.log(post);
   if (!router.isFallback && !post) {
     return <ErrorPage statusCode={404} />;
   }
@@ -52,7 +53,6 @@ export default function Post({ post, morePosts, preview }) {
 
 export async function getStaticProps({ params, preview = false }) {
   const data = await getPostAndMorePosts(params.slug, preview);
-
   return {
     props: {
       preview,
