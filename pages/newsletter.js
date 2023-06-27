@@ -6,8 +6,6 @@ import Newsletter from "../components/newsletter";
 import NewsletterCard from "../components/NewsletterCard";
 
 export default function Index({ preview, allPosts }) {
-  const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
 
   return (
     <>
@@ -25,7 +23,7 @@ export default function Index({ preview, allPosts }) {
         <Container>
           <Newsletter />
           <style>{"body { background-color: #f5f5f7; }"}</style>
-          {morePosts.length > 0 && <NewsletterCard posts={morePosts} />}
+          {allPosts.length > 0 && <NewsletterCard posts={allPosts} />}
         </Container>
       </Layout>
     </>
