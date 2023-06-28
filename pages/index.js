@@ -8,8 +8,9 @@ import Stats from "../components/stats";
 import Cta from "../components/cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
+import { fetchHomepage } from "../lib/api";
 
-export default function Index() {
+export default function Index({ pageData }) {
   return (
     <>
       <Layout>
@@ -19,7 +20,7 @@ export default function Index() {
             - SmartCommerce
           </title>
         </Head>
-        <Hero />
+        <Hero pageData={pageData} />
         <Brands />
         <Short />
         <Success />
@@ -30,3 +31,12 @@ export default function Index() {
     </>
   );
 }
+
+export async function getStaticProps({ preview = false }) {
+  const pageData = (await fetchHomepage());
+  return {
+    props: { preview, pageData },
+    revalidate: 60
+  };
+}
+

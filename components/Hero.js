@@ -1,9 +1,16 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from 'react'
+import PostBody from './post-body';
+// import Modal from './Modal';
+// import { RichTextEditor } from "./RichTextEditor";
 
-export default function Hero() {
+
+export default function Hero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false)
+ // const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const { heroContent, heroTitle, youtube } = pageData?.fields;
 
   useEffect(() => {
     setIsLoaded(true)
@@ -14,18 +21,10 @@ export default function Hero() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-2">
         <div>
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-            Make everything shoppable
+            {heroTitle}
             <span className="text-secondary-950">.</span>
           </h1>
-          <p className="text-lg leading-8 text-gray-600">
-            SmartCommerce is a simple tool that transforms all of your marketing
-            touchpoins into e-commerce launch points.
-            <br />
-            <br />
-            <span className="font-semibold text-info-950">
-              Welcome to the future of commerce.
-            </span>
-          </p>
+          <PostBody content={heroContent} />
           <div className="mt-10 flex items-center gap-x-6">
             <a
               href="http://www.google.com"
@@ -36,12 +35,12 @@ export default function Hero() {
           </div>
         </div>
         <div>
-        {isLoaded ? (
-          <ReactPlayer
-            width="100%"
-            controls
-            url="https://youtu.be/d9MyW72ELq0"
-          /> ) : null }
+          {isLoaded ? (
+            <ReactPlayer
+              width="100%"
+              controls
+              url={youtube}
+            />) : null}
         </div>
       </div>
     </div>
