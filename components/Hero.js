@@ -1,8 +1,7 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from 'react'
-import PostBody from './post-body';
-
+import PostBody from "./Postbody";
 
 export default function Hero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false)

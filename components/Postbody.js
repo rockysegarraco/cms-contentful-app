@@ -20,7 +20,7 @@ export default function PostBody({ content }) {
       <div className="max-w-3xl mx-auto text-dark-950 font-normal">
         <div className={markdownStyles["markdown"]}>
           {documentToReactComponents(
-            content.json,
+            content,
             customMarkdownOptions(content)
           )}
         </div>
