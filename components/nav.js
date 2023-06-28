@@ -54,7 +54,7 @@ const resources = [
   { name: "Blog", href: "/blog" },
   {
     name: "Newsletter",
-    href: "https://smartcommerce.us20.list-manage.com/subscribe?u=5d71f8753fa72eab4b72788c2&id=8a974f182a",
+    href: "/newsletter",
   },
   { name: "White Papers", href: "#" },
   { name: "CPG Scoop", href: "#" },
