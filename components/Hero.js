@@ -2,14 +2,10 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from 'react'
 import PostBody from './post-body';
-// import Modal from './Modal';
-// import { RichTextEditor } from "./RichTextEditor";
 
 
 export default function Hero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false)
- // const [isModalOpen, setIsModalOpen] = useState(false)
-
   const { heroContent, heroTitle, youtube } = pageData?.fields;
 
   useEffect(() => {
