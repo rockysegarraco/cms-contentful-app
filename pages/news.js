@@ -1,6 +1,7 @@
 import NewsCard from "../components/NewsCard";
 import Container from "../components/container";
 import Layout from "../components/layout";
+import Pagination from "../components/pagination";
 import { fetchNews } from "../lib/api";
 import Head from "next/head";
 
@@ -21,6 +22,7 @@ export default function News({ preview, allPosts }) {
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {allPosts.length > 0 && <NewsCard posts={allPosts} />}
+          <Pagination />
         </Container>
       </Layout>
     </>
