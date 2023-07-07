@@ -1,17 +1,13 @@
+import NewsCard from "../components/NewsCard";
 import Container from "../components/container";
 import Layout from "../components/layout";
-import { fetchNewsletter } from "../lib/api";
+import { fetchNews } from "../lib/api";
 import Head from "next/head";
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
 
-export default function Example() {
+export default function News({ preview, allPosts }) {
   return (
     <>
-      <Layout>
+      <Layout preview={preview}>
         <Head>
           <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
         </Head>
@@ -24,9 +20,17 @@ export default function Example() {
         </h2>
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
-          TBD
+          {allPosts.length > 0 && <NewsCard posts={allPosts} />}
         </Container>
       </Layout>
     </>
   );
+}
+
+export async function getStaticProps({ preview = false }) {
+  const allPosts = await fetchNews();
+  return {
+    props: { preview, allPosts },
+    revalidate: 60,
+  };
 }
