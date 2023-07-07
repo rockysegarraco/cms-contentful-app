@@ -1,15 +1,15 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 import PostBody from "./Postbody";
 
 export default function Hero({ pageData }) {
-  const [isLoaded, setIsLoaded] = useState(false)
+  const [isLoaded, setIsLoaded] = useState(false);
   const { heroContent, heroTitle, youtube } = pageData?.fields;
 
   useEffect(() => {
-    setIsLoaded(true)
-  }, [])
+    setIsLoaded(true);
+  }, []);
 
   return (
     <div className="relative isolate overflow-hidden bkg p-0 py-8 lg:py-32">
@@ -31,11 +31,8 @@ export default function Hero({ pageData }) {
         </div>
         <div>
           {isLoaded ? (
-            <ReactPlayer
-              width="100%"
-              controls
-              url={youtube}
-            />) : null}
+            <ReactPlayer width="100%" controls url={youtube} />
+          ) : null}
         </div>
       </div>
     </div>

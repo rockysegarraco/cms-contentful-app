@@ -41,7 +41,7 @@ const products = [
 ];
 const callsToAction = [
   { name: "Get demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
+  { name: "Contact sales", href: "/contact-us", icon: PhoneIcon },
 ];
 const company = [
   { name: "About", href: "#" },
@@ -226,7 +226,10 @@ export default function Nav() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/contact-us"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Contact
           </a>
         </Popover.Group>
