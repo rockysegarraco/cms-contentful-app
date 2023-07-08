@@ -1,3 +1,4 @@
+import { useState } from "react";
 import NewsCard from "../components/NewsCard";
 import Container from "../components/container";
 import Layout from "../components/layout";
@@ -5,7 +6,32 @@ import Pagination from "../components/pagination";
 import { fetchNews } from "../lib/api";
 import Head from "next/head";
 
-export default function News({ preview, allPosts }) {
+export default function News({ preview, posts, total }) {
+  const [currentPage, setCurrentPage] = useState(1)
+  const [postData, setPostData] = useState(posts)
+  const [totalLength, setTotalLength] = useState(3)
+
+  const handleNext = async(e) => {
+    e.preventDefault();
+    if (totalLength != total) {
+      const {posts} = await fetchNews(3, totalLength);
+      setTotalLength(totalLength + posts.length);
+      setCurrentPage(currentPage + 1);
+      setPostData(posts)
+    }
+  }
+
+  const handlePrev = async(e) => {
+    e.preventDefault();
+    if (currentPage != 1) {
+      const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
+      const {posts} = await fetchNews(3, totalSkip);
+      setTotalLength(totalLength - postData.length);
+      setCurrentPage(currentPage - 1);
+      setPostData(posts)
+    }
+  }
+
   return (
     <>
       <Layout preview={preview}>
@@ -13,7 +39,7 @@ export default function News({ preview, allPosts }) {
           <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
         </Head>
         <h2 className="font-normal leading-tight mb-20 p-5 bg-white border-t shadow-sm">
-          <div className="mx-auto lg:max-w-7xl sm:max-w-7xl sm:px-6 lg:px-8 px-10 sm:px-8 text-sm">
+          <div className="mx-auto lg:max-w-7xl sm:max-w-7xl sm:px-6 lg:px-8 px-10 text-sm">
             <h1 className="text-3xl md:text-3xl font-bold md:pr-8 text-dark-950">
               News & Events<span className="text-secondary-950">.</span>
             </h1>
@@ -21,8 +47,8 @@ export default function News({ preview, allPosts }) {
         </h2>
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
-          {allPosts.length > 0 && <NewsCard posts={allPosts} />}
-          <Pagination />
+          {postData.length > 0 && <NewsCard posts={postData} />}
+          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
         </Container>
       </Layout>
     </>
@@ -30,9 +56,9 @@ export default function News({ preview, allPosts }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = await fetchNews();
+  const {posts, total} = await fetchNews(3, 0);
   return {
-    props: { preview, allPosts },
+    props: { preview, posts, total },
     revalidate: 60,
   };
 }
