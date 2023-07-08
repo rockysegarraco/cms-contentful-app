@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <div>
+    <div className="mt-8">
       <div className="mx-auto">
         <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-24 text-center shadow-sm sm:rounded-3xl sm:px-16">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold sm:text-4xl text-info-950">

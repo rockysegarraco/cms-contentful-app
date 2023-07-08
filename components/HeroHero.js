@@ -14,7 +14,7 @@ export default function HeroHero({
       <div className="mx-auto">
         <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 pt-80 sm:pt-48 lg:pt-80">
           <img
-            src={coverImage.url}
+            src={coverImage?.fields?.file?.url}
             alt={title}
             className="absolute inset-0 -z-10 h-full w-full object-cover"
           />

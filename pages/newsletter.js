@@ -2,10 +2,38 @@ import Container from "../components/container";
 import Layout from "../components/layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
-import Newsletter from "../components/newsletter";
 import NewsletterCard from "../components/NewsletterCard";
+import { NUMBER_OF_NEWSLETTER_TO_SHOW } from "../lib/constants";
+import { useState } from "react";
+import Pagination from "../components/pagination";
 
-export default function Index({ preview, allPosts }) {
+export default function Index({ preview, allPosts, total }) {
+
+  const [currentPage, setCurrentPage] = useState(1)
+  const [postData, setPostData] = useState(allPosts)
+  const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWSLETTER_TO_SHOW)
+
+  const handleNext = async(e) => {
+    e.preventDefault();
+    if (totalLength != total) {
+      const {posts} = await fetchNews(NUMBER_OF_NEWSLETTER_TO_SHOW, totalLength);
+      setTotalLength(totalLength + posts.length);
+      setCurrentPage(currentPage + 1);
+      setPostData(posts)
+    }
+  }
+
+  const handlePrev = async(e) => {
+    e.preventDefault();
+    if (currentPage != 1) {
+      const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
+      const {posts} = await fetchNews(NUMBER_OF_NEWSLETTER_TO_SHOW, totalSkip);
+      setTotalLength(totalLength - postData.length);
+      setCurrentPage(currentPage - 1);
+      setPostData(posts)
+    }
+  }
+
   return (
     <>
       <Layout preview={preview}>
@@ -39,7 +67,8 @@ export default function Index({ preview, allPosts }) {
             </div>
           </div>
           <style>{"body { background-color: #f5f5f7; }"}</style>
-          {allPosts.length > 0 && <NewsletterCard posts={allPosts} />}
+          {postData.length > 0 && <NewsletterCard posts={postData} />}
+          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
         </Container>
       </Layout>
     </>
@@ -47,9 +76,9 @@ export default function Index({ preview, allPosts }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = await fetchNewsletter();
+  const {posts, total} = await fetchNewsletter(NUMBER_OF_NEWSLETTER_TO_SHOW, 0);
   return {
-    props: { preview, allPosts },
+    props: { preview, allPosts: posts, total },
     revalidate: 60,
   };
 }

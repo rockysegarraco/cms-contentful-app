@@ -1,17 +1,44 @@
 import Container from "../components/container";
 import MoreStories from "../components/more-stories";
-import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
+import { fetchBlogs, getAllPostsForHome } from "../lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
+import { NUMBER_OF_BLOG_TO_SHOW } from "../lib/constants";
 import Newsletter from "../components/newsletter";
 import HeroHero from "../components/HeroHero";
+import { useState } from "react";
+import Pagination from "../components/pagination";
 
-export default function Index({ preview, allPosts }) {
-  const heroPost = allPosts[0];
+export default function Index({ preview, allPosts, total }) {
+  const heroPost = allPosts[0].fields;
   const morePosts = allPosts.slice(1);
+
+  const [currentPage, setCurrentPage] = useState(1)
+  const [postData, setPostData] = useState(morePosts)
+  const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW - 1);
+
+  const handleNext = async(e) => {
+    e.preventDefault();
+    if (totalLength != total) {
+      const {posts} = await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, totalLength);
+      setTotalLength(totalLength + posts.length);
+      setCurrentPage(currentPage + 1);
+      setPostData(posts)
+    }
+  }
+
+  const handlePrev = async(e) => {
+    e.preventDefault();
+    if (currentPage != 1) {
+      const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
+      const {posts} = await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, totalSkip);
+      setTotalLength(totalLength - postData.length);
+      setCurrentPage(currentPage - 1);
+      setPostData(posts)
+    }
+  }
+
   return (
     <>
       <Layout preview={preview}>
@@ -32,7 +59,8 @@ export default function Index({ preview, allPosts }) {
               topic={heroPost.topic}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {postData.length > 0 && <MoreStories posts={postData} />}
+          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
           <Newsletter />
         </Container>
       </Layout>
@@ -41,8 +69,9 @@ export default function Index({ preview, allPosts }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const allPosts = (await getAllPostsForHome(preview)) ?? [];
+  const {posts, total} = (await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, 0)) ?? [];
   return {
-    props: { preview, allPosts },
+    props: { preview, allPosts: posts, total },
+    revalidate: 60,
   };
 }
