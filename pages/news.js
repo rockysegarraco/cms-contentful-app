@@ -5,16 +5,17 @@ import Layout from "../components/layout";
 import Pagination from "../components/pagination";
 import { fetchNews } from "../lib/api";
 import Head from "next/head";
+import { NUMBER_OF_NEWS_TO_SHOW } from "../lib/constants";
 
 export default function News({ preview, posts, total }) {
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(posts)
-  const [totalLength, setTotalLength] = useState(3)
+  const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWS_TO_SHOW)
 
   const handleNext = async(e) => {
     e.preventDefault();
     if (totalLength != total) {
-      const {posts} = await fetchNews(3, totalLength);
+      const {posts} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalLength);
       setTotalLength(totalLength + posts.length);
       setCurrentPage(currentPage + 1);
       setPostData(posts)
@@ -25,7 +26,7 @@ export default function News({ preview, posts, total }) {
     e.preventDefault();
     if (currentPage != 1) {
       const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
-      const {posts} = await fetchNews(3, totalSkip);
+      const {posts} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalSkip);
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
       setPostData(posts)
@@ -56,7 +57,7 @@ export default function News({ preview, posts, total }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const {posts, total} = await fetchNews(3, 0);
+  const {posts, total} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, 0);
   return {
     props: { preview, posts, total },
     revalidate: 60,
