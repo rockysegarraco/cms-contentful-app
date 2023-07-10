@@ -2,7 +2,7 @@ import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { fetchBlogs, getAllPostsForHome } from "../lib/api";
+import { fetchBlogs, fetchHeroBlogs } from "../lib/api";
 import Head from "next/head";
 import { NUMBER_OF_BLOG_TO_SHOW } from "../lib/constants";
 import Newsletter from "../components/newsletter";
@@ -10,13 +10,12 @@ import HeroHero from "../components/HeroHero";
 import { useState } from "react";
 import Pagination from "../components/pagination";
 
-export default function Index({ preview, allPosts, total }) {
-  const heroPost = allPosts[0].fields;
-  const morePosts = allPosts.slice(1);
+export default function Index({ preview, allPosts, total, heroPost }) {
+  const morePosts = allPosts;
 
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(morePosts)
-  const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW - 1);
+  const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW);
 
   const handleNext = async(e) => {
     e.preventDefault();
@@ -70,8 +69,9 @@ export default function Index({ preview, allPosts, total }) {
 
 export async function getStaticProps({ preview = false }) {
   const {posts, total} = (await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, 0)) ?? [];
+  const heroPost = (await fetchHeroBlogs());
   return {
-    props: { preview, allPosts: posts, total },
+    props: { preview, allPosts: posts, total, heroPost },
     revalidate: 60,
   };
 }
