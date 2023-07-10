@@ -34,6 +34,14 @@ export default function Index({ preview, allPosts, total }) {
     }
   }
 
+  const handleNumberclick = async(number) => {
+    const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, NUMBER_OF_NEWS_TO_SHOW * (number - 1));
+    const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
+    setTotalLength(length);
+    setCurrentPage(number);
+    setPostData(posts);
+  }
+
   return (
     <>
       <Layout preview={preview}>
@@ -68,7 +76,11 @@ export default function Index({ preview, allPosts, total }) {
           </div>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <NewsletterCard posts={postData} />}
-          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
+          <Pagination total={total}
+            currentPage={currentPage}
+            numberOfResult={NUMBER_OF_NEWSLETTER_TO_SHOW}
+            handleNext={handleNext} handlePrev={handlePrev}
+            numberClick={handleNumberclick} />
         </Container>
       </Layout>
     </>

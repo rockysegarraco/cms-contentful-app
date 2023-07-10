@@ -12,7 +12,6 @@ import Pagination from "../components/pagination";
 
 export default function Index({ preview, allPosts, total, heroPost }) {
   const morePosts = allPosts;
-
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(morePosts)
   const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW);
@@ -38,6 +37,14 @@ export default function Index({ preview, allPosts, total, heroPost }) {
     }
   }
 
+  const handleNumberclick = async(number) => {
+    const { posts } = await fetchNews(NUMBER_OF_BLOG_TO_SHOW, NUMBER_OF_BLOG_TO_SHOW * (number - 1));
+    const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
+    setTotalLength(length);
+    setCurrentPage(number);
+    setPostData(posts);
+  }
+
   return (
     <>
       <Layout preview={preview}>
@@ -59,7 +66,11 @@ export default function Index({ preview, allPosts, total, heroPost }) {
             />
           )}
           {postData.length > 0 && <MoreStories posts={postData} />}
-          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
+          <Pagination total={total}
+            currentPage={currentPage}
+            numberOfResult={NUMBER_OF_BLOG_TO_SHOW}
+            handleNext={handleNext} handlePrev={handlePrev}
+            numberClick={handleNumberclick} />
           <Newsletter />
         </Container>
       </Layout>
