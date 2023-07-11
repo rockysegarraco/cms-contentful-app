@@ -45,7 +45,7 @@ const callsToAction = [
 ];
 const company = [
   { name: "About", href: "#" },
-  { name: "News & Events", href: "#" },
+  { name: "News & Events", href: "/news" },
   { name: "Partners", href: "#" },
   { name: "Careers", href: "#" },
 ];
