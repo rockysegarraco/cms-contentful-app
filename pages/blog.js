@@ -2,7 +2,7 @@ import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { fetchBlogs, fetchHeroBlogs } from "../lib/api";
+import { fetchBlogs } from "../lib/api";
 import Head from "next/head";
 import { NUMBER_OF_BLOG_TO_SHOW } from "../lib/constants";
 import Newsletter from "../components/newsletter";
@@ -10,11 +10,12 @@ import HeroHero from "../components/HeroHero";
 import { useState } from "react";
 import Pagination from "../components/pagination";
 
-export default function Index({ preview, allPosts, total, heroPost }) {
-  const morePosts = allPosts;
+export default function Index({ preview, allPosts, total }) {
+  const heroPost = allPosts[0].fields;
+  const morePosts = allPosts.slice(1);
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(morePosts)
-  const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW);
+  const [totalLength, setTotalLength] = useState(NUMBER_OF_BLOG_TO_SHOW - 1);
 
   const handleNext = async(e) => {
     e.preventDefault();
@@ -33,16 +34,16 @@ export default function Index({ preview, allPosts, total, heroPost }) {
       const {posts} = await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, totalSkip);
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
-      setPostData(posts)
+      setPostData(currentPage == 2 ? posts.slice(1) : posts)
     }
   }
 
   const handleNumberclick = async(number) => {
-    const { posts } = await fetchNews(NUMBER_OF_BLOG_TO_SHOW, NUMBER_OF_BLOG_TO_SHOW * (number - 1));
+    const { posts } = await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, NUMBER_OF_BLOG_TO_SHOW * (number - 1));
     const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
     setTotalLength(length);
     setCurrentPage(number);
-    setPostData(posts);
+    setPostData(number === 1 ?  posts.slice(1) : posts);
   }
 
   return (
@@ -80,9 +81,8 @@ export default function Index({ preview, allPosts, total, heroPost }) {
 
 export async function getStaticProps({ preview = false }) {
   const {posts, total} = (await fetchBlogs(NUMBER_OF_BLOG_TO_SHOW, 0)) ?? [];
-  const heroPost = (await fetchHeroBlogs());
   return {
-    props: { preview, allPosts: posts, total, heroPost },
+    props: { preview, allPosts: posts, total },
     revalidate: 60,
   };
 }

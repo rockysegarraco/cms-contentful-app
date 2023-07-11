@@ -8,7 +8,6 @@ import { useState } from "react";
 import Pagination from "../components/pagination";
 
 export default function Index({ preview, allPosts, total }) {
-
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(allPosts)
   const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWSLETTER_TO_SHOW)
@@ -27,7 +26,7 @@ export default function Index({ preview, allPosts, total }) {
     e.preventDefault();
     if (currentPage != 1) {
       const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
-      const {posts} = await fetchNews(NUMBER_OF_NEWSLETTER_TO_SHOW, totalSkip);
+      const {posts} = await fetchNewsletter(NUMBER_OF_NEWSLETTER_TO_SHOW, totalSkip);
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
       setPostData(posts)
@@ -35,7 +34,7 @@ export default function Index({ preview, allPosts, total }) {
   }
 
   const handleNumberclick = async(number) => {
-    const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, NUMBER_OF_NEWS_TO_SHOW * (number - 1));
+    const { posts } = await fetchNewsletter(NUMBER_OF_NEWSLETTER_TO_SHOW, NUMBER_OF_NEWSLETTER_TO_SHOW * (number - 1));
     const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
     setTotalLength(length);
     setCurrentPage(number);
