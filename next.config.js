@@ -2,6 +2,7 @@
 module.exports = {
   images: {
     loader: 'custom',
+    domains: ["images.ctfassets.net"],
   },
   env: {
     CONTENTFUL_SPACE_ID:process.env.CONTENTFUL_SPACE_ID,

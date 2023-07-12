@@ -8,7 +8,6 @@ import { useState } from "react";
 import Pagination from "../components/pagination";
 
 export default function Index({ preview, allPosts, total }) {
-
   const [currentPage, setCurrentPage] = useState(1)
   const [postData, setPostData] = useState(allPosts)
   const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWSLETTER_TO_SHOW)
@@ -27,11 +26,19 @@ export default function Index({ preview, allPosts, total }) {
     e.preventDefault();
     if (currentPage != 1) {
       const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
-      const {posts} = await fetchNews(NUMBER_OF_NEWSLETTER_TO_SHOW, totalSkip);
+      const {posts} = await fetchNewsletter(NUMBER_OF_NEWSLETTER_TO_SHOW, totalSkip);
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
       setPostData(posts)
     }
+  }
+
+  const handleNumberclick = async(number) => {
+    const { posts } = await fetchNewsletter(NUMBER_OF_NEWSLETTER_TO_SHOW, NUMBER_OF_NEWSLETTER_TO_SHOW * (number - 1));
+    const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
+    setTotalLength(length);
+    setCurrentPage(number);
+    setPostData(posts);
   }
 
   return (
@@ -68,7 +75,11 @@ export default function Index({ preview, allPosts, total }) {
           </div>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <NewsletterCard posts={postData} />}
-          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
+          <Pagination total={total}
+            currentPage={currentPage}
+            numberOfResult={NUMBER_OF_NEWSLETTER_TO_SHOW}
+            handleNext={handleNext} handlePrev={handlePrev}
+            numberClick={handleNumberclick} />
         </Container>
       </Layout>
     </>

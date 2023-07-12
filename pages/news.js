@@ -12,25 +12,33 @@ export default function News({ preview, posts, total }) {
   const [postData, setPostData] = useState(posts)
   const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWS_TO_SHOW)
 
-  const handleNext = async(e) => {
+  const handleNext = async (e) => {
     e.preventDefault();
     if (totalLength != total) {
-      const {posts} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalLength);
+      const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalLength);
       setTotalLength(totalLength + posts.length);
       setCurrentPage(currentPage + 1);
       setPostData(posts)
     }
   }
 
-  const handlePrev = async(e) => {
+  const handlePrev = async (e) => {
     e.preventDefault();
     if (currentPage != 1) {
-      const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length; 
-      const {posts} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalSkip);
+      const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length;
+      const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalSkip);
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
       setPostData(posts)
     }
+  }
+
+  const handleNumberclick = async(number) => {
+    const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, NUMBER_OF_NEWS_TO_SHOW * (number - 1));
+    const length = currentPage < number ? (totalLength + posts.length) : (totalLength - postData.length);
+    setTotalLength(length);
+    setCurrentPage(number);
+    setPostData(posts);
   }
 
   return (
@@ -49,7 +57,11 @@ export default function News({ preview, posts, total }) {
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <NewsCard posts={postData} />}
-          <Pagination total={total} currentPage={totalLength} handleNext={handleNext} handlePrev={handlePrev} />
+          <Pagination total={total}
+            currentPage={currentPage}
+            numberOfResult={NUMBER_OF_NEWS_TO_SHOW}
+            handleNext={handleNext} handlePrev={handlePrev}
+            numberClick={handleNumberclick} />
         </Container>
       </Layout>
     </>
@@ -57,7 +69,7 @@ export default function News({ preview, posts, total }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const {posts, total} = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, 0);
+  const { posts, total } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, 0);
   return {
     props: { preview, posts, total },
     revalidate: 60,
