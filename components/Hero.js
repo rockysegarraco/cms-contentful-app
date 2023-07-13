@@ -2,6 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
 import PostBody from "./Postbody";
+import HeadingOne from "../components/elements/HeadingOne";
 
 export default function Hero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -15,6 +16,7 @@ export default function Hero({ pageData }) {
     <div className="relative isolate overflow-hidden bkg p-0 py-8 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-2">
         <div>
+          <HeadingOne title="{heroTitle}" />
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
             {heroTitle}
             <span className="text-secondary-950">.</span>

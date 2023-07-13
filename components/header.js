@@ -5,10 +5,12 @@ import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
   return (
-    <h2 className="font-normal leading-tight mb-0 p-5 bg-[#f3f8fb]">
-      <div className="mx-auto lg:max-w-6xl sm:max-w-7xl sm:px-6 lg:px-8 px-10 sm:px-8 text-sm">
-        <Breadcrumb />
+    <div>
+      <div className="font-normal mb-15 py-5 border-t shadow-sm bg-[#f3f8fb]">
+        <div className="mx-auto sm:max-w-7xl px-6">
+          <Breadcrumb />
+        </div>
       </div>
-    </h2>
+    </div>
   );
 }
