@@ -1,5 +1,7 @@
 import Container from "../components/container";
 import AboutHero from "../components/AboutHero";
+import OurStory from "../components/OurStory";
+import Values from "../components/Values";
 import Team from "../components/team";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
@@ -16,14 +18,13 @@ export default function Example() {
     <>
       <Layout>
         <Head>
-          <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
+          <title>{`SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations...`}</title>
         </Head>
         <Intro title="About" />
         <AboutHero />
+        <OurStory />
+        <Values />
         <Team />
-        <Container>
-          <style>{"body { background-color: #f5f5f7; }"}</style>
-        </Container>
       </Layout>
     </>
   );
