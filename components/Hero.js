@@ -9,11 +9,6 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 export default function Hero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false);
   const { heroContent, heroTitle, youtube } = pageData?.fields;
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
   const features = [
     {
       description: "Maintain up-to-the-minute stock.",
@@ -30,6 +25,10 @@ export default function Hero({ pageData }) {
       icon: CheckIcon,
     },
   ];
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
 
   return (
     <div className="relative isolate overflow-hidden bkg p-0 py-8 lg:py-32">
