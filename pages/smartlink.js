@@ -2,15 +2,15 @@ import Container from "../components/container";
 import Layout from "../components/layout";
 import Hero from "../components/Hero";
 import Brands from "../components/brands";
-import Success from "../components/success";
-import Stats from "../components/stats";
-import Diff from "../components/diff";
+import Stats from "../components/smartlink/stats";
+import Path from "../components/smartlink/path";
+import Testimonials from "../components/smartlink/testimonials";
 import Cta from "../components/cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
 
-export default function Index({ pageData }) {
+export default function SmartLink({ pageData }) {
   return (
     <>
       <Layout>
@@ -21,10 +21,9 @@ export default function Index({ pageData }) {
           </title>
         </Head>
         <Hero pageData={pageData} />
-        <Brands />
-        <Success />
-        <Diff />
+        <Path />
         <Stats />
+        <Testimonials />
         <Cta />
         <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>

@@ -34,7 +34,7 @@ export default function Pagination({
           return num == currentPage ? (
             <a
               onClick={() => numberClick(num)}
-              className="inline-flex cursor-pointer items-center border-t-2  px-4 pt-4 text-sm font-medium border-secondary-950 text-indigo-600 "
+              className="inline-flex cursor-pointer items-center border-t-2  px-4 pt-4 text-sm font-medium border-secondary-950 text-secondary-950"
             >
               {num}
             </a>

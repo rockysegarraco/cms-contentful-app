@@ -1,6 +1,7 @@
 import Container from "../components/container";
 import AboutHero from "../components/AboutHero";
 import OurStory from "../components/OurStory";
+import Short from "../components/short";
 import Values from "../components/Values";
 import Team from "../components/team";
 import Intro from "../components/intro";
@@ -23,6 +24,7 @@ export default function Example() {
         <Intro title="About" />
         <AboutHero />
         <OurStory />
+        <Short />
         <Values />
         <Team />
       </Layout>
