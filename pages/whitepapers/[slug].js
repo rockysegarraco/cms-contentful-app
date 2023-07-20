@@ -3,7 +3,7 @@ import Head from "next/head";
 import ErrorPage from "next/error";
 import Container from "../../components/container";
 import PostBody from "../../components/Postbody";
-
+import Header from "../../components/Header";
 import LinkCrumb from "../../components/LinkCrumb";
 import PostHeader from "../../components/post-header";
 import Layout from "../../components/layout";
@@ -20,6 +20,13 @@ export default function Post({ post, morePosts, preview }) {
 
   return (
     <Layout preview={preview}>
+      <div>
+        <div className="font-normal mb-15 py-5 border-t shadow-sm bg-[#f3f8fb]">
+          <div className="mx-auto sm:max-w-7xl px-6">
+            <LinkCrumb title="Back" url="/whitepapers" />
+          </div>
+        </div>
+      </div>
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
