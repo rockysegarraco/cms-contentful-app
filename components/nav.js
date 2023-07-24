@@ -21,7 +21,7 @@ const products = [
     name: "SmartLink",
     description:
       "Shoppable links let you add one (or more) products at one (or multiple) geo-relevant retailers seamlessly.",
-    href: "#",
+    href: "/smartlink",
     icon: ArrowRightCircleIcon,
   },
   {
@@ -46,7 +46,7 @@ const callsToAction = [
 const company = [
   { name: "About", href: "/about" },
   { name: "News & Events", href: "/news" },
-  { name: "Partners", href: "#" },
+  { name: "Partners", href: "/partners" },
   { name: "Careers", href: "#" },
 ];
 
@@ -57,7 +57,7 @@ const resources = [
     href: "/newsletter",
   },
   { name: "White Papers", href: "/whitepapers" },
-  { name: "CPG Scoop", href: "#" },
+  { name: "CPG Scoop Podcast", href: "#" },
 ];
 
 const users = [

@@ -58,7 +58,7 @@ export default function Index({ preview, allPosts, total }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>{`SmartCommerce - Accelerate E-commerce from all existing touchpoints`}</title>
+          <title>{`SmartCommerce - Here you will find past issues to our SmartBites newsletter as well as other helpful resources.`}</title>
         </Head>
         <Intro title="Newsletter" />
         <Container>

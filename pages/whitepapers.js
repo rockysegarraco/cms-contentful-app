@@ -58,7 +58,7 @@ export default function WhitePapers({ preview, posts, total }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
+          <title>{`SmartCommerce - Here you will find past issues to our Whitepapers as well as other helpful resources.`}</title>
         </Head>
         <Intro title="White Papers" />
         <Container>
