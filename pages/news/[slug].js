@@ -9,7 +9,7 @@ import Layout from "../../components/layout";
 import { fetchAllNews, fetchNewsWithSlug } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import Newsletter from "../../components/newsletter";
-import Button from "../../components/elements/button";
+import Button from "../../components/elements/Button";
 import {
   ChevronRightIcon,
   HomeIcon,
