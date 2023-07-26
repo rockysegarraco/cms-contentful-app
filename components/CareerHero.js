@@ -7,7 +7,7 @@ import Button from "../components/elements/Button";
 import { CheckIcon } from "@heroicons/react/20/solid";
 import Awards from "../components/awards";
 
-export default function AboutHero({ pageData }) {
+export default function CareerHero({ pageData }) {
   const [isLoaded, setIsLoaded] = useState(false);
   const features = [
     {
@@ -34,18 +34,15 @@ export default function AboutHero({ pageData }) {
     <div className="bg-slate-50 relative isolate overflow-hidden p-0 py-8 lg:py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-2">
         <div className="text-dark-950">
-          <HeadingOne title="Better Together" />
-          We’re a community of problem solvers passionate about helping clients
-          take their sales to the next level. We develop tools that reinvent the
-          way CPG products get into the hands of consumers across the globe.
+          <HeadingOne title="Create a career that just clicks" />
+          Career statements go here. ** Need copy **
           <div className="mt-10 flex items-center gap-x-6">
-            <Button title="Come work with us" link="/" />
+            <Button title="See all open positions" link="/" />
           </div>
         </div>
         <div className="w-full">
-          <img src="zoom.jpg" />
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" />
         </div>
-        <Awards />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export default function Awards() {
   return (
-    <div className="bg-white">
+    <div>
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img

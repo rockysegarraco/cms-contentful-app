@@ -1,12 +1,12 @@
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "Atlanta, GA",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     author: {
@@ -17,12 +17,12 @@ const posts = [
   },
   {
     id: 2,
-    title: "Boost your conversion rate",
+    title: "Minneapolis, MN",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://plus.unsplash.com/premium_photo-1670176446913-ca025ebaf172?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2338&q=80",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     author: {
@@ -33,12 +33,12 @@ const posts = [
   },
   {
     id: 3,
-    title: "Boost your conversion rate",
+    title: "Barcelona, ES",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      "https://images.unsplash.com/photo-1529551739587-e242c564f727?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     author: {
@@ -52,13 +52,13 @@ const posts = [
 
 export default function Remote() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-info-950 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            From the blog
-          </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+        <div className="mx-auto max-w-7xl text-center">
+          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-white">
+            Work from <span className="text-secondary-950">anywhere.</span>
+          </h1>
+          <p className="mt-2 text-lg leading-8 text-white">
             Learn how to grow your business with our expert advice.
           </p>
         </div>
@@ -76,28 +76,7 @@ export default function Remote() {
               <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
               <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
-              <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-                <time dateTime={post.datetime} className="mr-8">
-                  {post.date}
-                </time>
-                <div className="-ml-4 flex items-center gap-x-4">
-                  <svg
-                    viewBox="0 0 2 2"
-                    className="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="flex gap-x-2.5">
-                    <img
-                      src={post.author.imageUrl}
-                      alt=""
-                      className="h-6 w-6 flex-none rounded-full bg-white/10"
-                    />
-                    {post.author.name}
-                  </div>
-                </div>
-              </div>
-              <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
+              <h3 className="mt-3 text-2xl font-semibold leading-6 text-white">
                 <a href={post.href}>
                   <span className="absolute inset-0" />
                   {post.title}
