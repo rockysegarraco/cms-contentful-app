@@ -7,8 +7,8 @@ const navigation = {
   support: [
     { name: "About", href: "/about" },
     { name: "News & Events", href: "/news" },
-    { name: "Partners", href: "#" },
-    { name: "Careers", href: "#" },
+    { name: "Partners", href: "/partners" },
+    { name: "Careers", href: "/careers" },
   ],
   company: [
     { name: "", href: "#" },

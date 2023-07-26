@@ -22,7 +22,7 @@ export default function OurStory() {
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="pic-1.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -32,7 +32,7 @@ export default function OurStory() {
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="pic-2.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -40,7 +40,7 @@ export default function OurStory() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                        src="pic-3.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -50,7 +50,7 @@ export default function OurStory() {
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
+                        src="pic-4.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -58,7 +58,7 @@ export default function OurStory() {
                     </div>
                     <div className="relative">
                       <img
-                        src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="jenn-pic.jpg"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -69,31 +69,44 @@ export default function OurStory() {
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <HeadingLight title="Our Story" className="text-white" />
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none text-white">
-                    Jennifer Silverberg has always been a problem solver and a
-                    shopper. At age, she tktktktktk. So it isn’t exactly
-                    shocking that she’s made a career out of solving business
-                    and consumer pain points in eCommerce. But it’s her uncanny
-                    ability to come up with solutions that meet consumers where
-                    they are (instead of trying to change their behavior) that’s
-                    made her such a thought leader in the Brand Marketing
-                    space. 
+                    SmartCommerce is in the business of making the complex
+                    simple. We believe in tackling the hard work it takes to
+                    turn complicated processes into something super-easy for our
+                    clients and consumers to use. 
                     <br />
                     <br />
-                    After years as a brand and marketing consultant, she joined
-                    Channel Intelligence as the Chief Marketing Officer. In
-                    2013, that game-changing technology was sold to Google (and
-                    still drives Google Shopping today). But while Channel
-                    Intelligence was a groundbreaking tool for comparison
-                    shopping, it left CPG brands out in the cold. So, Silverberg
-                    and her former CI colleagues got to work developing a
-                    platform that made it easier for shoppers to directly cart
-                    those essentials (think toothpaste and toilet paper),
-                    creating more conversions for CPG brands. And SmartCommerce
-                    was born.
+                    Creating this magic takes a whole team, one with decades of
+                    experience in the CPG category.  Our CEO Jennifer Silverberg
+                    and the founding members were pioneers in the where-to-buy
+                    space. For years, they worked together at Channel
+                    Intelligence, one of the world’s leading commerce technology
+                    partners that was acquired by Google in 2013 (and still
+                    powers Google Shopping today).
+                    <br />
+                    <br />  What the team learned was that while the
+                    where-to-buy solutions worked really well for some
+                    categories, CPG brands were often left out in the cold. In
+                    2016, SmartCommerce was born, and the team got to work
+                    developing technology that made it easier for shoppers to
+                    directly cart fast-moving consumer goods, creating more
+                    conversions for CPG brands. Being one of the first movers in
+                    the add-to-cart space, we were primed and ready when the
+                    pandemic hit, and CPG shopping behavior shifted more
+                    online. 
                     <br />
                     <br />
-                    In 2022, SmartCommerce acquired Myxx and Basketful to expand
-                    contextual commerce and enhance category insights.
+                    SmartCommerce has continued to grow since 2016.  In 2022,
+                    the company acquired Myxx and Basketful, expanding our
+                    contextual commerce capabilities with recipe solutions. 
+                    <br />
+                    <br />
+                    SmartCommerce  is a community of hard working people, ready
+                    and able to unlock huge short and long-term growth
+                    opportunities for our clients. 
+                    <br />
+                    <br />
+                    Something about a fun and supportive place to work where
+                    employees clients, etc can build their success stories too?
                   </p>
                 </div>
               </div>

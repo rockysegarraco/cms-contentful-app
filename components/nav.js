@@ -47,7 +47,7 @@ const company = [
   { name: "About", href: "/about" },
   { name: "News & Events", href: "/news" },
   { name: "Partners", href: "/partners" },
-  { name: "Careers", href: "#" },
+  { name: "Careers", href: "/careers" },
 ];
 
 const resources = [

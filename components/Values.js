@@ -34,7 +34,7 @@ const faqs = [
 export default function Values() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:pt-24 lg:pb-0">
         <div className="mx-auto max-w-4xl divide-gray-900/10">
           <h6 className="text-secondary-950 font-semibold leading-7">
             CULTURE

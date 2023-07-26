@@ -1,8 +1,9 @@
 import Container from "../components/container";
 import Layout from "../components/layout";
-import Hero from "../components/Hero";
+import SmartLinkHero from "../components/smartlink/SmartLinkHero";
 import Brands from "../components/brands";
 import Stats from "../components/smartlink/stats";
+import Diff from "/components/smartlink/Diff";
 import Path from "../components/smartlink/path";
 import Testimonials from "../components/smartlink/testimonials";
 import Cta from "../components/cta";
@@ -20,8 +21,9 @@ export default function SmartLink({ pageData }) {
             - SmartCommerce
           </title>
         </Head>
-        <Hero pageData={pageData} />
+        <SmartLinkHero />
         <Path />
+        <Diff />
         <Stats />
         <Testimonials />
         <Cta />
