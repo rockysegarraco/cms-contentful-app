@@ -7,7 +7,7 @@ export default function Testimonials() {
         <div className="absolute" />
         <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
           <div className="relative col-span-2 lg:col-start-1 lg:row-start-2">
-            <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+            <blockquote className="text-lg font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
               <p>
                 Commodo amet fugiat excepteur sunt qui ea elit cupidatat ullamco
                 consectetur ipsum elit consequat. Elit sunt proident ea nulla ad
@@ -18,7 +18,7 @@ export default function Testimonials() {
           <div className="col-end-1 w-16 lg:row-span-4 lg:w-72">
             <img
               className="rounded-xl bg-indigo-50 lg:rounded-3xl"
-              src="avatar.jpg"
+              src="testimonials_jp.jpg"
               alt=""
             />
           </div>

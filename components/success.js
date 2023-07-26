@@ -17,7 +17,7 @@ export default function Success() {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 text-center">
             <div className="bg-secondary-100 p-6 rounded-2xl">
               <img className="mb-8" src="/column_space.jpg" />
               <h1 className="text-3xl text-info-950 font-bold">
@@ -39,17 +39,6 @@ export default function Success() {
                 More carting? We’ve got you. Optimize your website with
                 one-click carting at a variety of retailers, including your own
                 DTC experience.
-              </p>
-              <p className="mb-8 text-primary-950 font-medium">Tell me More</p>
-            </div>
-            <div className="bg-primary-100 p-6 rounded-2xl">
-              <img className="mb-8" src="/column_space_three.jpg" />
-              <h1 className="text-3xl text-info-950 font-bold">
-                SMART<span className="font-normal">SUITE</span>
-              </h1>
-              <p className="text-dark-950 py-8">
-                View and manage your product catalog and ecommerce activity to
-                make smarter choices over time, driving your bottom line.
               </p>
               <p className="mb-8 text-primary-950 font-medium">Tell me More</p>
             </div>

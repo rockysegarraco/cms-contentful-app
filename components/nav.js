@@ -40,7 +40,7 @@ const products = [
   },
 ];
 const callsToAction = [
-  { name: "Get demo", href: "#", icon: PlayCircleIcon },
+  { name: "Get demo", href: "/request-demo", icon: PlayCircleIcon },
   { name: "Contact sales", href: "/contact-us", icon: PhoneIcon },
 ];
 const company = [

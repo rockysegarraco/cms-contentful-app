@@ -5,6 +5,7 @@ import Brands from "../components/brands";
 import Success from "../components/success";
 import Stats from "../components/stats";
 import Diff from "../components/diff";
+import Diffy from "../components/diffy";
 import Cta from "../components/cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
@@ -22,6 +23,7 @@ export default function Index({ pageData }) {
         </Head>
         <Hero pageData={pageData} />
         <Brands />
+        <Diffy />
         <Success />
         <Diff />
         <Stats />
