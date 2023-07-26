@@ -1,6 +1,7 @@
 import Container from "../components/container";
 import Testimonials from "../components/careers/testimonials";
 import TestimonialsTwo from "../components/careers/testimonialsTwo";
+import TestimonialsThree from "../components/careers/testimonialsThree";
 import GetToKnow from "../components/careers/getoknow";
 import Stats from "../components/stats";
 import StatsOpp from "../components/stats-opp";
@@ -32,7 +33,7 @@ export default function Example() {
         <GetToKnow />
         <Testimonials />
         <TestimonialsTwo />
-        <Testimonials />
+        <TestimonialsThree />
         <Benefits />
         <Cta />
       </Layout>
