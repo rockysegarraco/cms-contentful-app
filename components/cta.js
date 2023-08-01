@@ -1,7 +1,7 @@
 export default function Cta() {
   return (
     <div className="bg-white">
-      <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="px-8 py-16 sm:py-32">
         <div className="mx-auto max-w-7xl text-center">
           <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem]  mb-8 font-bold text-info-950">
             We’ve got you – always<span className="text-secondary-950">.</span>

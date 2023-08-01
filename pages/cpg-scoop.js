@@ -22,33 +22,28 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
-export default function Example() {
+export default function Reporting() {
   return (
     <>
       <Layout>
         <Head>
           <title>{`SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations...`}</title>
         </Head>
-        <_PageTitle title="Careers" />
+        <_PageTitle title="CPG Scoop Podcast" />
         <_Hero
-          title="Create a career
-          that just clicks"
-          ButtonTitle="See open positions"
+          title="The CPG Scoop Podcast"
+          ButtonTitle="See more CPG Scoop"
           ButtonLink="/"
           ImageUrl="img/SmartSiteHeroImage.jpg"
         >
-          At our core, SmartCommerce helps brands build their success stories.
-          And we don’t stop there – that pertains to our employees too! We
-          believe that with the right support, you can work, learn, and grow –
-          all while having fun.
+          {" "}
+          <p className="font-bold text-secondary-950 mb-8">
+            How to use comprehensive reporting in real time
+          </p>
+          Discover what’s new and next in CPG commerce and marketing with hosts
+          Jennifer Silverberg, CEO of SmartCommerce, and Risa Crandall, SVP CPG
+          Strategy + Sales at Aki Technologies.
         </_Hero>
-        <Remote />
-        <GetToKnow />
-        <Testimonials />
-        <TestimonialsTwo />
-        <TestimonialsThree />
-        <Benefits />
-        <Cta />
       </Layout>
     </>
   );

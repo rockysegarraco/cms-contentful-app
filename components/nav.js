@@ -28,14 +28,7 @@ const products = [
     name: "SmartSite",
     description:
       "More carting? We’ve got you. Optimize your website with one-click carting at a variety of retailers.",
-    href: "#",
-    icon: ArrowRightCircleIcon,
-  },
-  {
-    name: "SmartSuite",
-    description:
-      "View and manage your product catalog and ecommerce activity to make smarter choices over time, driving your bottom line.",
-    href: "#",
+    href: "/smartsite",
     icon: ArrowRightCircleIcon,
   },
 ];
@@ -43,8 +36,14 @@ const callsToAction = [
   { name: "Get demo", href: "/request-demo", icon: PlayCircleIcon },
   { name: "Contact sales", href: "/contact-us", icon: PhoneIcon },
 ];
+
+const partners = [
+  { name: "Partners", href: "/partners" },
+  { name: "Retail Partners", href: "/" },
+];
+
 const company = [
-  { name: "About", href: "/about" },
+  { name: "About", href: "/about-us" },
   { name: "News & Events", href: "/news" },
   { name: "Partners", href: "/partners" },
   { name: "Careers", href: "/careers" },
@@ -160,13 +159,42 @@ export default function Nav() {
           </Popover>
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+              Partners
+              <ChevronDownIcon
+                className="h-5 w-5 flex-none text-gray-400"
+                aria-hidden="true"
+              />
+            </Popover.Button>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-y-1"
+              enterTo="opacity-100 translate-y-0"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 translate-y-0"
+              leaveTo="opacity-0 translate-y-1"
+            >
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+                {partners.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </Popover.Panel>
+            </Transition>
+          </Popover>
+          <Popover className="relative">
+            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
               Company
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
               />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"
@@ -197,7 +225,6 @@ export default function Nav() {
                 aria-hidden="true"
               />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"

@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 body {
+  color: $text-dark-950;
 }
 
 h1,

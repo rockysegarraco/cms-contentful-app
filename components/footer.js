@@ -5,7 +5,7 @@ const navigation = {
     { name: "SmartSuite", href: "#" },
   ],
   support: [
-    { name: "About", href: "/about" },
+    { name: "About", href: "/about-us" },
     { name: "News & Events", href: "/news" },
     { name: "Partners", href: "/partners" },
     { name: "Careers", href: "/careers" },
@@ -95,7 +95,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-white hover:text-gray-400"
+                  className="text-secondary-950 hover:text-secondary-dark-accent"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />

@@ -12,6 +12,7 @@ module.exports = {
         "accent-7": "#333",
         success: "#0070f3",
         "dark-accent": "#111749",
+        "secondary-dark-accent": "#c44e0e",
         cyan: "#79FFE1",
         primary: {
           950: "#4363f9",
