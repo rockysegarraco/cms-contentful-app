@@ -42,6 +42,10 @@ export default function Index({ pageData }) {
             SmartCommerce - Accelerate E-commerce from all existing touchpoints
             - SmartCommerce
           </title>
+          <meta
+            property="og:description"
+            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+          />
         </Head>
         <_HeroFull
           title="Make everything shoppable"
