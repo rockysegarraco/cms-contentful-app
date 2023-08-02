@@ -5,19 +5,19 @@ const stats = [
     id: 1,
     name: "Increased revenue due to products carted in the last 12 months.",
     value: "30%",
-    imgg: "4.svg",
+    imgg: "img/cta-hand.svg",
   },
   {
     id: 2,
     name: "Amount of additional products carted in the last 12 months.",
     value: "3x",
-    imgg: "5.svg",
+    imgg: "img/cta-cart.svg",
   },
 ];
 
 export default function Stats() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-0 lg:pt-0 lg:pb-0">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">

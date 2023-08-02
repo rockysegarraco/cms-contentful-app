@@ -4,9 +4,9 @@ export default function _HeroFull(props) {
   // Rest of the code remains unchanged
   return (
     <div className="relative isolate overflow-hidden bg-white text-dark-950">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 gap-16">
-        <div className="pt-16 pb-0 lg:pt-24 lg:pb-24">
-          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 lg:gap-16 gap-8">
+        <div className="pt-0 pb-16 lg:pt-24 lg:pb-24 lg:order-first order-last">
+          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] mb-8 font-bold text-info-950">
             {props.title}
             <span className="text-secondary-950">.</span>
           </h1>
@@ -25,7 +25,7 @@ export default function _HeroFull(props) {
           {/* Make the container relative */}
           <img
             src={props.ImageUrl}
-            className="relative lg:absolute bottom-0"
+            className="relative lg:absolute bottom-0 lg:order-last order-first"
           />{" "}
           {/* Position the image at the bottom */}
         </div>
