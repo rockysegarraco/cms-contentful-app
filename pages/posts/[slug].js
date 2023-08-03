@@ -75,6 +75,13 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
               />
               <PostBody content={post.content} />
+              <iframe
+                src={`${post.formId}`}
+                height="800"
+                width="600"
+                frameborder="0"
+              ></iframe>
+              <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
             </article>
           </>
         )}
