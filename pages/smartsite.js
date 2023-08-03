@@ -91,7 +91,7 @@ export default function SmartSite({ pageData }) {
             </dl>
           </div>
         </_Primary>
-        <_General>
+        <_General className="bg-white">
           <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
             <div className="col-span-6 lg:col-span-6">
               <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
@@ -114,7 +114,7 @@ export default function SmartSite({ pageData }) {
             </div>
           </div>
         </_General>
-        <_General>
+        <_General className="bg-slate-50">
           <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
             <div className="col-span-6 lg:col-span-6">
               <img src="img/SmartSiteCaro.png" />
@@ -133,7 +133,7 @@ export default function SmartSite({ pageData }) {
             </div>
           </div>
         </_General>
-        <_General>
+        <_General className="bg-white">
           <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
             <div className="col-span-6 lg:col-span-6">
               <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
@@ -146,23 +146,28 @@ export default function SmartSite({ pageData }) {
               </p>
             </div>
             <div className="col-span-6 lg:col-span-6">
-              <img src="img/SmartSiteCaro.png" />
+              <img src="img/cta-storelocators.jpg" />
             </div>
           </div>
         </_General>
         <_General>
           <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 lg:col-span-6">
+            <div className="col-span-6 lg:col-span-7">
               <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                Product Locators
+                Click2Cart® difference
               </h1>
               <p className="pb-0">
-                Optimize your site for omni-channel shopping and boost brand
-                discovery. With unmatched coverage and no dead-ends, this is a
-                no-brainer.
+                Why SmartCommerce? We like to think of it as behind-the-scenes
+                magic that makes the carting process as simple and seamless as
+                possible. The friction-free, one-click path to purchase means
+                consumers aren’t distracted by competitor ads or cross-selling,
+                and there is no waiting (i.e. forgetting) to check out. And even
+                when shoppers don’t complete a purchase, you still win because
+                carting triggers retargeting (building brand awareness) and
+                improves retailer-side SEO/SEM results.
               </p>
             </div>
-            <div className="col-span-6 lg:col-span-6">
+            <div className="col-span-6 lg:col-span-5">
               <img src="img/SmartSiteCaro.png" />
             </div>
           </div>

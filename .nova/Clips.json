@@ -1,0 +1,8 @@
+{
+  "clips" : [
+    {
+      "content" : "export default function _Primary(props) {\n  const { children } = props; \/\/ Destructure 'children' from 'props'\n  return (\n\t<div className={[props.className]}>\n\t  <div className=\"mx-auto max-w-7xl px-8 py-16 sm:px-6 sm:py-32\">\n\t\t{children}\n\t  <\/div>\n\t<\/div>\n  );\n}",
+      "name" : "Children.Props Function"
+    }
+  ]
+}
