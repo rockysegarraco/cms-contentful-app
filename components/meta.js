@@ -4,6 +4,9 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from "../lib/constants";
 export default function Meta() {
   return (
     <Head>
+      <link rel="canonical" href="https://smartcommerce.com/" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -36,6 +39,8 @@ export default function Meta() {
         name="description"
         content={`SmartCommerce - Accelerate E-commerce from all existing touchpoints`}
       />
+      <meta property="og:url" content="https://smartcommerce.com/" />
+      <meta property="og:site_name" content="SmartCommerce" />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   );

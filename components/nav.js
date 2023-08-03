@@ -21,33 +21,32 @@ const products = [
     name: "SmartLink",
     description:
       "Shoppable links let you add one (or more) products at one (or multiple) geo-relevant retailers seamlessly.",
-    href: "#",
+    href: "/smartlink",
     icon: ArrowRightCircleIcon,
   },
   {
     name: "SmartSite",
     description:
       "More carting? We’ve got you. Optimize your website with one-click carting at a variety of retailers.",
-    href: "#",
-    icon: ArrowRightCircleIcon,
-  },
-  {
-    name: "SmartSuite",
-    description:
-      "View and manage your product catalog and ecommerce activity to make smarter choices over time, driving your bottom line.",
-    href: "#",
+    href: "/smartsite",
     icon: ArrowRightCircleIcon,
   },
 ];
 const callsToAction = [
-  { name: "Get demo", href: "#", icon: PlayCircleIcon },
+  { name: "Get demo", href: "/request-demo", icon: PlayCircleIcon },
   { name: "Contact sales", href: "/contact-us", icon: PhoneIcon },
 ];
+
+const partners = [
+  { name: "Partners", href: "/partners" },
+  { name: "Retail Partners", href: "/" },
+];
+
 const company = [
-  { name: "About", href: "#" },
-  { name: "News & Events", href: "#" },
-  { name: "Partners", href: "#" },
-  { name: "Careers", href: "#" },
+  { name: "About", href: "/about-us" },
+  { name: "News & Events", href: "/news" },
+  { name: "Partners", href: "/partners" },
+  { name: "Careers", href: "/careers" },
 ];
 
 const resources = [
@@ -56,8 +55,8 @@ const resources = [
     name: "Newsletter",
     href: "/newsletter",
   },
-  { name: "White Papers", href: "#" },
-  { name: "CPG Scoop", href: "#" },
+  { name: "White Papers", href: "/whitepapers" },
+  { name: "CPG Scoop Podcast", href: "#" },
 ];
 
 const users = [
@@ -127,12 +126,6 @@ export default function Nav() {
                       key={item.name}
                       className="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
-                      <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
-                          aria-hidden="true"
-                        />
-                      </div>
                       <div className="flex-auto">
                         <a
                           href={item.href}
@@ -166,13 +159,42 @@ export default function Nav() {
           </Popover>
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+              Partners
+              <ChevronDownIcon
+                className="h-5 w-5 flex-none text-gray-400"
+                aria-hidden="true"
+              />
+            </Popover.Button>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-y-1"
+              enterTo="opacity-100 translate-y-0"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 translate-y-0"
+              leaveTo="opacity-0 translate-y-1"
+            >
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+                {partners.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </Popover.Panel>
+            </Transition>
+          </Popover>
+          <Popover className="relative">
+            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
               Company
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
               />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"
@@ -203,7 +225,6 @@ export default function Nav() {
                 aria-hidden="true"
               />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"
@@ -269,7 +290,7 @@ export default function Nav() {
               </Popover>
             </Popover.Group>
             <a
-              href="#"
+              href="/request-demo"
               className="rounded-full bg-primary-950 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get Demo
@@ -288,11 +309,7 @@ export default function Nav() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-8 w-auto" src="logo-mark.svg" alt="" />
             </a>
             <button
               type="button"
@@ -334,20 +351,6 @@ export default function Nav() {
                     </>
                   )}
                 </Disclosure>
-
-                <a
-                  href="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Featuresssssss
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Marketplace
-                </a>
-
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -376,13 +379,59 @@ export default function Nav() {
                     </>
                   )}
                 </Disclosure>
+                <Disclosure as="div" className="-mx-3">
+                  {({ open }) => (
+                    <>
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                        Resources
+                        <ChevronDownIcon
+                          className={classNames(
+                            open ? "rotate-180" : "",
+                            "h-5 w-5 flex-none"
+                          )}
+                          aria-hidden="true"
+                        />
+                      </Disclosure.Button>
+                      <Disclosure.Panel className="mt-2 space-y-2">
+                        {resources.map((item) => (
+                          <Disclosure.Button
+                            key={item.name}
+                            as="a"
+                            href={item.href}
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                          >
+                            {item.name}
+                          </Disclosure.Button>
+                        ))}
+                      </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+                <a
+                  href="/contact-us"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Contact
+                </a>
               </div>
               <div className="py-6">
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Log insssss
+                  Request Form
+                </a>
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  SmartSuite - Log In
+                </a>
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  HappyFox Support
                 </a>
               </div>
             </div>

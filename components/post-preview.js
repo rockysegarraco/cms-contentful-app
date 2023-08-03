@@ -18,7 +18,6 @@ export default function PostPreview({
         <a href={`/posts/${slug}`}>
           <div className="max-w-full rounded-2xl overflow-hidden">
             <img className="w-full" src={coverImage.url} alt={title} />
-
             <div className="p-6">
               <div className="text-sm uppercase text-secondary-950 pb-3">
                 {topic}

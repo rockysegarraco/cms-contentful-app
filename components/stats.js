@@ -16,7 +16,7 @@ export default function Stats() {
     <div className="relative bg-slate-50">
       <img
         className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
-        src="https://images.unsplash.com/photo-1628102491629-778571d893a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"
+        src="photo.jpg"
         alt=""
       />
       <div className="mx-auto grid max-w-7xl lg:grid-cols-2">

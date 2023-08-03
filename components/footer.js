@@ -5,10 +5,10 @@ const navigation = {
     { name: "SmartSuite", href: "#" },
   ],
   support: [
-    { name: "About", href: "#" },
-    { name: "News & Events", href: "#" },
-    { name: "Partners", href: "#" },
-    { name: "Careers", href: "#" },
+    { name: "About", href: "/about-us" },
+    { name: "News & Events", href: "/news" },
+    { name: "Partners", href: "/partners" },
+    { name: "Careers", href: "/careers" },
   ],
   company: [
     { name: "", href: "#" },
@@ -17,12 +17,15 @@ const navigation = {
       name: "Newsletter",
       href: "https://smartcommerce.us20.list-manage.com/subscribe?u=5d71f8753fa72eab4b72788c2&id=8a974f182a",
     },
-    { name: "White Papers", href: "#" },
+    { name: "White Papers", href: "/whitepapers" },
     { name: "CPG Scoop", href: "#" },
   ],
   legal: [
-    { name: "Privacy", href: "#" },
-    { name: "SmartSuite - Log In", href: "#" },
+    { name: "Privacy", href: "/privacy-policy" },
+    {
+      name: "SmartSuite - Log In",
+      href: "https://smartsuite.co/en-us/cookies/",
+    },
     { name: "Cookie Preferences", href: "#" },
     { name: "Sitemap", href: "#" },
   ],
@@ -92,7 +95,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-white hover:text-gray-400"
+                  className="text-secondary-950 hover:text-secondary-dark-accent"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
