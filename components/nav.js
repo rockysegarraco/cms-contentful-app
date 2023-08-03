@@ -31,6 +31,13 @@ const products = [
     href: "/smartsite",
     icon: ArrowRightCircleIcon,
   },
+  {
+    name: "Reporting",
+    description:
+      "Smartsuite empowers you with real time data and insights to sync your media spend with your inventory, reduce advertising waste and measure campaign outcomes. ",
+    href: "/reporting",
+    icon: ArrowRightCircleIcon,
+  },
 ];
 const callsToAction = [
   { name: "Get demo", href: "/request-demo", icon: PlayCircleIcon },
@@ -44,13 +51,12 @@ const partners = [
 
 const company = [
   { name: "About", href: "/about-us" },
-  { name: "News & Events", href: "/news" },
-  { name: "Partners", href: "/partners" },
+  { name: "News & Events", href: "/cpg-brand-news" },
   { name: "Careers", href: "/careers" },
 ];
 
 const resources = [
-  { name: "Blog", href: "/blog" },
+  { name: "Blog", href: "/cpg-marketing-blog" },
   {
     name: "Newsletter",
     href: "/newsletter",
@@ -65,7 +71,6 @@ const users = [
     href: "https://smartcommerce.wufoo.com/forms/smartcommerce-campaign-order-form/",
   },
   { name: "SmartSuite - Log In", href: "https://smartsuite.co/en-us/backend/" },
-  { name: "HappyFox Support", href: "#" },
 ];
 
 function classNames(...classes) {
@@ -85,7 +90,7 @@ export default function Nav() {
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">SmartCommerce Inc.</span>
             <img
-              className="h-12 w-auto"
+              className="h-14 w-auto"
               src="https://smartcommerce.com/wp-content/uploads/2021/10/smartcommerce_logo_300x150-1-1.png"
               alt=""
             />

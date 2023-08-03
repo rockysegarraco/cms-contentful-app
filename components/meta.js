@@ -4,6 +4,11 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from "../lib/constants";
 export default function Meta() {
   return (
     <Head>
+      <script
+        id="cookieyes"
+        type="text/javascript"
+        src="https://cdn-cookieyes.com/client_data/8cddd9e07b2f233dbfda8450/script.js"
+      ></script>
       <link rel="canonical" href="https://smartcommerce.com/" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />

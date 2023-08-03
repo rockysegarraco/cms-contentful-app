@@ -193,13 +193,15 @@ export default function Dogs() {
                 </h1>
 
                 <p className="mt-0 text-base leading-7 text-gray-600 mb-16">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  We're a global brand and community, and our remote workplace
-                  very much reflects that. Get to know the wonderful diverse
-                  group of people who create magic for our clients all day,
-                  every day.
+                  Do you feel like your work team “has your back,” and that
+                  you’re in a  safe place to grow and explore new ideas? Do you
+                  feel empowered to  deliver – actually over-deliver – for
+                  clients (internal and external), and  your company will
+                  support you in that, whatever it takes? We do, and  we
+                  continue to work at getting better at it every day, including
+                  looking  for the very best people to join our team!
                 </p>
-                <Button title="See open positions" link="/" />
+                <Button title="See open positions" link="/careers" />
               </div>
               <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">

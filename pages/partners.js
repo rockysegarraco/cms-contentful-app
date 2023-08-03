@@ -16,7 +16,14 @@ export default function Example() {
     <>
       <Layout>
         <Head>
-          <title>{`SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations...`}</title>
+          <title>
+            Partners - SmartCommerce - Accelerate E-commerce from all existing
+            touchpoints - SmartCommerce
+          </title>
+          <meta
+            name="description"
+            content="SmartCommerce is integrated with the following premium agency, platform, and other media partners, who are authorized to implement Click2Cart® services."
+          />
         </Head>
         <Intro title="Partners" />
         <Hero />

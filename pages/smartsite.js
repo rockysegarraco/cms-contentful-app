@@ -167,7 +167,7 @@ export default function SmartSite({ pageData }) {
                 improves retailer-side SEO/SEM results.
               </p>
             </div>
-            <div className="col-span-6 lg:col-span-5">
+            <div className="col-span-6 lg:col-span-5 ">
               <img src="img/SmartSiteCaro.png" />
             </div>
           </div>

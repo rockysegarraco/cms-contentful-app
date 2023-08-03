@@ -187,15 +187,17 @@ export default function Pics() {
                   <span className="text-secondary-950">.</span>
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-600">
-                  Quasi est quaerat. Sit molestiae et. Provident ad dolorem
-                  occaecati eos iste. Soluta rerum quidem minus ut molestiae
-                  velit error quod. Excepturi quidem expedita molestias quas.
+                  SmartCommerce team members are passionate go-getters who wake
+                  up excited about helping clients take their sales to the next
+                  level, increasing their profit margins and sales
+                  exponentially.
                 </p>
                 <p className="mt-6 text-base leading-7 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat. Quasi aperiam sit non sit neque
-                  reprehenderit.
+                  Our ideal candidate is an A+ player/achiever with an
+                  entrepreneurial spirit, infectious personality and the ability
+                  to earn instant rapport with internal and external clients.
+                  The right candidate learns fast, is self-motivated and wants
+                  to grow while contributing to the success of the team.
                 </p>
               </div>
               <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

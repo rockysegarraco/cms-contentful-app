@@ -83,30 +83,21 @@ export default function OurStory() {
                     partners that was acquired by Google in 2013 (and still
                     powers Google Shopping today).
                     <br />
-                    <br />  What the team learned was that while the
-                    where-to-buy solutions worked really well for some
-                    categories, CPG brands were often left out in the cold. In
-                    2016, SmartCommerce was born, and the team got to work
-                    developing technology that made it easier for shoppers to
-                    directly cart fast-moving consumer goods, creating more
-                    conversions for CPG brands. Being one of the first movers in
-                    the add-to-cart space, we were primed and ready when the
-                    pandemic hit, and CPG shopping behavior shifted more
-                    online. 
+                    <br />
+                       What the team learned was that while the where-to-buy
+                    solutions worked really well for some categories, CPG brands
+                    were often left out in the cold. In 2016, SmartCommerce was
+                    born, and the team got to work developing technology that
+                    made it easier for shoppers to directly cart fast-moving
+                    consumer goods, creating more conversions for CPG brands.
+                    Being one of the first movers in the add-to-cart space, we
+                    were primed and ready when the pandemic hit, and CPG
+                    shopping behavior shifted more online. 
                     <br />
                     <br />
                     SmartCommerce has continued to grow since 2016.  In 2022,
                     the company acquired Myxx and Basketful, expanding our
                     contextual commerce capabilities with recipe solutions. 
-                    <br />
-                    <br />
-                    SmartCommerce  is a community of hard working people, ready
-                    and able to unlock huge short and long-term growth
-                    opportunities for our clients. 
-                    <br />
-                    <br />
-                    Something about a fun and supportive place to work where
-                    employees clients, etc can build their success stories too?
                   </p>
                 </div>
               </div>

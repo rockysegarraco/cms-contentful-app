@@ -6,13 +6,13 @@ const navigation = {
   ],
   support: [
     { name: "About", href: "/about-us" },
-    { name: "News & Events", href: "/news" },
+    { name: "News & Events", href: "/cpg-brand-news" },
     { name: "Partners", href: "/partners" },
     { name: "Careers", href: "/careers" },
   ],
   company: [
     { name: "", href: "#" },
-    { name: "Blog", href: "/blog" },
+    { name: "Blog", href: "/cpg-marketing-blog" },
     {
       name: "Newsletter",
       href: "https://smartcommerce.us20.list-manage.com/subscribe?u=5d71f8753fa72eab4b72788c2&id=8a974f182a",
