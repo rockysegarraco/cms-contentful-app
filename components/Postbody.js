@@ -24,6 +24,15 @@ export default function PostBody({ content }) {
             customMarkdownOptions(content)
           )}
         </div>
+        <div>
+        <iframe
+          src=(formId.url)
+          height="800"
+          width="600"
+          frameborder="0"
+        ></iframe>
+        <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
+        </div>
       </div>
     </>
   );
