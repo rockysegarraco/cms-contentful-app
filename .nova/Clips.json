@@ -3,6 +3,10 @@
     {
       "content" : "export default function _Primary(props) {\n  const { children } = props; \/\/ Destructure 'children' from 'props'\n  return (\n\t<div className={[props.className]}>\n\t  <div className=\"mx-auto max-w-7xl px-8 py-16 sm:px-6 sm:py-32\">\n\t\t{children}\n\t  <\/div>\n\t<\/div>\n  );\n}",
       "name" : "Children.Props Function"
+    },
+    {
+      "content" : "\t<div className={[props.className]}>\n  <div className=\"mx-auto max-w-7xl px-8 py-8 sm:px-6 sm:py-32\">\n\t<h1 className=\"text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] mb-8 font-bold text-info-950\">\n\t  Prop.Heading\n\t  <span className=\"text-secondary-950\">.<\/span>\n\t<\/h1>\n\t{children}\n\t<p className=\"py-8\">\n\t  SmartCommerce is a simple tool that transforms all of your marketing\n\t  touchpoints into e-commerce launch points.\n\t<\/p>\n\t<div className=\"flex\">\n\t  <Button primary>Prop.Title<\/Button>\n\t<\/div>\n  <\/div>\n<\/div>",
+      "name" : ""
     }
   ]
 }

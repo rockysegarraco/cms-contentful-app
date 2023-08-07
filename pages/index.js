@@ -1,3 +1,8 @@
+import Button from "../components/Button";
+import Section from "../components/Section";
+import SectionSecondary from "../components/SectionSecondary";
+import SectionPrimary from "../components/SectionPrimary";
+import Link from "next/link";
 import _HeroFull from "../components/_HeroFull";
 import _Secondary from "../components/_Secondary";
 import _Primary from "../components/_Primary";
@@ -33,6 +38,21 @@ const features = [
   },
 ];
 
+const data = [
+  {
+    description: " Is 95%+ hands-free (removes human error)",
+    icon: CheckIcon,
+  },
+  {
+    description: "Is always getting smarter: Machine-learning enabled",
+    icon: CheckIcon,
+  },
+  {
+    description: "Requires NO feeds, spreadsheets or links from brands!",
+    icon: CheckIcon,
+  },
+];
+
 export default function Index({ pageData }) {
   return (
     <>
@@ -47,9 +67,9 @@ export default function Index({ pageData }) {
             content="SmartCommerce is a simple tool that transforms all of your marketing touchpoints into e-commerce launch points."
           />
         </Head>
-        <_HeroFull
+        <Section
           title="Make everything shoppable"
-          ButtonTitle="Let’s do this!"
+          ButtonTitle="Let's do this!"
           ButtonLink="/request-demo"
           ImageUrl="img/HomepageHeroImage.png"
         >
@@ -71,94 +91,99 @@ export default function Index({ pageData }) {
           <p className="font-bold text-info-950 mt-8">
             Welcome to the future of commerce.{" "}
           </p>
-        </_HeroFull>
-        <_Secondary>
-          <div className="mx-auto max-w-7xl lg:max-w-6xl text-center">
-            <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
-              Trusted by leading consumer brands across the globe
-            </h2>
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-white">
-              Major players leverage SmartCommerce to reach consumers across
-              categories – grocery, wellness, beauty, pet, electronics and more
-            </p>
-            <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-0 lg:mx-0 lg:grid-cols-6">
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="brands/_abbott.svg"
-                alt="Transistor"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="brands/_boston.svg"
-                alt="Reform"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="img/brands/_png.svg"
-                alt="Tuple"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="brands/_kimberly.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="img/brands/_nestle.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="img/brands/_barilla.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
-            </div>
+        </Section>
+        <SectionSecondary title="Trusted by leading consumer brands across the globe">
+          Major players leverage SmartCommerce to reach consumers across
+          categories – grocery, wellness, beauty, pet, electronics and more
+          <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-0 lg:mx-0 lg:grid-cols-6">
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="brands/_abbott.svg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="brands/_boston.svg"
+              alt="Reform"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="img/brands/_png.svg"
+              alt="Tuple"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="brands/_kimberly.svg"
+              alt="SavvyCal"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="img/brands/_nestle.svg"
+              alt="Statamic"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="img/brands/_barilla.svg"
+              alt="Statamic"
+              width={158}
+              height={48}
+            />
           </div>
-        </_Secondary>
-        <_Primary>
-          <div className="mx-auto grid max-w-7xl grid-cols-1 px-8 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 text-white">
-              <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-white">
-                Click2Cart® Difference
-              </h1>
-              Why Click2Cart? We like to think of it as behind-the-scenes magic
-              that makes the carting process as simple and seamless as possible.
-              The friction-free, one-click path to purchase means consumers
-              aren’t distracted by competitor ads or cross-selling, and there is
-              no waiting (i.e. forgetting) to check out.
-              <br />
-              <br /> And even when shoppers don’t complete a purchase, you still
-              win because carting triggers retargeting (building brand
-              awareness) and improves retailer-side SEO/SEM results.
-            </div>
-            <div className="col-span-6">
-              <ReactPlayer
-                width="100%"
-                controls
-                url="https://www.youtube.com/watch?v=d9MyW72ELq0&t=73s"
-              />
-            </div>
-          </div>
-        </_Primary>
+        </SectionSecondary>
+        <SectionPrimary title="Click2Cart® Difference">
+          <p>
+            Why Click2Cart? We like to think of it as behind-the-scenes magic
+            that makes the carting process as simple and seamless as possible.
+            The friction-free, one-click path to purchase means consumers aren’t
+            distracted by competitor ads or cross-selling, and there is no
+            waiting (i.e. forgetting) to check out.
+            <br /> <br />
+            And even when shoppers don’t complete a purchase, you still win
+            because carting triggers retargeting (building brand awareness) and
+            improves retailer-side SEO/SEM results.
+          </p>
+        </SectionPrimary>
         <_Products />
-        <_Content
+        <Section
           title="The difference is data"
           ButtonTitle="Tell Me More"
           ButtonLink="/reporting"
           ImageUrl="img/reporting.jpg"
-        ></_Content>
+        >
+          The SmartCommerce Master Optimization Engine (MOE for short):
+          <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
+            {data.map((data) => (
+              <div key={data.name} className="relative pl-9">
+                <dt className="inline font-semibold text-gray-900">
+                  <data.icon
+                    className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
+                    aria-hidden="true"
+                  />
+                </dt>{" "}
+                <dd className="inline">{data.description}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="pt-8">
+            Creating and maintaining the connection between products and
+            retailers requires sophisticated data analytics. Our
+            up-to-the-minute technology always knows what’s in stock and can ID
+            the best substitutes for OOS/3P items. It continuously updates 10s
+            of millions of product-offer pairs across hundreds of retailers. And
+            don’t worry, you don’t need to do a thing: We have a panel of Data
+            Scientists to constantly manage all of it!
+          </p>
+        </Section>
         <_Stats
           title="The truth is in the numbers"
           ImageUrl="img/stat.jpg"
