@@ -8,7 +8,7 @@ export default function NewsletterCard({ posts }) {
           key={post.fields.title}
           className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm"
         >
-          <a href={`/news/${post.fields.slug}`}>
+          <a href={post.fields.externalLink}>
             <div className="max-w-full rounded-2xl overflow-hidden">
               <img
                 className="w-full"

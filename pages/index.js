@@ -1,4 +1,5 @@
 import _HeroFull from "../components/_HeroFull";
+import Section from "../components/Section";
 import _Secondary from "../components/_Secondary";
 import _Primary from "../components/_Primary";
 import _Content from "../components/_Content";
@@ -47,6 +48,7 @@ export default function Index({ pageData }) {
             content="SmartCommerce is a simple tool that transforms all of your marketing touchpoints into e-commerce launch points."
           />
         </Head>
+        <Section />
         <_HeroFull
           title="Make everything shoppable"
           ButtonTitle="Let’s do this!"
