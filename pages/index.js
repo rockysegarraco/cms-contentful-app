@@ -48,7 +48,6 @@ export default function Index({ pageData }) {
             content="SmartCommerce is a simple tool that transforms all of your marketing touchpoints into e-commerce launch points."
           />
         </Head>
-        <Section />
         <_HeroFull
           title="Make everything shoppable"
           ButtonTitle="Let’s do this!"
