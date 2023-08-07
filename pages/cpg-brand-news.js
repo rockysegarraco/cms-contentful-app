@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Intro from "../components/intro";
+import _General from "../components/_General";
 import NewsCard from "../components/NewsCard";
 import Container from "../components/container";
 import Layout from "../components/layout";
@@ -55,6 +56,16 @@ export default function News({ preview, posts, total }) {
           <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
         </Head>
         <Intro title="News & Events" />
+        <div className="mx-auto max-w-7xl px-8 pt-16 pb-0 sm:px-8 sm:pt-16">
+          <div className="text-center">
+            <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
+              Whats happening
+            </h2>
+            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
+              Smartcommerce in the news
+            </p>
+          </div>
+        </div>
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <NewsCard posts={postData} />}
