@@ -37,7 +37,7 @@ export default function Example() {
           take their sales to the next level. We develop tools that reinvent the
           way CPG products get into the hands of consumers across the globe.
           <div className="mx-auto max-w-7xl mt-8">
-            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            <div className="mx-auto grid max-w-lg grid-cols-6 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
                 className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
                 src="best-ceo-for-women-2022-small 1.svg"
