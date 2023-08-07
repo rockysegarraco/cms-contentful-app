@@ -50,7 +50,7 @@ export default function Index({ pageData }) {
         <_HeroFull
           title="Make everything shoppable"
           ButtonTitle="Let’s do this!"
-          ButtonLink="/"
+          ButtonLink="/request-demo"
           ImageUrl="img/HomepageHeroImage.png"
         >
           SmartCommerce is a simple tool that transforms all of your marketing

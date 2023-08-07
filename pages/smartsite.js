@@ -53,7 +53,7 @@ export default function SmartSite({ pageData }) {
         <_Hero
           title="Go From Driving Awareness To Driving ACTION"
           ButtonTitle="Request Demo"
-          ButtonLink="/"
+          ButtonLink="/request-demo"
           ImageUrl="img/SmartSiteHeroImage.jpg"
         >
           <p className="font-bold text-secondary-950 mb-8">

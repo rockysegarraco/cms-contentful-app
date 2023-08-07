@@ -129,7 +129,7 @@ export default function Reporting() {
         <_Center
           className="bg-white"
           title="A deeper dive into you audience"
-          ButtonLink="/"
+          ButtonLink="/partners"
           ButtonTitle="Learn More"
           ImageUrl="img/logo-transunion.svg"
         >

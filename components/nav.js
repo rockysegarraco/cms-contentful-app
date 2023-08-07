@@ -46,7 +46,7 @@ const callsToAction = [
 
 const partners = [
   { name: "Partners", href: "/partners" },
-  { name: "Retail Partners", href: "/" },
+  { name: "Retail Partners", href: "/click2cart-network" },
 ];
 
 const company = [
@@ -62,7 +62,7 @@ const resources = [
     href: "/newsletter",
   },
   { name: "White Papers", href: "/whitepapers" },
-  { name: "CPG Scoop Podcast", href: "#" },
+  { name: "CPG Scoop Podcast", href: "/cpg-scoop" },
 ];
 
 const users = [

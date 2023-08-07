@@ -203,7 +203,7 @@ export default function Pics() {
               <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                   <img
-                    src="pic-1.jpg"
+                    src="img/about-img-3.jpg"
                     alt=""
                     className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -211,14 +211,14 @@ export default function Pics() {
                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                   <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                     <img
-                      src="pic-3.jpg"
+                      src="img/about-img-2.jpg"
                       alt=""
                       className="aspect-[7/7] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />
                   </div>
                   <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                     <img
-                      src="pic-4.jpg"
+                      src="img/about-img-1.jpg"
                       alt=""
                       className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                     />

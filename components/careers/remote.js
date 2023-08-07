@@ -55,8 +55,10 @@ export default function Remote() {
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-white">
             Work from <span className="text-secondary-950">anywhere.</span>
           </h1>
-          <p className="mt-2 text-lg leading-8 text-white">
-            Learn how to grow your business with our expert advice.
+          <p className="mt-2 text-lg leading-8 text-white mx-auto max-w-4xl ">
+            SmartCommerce is a fully remote workplace. We do, however, have
+            offices in Atlanta, Minneapolis, and Barcelona that you are always
+            welcome to work from.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">

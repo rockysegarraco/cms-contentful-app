@@ -14,7 +14,6 @@ export default function TestimonialsThree() {
                 Eventually I learned that it was about a whole lot more, such as
                 the company culture, opportunities to learn & grow, training
                 availability and the inspiration you can get from your peers.
-                Working at SmartCommerce fulfills all of that and more!
               </p>
             </blockquote>
           </div>

@@ -1,4 +1,4 @@
-export default function _Primary(props) {
+export default function _General(props) {
   const { children } = props; // Destructure 'children' from 'props'
   return (
     <div className={[props.className]}>

@@ -57,7 +57,7 @@ export default function SmartLink({ pageData }) {
           <_Hero
             title="Bring the cart to them"
             ButtonTitle="Request Demo"
-            ButtonLink="/"
+            ButtonLink="/request-demo"
             ImageUrl="img/Group 3.png"
           >
             <p className="font-bold text-secondary-950 mb-8">

@@ -30,30 +30,30 @@ export default function Example() {
         <_Hero
           title="Better together"
           ButtonTitle="Come work with us"
-          ButtonLink="/"
-          ImageUrl="img/SmartLinkHeroImage.jpg"
+          ButtonLink="/careers"
+          ImageUrl="img/about-pic-5.jpg"
         >
           We’re a community of problem solvers passionate about helping clients
           take their sales to the next level. We develop tools that reinvent the
           way CPG products get into the hands of consumers across the globe.
           <div className="mx-auto max-w-7xl mt-8">
-            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
               <img
-                className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
                 src="best-ceo-for-women-2022-small 1.svg"
                 alt="Transistor"
                 width={158}
-                height={48}
+                height={68}
               />
               <img
-                className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
                 src="best-company-for-women-2022-small 1.svg"
                 alt="Reform"
                 width={158}
                 height={48}
               />
               <img
-                className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
                 src="Best_Workplaces_Badge 1.svg"
                 alt="Tuple"
                 width={158}

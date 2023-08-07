@@ -61,6 +61,17 @@ export default function WhitePapers({ preview, posts, total }) {
           <title>{`SmartCommerce - Here you will find past issues to our Whitepapers as well as other helpful resources.`}</title>
         </Head>
         <Intro title="White Papers" />
+        <div className="mx-auto max-w-7xl px-8 pt-16 pb-0 sm:px-8 sm:pt-16">
+          <div className="text-center">
+            <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
+              White Papers
+            </h2>
+            <p className="mx-auto mt-6 max-w-lg text-lg leading-8 text-gray-600">
+              If you're looking for a demo, a quote or just have a question for
+              us, we're here to help.
+            </p>
+          </div>
+        </div>
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <WhiteCard posts={postData} />}

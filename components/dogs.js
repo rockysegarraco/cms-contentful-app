@@ -194,12 +194,12 @@ export default function Dogs() {
 
                 <p className="mt-0 text-base leading-7 text-gray-600 mb-16">
                   Do you feel like your work team “has your back,” and that
-                  you’re in a  safe place to grow and explore new ideas? Do you
-                  feel empowered to  deliver – actually over-deliver – for
-                  clients (internal and external), and  your company will
-                  support you in that, whatever it takes? We do, and  we
-                  continue to work at getting better at it every day, including
-                  looking  for the very best people to join our team!
+                  you’re in a safe place to grow and explore new ideas? Do you
+                  feel empowered to deliver - actually over-deliver - for
+                  clients (internal and external), and your company will support
+                  you in that, whatever it takes? We do, and we continue to work
+                  at getting better at it every day, including looking for the
+                  very best people to join our team!
                 </p>
                 <Button title="See open positions" link="/careers" />
               </div>
@@ -214,7 +214,7 @@ export default function Dogs() {
                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                   <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                     <img
-                      src="dog-3.jpg"
+                      src="img/about-pic-6.jpg"
                       alt=""
                       className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                     />

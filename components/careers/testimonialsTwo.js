@@ -10,12 +10,10 @@ export default function TestimonialsTwo() {
             <blockquote className="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
               <p>
                 The company has a huge emphasis on taking care of our clients,
+                The company has a huge emphasis on taking care of our clients,
                 by providing the best user experience and making sure our
                 products are the right fit for their needs. More importantly,
-                they care about their employees. There’s a culture here where
-                it’s fun to be around and it allows flexible work/life balance
-                with disciplined freedom, which builds trust, knowing teams will
-                work hard for them in return.
+                they care about their employees.
               </p>
             </blockquote>
           </div>

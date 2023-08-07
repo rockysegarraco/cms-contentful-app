@@ -9,37 +9,37 @@ const features = [
   {
     name: "Healthcare",
     description:
-      "Replace typical friction-filled paths to purchase with a single click that puts products (even recipes) directly into retailer carts.",
+      "Our employees have a medical plan option, a dental plan option and a vision plan available through National General and Principal.",
     icon: CloudArrowUpIcon,
   },
   {
     name: "401K & Profit Sharing",
     description:
-      "Our product engine avoids OOS conditions, 3P sellers, changing prices, etc, so your consumers enjoy a frictionless shopping experience.",
+      "SmartCommerce provides a 401k Plan and annual Profit Sharing through Guidelines.",
     icon: LockClosedIcon,
   },
   {
     name: "Unlimited PTO",
     description:
-      "Whether or not a consumer checks out immediately, you still win. Carting triggers retailer retargeting.",
+      "Work life balance is important at SmartCommerce. We trust you to get your work done and be a responsible team member so we have an open vacation policy.",
     icon: ArrowPathIcon,
   },
   {
     name: "Mental Health Focus",
     description:
-      "Replace typical friction-filled paths to purchase with a single click that puts products (even recipes) directly into retailer carts.",
+      "At SmartCommerce, our employees are encouraged to bring their whole self to work. To do so, SmartCommerce provides several mental health perks.",
     icon: FingerPrintIcon,
   },
   {
     name: "Parental Leave",
     description:
-      "Our product engine avoids OOS conditions, 3P sellers, changing prices, etc, so your consumers enjoy a frictionless shopping experience.",
+      "After one year of employment, all employees are eligible for our parental leave benefits, including 12 weeks fully paid for maternity leave and 6 weeks fully paid for paternity leave.",
     icon: FingerPrintIcon,
   },
   {
     name: "Company Retreat",
     description:
-      "Whether or not a consumer checks out immediately, you still win. Carting triggers retailer retargeting and influences.",
+      "SmartCommerce employees come together for our annual retreat. We also have local hangout times and other remote worker initiatives.",
     icon: FingerPrintIcon,
   },
 ];

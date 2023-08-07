@@ -4,7 +4,7 @@ export default function Newsletter() {
       <div className="mx-auto">
         <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-24 text-center shadow-sm sm:rounded-3xl sm:px-16">
           <h2 className="mx-auto max-w-2xl text-3xl font-bold sm:text-4xl text-info-950">
-            Be a SmartCookie. 
+            Be a SmartCookie<span className="text-secondary-950">.</span> 
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-info-950">
             Sign up to be the first to know about new products, events, and our

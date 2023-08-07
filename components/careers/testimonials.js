@@ -9,11 +9,10 @@ export default function Testimonials() {
           <div className="relative col-span-2 lg:col-start-1 lg:row-start-2">
             <blockquote className="text-lg font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
               <p>
-                I love working for SmartCommerce! The culture of trust, support,
-                and freedom to do my work provides for an exciting environment
-                to learn and grow. When there’s an issue to resolve, everyone
-                who can help jumps in to lend a hand because we share the common
-                goal of wanting to deliver the best product for our customers.
+                I love working for SmartCommerce! When there’s an issue to
+                resolve, everyone who can help jumps in to lend a hand because
+                we share the common goal of wanting to deliver the best product
+                for our customers.
               </p>
             </blockquote>
           </div>
