@@ -1,4 +1,5 @@
 import _PageTitle from "../components/_PageTitle";
+import Section from "../components/Section";
 import _Hero from "../components/_Hero";
 import _Primary from "../components/_Primary";
 import _SmartLinkProducts from "../components/_SmartLinkProducts";
@@ -54,7 +55,7 @@ export default function SmartLink({ pageData }) {
             </title>
           </Head>
           <_PageTitle title="SmartLink" />
-          <_Hero
+          <Section
             title="Bring the cart to them"
             ButtonTitle="Request Demo"
             ButtonLink="/request-demo"
@@ -66,7 +67,7 @@ export default function SmartLink({ pageData }) {
             Real-time, stock-aware technology gets your products into carts
             faster and more frequently – boosting sales, increasing product
             awareness, and creating repeat customers - sorta like magic!
-          </_Hero>
+          </Section>
           <_Primary>
             <div className="mx-auto max-w-7xl lg:mx-0 text-center">
               <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">

@@ -176,62 +176,39 @@ export default function Dogs() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white pt-0 pb-32">
-      <main className="isolate">
-        {/* Content section */}
-        <div className="mt-32 overflow-hidden sm:mt-40">
-          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] font-bold text-info-950">
-                  Join the family
-                  <span className="text-secondary-950">.</span>
-                </h1>
-                <h1 className="text-lg leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-lg lg:leading-[5rem] font-bold text-info-950">
-                  (furry members welcome)
-                  <span className="text-secondary-950">.</span>
-                </h1>
-
-                <p className="mt-0 text-base leading-7 text-gray-600 mb-16">
-                  Do you feel like your work team “has your back,” and that
-                  you’re in a safe place to grow and explore new ideas? Do you
-                  feel empowered to deliver - actually over-deliver - for
-                  clients (internal and external), and your company will support
-                  you in that, whatever it takes? We do, and we continue to work
-                  at getting better at it every day, including looking for the
-                  very best people to join our team!
-                </p>
-                <Button title="See open positions" link="/careers" />
-              </div>
-              <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                  <img
-                    src="dog-2.jpg"
-                    alt=""
-                    className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                  />
-                </div>
-                <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                    <img
-                      src="img/about-pic-6.jpg"
-                      alt=""
-                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                  <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                    <img
-                      src="dog-4.jpg"
-                      alt=""
-                      className="aspect-[7/7] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div className="relative isolate overflow-hidden bg-slate-50 text-dark-950">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 gap-8 sm:gap-8 lg:gap-16 pt-16 pb-16 lg:pt-24 lg:pb-24">
+        <div className="lg:order-first order-last">
+          <h1 className="mt-0 lg:mt-32 text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] mb-8 font-bold text-info-950">
+            Join the family
+          </h1>
+          <div className="pb-8">
+            <p className="text-dark-950">
+              Do you feel like your work team “has your back,” and that you’re
+              in a safe place to grow and explore new ideas? Do you feel
+              empowered to deliver - actually over-deliver - for clients
+              (internal and external), and your company will support you in
+              that, whatever it takes? We do, and we continue to work at getting
+              better at it every day, including looking for the very best people
+              to join our team!
+            </p>
+          </div>
+          <div className="flex">
+            <a
+              href="/careers"
+              className="rounded-full bg-primary-950 px-8 py-4 text-md font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+              See open positions
+            </a>
           </div>
         </div>
-      </main>
+        <div className="relative w-full">
+          {" "}
+          {/* Make the container relative */}
+          <img src="img/HeroFamPic.png" className="relative" />{" "}
+          {/* Position the image at the bottom */}
+        </div>
+      </div>
     </div>
   );
 }

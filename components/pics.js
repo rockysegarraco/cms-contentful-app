@@ -175,60 +175,34 @@ export default function Pics() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white">
-      <main className="isolate">
-        {/* Content section */}
-        <div className="mt-32 overflow-hidden sm:mt-40">
-          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                  Teamwork
-                  <span className="text-secondary-950">.</span>
-                </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-600">
-                  SmartCommerce team members are passionate go-getters who wake
-                  up excited about helping clients take their sales to the next
-                  level, increasing their profit margins and sales
-                  exponentially.
-                </p>
-                <p className="mt-6 text-base leading-7 text-gray-600">
-                  Our ideal candidate is an A+ player/achiever with an
-                  entrepreneurial spirit, infectious personality and the ability
-                  to earn instant rapport with internal and external clients.
-                  The right candidate learns fast, is self-motivated and wants
-                  to grow while contributing to the success of the team.
-                </p>
-              </div>
-              <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                  <img
-                    src="img/about-img-3.jpg"
-                    alt=""
-                    className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                  />
-                </div>
-                <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                    <img
-                      src="img/about-img-2.jpg"
-                      alt=""
-                      className="aspect-[7/7] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                  <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                    <img
-                      src="img/about-img-1.jpg"
-                      alt=""
-                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div className="relative isolate overflow-hidden bg-slate-50 text-dark-950">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 gap-8 sm:gap-8 lg:gap-16 pt-16 pb-16 lg:pt-24 lg:pb-24">
+        <div className="lg:order-first order-last">
+          <h1 className="mt-0 lg:mt-32 text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] mb-8 font-bold text-info-950">
+            Teamwork
+          </h1>
+          <div className="pb-0">
+            <p className="mt-6 text-dark-950">
+              SmartCommerce team members are passionate go-getters who wake up
+              excited about helping clients take their sales to the next level,
+              increasing their profit margins and sales exponentially.
+            </p>
+            <p className="mt-6 text-dark-950">
+              Our ideal candidate is an A+ player/achiever with an
+              entrepreneurial spirit, infectious personality and the ability to
+              earn instant rapport with internal and external clients. The right
+              candidate learns fast, is self-motivated and wants to grow while
+              contributing to the success of the team.
+            </p>
           </div>
         </div>
-      </main>
+        <div className="relative w-full">
+          {" "}
+          {/* Make the container relative */}
+          <img src="img/TeamHeroPic.png" className="relative" />{" "}
+          {/* Position the image at the bottom */}
+        </div>
+      </div>
     </div>
   );
 }

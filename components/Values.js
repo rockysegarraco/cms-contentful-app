@@ -1,45 +1,41 @@
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 import HeadingOne from "../components/elements/HeadingOne";
+import Wrapper from "../components/Wrapper";
 
 const faqs = [
   {
-    question: "Be Smart",
+    question: "Teamwork makes the dream work.",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "We succeed by supporting one another: We communicate openly, treat each other kindly, and work with integrity.",
   },
   {
-    question: "In it to Win it",
+    question: "We’ve got your back. ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "We seek to understand the feelings and needs of others and act in their best interest. We have each other’s backs, always.",
   },
   {
-    question: "Teamwork Makes the Dream Work",
+    question: "Yes, we can!",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Every day, in every way, we look for ways to say “yes” to clients and coworkers, even when there isn’t an easy answer. And we live for creative, new ideas.",
   },
   {
-    question: "Yes, We Can",
+    question: "Think outside the box. ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "We are resourceful problem-solvers not afraid to forge new paths, and we hold ourselves to the highest standards.",
   },
   {
-    question: "We Got Your Back",
+    question: "In it to win it! ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    question: "Built on Trust",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Every brand, agency, or retailer we engage with is treated as our partner – their success is our success.",
   },
   // More questions...
 ];
 
 export default function Values() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:pt-24 lg:pb-0">
+    <Wrapper>
+      <div className="mx-auto max-w-7xl px-8 py-16 sm:py-16 lg:px-8 lg:pt-24 lg:pb-24">
         <div className="mx-auto max-w-4xl divide-gray-900/10">
           <h6 className="text-secondary-950 font-semibold leading-7">
             CULTURE
@@ -82,6 +78,6 @@ export default function Values() {
           </dl>
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 }

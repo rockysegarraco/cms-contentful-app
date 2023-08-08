@@ -9,7 +9,11 @@ const Button = ({ children, primary }) => {
     }
   );
 
-  return <button className={classes}>{children}</button>;
+  return (
+    <div className="flex pt-8">
+      <button className={classes}>{children}</button>
+    </div>
+  );
 };
 
 export default Button;

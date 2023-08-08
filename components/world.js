@@ -8,12 +8,12 @@ const stats = [
 
 export default function World() {
   return (
-    <div className="bg-white pt-24">
+    <div className="bg-white py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
             <HeadingOne title="Welcome to our world" />
-            <p className="mt-4 text-lg leading-8 text-gray-600">
+            <p className="mt-4 text-dark-950 leading-8">
               We are a globally distributed community of people living and
               working in 8 countries around the world. We love to build products
               that help our clients create magic for their consumers.
@@ -24,7 +24,7 @@ export default function World() {
               <img
                 src="map.png"
                 alt="App screenshot"
-                className="mb-[-12%]"
+                className="mb-[-3%]"
                 width={2432}
                 height={1442}
               />

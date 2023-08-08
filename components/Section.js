@@ -4,7 +4,7 @@ export default function Section(props) {
   const { children } = props; // Destructure 'children' from 'props'
   return (
     <div className="relative isolate overflow-hidden bg-slate-50 text-dark-950">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 gap-16 sm:gap-16 lg:gap-16 pt-16 pb-16 lg:pt-24 lg:pb-24">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 px-8 gap-8 sm:gap-8 lg:gap-16 pt-16 pb-16 lg:pt-24 lg:pb-24">
         <div className="lg:order-first order-last">
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem] mb-8 font-bold text-info-950">
             {props.title}

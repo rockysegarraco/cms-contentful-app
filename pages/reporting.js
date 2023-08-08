@@ -1,5 +1,6 @@
 import _PageTitle from "../components/_PageTitle";
 import _Hero from "../components/_Hero";
+import Section from "../components/Section";
 import _Primary from "../components/_Primary";
 import _General from "../components/_General";
 import _Stats from "../components/_Stats";
@@ -58,13 +59,12 @@ export default function Reporting() {
           <title>{`SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations...`}</title>
         </Head>
         <_PageTitle title="Reporting" />
-        <_Hero
+        <Section
           title="Knowledge is power"
           ButtonTitle="Request Demo"
           ButtonLink="/request-demo"
           ImageUrl="img/HeroReporting.jpg"
         >
-          {" "}
           <p className="font-bold text-secondary-950 mb-8">
             How to use comprehensive reporting in real time
           </p>
@@ -72,7 +72,7 @@ export default function Reporting() {
           media spend with your inventory, reduce advertising waste and measure
           campaign outcomes. Every subscription comes with unlimited logins and
           unlimited support!
-        </_Hero>
+        </Section>
         <_Primary>
           <div className="mx-auto max-w-7xl lg:mx-0 text-center">
             <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">

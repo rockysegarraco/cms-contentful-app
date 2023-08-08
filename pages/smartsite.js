@@ -1,4 +1,5 @@
 import _PageTitle from "../components/_PageTitle";
+import Section from "../components/Section";
 import _General from "../components/_General";
 import _Secondary from "../components/_Secondary";
 import _Hero from "../components/_Hero";
@@ -50,7 +51,7 @@ export default function SmartSite({ pageData }) {
           </title>
         </Head>
         <_PageTitle title="SmartSite" />
-        <_Hero
+        <Section
           title="Go From Driving Awareness To Driving ACTION"
           ButtonTitle="Request Demo"
           ButtonLink="/request-demo"
@@ -62,7 +63,7 @@ export default function SmartSite({ pageData }) {
           Easy-to-implement solutions let consumers add products to their carts
           from the retailer of their choice at any touchpoint on your website,
           making every moment a shoppable one.
-        </_Hero>
+        </Section>
         <_Primary>
           <div className="mx-auto max-w-7xl lg:mx-0 text-center">
             <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
