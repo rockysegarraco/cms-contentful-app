@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Wrapper from "../components/Wrapper";
-import Container from "../components/Container";
+import _Container from "../components/_Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
@@ -20,7 +20,7 @@ export default function AboutUs() {
   return (
     <>
       <Wrapper slate>
-        <Container twocolumn>
+        <_Container twocolumn>
           <div className="order-last lg:order-first">
             <Heading dark>
               Better together<span className="text-secondary-950">.</span>
@@ -61,10 +61,10 @@ export default function AboutUs() {
           <div className="relative w-full order-first lg:order-last">
             <img src="img/about-pic-5.jpg" className="relative" />
           </div>
-        </Container>
+        </_Container>
       </Wrapper>
       <Wrapper primary>
-        <Container twocolumn>
+        <_Container twocolumn>
           <div className="relative w-full">
             <img src="img/HeroOurStory.png" />
           </div>
@@ -100,10 +100,10 @@ export default function AboutUs() {
               commerce capabilities with recipe solutions. 
             </Paragraphs>
           </div>
-        </Container>
+        </_Container>
       </Wrapper>
       <Wrapper light>
-        <Container onecolumn>
+        <_Container onecolumn>
           <Heading dark>Welcome to our world</Heading>
           <Paragraphs dark>
             We are a globally distributed community of people living and working
@@ -133,10 +133,10 @@ export default function AboutUs() {
               </div>
             ))}
           </dl>
-        </Container>
+        </_Container>
       </Wrapper>
       <Wrapper slate>
-        <Container twocolumn>
+        <_Container twocolumn>
           <div className="relative w-full order-first lg:order-last">
             <img src="img/TeamHeroPic.png" />
           </div>
@@ -155,11 +155,11 @@ export default function AboutUs() {
               contributing to the success of the team.
             </Paragraphs>
           </div>
-        </Container>
+        </_Container>
       </Wrapper>
       <Values />
       <Wrapper slate>
-        <Container twocolumn>
+        <_Container twocolumn>
           <div className="relative w-full order-first lg:order-last">
             <img src="img/HeroFamPic.png" />
           </div>
@@ -178,7 +178,7 @@ export default function AboutUs() {
               <Button primary>See open positions</Button>
             </Link>
           </div>
-        </Container>
+        </_Container>
       </Wrapper>
     </>
   );

@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+import Container from "../components/container";
 import Intro from "../components/intro";
 import GetDemo from "../components/getdemo";
 import Layout from "../components/layout";
