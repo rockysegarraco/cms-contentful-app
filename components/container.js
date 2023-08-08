@@ -1,4 +1,3 @@
-//Container.jsx
 import classNames from "classnames"; // "classNames"!! NOT "className"
 
 const Container = ({ children, twocolumn, onecolumn }) => {
