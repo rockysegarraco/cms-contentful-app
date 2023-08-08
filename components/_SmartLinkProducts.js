@@ -18,7 +18,7 @@ export default function _SmartLinkProducts() {
         </div>
         <div className="mx-auto mt-8 max-w-2xl sm:mt-20 pb-8 lg:pb-16 lg:pt-0 lg:max-w-none">
           <div class="grid-cols-1 gap-8 sm:grid md:grid-cols-12">
-            <div class="col-start-1 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div class="col-start-1 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
                   class="rounded-t-lg w-full"
@@ -39,7 +39,7 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div class="col-span-7 lg:col-span-4 md:col-span-6 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
                   class="rounded-t-lg w-full"
@@ -61,7 +61,7 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
                   class="rounded-t-lg w-full"
@@ -81,7 +81,7 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="lg:col-start-3 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div class="lg:col-start-3 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
                   class="rounded-t-lg w-full"
@@ -100,7 +100,7 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
                   class="rounded-t-lg w-full"
