@@ -7,7 +7,6 @@ import _HeroFull from "../components/_HeroFull";
 import _Secondary from "../components/_Secondary";
 import _Primary from "../components/_Primary";
 import _Content from "../components/_Content";
-import Container from "../components/container";
 import Layout from "../components/layout";
 import HeroFull from "../components/Hero";
 import Brands from "../components/brands";
