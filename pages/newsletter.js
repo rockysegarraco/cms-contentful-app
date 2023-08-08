@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+import Container from "../components/container";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { fetchNewsletter } from "../lib/api";
