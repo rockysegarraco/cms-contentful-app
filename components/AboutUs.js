@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Wrapper from "../components/Wrapper";
+import Container from "../components/Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
