@@ -1,6 +1,5 @@
 import _PageTitle from "../components/_PageTitle";
 import _Hero from "../components/_Hero";
-import Container from "../components/container";
 import Testimonials from "../components/careers/testimonials";
 import TestimonialsTwo from "../components/careers/testimonialsTwo";
 import TestimonialsThree from "../components/careers/testimonialsThree";
