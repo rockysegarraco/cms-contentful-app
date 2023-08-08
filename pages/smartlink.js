@@ -6,7 +6,6 @@ import _SmartLinkProducts from "../components/_SmartLinkProducts";
 import _Secondary from "../components/_Secondary";
 import _General from "../components/_General";
 import _Stats from "../components/_Stats";
-import Container from "../components/container";
 import Layout from "../components/layout";
 import SmartLinkHero from "../components/smartlink/SmartLinkHero";
 import Brands from "../components/brands";

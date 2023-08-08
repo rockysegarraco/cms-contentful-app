@@ -1,4 +1,3 @@
-import Container from "../components/container";
 import Hero from "../components/partners/Hero";
 import Clients from "../components/partners/clients";
 import Intro from "../components/intro";

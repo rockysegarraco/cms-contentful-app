@@ -3,7 +3,6 @@ import Section from "../components/Section";
 import _General from "../components/_General";
 import _Secondary from "../components/_Secondary";
 import _Hero from "../components/_Hero";
-import Container from "../components/container";
 import Layout from "../components/layout";
 import SmartLinkHero from "../components/smartlink/SmartLinkHero";
 import Brands from "../components/brands";

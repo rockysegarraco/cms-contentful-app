@@ -5,7 +5,6 @@ import _Primary from "../components/_Primary";
 import _General from "../components/_General";
 import _Stats from "../components/_Stats";
 import _Center from "../components/_Center";
-import Container from "../components/container";
 import Testimonials from "../components/careers/testimonials";
 import TestimonialsTwo from "../components/careers/testimonialsTwo";
 import TestimonialsThree from "../components/careers/testimonialsThree";

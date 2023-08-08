@@ -1,5 +1,4 @@
 import _Hero from "../components/_Hero";
-import Container from "../components/container";
 import Layout from "../components/layout";
 import Hero from "../components/Hero";
 import Brands from "../components/brands";
