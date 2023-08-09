@@ -1,5 +1,6 @@
 import _PageTitle from "../components/_PageTitle";
 import _Hero from "../components/_Hero";
+import Button from "../components/Button";
 import _Primary from "../components/_Primary";
 import Testimonials from "../components/careers/testimonials";
 import TestimonialsTwo from "../components/careers/testimonialsTwo";
@@ -26,23 +27,23 @@ const features = [
   {
     name: "No cost to Retailers",
     description:
-      "Replace typical friction-filled paths to purchase with a single click that puts products (even recipes) directly into retailer carts.",
+      "SmartCommerce is entirely brand-supported, meaning we do not charge retailers to be in our network, or to receive orders. ",
     href: "#",
-    img: "img/cta-shop.svg",
+    img: "img/icon-pig.svg",
   },
   {
     name: "Heighten visibility",
     description:
-      "Our product engine avoids OOS conditions, 3P sellers, changing prices, etc, so your consumers enjoy a frictionless shopping experience.",
+      "Become a place to purchase at the exact moment of consumer interest.",
     href: "#",
-    img: "img/cta-barcode.svg",
+    img: "img/icon-eye.svg",
   },
   {
     name: "Expand your reach",
     description:
-      "Whether or not a consumer checks out immediately, you still win. Carting triggers retailer retargeting and influences retailer recommendations/SEO.",
+      "Click2Cart® has access to millions of consumer and sends them to Retailers",
     href: "#",
-    img: "img/cta-sight.svg",
+    img: "img/icon-world.svg",
   },
 ];
 
@@ -80,7 +81,7 @@ export default function Example() {
               </p>
             </div>
           </div>
-          <div className="mx-auto mt-16 max-w-xl lg:max-w-7xl">
+          <div className="mx-auto mt-16 max-w-xl lg:max-w-7xl text-center">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col">
@@ -100,6 +101,14 @@ export default function Example() {
                 </div>
               ))}
             </dl>
+          </div>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="/request-demo"
+              className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+              Get Started Today
+            </a>
           </div>
         </div>
       </Layout>

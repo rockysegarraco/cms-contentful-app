@@ -1,6 +1,6 @@
 export default function GetToKnow() {
   return (
-    <div className="bg-white pb-0 pt-32">
+    <div className="bg-white pb-0 pt-16 lg:pt-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">

@@ -10,7 +10,7 @@ import Link from "next/link";
 const stats = [
   { id: 1, name: "Countries", value: "8" },
   { id: 2, name: "Teammates", value: "120" },
-  { id: 3, name: "Bundles of Joy", value: "12" },
+  { id: 3, name: "Bundles of Joy (and counting)", value: "12" },
   { id: 4, name: "Brand & Agency Partners", value: "922" },
 ];
 

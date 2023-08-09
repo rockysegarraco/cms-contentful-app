@@ -125,8 +125,8 @@ export default function SmartLink({ pageData }) {
           </_General>
           <_Secondary>
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-              <div className="col-span-6 lg:col-span-8 text-white">
-                <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
+              <div className="col-span-6 lg:col-span-7 text-white">
+                <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-white">
                   Data is your superpower
                 </h1>
                 <p className="pb-0">
@@ -145,8 +145,8 @@ export default function SmartLink({ pageData }) {
                   </a>
                 </div>
               </div>
-              <div className="col-span-6 lg:col-span-4">
-                <img src="img/cta-reporting.png" />
+              <div className="col-span-6 lg:col-span-5">
+                <img src="img/img-data.png" />
               </div>
             </div>
           </_Secondary>

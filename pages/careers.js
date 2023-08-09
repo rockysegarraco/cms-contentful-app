@@ -34,7 +34,7 @@ export default function Example() {
           that just clicks"
           ButtonTitle="See open positions"
           ButtonLink="/"
-          ImageUrl="img/career-1.jpg"
+          ImageUrl="img/career-1.png"
         >
           At our core, SmartCommerce helps brands build their success stories.
           And we don’t stop there – that pertains to our employees too! We
@@ -44,8 +44,6 @@ export default function Example() {
         <Remote />
         <GetToKnow />
         <Testimonials />
-        <TestimonialsTwo />
-        <TestimonialsThree />
         <Benefits />
         <Cta />
       </Layout>

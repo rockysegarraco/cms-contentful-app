@@ -49,7 +49,7 @@ const posts = [
 
 export default function Remote() {
   return (
-    <div className="bg-info-950 py-24 sm:py-32">
+    <div className="bg-info-950 py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-white">

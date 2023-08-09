@@ -3,21 +3,21 @@ import HeadingOne from "/components/elements/HeadingOne";
 const stats = [
   {
     id: 1,
-    name: "Increased revenue due to products carted in the last 12 months.",
-    value: "30%",
-    imgg: "img/cta-hand.svg",
+    name: "SmartCommerce campaigns with direct and indirect substitution saw less than 2% of items out of stock vs the 27% of out of stock of that happened on other campaigns.",
+    value: "<2%",
+    imgg: "img/cta-refresh.svg",
   },
   {
     id: 2,
-    name: "Amount of additional products carted in the last 12 months.",
-    value: "3x",
+    name: "The added context of bundles typically 1.2-2x the CTR of Single Products",
+    value: "1.2 – 2x",
     imgg: "img/cta-cart.svg",
   },
 ];
 
 export default function Stats() {
   return (
-    <div className="bg-white py-0 lg:pt-0 lg:pb-0">
+    <div className="bg-white py-0 lg:pt-0 lg:pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
