@@ -6,6 +6,7 @@
 
 body {
   color: $text-dark-950;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,

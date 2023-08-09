@@ -5,7 +5,6 @@ import _Container from "../components/_Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
-import Values from "../components/Values";
 import _Products from "../components/_Products";
 import _Stats from "../components/_Stats";
 import Cta from "../components/cta";
@@ -70,20 +69,20 @@ export default function Index({ pageData }) {
               <Paragraphs dark>
                 SmartCommerce is a simple tool that transforms all of your
                 marketing touchpoints into e-commerce launch points.
-                <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
-                  {features.map((feature) => (
-                    <div key={feature.name} className="relative pl-9">
-                      <dt className="inline font-semibold text-gray-900">
-                        <feature.icon
-                          className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
-                          aria-hidden="true"
-                        />
-                      </dt>{" "}
-                      <dd className="inline">{feature.description}</dd>
-                    </div>
-                  ))}
-                </dl>
               </Paragraphs>
+              <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <feature.icon
+                        className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
+                        aria-hidden="true"
+                      />
+                    </dt>{" "}
+                    <dd className="inline">{feature.description}</dd>
+                  </div>
+                ))}
+              </dl>
               <Link href="/request-demo">
                 <Button primary>Let's do this!</Button>
               </Link>
@@ -189,36 +188,35 @@ export default function Index({ pageData }) {
               <Heading dark>The difference is data</Heading>
               <Paragraphs dark>
                 The SmartCommerce Master Optimization Engine (MOE for short):
-                <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
-                  {data.map((data) => (
-                    <div key={data.name} className="relative pl-9">
-                      <dt className="inline font-semibold text-gray-900">
-                        <data.icon
-                          className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
-                          aria-hidden="true"
-                        />
-                      </dt>{" "}
-                      <dd className="inline">{data.description}</dd>
-                    </div>
-                  ))}
-                </dl>
-                <p className="pt-8">
-                  Creating and maintaining the connection between products and
-                  retailers requires sophisticated data analytics. Our
-                  up-to-the-minute technology always knows what’s in stock and
-                  can ID the best substitutes for OOS/3P items. It continuously
-                  updates 10s of millions of product-offer pairs across hundreds
-                  of retailers. And don’t worry, you don’t need to do a thing:
-                  We have a panel of Data Scientists to constantly manage all of
-                  it!
-                </p>
+              </Paragraphs>
+              <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none mb-8">
+                {data.map((data) => (
+                  <div key={data.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <data.icon
+                        className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
+                        aria-hidden="true"
+                      />
+                    </dt>{" "}
+                    <dd className="inline">{data.description}</dd>
+                  </div>
+                ))}
+              </dl>
+              <Paragraphs dark>
+                Creating and maintaining the connection between products and
+                retailers requires sophisticated data analytics. Our
+                up-to-the-minute technology always knows what’s in stock and can
+                ID the best substitutes for OOS/3P items. It continuously
+                updates 10s of millions of product-offer pairs across hundreds
+                of retailers. And don’t worry, you don’t need to do a thing: We
+                have a panel of Data Scientists to constantly manage all of it!
               </Paragraphs>
               <Link href="/reporting">
                 <Button primary>Tell me more</Button>
               </Link>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/reporting.jpg" className="relative" />
+              <img src="img/reporting.png" className="relative" />
             </div>
           </_Container>
         </Wrapper>
