@@ -1,6 +1,6 @@
 export default function _Product() {
   return (
-    <div className="bg-white pt-16 pb-16 lg:pt-32 lg:pb-16">
+    <div className="bg-white pt-8 pb-8 lg:pt-24 lg:pb-16">
       <div className="mx-auto max-w-7xl px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
@@ -16,7 +16,7 @@ export default function _Product() {
             </span>
           </p>
         </div>
-        <div className="mx-auto mt-8 max-w-2xl sm:mt-20 pb-8 lg:pb-16 lg:pt-0 lg:max-w-none">
+        <div className="mx-auto mt-8 max-w-2xl pb-8 lg:pb-16 lg:pt-0 lg:max-w-none">
           <div class="grid-cols-1 gap-8 sm:grid md:grid-cols-2">
             <div class="mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
