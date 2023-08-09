@@ -100,13 +100,13 @@ export default function Index({ pageData }) {
                   Trusted by leading consumer brands across the globe
                 </div>
               </Heading>
-              <Paragraphs light>
-                <div className="mx-auto max-w-none lg:max-w-xl">
+              <div className="mx-auto max-w-none lg:max-w-xl">
+                <Paragraphs light>
                   Major players leverage SmartCommerce to reach consumers across
                   categories – grocery, wellness, beauty, pet, electronics and
                   more.
-                </div>
-              </Paragraphs>
+                </Paragraphs>
+              </div>
               <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-0 lg:mx-0 lg:grid-cols-6">
                 <img
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"

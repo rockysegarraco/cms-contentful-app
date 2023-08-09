@@ -1,6 +1,6 @@
 export default function _SmartLinkProducts() {
   return (
-    <div className="bg-white pt-16 pb-16 lg:pt-32 lg:pb-16">
+    <div className="bg-white pt-16 pb-16 lg:pt-24 lg:pb-16">
       <div className="mx-auto max-w-7xl px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
@@ -21,8 +21,8 @@ export default function _SmartLinkProducts() {
             <div class="col-start-1 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full"
-                  src="/img/fpo.jpg"
+                  class="rounded-t-lg w-full bg-white"
+                  src="/img/smart-3.png"
                   alt="Palm Springs Road"
                 />
               </a>
@@ -42,8 +42,8 @@ export default function _SmartLinkProducts() {
             <div class="col-span-7 lg:col-span-4 md:col-span-6 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full"
-                  src="/img/fpo.jpg"
+                  class="rounded-t-lg w-full bg-white"
+                  src="/img/smart-2.png"
                   alt="Palm Springs Road"
                 />
               </a>
@@ -64,8 +64,8 @@ export default function _SmartLinkProducts() {
             <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full"
-                  src="/img/fpo.jpg"
+                  class="rounded-t-lg w-full bg-white"
+                  src="/img/smart-1.png"
                   alt="Palm Springs Road"
                 />
               </a>
@@ -84,8 +84,8 @@ export default function _SmartLinkProducts() {
             <div class="lg:col-start-3 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full"
-                  src="/img/fpo.jpg"
+                  class="rounded-t-lg w-full bg-white"
+                  src="/img/smart-5.png"
                   alt="Palm Springs Road"
                 />
               </a>
@@ -103,8 +103,8 @@ export default function _SmartLinkProducts() {
             <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full"
-                  src="/img/fpo.jpg"
+                  class="rounded-t-lg w-full bg-white"
+                  src="/img/smart-4.png"
                   alt="Palm Springs Road"
                 />
               </a>

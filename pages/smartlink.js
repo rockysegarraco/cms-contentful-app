@@ -1,3 +1,11 @@
+import { useState } from "react";
+import Wrapper from "../components/Wrapper";
+import _Container from "../components/_Container";
+import Heading from "../components/Heading";
+import Paragraphs from "../components/Paragraphs";
+import Button from "../components/Button";
+import Values from "../components/Values";
+import Link from "next/link";
 import _PageTitle from "../components/_PageTitle";
 import Section from "../components/Section";
 import _Hero from "../components/_Hero";
@@ -54,47 +62,57 @@ export default function SmartLink({ pageData }) {
             </title>
           </Head>
           <_PageTitle title="SmartLink" />
-          <Section
-            title="Bring the cart to them"
-            ButtonTitle="Request Demo"
-            ButtonLink="/request-demo"
-            ImageUrl="img/Group 3.png"
-          >
-            <p className="font-bold text-secondary-950 mb-8">
-              Why use Click2Cart for your ads & social media? 
-            </p>
-            Real-time, stock-aware technology gets your products into carts
-            faster and more frequently – boosting sales, increasing product
-            awareness, and creating repeat customers - sorta like magic!
-          </Section>
-          <_Primary>
-            <div className="mx-auto max-w-7xl lg:mx-0 text-center">
-              <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
-                A Shorter Path To Purchase
-              </h2>
-            </div>
-            <div className="mx-auto mt-16 max-w-xl sm:mt-20 lg:mt-24 lg:max-w-none">
-              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center">
-                {features.map((feature) => (
-                  <div key={feature.name} className="flex flex-col">
-                    <dt className="text-2xl font-normal text-white">
-                      <img
-                        className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 mb-8"
-                        src={feature.img}
-                        alt="Reform"
-                        width={200}
-                        height={48}
-                      />
-                      {feature.name}
-                    </dt>
-                    <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-white">
-                      <p className="flex-auto">{feature.description}</p>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </_Primary>
+          <Wrapper slate>
+            <_Container twocolumn>
+              <div className="order-last lg:order-first">
+                <Heading dark>
+                  Bring the cart to them
+                  <span className="text-secondary-950">.</span>
+                </Heading>
+                <p className="font-bold text-secondary-950 mb-8">
+                  Why use Click2Cart for your ads & social media?
+                </p>
+                <Paragraphs dark>
+                  Real-time, stock-aware technology gets your products into
+                  carts faster and more frequently – boosting sales, increasing
+                  product awareness, and creating repeat customers - sorta like
+                  magic!
+                </Paragraphs>
+                <Link href="/careers">
+                  <Button primary>Come work with us</Button>
+                </Link>
+              </div>
+              <div className="relative w-full order-first lg:order-last">
+                <img src="img/Group 3.png" className="relative" />
+              </div>
+            </_Container>
+          </Wrapper>
+          <Wrapper primary>
+            <_Container onecolumn>
+              <div className="order-last lg:order-first">
+                <Heading light>A Shorter Path To Purchase</Heading>
+                <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center mt-24">
+                  {features.map((feature) => (
+                    <div key={feature.name} className="flex flex-col">
+                      <dt className="text-2xl font-normal text-white">
+                        <img
+                          className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 mb-8"
+                          src={feature.img}
+                          alt="Reform"
+                          width={200}
+                          height={48}
+                        />
+                        {feature.name}
+                      </dt>
+                      <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-white">
+                        <p className="flex-auto">{feature.description}</p>
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            </_Container>
+          </Wrapper>
           <_SmartLinkProducts />
           <Stats />
           <_General>
@@ -119,7 +137,7 @@ export default function SmartLink({ pageData }) {
                 </p>
               </div>
               <div className="col-span-6 lg:col-span-4">
-                <img src="img/cta-moe.jpg" />
+                <img src="img/cta-moe.png" />
               </div>
             </div>
           </_General>

@@ -21,13 +21,12 @@ const navigation = {
     { name: "CPG Scoop", href: "#" },
   ],
   legal: [
-    { name: "Privacy", href: "/privacy-policy" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
     {
       name: "SmartSuite - Log In",
       href: "https://smartsuite.co/en-us/cookies/",
     },
-    { name: "Cookie Preferences", href: "#" },
-    { name: "Sitemap", href: "#" },
+    { name: "Get Demo", href: "/request-demo" },
   ],
   social: [
     {

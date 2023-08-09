@@ -13,13 +13,13 @@ export default function Cta() {
         <_Container onecolumn>
           <div className="order-last lg:order-first">
             <Heading dark>We’ve got you – always</Heading>
-            <Paragraphs dark>
-              <div className="mx-auto max-w-xl">
+            <div className="mx-auto max-w-xl">
+              <Paragraphs dark>
                 No matter what you need help with, our team of experts will work
                 with you every step of the way to ensure you’re set up for
                 success. (And, no, we don’t charge extra for that.)
-              </div>
-            </Paragraphs>
+              </Paragraphs>
+            </div>
             <div className="flex items-center justify-center gap-x-6">
               <Link href="/contact-us">
                 <Button primary>Yes, please!</Button>
