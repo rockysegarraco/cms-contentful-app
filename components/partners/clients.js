@@ -2,18 +2,8 @@ import Tabs from "./tabs";
 
 export default function Clients() {
   return (
-    <div className="bg-slate-50 lg:bg-white py-0 sm:py-16">
+    <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
-        <div className="mx-auto max-w-4xl text-center mb-8">
-          <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
-            Our partners
-          </p>
-          <p className="mt-6 text-lg leading-8 text-dark-950">
-            SmartCommerce is integrated with the following premium agency,
-            platform, and other media partners, who are authorized to implement
-            Click2Cart® services.
-          </p>
-        </div>
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-4">
           <div className="bg-white p-6 sm:p-6">
             <img
