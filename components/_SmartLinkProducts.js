@@ -17,16 +17,16 @@ export default function _SmartLinkProducts() {
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-2xl sm:mt-20 pb-8 lg:pb-16 lg:pt-0 lg:max-w-none">
-          <div class="grid-cols-1 gap-8 sm:grid md:grid-cols-12">
-            <div class="col-start-1 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+          <div className="grid-cols-1 gap-8 sm:grid md:grid-cols-12">
+            <div className="col-start-1 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full bg-white"
+                  className="rounded-t-lg w-full bg-white"
                   src="/img/smart-3.png"
                   alt="Palm Springs Road"
                 />
               </a>
-              <div class="p-8">
+              <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">
                   Click2Cart Direct
                 </h1>
@@ -39,15 +39,15 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div className="col-span-7 lg:col-span-4 md:col-span-6 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full bg-white"
+                  className="rounded-t-lg w-full bg-white"
                   src="/img/smart-2.png"
                   alt="Palm Springs Road"
                 />
               </a>
-              <div class="p-8">
+              <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">
                   Click2Cart Shopper’s Choice
                 </h1>
@@ -61,15 +61,15 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div className="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full bg-white"
+                  className="rounded-t-lg w-full bg-white"
                   src="/img/smart-1.png"
                   alt="Palm Springs Road"
                 />
               </a>
-              <div class="p-8">
+              <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">SmartShelf</h1>
                 <p className="text-info-950 pt-8">
                   SmartShelves are shoppable mini-shelves you can curate, with
@@ -81,15 +81,15 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="lg:col-start-3 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div className="lg:col-start-3 col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full bg-white"
+                  className="rounded-t-lg w-full bg-white"
                   src="/img/smart-5.png"
                   alt="Palm Springs Road"
                 />
               </a>
-              <div class="p-8">
+              <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">SmartShop</h1>
                 <p className="text-info-950 pt-8">
                   While recipes are a GREAT fit for SmartShops, the
@@ -100,15 +100,15 @@ export default function _SmartLinkProducts() {
                 </p>
               </div>
             </div>
-            <div class="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
+            <div className="col-span-7 lg:col-span-4 md:col-span-6 mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
                 <img
-                  class="rounded-t-lg w-full bg-white"
+                  className="rounded-t-lg w-full bg-white"
                   src="/img/smart-4.png"
                   alt="Palm Springs Road"
                 />
               </a>
-              <div class="p-8">
+              <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">
                   Click2Cart Live
                 </h1>

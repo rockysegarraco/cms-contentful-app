@@ -1,27 +1,15 @@
-import { useState } from "react";
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import PageTitle from "../components/PageTitle";
 import Wrapper from "../components/Wrapper";
 import _Container from "../components/_Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
-import Values from "../components/Values";
-import Link from "next/link";
-import _PageTitle from "../components/_PageTitle";
-import Section from "../components/Section";
-import _Hero from "../components/_Hero";
-import _Primary from "../components/_Primary";
 import _SmartLinkProducts from "../components/_SmartLinkProducts";
-import _Secondary from "../components/_Secondary";
-import _General from "../components/_General";
-import _Stats from "../components/_Stats";
-import Layout from "../components/layout";
-import SmartLinkHero from "../components/smartlink/SmartLinkHero";
-import Brands from "../components/brands";
-import Stats from "../components/smartlink/stats";
-import Diff from "/components/smartlink/Diff";
-import Path from "../components/smartlink/path";
-import Testimonials from "../components/smartlink/testimonials";
-import Cta from "../components/cta";
+import Layout from "../components/Layout";
+import Cta from "../components/Cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
@@ -50,6 +38,21 @@ const features = [
   },
 ];
 
+const stats = [
+  {
+    id: 1,
+    name: "SmartCommerce campaigns with direct and indirect substitution saw less than 2% of items out of stock vs the 27% of out of stock of that happened on other campaigns.",
+    value: "<2%",
+    imgg: "img/cta-refresh.svg",
+  },
+  {
+    id: 2,
+    name: "The added context of bundles typically  up to 2x the CTR of Single Products.",
+    value: "2x",
+    imgg: "img/cta-cart.svg",
+  },
+];
+
 export default function SmartLink({ pageData }) {
   return (
     <>
@@ -61,7 +64,9 @@ export default function SmartLink({ pageData }) {
               touchpoints - SmartCommerce
             </title>
           </Head>
-          <_PageTitle title="SmartLink" />
+          <Wrapper light>
+            <PageTitle title="SmartLink" />
+          </Wrapper>
           <Wrapper slate>
             <_Container twocolumn>
               <div className="order-last lg:order-first">
@@ -114,14 +119,54 @@ export default function SmartLink({ pageData }) {
             </_Container>
           </Wrapper>
           <_SmartLinkProducts />
-          <Stats />
-          <_General>
-            <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-              <div className="col-span-6 lg:col-span-8">
-                <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                  MOE knows.
-                </h1>
-                <p className="pb-0">
+          <Wrapper slate>
+            <_Container onecolumn>
+              <div className="order-last lg:order-first">
+                <Heading dark>The numbers speak for themselves.</Heading>
+                <Paragraphs dark>
+                  Using SmartCommerce has a direct effect on your bottom line
+                  (in the best way).{" "}
+                </Paragraphs>
+                <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-2 max-w-lg mx-auto">
+                  {stats.map((stat) => (
+                    <div key={stat.id} className="flex flex-col bg-white/5 p-8">
+                      <dt className="text-sm font-normal leading-5 text-info-950">
+                        <img
+                          className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 mb-8"
+                          src={stat.imgg}
+                          alt="Reform"
+                          width={200}
+                          height={48}
+                        />
+                      </dt>
+                      <dd className="text-5xl font-semibold tracking-tight text-info-950">
+                        {stat.value}
+                      </dd>
+                      <dt className="text-sm font-normal leading-5 text-info-950">
+                        {stat.name}
+                      </dt>
+                    </div>
+                  ))}
+                </dl>
+                <div className="flex items-center justify-center gap-x-6">
+                  <Link href="/">
+                    <Button primary>Improve by numbers</Button>
+                  </Link>
+                </div>
+              </div>
+            </_Container>
+          </Wrapper>
+          <Wrapper light>
+            <_Container twocolumn>
+              <div className="order-last lg:order-first">
+                <Heading dark>
+                  MOE knows
+                  <span className="text-secondary-950">.</span>
+                </Heading>
+                <p className="font-bold text-secondary-950 mb-8">
+                  Why use Click2Cart for your ads & social media?
+                </p>
+                <Paragraphs dark>
                   The SmartCommerce Master Optimization Engine (MOE for short)
                   gives our clients superpowers. Up-to-the-minute technology
                   always knows what’s in stock and can easily ID the best
@@ -134,49 +179,37 @@ export default function SmartLink({ pageData }) {
                   across hundreds of retailers. And because it’s
                   machine-learning enabled, it’s always getting smarter. We have
                   a panel of Data Scientists to constantly manage all of it!
-                </p>
+                </Paragraphs>
               </div>
-              <div className="col-span-6 lg:col-span-4">
-                <img src="img/cta-moe.png" />
+              <div className="relative w-full order-first lg:order-last">
+                <img src="img/cta-moe.png" className="relative" />
               </div>
-            </div>
-          </_General>
-          <_Secondary>
-            <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-              <div className="col-span-6 lg:col-span-7 text-white">
-                <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-white">
-                  Data is your superpower
-                </h1>
-                <p className="pb-0">
-                  The SmartSuite Dashboard gives clients 24/7 access to metrics,
-                  so you can meet your goals faster. Real-time data and insights
-                  let you manage the live performance of your campaigns and make
-                  changes to retailers, products, redirect pages, and more
-                  anytime.
-                </p>
-                <div className="flex py-8">
-                  <a
-                    href="/reporting"
-                    className="rounded-full bg-primary-950 px-8 py-4 text-md font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                  >
-                    Learn More
-                  </a>
+            </_Container>
+          </Wrapper>
+          <Wrapper secondary>
+            <img
+              className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
+              src="img/img-data.jpg"
+              alt="SmartCommerce Reporting"
+            />
+            <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+              <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
+                <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                  <Heading light>Data is your superpower</Heading>
+                  <Paragraphs light>
+                    The SmartSuite Dashboard gives clients 24/7 access to
+                    metrics, so you can meet your goals faster. Real-time data
+                    and insights let you manage the live performance of your
+                    campaigns and make changes to retailers, products, redirect
+                    pages, and more anytime.
+                  </Paragraphs>
+                  <Link href="/reporting">
+                    <Button primary>Learn more</Button>
+                  </Link>
                 </div>
               </div>
-              <div className="col-span-6 lg:col-span-5">
-                <img src="img/img-data.png" />
-              </div>
             </div>
-          </_Secondary>
-          <_Stats
-            title="Don’t just take our word for it. Here’s what clients are saying…"
-            ImageUrl="img/cta-testimonials.jpg"
-            alt="Smart Commerce"
-          >
-            “Click2Cart works with the way consumers actually behave, not the
-            way they wish they did.” <br />
-            <br />– CMO, Major CPG Mfr
-          </_Stats>
+          </Wrapper>
           <Cta />
           <style>{"body { background-color: #f5f5f7; }"}</style>
         </Layout>

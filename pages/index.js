@@ -172,12 +172,8 @@ export default function Index({ pageData }) {
                 and improves retailer-side SEO/SEM results.
               </Paragraphs>
             </div>
-            <div className="relative w-full order-first lg:order-last">
-              <ReactPlayer
-                width="100%"
-                controls
-                url="https://www.youtube.com/watch?v=d9MyW72ELq0&t=73s"
-              />
+            <div className="relative w-full order-first lg:order-last text-white">
+              'VIDEO GOES HERE'
             </div>
           </_Container>
         </Wrapper>
@@ -220,34 +216,42 @@ export default function Index({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
-        <_Stats
-          title="The truth is in the numbers"
-          ImageUrl="img/stat.jpg"
-          alt="Smart Commerce"
-        >
-          <p className="mt-6 text-lg leading-8 text-dark-950">
-            It just works – across all categories and verticals, from display
-            ads to QR codes, at ALL major points of intent.
-          </p>
-          <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
-            <div className="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt className="text-sm leading-6 text-dark-950">
-                Dollar value of products carted in the last 12 months.
-              </dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-info-950">
-                $3B<span className="text-secondary-950">+</span>
-              </dd>
+        <Wrapper secondary>
+          <img
+            className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
+            src="img/stat.jpg"
+            alt="SmartCommerce Reporting"
+          />
+          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+            <div className="px-8 py-16 lg:col-start-2 lg:px-16 lg:py-24">
+              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                <Heading light>The truth is in the numbers</Heading>
+                <Paragraphs light>
+                  It just works – across all categories and verticals, from
+                  display ads to QR codes, at ALL major points of intent.
+                </Paragraphs>
+                <dl className="mt-8 lg:mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
+                  <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt className="text-sm leading-6 text-white">
+                      Dollar value of products carted in the last 12 months.
+                    </dt>
+                    <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
+                      $3B<span className="text-white">+</span>
+                    </dd>
+                  </div>
+                  <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt className="text-sm leading-6 text-white">
+                      Number of products carted in the last 12 months
+                    </dt>
+                    <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
+                      93M<span className="text-white">+</span>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
             </div>
-            <div className="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-              <dt className="text-sm leading-6 text-dark-950">
-                Number of products carted in the last 12 months
-              </dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-info-950">
-                93M<span className="text-secondary-950">+</span>
-              </dd>
-            </div>
-          </dl>
-        </_Stats>
+          </div>
+        </Wrapper>
         <Cta />
         <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>
