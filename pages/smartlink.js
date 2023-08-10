@@ -210,7 +210,7 @@ export default function SmartLink({ pageData }) {
               </div>
             </div>
           </Wrapper>
-          <Cta />
+
           <style>{"body { background-color: #f5f5f7; }"}</style>
         </Layout>
       </div>
