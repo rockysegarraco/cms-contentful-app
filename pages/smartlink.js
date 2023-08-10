@@ -63,7 +63,7 @@ export default function SmartLink({ pageData }) {
         </title>
       </Head>
       <Wrapper light>
-        <PageTitle title="SmartLink" />
+        <PageTitle title="SmartLinks" />
       </Wrapper>
       <Wrapper slate>
         <_Container twocolumn>
