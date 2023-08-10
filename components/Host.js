@@ -1,11 +1,6 @@
 export default function Host() {
   return (
-    <section className="bg-slate-50 py-24 sm:py-32">
-      <div className="mx-auto max-w-4xl text-center">
-        <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
-          About the hosts
-        </p>
-      </div>
+    <section className="text-left">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">

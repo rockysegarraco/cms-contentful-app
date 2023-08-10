@@ -1,3 +1,12 @@
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import PageTitle from "../components/PageTitle";
+import Wrapper from "../components/Wrapper";
+import _Container from "../components/_Container";
+import Heading from "../components/Heading";
+import Paragraphs from "../components/Paragraphs";
+import Button from "../components/Button";
 import _PageTitle from "../components/_PageTitle";
 import Section from "../components/Section";
 import _General from "../components/_General";
@@ -49,55 +58,64 @@ export default function SmartSite({ pageData }) {
             - SmartCommerce
           </title>
         </Head>
-        <_PageTitle title="SmartSite" />
-        <Section
-          title="Go From Driving Awareness To Driving ACTION"
-          ButtonTitle="Request Demo"
-          ButtonLink="/request-demo"
-          ImageUrl="img/SmartSiteHeroImage.jpg"
-        >
-          <p className="font-bold text-secondary-950 mb-8">
-            Why use SmartSite for your website?
-          </p>
-          Easy-to-implement solutions let consumers add products to their carts
-          from the retailer of their choice at any touchpoint on your website,
-          making every moment a shoppable one.
-        </Section>
-        <_Primary>
-          <div className="mx-auto max-w-7xl lg:mx-0 text-center">
-            <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
-              Multi-solutions for multi-channels
-            </h2>
-          </div>
-          <div className="mx-auto mt-16 max-w-xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center">
-              {features.map((feature) => (
-                <div key={feature.name} className="flex flex-col">
-                  <dt className="text-2xl font-normal text-white">
-                    <img
-                      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 mb-8"
-                      src={feature.img}
-                      alt="Reform"
-                      width={200}
-                      height={48}
-                    />
-                    {feature.name}
-                  </dt>
-                  <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-white">
-                    <p className="flex-auto">{feature.description}</p>
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </_Primary>
-        <_General className="bg-white">
-          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 lg:col-span-6">
-              <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                Carousels & SmartButtons
-              </h1>
-              <p className="pb-0">
+        <Wrapper light>
+          <PageTitle title="SmartSite" />
+        </Wrapper>
+        <Wrapper slate>
+          <_Container twocolumn>
+            <div className="order-last lg:order-first">
+              <Heading dark>
+                Go From Driving Awareness To Driving ACTION
+                <span className="text-secondary-950">.</span>
+              </Heading>
+              <p className="font-bold text-secondary-950 mb-8">
+                Why use SmartSite for your website?
+              </p>
+              <Paragraphs dark>
+                Easy-to-implement solutions let consumers add products to their
+                carts from the retailer of their choice at any touchpoint on
+                your website, making every moment a shoppable one.
+              </Paragraphs>
+              <Link href="/request-demo">
+                <Button primary>Request Demo</Button>
+              </Link>
+            </div>
+            <div className="relative w-full order-first lg:order-last">
+              <img src="img/SmartSiteHeroImage.jpg" className="relative" />
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper primary>
+          <_Container onecolumn>
+            <div className="order-last lg:order-first">
+              <Heading light>Multi-solutions for multi-channels</Heading>
+              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center mt-24">
+                {features.map((feature) => (
+                  <div key={feature.name} className="flex flex-col">
+                    <dt className="text-2xl font-normal text-white">
+                      <img
+                        className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 mb-8"
+                        src={feature.img}
+                        alt="Reform"
+                        width={200}
+                        height={48}
+                      />
+                      {feature.name}
+                    </dt>
+                    <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-white">
+                      <p className="flex-auto">{feature.description}</p>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper light>
+          <_Container twocolumn>
+            <div className="order-last lg:order-first">
+              <Heading dark>Carousels & SmartButtons</Heading>
+              <Paragraphs dark>
                 This easy-to-implement Click2Cart code drives commerce from
                 websites, brand.com pages, influencer pages, and more. Smartsite
                 Carousels work by bringing the retailer cart onto your page, so
@@ -107,56 +125,50 @@ export default function SmartSite({ pageData }) {
                 relevance and stock status. For category pages or when space is
                 limited, SmartButtons let shoppers choose the retailer in two
                 clicks (1 to open, 1 to select).
-              </p>
+              </Paragraphs>
             </div>
-            <div className="col-span-6 lg:col-span-6">
-              <img src="img/SmartSiteCaro.png" />
+            <div className="relative w-full order-first lg:order-last">
+              <img src="img/SmartSiteCaro.png" className="relative" />
             </div>
-          </div>
-        </_General>
-        <_General className="bg-slate-50">
-          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 lg:col-span-6">
-              <img src="img/SmartSiteCaro.png" />
-            </div>
-            <div className="col-span-6 lg:col-span-6">
-              <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                SmartShop
-              </h1>
-              <p className="pb-0">
+          </_Container>
+        </Wrapper>
+        <Wrapper slate>
+          <_Container twocolumn>
+            <div className="order-first lg:order-last">
+              <Heading dark>SmartShop</Heading>
+              <Paragraphs dark>
                 SmartShop for websites are the PERFECT fit for recipes but can
                 extend to any products that are bought together like skincare
                 regimens, DIY kits and party packs. SmartShop allows the
                 consumer to choose among products and select variants while
                 dynamically showing relevant local retailers.
-              </p>
+              </Paragraphs>
             </div>
-          </div>
-        </_General>
-        <_General className="bg-white">
-          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 lg:col-span-6">
-              <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
-                Product Locators
-              </h1>
-              <p className="pb-0">
+            <div className="relative w-full order-last lg:order-first">
+              <img src="img/SmartSiteCaro.png" className="relative" />
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper light>
+          <_Container twocolumn>
+            <div className="order-last lg:order-first">
+              <Heading dark>Product Locators</Heading>
+              <Paragraphs dark>
                 Optimize your site for omni-channel shopping and boost brand
                 discovery. With unmatched coverage and no dead-ends, this is a
                 no-brainer.
-              </p>
+              </Paragraphs>
             </div>
-            <div className="col-span-6 lg:col-span-6">
-              <img src="img/cta-storelocators.jpg" />
+            <div className="relative w-full order-first lg:order-last">
+              <img src="img/cta-storelocators.jpg" className="relative" />
             </div>
-          </div>
-        </_General>
-        <_General>
-          <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 sm:gap-16 lg:gap-16 lg:grid-cols-12">
-            <div className="col-span-6 lg:col-span-7">
-              <h1 className="text-3xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-                Click2Cart® difference
-              </h1>
-              <p className="pb-0">
+          </_Container>
+        </Wrapper>
+        <Wrapper slate>
+          <_Container twocolumn>
+            <div className="order-first lg:order-last">
+              <Heading dark>Click2Cart® difference</Heading>
+              <Paragraphs dark>
                 Why SmartCommerce? We like to think of it as behind-the-scenes
                 magic that makes the carting process as simple and seamless as
                 possible. The friction-free, one-click path to purchase means
@@ -165,44 +177,37 @@ export default function SmartSite({ pageData }) {
                 when shoppers don’t complete a purchase, you still win because
                 carting triggers retargeting (building brand awareness) and
                 improves retailer-side SEO/SEM results.
-              </p>
+              </Paragraphs>
             </div>
-            <div className="col-span-6 lg:col-span-5 ">
-              <img src="img/SmartSiteCaro.png" />
+            <div className="relative w-full order-first lg:order-last">
+              <img src="img/SmartSiteCaro.png" className="relative" />
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper secondary>
+          <img
+            className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
+            src="img/img-data.jpg"
+            alt="SmartCommerce Reporting"
+          />
+          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+            <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
+              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                <Heading light>Data is your superpower</Heading>
+                <Paragraphs light>
+                  The SmartSuite Dashboard gives clients 24/7 access to metrics,
+                  so you can meet your goals faster. Real-time data and insights
+                  let you manage the live performance of your campaigns and make
+                  changes to retailers, products, redirect pages, and more
+                  anytime.
+                </Paragraphs>
+                <Link href="/reporting">
+                  <Button primary>Learn more</Button>
+                </Link>
+              </div>
             </div>
           </div>
-        </_General>
-        <_Secondary>
-          <div className="mx-auto max-w-7xl lg:max-w-6xl text-center">
-            <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem]  mb-8 font-bold text-white">
-              Reporting
-            </h2>
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-white">
-              Our partnership with TruAudience™ by TransUnion powers data-driven
-              marketing and measurement through privacy-first data enrichment,
-              audience targeting and advanced analytics. Create and segment high
-              quality customer and prospect audiences, as well as upload to the
-              DSPs of your choice.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="/reporting"
-                className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-        </_Secondary>
-        <_Stats
-          title="Don’t just take our word for it. Here’s what clients are saying…"
-          ImageUrl="img/SmartSiteTestimonial.jpg"
-          alt="Smart Commerce"
-        >
-          “Click2Cart works with the way consumers actually behave, not the way
-          they wish they did.” <br />
-          <br />– CMO, Major CPG Mfr
-        </_Stats>
+        </Wrapper>
         <Cta />
         <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>

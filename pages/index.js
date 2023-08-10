@@ -177,7 +177,11 @@ export default function Index({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
-        <_Products />
+        <Wrapper light>
+          <_Container>
+            <_Products />
+          </_Container>
+        </Wrapper>
         <Wrapper slate>
           <_Container twocolumn>
             <div className="order-last lg:order-first">
@@ -185,7 +189,7 @@ export default function Index({ pageData }) {
               <Paragraphs dark>
                 The SmartCommerce Master Optimization Engine (MOE for short):
               </Paragraphs>
-              <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none mb-8">
+              <dl className="mt-0 max-w-xl text-gray-600 lg:max-w-none mb-0">
                 {data.map((data) => (
                   <div key={data.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">

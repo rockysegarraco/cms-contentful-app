@@ -1,6 +1,6 @@
 export default function _Product() {
   return (
-    <div className="bg-white pt-8 pb-8 lg:pt-24 lg:pb-16">
+    <div>
       <div className="mx-auto max-w-7xl px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
