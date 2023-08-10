@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 import PageTitle from "../components/PageTitle";
@@ -8,7 +9,6 @@ import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
 import _SmartLinkProducts from "../components/_SmartLinkProducts";
-import Layout from "../components/Layout";
 import Cta from "../components/Cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
