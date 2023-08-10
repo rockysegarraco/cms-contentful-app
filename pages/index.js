@@ -213,7 +213,6 @@ export default function Index({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
-
         <Wrapper light>
           <_Container>
             <_Products />
