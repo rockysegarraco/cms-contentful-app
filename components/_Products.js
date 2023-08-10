@@ -1,28 +1,22 @@
-export default function _Product() {
+import Image from "next/image";
+import productPicOne from ".//../public/img/smartlink.jpg";
+import productPicTwo from ".//../public/img/smartsite.jpg";
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
+export default function _Product(props) {
   return (
     <div>
       <div className="mx-auto max-w-7xl px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[5rem] mb-8 font-bold text-info-950">
-            Smart solutions that boost your bottom line
-          </p>
-          <p className="mt-6 text-lg leading-8 text-dark-950">
-            Our suite of solutions fits any campaign objective and comes with a
-            convenient to use 24/7 platform and next-level client support!
-            Anywhere you can use a URL, you can drive commerce.
-            <br />{" "}
-            <span className="font-bold text-info-950">
-              It’s really that easy.
-            </span>
-          </p>
-        </div>
         <div className="mx-auto mt-8 max-w-2xl pb-8 lg:pb-16 lg:pt-0 lg:max-w-none">
           <div class="grid-cols-1 gap-8 sm:grid md:grid-cols-2">
             <div class="mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
-                <img
+                <Image
+                  loader={imageLoader}
                   class="rounded-t-lg"
-                  src="/img/smartlink.jpg"
+                  src={productPicOne}
                   alt="Palm Springs Road"
                 />
               </a>
@@ -51,9 +45,10 @@ export default function _Product() {
             </div>
             <div class="mx-3 mt-6 flex flex-col rounded-lg sm:shrink-0 sm:grow sm:basis-0 text-center bg-primary-100">
               <a href="#!">
-                <img
+                <Image
+                  loader={imageLoader}
                   class="rounded-t-lg"
-                  src="/img/smartsite.jpg"
+                  src={productPicTwo}
                   alt="Palm Springs Road"
                 />
               </a>

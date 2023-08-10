@@ -13,6 +13,16 @@ import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
 import ReactPlayer from "react-player";
 
+import Image from "next/image";
+import heroPic from ".//../public/img/HomepageHeroImage.png";
+import heroPics from ".//../public/img/HomepageHeroImage.png";
+import reportingPic from ".//../public/img/reporting.png";
+import statPic from ".//../public/img/stat.jpg";
+
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 import { CheckIcon } from "@heroicons/react/20/solid";
 const features = [
   {
@@ -88,7 +98,12 @@ export default function Index({ pageData }) {
               </Link>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/HomepageHeroImage.png" className="relative" />
+              <Image
+                loader={imageLoader}
+                src={heroPic}
+                alt="Smart Commerce"
+                className="relative"
+              />
             </div>
           </_Container>
         </Wrapper>
@@ -108,45 +123,51 @@ export default function Index({ pageData }) {
                 </Paragraphs>
               </div>
               <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-0 lg:mx-0 lg:grid-cols-6">
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="brands/_abbott.svg"
-                  alt="Transistor"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="brands/_boston.svg"
-                  alt="Reform"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="img/brands/_png.svg"
-                  alt="Tuple"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="brands/_kimberly.svg"
-                  alt="SavvyCal"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="img/brands/_nestle.svg"
-                  alt="Statamic"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
+                  loader={imageLoader}
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="img/brands/_barilla.svg"
-                  alt="Statamic"
+                  alt="SmartCommerce Reporting"
                   width={158}
                   height={48}
                 />
@@ -177,6 +198,22 @@ export default function Index({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
+        <Wrapper light>
+          <_Container onecolumn>
+            <div className="order-last lg:order-first">
+              <Heading dark>
+                Smart solutions that boost your bottom line
+              </Heading>
+              <Paragraphs dark>
+                Our suite of solutions fits any campaign objective and comes
+                with a convenient to use 24/7 platform and next-level client
+                support! Anywhere you can use a URL, you can drive commerce.
+                It’s really that easy.
+              </Paragraphs>
+            </div>
+          </_Container>
+        </Wrapper>
+
         <Wrapper light>
           <_Container>
             <_Products />
@@ -216,14 +253,20 @@ export default function Index({ pageData }) {
               </Link>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/reporting.png" className="relative" />
+              <Image
+                loader={imageLoader}
+                src={reportingPic}
+                className="relative"
+                alt="SmartCommerce Reporting"
+              />
             </div>
           </_Container>
         </Wrapper>
         <Wrapper secondary>
-          <img
+          <Image
             className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
-            src="img/stat.jpg"
+            loader={imageLoader}
+            src={statPic}
             alt="SmartCommerce Reporting"
           />
           <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
