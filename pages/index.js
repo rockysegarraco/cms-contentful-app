@@ -7,7 +7,7 @@ import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
 import _Products from "../components/_Products";
 import _Stats from "../components/_Stats";
-import Cta from "../components/cta";
+import Cta from "../components/Cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
