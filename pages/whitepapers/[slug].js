@@ -5,7 +5,7 @@ import Container from "../../components/container";
 import PostBody from "../../components/Postbody";
 import LinkCrumb from "../../components/LinkCrumb";
 import PostHeader from "../../components/post-header";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import { fetchAllwhitePapers, fetchwhitePapersWithSlug } from "../../lib/api";
 import PostTitle from "../../components/post-title";
 import Newsletter from "../../components/newsletter";
