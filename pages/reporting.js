@@ -9,7 +9,7 @@ import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
 import _PageTitle from "../components/_PageTitle";
 import Cta from "../components/cta";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import {

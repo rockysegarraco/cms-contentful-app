@@ -1,7 +1,7 @@
 import Container from "../components/container";
 import Intro from "../components/intro";
 import GetDemo from "../components/getdemo";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import {
