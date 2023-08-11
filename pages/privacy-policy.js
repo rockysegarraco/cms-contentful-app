@@ -6,10 +6,8 @@ import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Layout from "../components/Layout";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
-import { fetchPrivacy } from "../lib/api";
 
-export default function Privacy() {
+export default function Example() {
   return (
     <>
       <Layout>
@@ -18,7 +16,9 @@ export default function Privacy() {
         </Head>
         <_PageTitle title="Privacy Policy" />
         <Wrapper light>
-          <_Container onecolumn>TBD</_Container>
+          <_Container onecolumn>
+            <div className="text-left">PRIVACY GOES HERE</div>
+          </_Container>
         </Wrapper>
       </Layout>
     </>
