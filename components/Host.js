@@ -22,11 +22,11 @@ export default function Host() {
                 <p>
                   As a very passionate, driven sales leader I have built my
                   experience on driving sales for brands and which in turn
-                  builds revenue for the companies I work for. <br /> <br />
-                  The experience I bring of technology, mobile, retail, consumer
-                  behavior and insights coupled with listening to clients needs
-                  and ideas gives us the path to build digital solutions that
-                  drive conversion and success.
+                  builds revenue for the companies I work for. The experience I
+                  bring of technology, mobile, retail, consumer behavior and
+                  insights coupled with listening to clients needs and ideas
+                  gives us the path to build digital solutions that drive
+                  conversion and success.
                 </p>
                 <div className="mt-4">
                   <a href="/" className="text-[#0072B1] hover:text-gray-500">

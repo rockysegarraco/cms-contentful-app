@@ -54,19 +54,13 @@ export default function Reporting() {
         </Wrapper>
         <Wrapper light>
           <_Container onecolumn>
-            <Heading dark>
-              The CPG Scoop Podcast
-              <span className="text-secondary-950">.</span>
-            </Heading>
+            <Heading dark>See what’s new</Heading>
             <_cpg />
           </_Container>
         </Wrapper>
         <Wrapper slate>
           <_Container onecolumn>
-            <Heading dark>
-              About the hosts
-              <span className="text-secondary-950">.</span>
-            </Heading>
+            <Heading dark>About the hosts</Heading>
             <Host />
           </_Container>
         </Wrapper>
@@ -77,7 +71,8 @@ export default function Reporting() {
                 Want to be a guest?
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-info-950">
-                Contact Risa and Jennifer to see if you can be the next guest!
+                Contact Risa and Jennifer to see if you can join the
+                conversation!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

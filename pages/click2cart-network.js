@@ -35,7 +35,7 @@ const features = [
   {
     name: "No cost to Retailers",
     description:
-      "SmartCommerce is entirely brand-supported, meaning we do not charge retailers to be in our network, or to receive orders. ",
+      "SmartCommerce is entirely brand-supported, meaning we do not charge retailers to be in our network or to receive orders.",
     href: "#",
     img: "img/icon-pig.svg",
   },
@@ -49,7 +49,7 @@ const features = [
   {
     name: "Expand your reach",
     description:
-      "Click2Cart® has access to millions of consumer and sends them to Retailers",
+      "Click2Cart® has access to millions of consumers and sends them to retailers.",
     href: "#",
     img: "img/icon-world.svg",
   },

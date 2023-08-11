@@ -67,8 +67,8 @@ export default function WhitePapers({ preview, posts, total }) {
               White Papers
             </h2>
             <p className="mx-auto mt-6 max-w-lg text-lg leading-8 text-gray-600">
-              If you're looking for a demo, a quote or just have a question for
-              us, we're here to help.
+              If you're looking for a demo, a quote, or just have a question,
+              reach out. We're always here to help!
             </p>
           </div>
         </div>
