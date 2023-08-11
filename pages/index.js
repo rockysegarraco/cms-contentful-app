@@ -122,131 +122,120 @@ export default function Index({ pageData }) {
                   more.
                 </Paragraphs>
               </div>
-            </div>
-            <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-x-0 lg:mx-0">
-              <div className="slider">
-                <div className="slide-track">
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_abbott.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_boston.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_png.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_kimberly.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_nestle.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_nestle.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_abbott.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_boston.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_png.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="brands/_kimberly.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    {" "}
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_nestle.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
-                  </div>
-                  <div className="slide">
-                    <Image
-                      loader={imageLoader}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                      src="img/brands/_nestle.svg"
-                      alt="SmartCommerce Reporting"
-                      width={158}
-                      height={48}
-                    />
+              <div className="mx-auto max-w-7xl lg:max-w-7xl mt-16 grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-x-0 lg:mx-0">
+                <div className="slider">
+                  <div className="slide-track">
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_abbott.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_boston.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_png.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_kimberly.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_nestle.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_abbott.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_boston.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_png.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="brands/_kimberly.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_nestle.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
+                    <div className="slide">TBD</div>
                   </div>
                 </div>
               </div>
