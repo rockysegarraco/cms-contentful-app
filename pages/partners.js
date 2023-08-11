@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Head from "next/head";
 import Wrapper from "../components/Wrapper";
 import _Container from "../components/_Container";

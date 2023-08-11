@@ -2,7 +2,7 @@ import { useState } from "react";
 import Intro from "../components/intro";
 import WhiteCard from "../components/WhiteCard";
 import Container from "../components/container";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Pagination from "../components/pagination";
 import { fetchwhitePapers } from "../lib/api";
 import Head from "next/head";
