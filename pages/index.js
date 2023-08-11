@@ -42,7 +42,7 @@ const features = [
 
 const data = [
   {
-    description: " Is 95%+ hands-free (removes human error)",
+    description: "Is 95%+ hands-free (removes human error)",
     icon: CheckIcon,
   },
   {
@@ -50,7 +50,7 @@ const data = [
     icon: CheckIcon,
   },
   {
-    description: "Requires NO feeds, spreadsheets or links from brands!",
+    description: "Requires NO feeds, spreadsheets, or links from brands.",
     icon: CheckIcon,
   },
 ];
@@ -179,7 +179,7 @@ export default function Index({ pageData }) {
           <_Container twocolumn>
             <div className="order-last lg:order-first">
               <Heading light>
-                Click2Cart<span className="font-normal">®</span> Difference
+                The Click2Cart<span className="font-normal">®</span> Difference
               </Heading>
               <Paragraphs light>
                 Why Click2Cart? We like to think of it as behind-the-scenes
@@ -199,22 +199,19 @@ export default function Index({ pageData }) {
           </_Container>
         </Wrapper>
         <Wrapper light>
-          <_Container onecolumn>
-            <div className="order-last lg:order-first">
-              <Heading dark>
-                Smart solutions that boost your bottom line
-              </Heading>
-              <Paragraphs dark>
-                Our suite of solutions fits any campaign objective and comes
-                with a convenient to use 24/7 platform and next-level client
-                support! Anywhere you can use a URL, you can drive commerce.
-                It’s really that easy.
-              </Paragraphs>
-            </div>
-          </_Container>
-        </Wrapper>
-        <Wrapper light>
           <_Container>
+            <div className="text-center">
+              <div className="mx-auto max-w-4xl">
+                <Heading dark>
+                  Smart solutions that boost your bottom line
+                </Heading>
+                <Paragraphs dark>
+                  Our suite of solutions fits any campaign objective and comes
+                  with a convenient to use 24/7 platform and next-level client
+                  support! Anywhere you can use a URL, you can drive commerce.
+                </Paragraphs>
+              </div>
+            </div>
             <_Products />
           </_Container>
         </Wrapper>
@@ -239,13 +236,11 @@ export default function Index({ pageData }) {
                 ))}
               </dl>
               <Paragraphs dark>
-                Creating and maintaining the connection between products and
-                retailers requires sophisticated data analytics. Our
-                up-to-the-minute technology always knows what’s in stock and can
-                ID the best substitutes for OOS/3P items. It continuously
+                Our up-to-the-minute technology always knows what’s in stock and
+                IDs the best substitutes for OOS/3P items. It continuously
                 updates 10s of millions of product-offer pairs across hundreds
-                of retailers. And don’t worry, you don’t need to do a thing: We
-                have a panel of Data Scientists to constantly manage all of it!
+                of retailers. And you don’t need to do a thing – our panel of
+                Data Scientists manage all of it!
               </Paragraphs>
               <Link href="/reporting">
                 <Button primary>Tell me more</Button>

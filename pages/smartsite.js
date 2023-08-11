@@ -187,7 +187,7 @@ export default function SmartSite({ pageData }) {
         <Wrapper secondary>
           <img
             className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
-            src="img/img-data.jpg"
+            src="img/img-reporting-super.jpg"
             alt="SmartCommerce Reporting"
           />
           <div className="mx-auto grid max-w-7xl lg:grid-cols-2">

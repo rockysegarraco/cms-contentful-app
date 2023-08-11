@@ -140,8 +140,8 @@ export default function Reporting() {
                 <Paragraphs dark>
                   Our partnership with TruAudience™ by TransUnion powers
                   data-driven marketing and measurement through privacy-first
-                  data enrichment, audience targeting and advanced analytics.
-                  Create and segment high quality customer and prospect
+                  data enrichment, audience targeting, and advanced analytics.
+                  Create and segment high-quality customer and prospect
                   audiences, as well as upload to the DSPs of your choice.
                 </Paragraphs>
               </div>

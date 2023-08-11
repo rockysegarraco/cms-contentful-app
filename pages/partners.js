@@ -33,11 +33,11 @@ export default function Example() {
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                Business Partners make it easier for you to create great
-                creative, scale your ads and measure performance. We’ve curated
-                a great list of Partners that know all about Pinterest—and
-                they’re ready to help you grow. All Partners have been vetted
-                for their technical expertise and Pinterest knowledge.
+                Business Partners make it easier for you to produce great
+                creative, scale your ads, and measure performance. We’ve curated
+                a strong list of Partners that know all about Pinterest – and
+                they’re ready to help you grow. They’ve all been vetted for
+                their technical expertise and Pinterest knowledge.
               </Paragraphs>
               <Link href="/contact-us">
                 <Button primary>Partner with us</Button>

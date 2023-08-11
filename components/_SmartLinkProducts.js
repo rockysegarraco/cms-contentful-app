@@ -31,11 +31,10 @@ export default function _SmartLinkProducts() {
                   Click2Cart Direct
                 </h1>
                 <p className="text-info-950 pt-8">
-                  Click2Cart Direct SmartLinks give brands the ability to create
-                  shoppable media from display ads, Facebook, Pinterest,
-                  Instagram, TikTok, Tweets, video or email with one-click
-                  carting of products at a single retailer. Use Click2Cart
-                  SmartLinks to drive the highest carting rate.
+                  SmartLinks give you the ability to create shoppable media from
+                  display ads, social media, video, or email with one-click
+                  carting at a single retailer. Click2Cart SmartLinks drive the
+                  highest carting rate.
                 </p>
               </div>
             </div>
@@ -52,12 +51,10 @@ export default function _SmartLinkProducts() {
                   Click2Cart Shopper’s Choice
                 </h1>
                 <p className="text-info-950 pt-8">
-                  Click2Cart Shopper’s Choice SmartLinks offer consumers a
-                  simple choice of stores and/or products to cart via a
-                  customizable, branded landing page from your shoppable social
-                  posts. The landing page automatically shows only retailers
-                  that are geographically-relevant and have some version of the
-                  product in stock.
+                  Offer a choice of stores and/or products to cart via a custom
+                  branded landing page from your shoppable social posts. The
+                  landing page only shows geographically-relevant retailers with
+                  a version of the product in stock.
                 </p>
               </div>
             </div>
@@ -72,12 +69,10 @@ export default function _SmartLinkProducts() {
               <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">SmartShelf</h1>
                 <p className="text-info-950 pt-8">
-                  SmartShelves are shoppable mini-shelves you can curate, with
-                  just your products, or yours and partners'. Ideal for
-                  presenting products in context, and for accommodating products
-                  that require a choice of size, gender, color, etc, or to offer
-                  products from multiple brands displayed on a single landing
-                  page.
+                  Shoppable curated shelves with your (or add your partners’)
+                  products. Ideal for presenting context, accommodating items
+                  that require choice (size, gender, color, etc), and displaying
+                  products from multiple brands on a landing page.
                 </p>
               </div>
             </div>
@@ -92,11 +87,9 @@ export default function _SmartLinkProducts() {
               <div className="p-8">
                 <h1 className="text-2xl text-info-950 font-bold">SmartShop</h1>
                 <p className="text-info-950 pt-8">
-                  While recipes are a GREAT fit for SmartShops, the
-                  multi-category SmartCommerce product engine lets SmartShops
-                  extend to any products that are bought together like skincare
-                  regimens, DIY kits, party packs… anything that sells better
-                  when it’s contextually bundled!
+                  While recipes are a perfect fit for SmartShops, they work
+                  brilliantly for ANYTHING that sells better when contextually
+                  bundled (think skincare regimens, DIY kits, party packs, etc).
                 </p>
               </div>
             </div>
@@ -113,11 +106,9 @@ export default function _SmartLinkProducts() {
                   Click2Cart Live
                 </h1>
                 <p className="text-info-950 pt-8">
-                  While recipes are a GREAT fit for SmartShops, the
-                  multi-category SmartCommerce product engine lets SmartShops
-                  extend to any products that are bought together like skincare
-                  regimens, DIY kits, party packs… anything that sells better
-                  when it’s contextually bundled!
+                  Bring dynamic, stock-aware retailer choice directly into ad
+                  units on any platform that allows dynamic HTML, unlocking
+                  multi-channel shopping in a single click for consumers.
                 </p>
               </div>
             </div>
