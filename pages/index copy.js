@@ -1,12 +1,12 @@
 import _Hero from "../components/_Hero";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Brands from "../components/brands";
 import Success from "../components/success";
 import Stats from "../components/stats";
 import Diff from "../components/diff";
 import Diffy from "../components/diffy";
-import Cta from "../components/cta";
+import Cta from "../components/Cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";

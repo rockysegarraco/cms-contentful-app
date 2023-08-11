@@ -9,7 +9,7 @@ import Button from "../components/Button";
 import _PageTitle from "../components/_PageTitle";
 import _cpg from "../components/_cpg";
 import Host from "../components/Host";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import {
