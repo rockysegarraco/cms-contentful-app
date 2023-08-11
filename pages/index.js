@@ -215,7 +215,7 @@ export default function Index({ pageData }) {
             <_Products />
           </_Container>
         </Wrapper>
-        <Wrapper slate>
+        <Wrapper light>
           <_Container twocolumn>
             <div className="order-last lg:order-first">
               <Heading dark>The difference is data</Heading>
@@ -253,6 +253,29 @@ export default function Index({ pageData }) {
                 className="relative"
                 alt="SmartCommerce Reporting"
               />
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper slate>
+          <_Container onecolumn>
+            <div className="mx-auto max-w-5xl">
+              <Heading two>
+                Don’t just take our word for it. Here’s what clients are saying…
+              </Heading>
+            </div>
+            <div className="mx-auto max-w-lg">
+              <Paragraphs dark>
+                “Click2Cart works with the way consumers actually behave, not
+                the way they wish they did.”
+                <br />
+                <br />– CMO, Major CPG Mfr
+              </Paragraphs>
+            </div>
+
+            <div className="flex items-center justify-center gap-x-6">
+              <Link href="/contact-us">
+                <Button primary>See for yourself</Button>
+              </Link>
             </div>
           </_Container>
         </Wrapper>
