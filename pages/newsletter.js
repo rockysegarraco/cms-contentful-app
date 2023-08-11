@@ -64,8 +64,8 @@ export default function Index({ preview, allPosts, total }) {
         <Container>
           <div className="mx-auto">
             <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-24 text-center shadow-sm sm:rounded-3xl sm:px-16">
-              <img className="h-12 mx-auto" src="/logo-smartbites.svg" />
-              <h2 className="py-8 text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
+              <img className="h-16 mx-auto" src="img/logo-smartbites.svg" />
+              <h2 className="py-4 text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
                 Be a SmartCookie<span className="text-secondary-950">.</span>
               </h2>
               <p className="mx-auto mt-0 max-w-xl text-lg leading-8 text-dark-950">

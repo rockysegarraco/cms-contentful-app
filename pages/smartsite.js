@@ -81,7 +81,7 @@ export default function SmartSite({ pageData }) {
               </Link>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/SmartSiteHeroImage.jpg" className="relative" />
+              <img src="img/HeroSmartSite.png" className="relative" />
             </div>
           </_Container>
         </Wrapper>
@@ -145,7 +145,7 @@ export default function SmartSite({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-last lg:order-first">
-              <img src="img/SmartSiteCaro.png" className="relative" />
+              <img src="img/img-smartshop.png" className="relative" />
             </div>
           </_Container>
         </Wrapper>
@@ -160,7 +160,7 @@ export default function SmartSite({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/cta-storelocators.jpg" className="relative" />
+              <img src="img/img-productlocator.png" className="relative" />
             </div>
           </_Container>
         </Wrapper>
