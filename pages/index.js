@@ -70,7 +70,7 @@ export default function Index({ pageData }) {
           />
         </Head>
         <Wrapper slate>
-          <_Container twocolumn>
+          <_Container twocolumnmargin>
             <div className="order-last lg:order-first">
               <Heading dark>
                 Make everything shoppable
