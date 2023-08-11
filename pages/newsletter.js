@@ -1,6 +1,6 @@
 import Container from "../components/container";
 import Intro from "../components/intro";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import NewsletterCard from "../components/NewsletterCard";

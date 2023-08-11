@@ -3,7 +3,7 @@ import Intro from "../components/intro";
 import _General from "../components/_General";
 import NewsCard from "../components/NewsCard";
 import Container from "../components/container";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Pagination from "../components/pagination";
 import { fetchNews } from "../lib/api";
 import Head from "next/head";
