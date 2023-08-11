@@ -1,7 +1,7 @@
 import _PageTitle from "../components/_PageTitle";
 import AboutUs from "../components/AboutUs";
 import Values from "../components/Values";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import {

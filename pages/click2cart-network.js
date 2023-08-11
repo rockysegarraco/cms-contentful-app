@@ -17,12 +17,12 @@ import GetToKnow from "../components/careers/getoknow";
 import Stats from "../components/stats";
 import StatsOpp from "../components/stats-opp";
 import CareerHero from "../components/CareerHero";
-import Cta from "../components/careers/cta";
+import Cta from "../components/careers/Cta";
 import Clients from "../components/partners/clients";
 import Remote from "../components/careers/remote";
 import Benefits from "../components/careers/Benefits";
 import Intro from "../components/intro";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
 import {
