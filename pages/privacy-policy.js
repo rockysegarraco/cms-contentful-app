@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Wrapper from "../components/Wrapper";
 import _Container from "../components/_Container";
 import _PageTitle from "../components/_PageTitle";
@@ -6,8 +6,18 @@ import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Layout from "../components/Layout";
 import Head from "next/head";
+import { fetchPrivacy } from "../lib/api";
+import PostBody from "../components/Postbody";
 
-export default function Example() {
+export default function Example({ preview, privacy }) {
+  const[policy, setPolicy] = useState();
+  
+  useEffect(() => {
+    if (privacy) {
+      setPolicy( privacy[0]?.fields?.privacy)
+    }
+  }, [])
+  
   return (
     <>
       <Layout>
@@ -17,10 +27,22 @@ export default function Example() {
         <_PageTitle title="Privacy Policy" />
         <Wrapper light>
           <_Container onecolumn>
-            <div className="text-left">PRIVACY GOES HERE</div>
+            <div className="text-left">
+            {policy && <PostBody content={policy} />}
+            </div>
+            
           </_Container>
         </Wrapper>
       </Layout>
     </>
   );
+}
+
+
+export async function getStaticProps({ preview = false }) {
+  const { privacy } = await fetchPrivacy();
+  return {
+    props: { preview, privacy },
+    revalidate: 60,
+  };
 }
