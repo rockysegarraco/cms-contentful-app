@@ -15,9 +15,6 @@ const customMarkdownOptions = (content) => ({
 });
 
 export default function PostBody({ content }) {
-  console.log('====================================');
-  console.log(content);
-  console.log('====================================');
   return (
     <>
       <div className="max-w-3xl mx-auto text-dark-950 font-normal">
