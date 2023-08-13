@@ -10,14 +10,14 @@ import { fetchPrivacy } from "../lib/api";
 import PostBody from "../components/Postbody";
 
 export default function Example({ preview, privacy }) {
-  const[policy, setPolicy] = useState();
-  
+  const [policy, setPolicy] = useState();
+
   useEffect(() => {
     if (privacy) {
-      setPolicy( privacy[0]?.fields?.privacy)
+      setPolicy(privacy[0]?.fields?.privacy);
     }
-  }, [])
-  
+  }, []);
+
   return (
     <>
       <Layout>
@@ -26,18 +26,14 @@ export default function Example({ preview, privacy }) {
         </Head>
         <_PageTitle title="Privacy Policy" />
         <Wrapper light>
-          <_Container onecolumn>
-            <div className="text-left">
+          <div className="mx-auto max-w-4xl text-left px-8 text-dark-950">
             {policy && <PostBody content={policy} />}
-            </div>
-            
-          </_Container>
+          </div>
         </Wrapper>
       </Layout>
     </>
   );
 }
-
 
 export async function getStaticProps({ preview = false }) {
   const { privacy } = await fetchPrivacy();
