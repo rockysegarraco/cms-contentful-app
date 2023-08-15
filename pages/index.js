@@ -175,11 +175,58 @@ export default function Index({ pageData }) {
                         height={48}
                       />
                     </div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/welchs.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/spindrift.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/cupcake.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/playtex.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/pantene.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
                     <div className="slide">
                       <Image
                         loader={imageLoader}
@@ -221,7 +268,6 @@ export default function Index({ pageData }) {
                       />
                     </div>
                     <div className="slide">
-                      {" "}
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
@@ -231,11 +277,58 @@ export default function Index({ pageData }) {
                         height={48}
                       />
                     </div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
-                    <div className="slide">TBD</div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/welchs.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/spindrift.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/cupcake.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/playtex.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/pantene.svg"
+                        alt="SmartCommerce Reporting"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -289,7 +382,7 @@ export default function Index({ pageData }) {
               <Paragraphs dark>
                 The SmartCommerce Master Optimization Engine (MOE for short):
               </Paragraphs>
-              <dl className="mt-0 max-w-xl text-gray-600 lg:max-w-none mb-0">
+              <dl className="mt-0 max-w-xl text-gray-600 lg:max-w-none mb-0 py-6">
                 {data.map((data) => (
                   <div key={data.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">

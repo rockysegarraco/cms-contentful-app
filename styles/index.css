@@ -70,21 +70,21 @@ h6 {
 /*  IMPORTANT CODE BELOW */
 
 .slide-track {
-  width: calc(150px * 20);
+  width: calc(158px * 20);
   display: flex;
   animation: scroll 20s linear infinite;
   justify-content: space-between;
 }
 
 .slide-track2 {
-  width: calc(150px * 15);
+  width: calc(158px * 15);
   display: flex;
   animation: scroll2 15s linear infinite;
   justify-content: space-between;
 }
 
 .slide {
-  width: 150px;
+  width: 158px;
   height: 60px;
 
   display: grid;
@@ -101,7 +101,7 @@ h6 {
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(calc(-150px * 10));
+    transform: translateX(calc(-158px * 10));
   }
 }
 
@@ -110,7 +110,7 @@ h6 {
     transform: translateX(0px);
   }
   100% {
-    transform: translateX(calc(-150px * 5));
+    transform: translateX(calc(-158px * 5));
   }
 }
 

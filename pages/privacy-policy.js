@@ -22,7 +22,11 @@ export default function Example({ preview, privacy }) {
     <>
       <Layout>
         <Head>
-          <title>{`SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations...`}</title>
+          <title>{`Privacy Policy - SmartCommerce`}</title>
+          <meta
+            name="description"
+            content="Privacy Policy - Updated May 23, 2022 We know that Privacy Policies are long, confusing, and hard to read, but we have to have all of the details for legal reasons, and to be sure you are informed."
+          />
         </Head>
         <_PageTitle title="Privacy Policy" />
         <Wrapper light>

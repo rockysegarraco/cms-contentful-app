@@ -62,7 +62,7 @@ export default function News({ preview, posts, total }) {
               Whats happening
             </h2>
             <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-              Smartcommerce in the news
+              SmartCommerce in the news
             </p>
           </div>
         </div>

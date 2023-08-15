@@ -41,13 +41,13 @@ const features = [
 const stats = [
   {
     id: 1,
-    name: "SmartCommerce campaigns with direct and indirect substitution saw less than 2% of items out of stock vs the 27% of out of stock of that happened on other campaigns.",
-    value: "<2%",
+    name: "Using SmartCommerce increases your chances of items being in stock by 25%.",
+    value: "25%",
     imgg: "img/cta-refresh.svg",
   },
   {
     id: 2,
-    name: "The added context of bundles typically  up to 2x the CTR of Single Products.",
+    name: "Clients using SmartCommerce bundles typically see 2x the CTR of single products.",
     value: "2x",
     imgg: "img/cta-cart.svg",
   },
