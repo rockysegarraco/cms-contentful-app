@@ -42,7 +42,7 @@ const features = [
 
 const data = [
   {
-    description: "Is 95%+ hands-free (removes human error)",
+    description: "Is 95%+ hands-free (removes human error).",
     icon: CheckIcon,
   },
   {
@@ -121,7 +121,7 @@ export default function Index({ pageData }) {
                 <Paragraphs light>
                   Major players leverage SmartCommerce to reach consumers across
                   categories – grocery, wellness, beauty, pet, electronics and
-                  more.
+                  more
                 </Paragraphs>
               </div>
               <div className="mx-auto max-w-7xl lg:max-w-7xl mt-8 grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-x-0 lg:mx-0">

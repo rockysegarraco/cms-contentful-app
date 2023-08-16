@@ -116,10 +116,10 @@ export default function SmartSite({ pageData }) {
             <div className="order-last lg:order-first">
               <Heading dark>Carousels & SmartButtons</Heading>
               <Paragraphs dark>
-                This easy-to-implement Click2Cart code drives commerce from
-                websites, brand.com pages, influencer pages, and more. Smartsite
-                Carousels work by bringing the retailer cart onto your page, so
-                ecommerce is only one click away.
+                Easy-to-implement Click2Cart code drives commerce from websites,
+                brand.com pages, influencer pages, and more. Smartsite Carousels
+                bring the retailer cart onto your page, so ecommerce is just one
+                click away.
                 <br />
                 <br />A carousel renders via brand rules based on retailer
                 relevance and stock status. For category pages or when space is
@@ -137,11 +137,11 @@ export default function SmartSite({ pageData }) {
             <div className="order-first lg:order-last">
               <Heading dark>SmartShop</Heading>
               <Paragraphs dark>
-                SmartShop for websites are the PERFECT fit for recipes but can
-                extend to any products that are bought together like skincare
-                regimens, DIY kits and party packs. SmartShop allows the
-                consumer to choose among products and select variants while
-                dynamically showing relevant local retailers.
+                While recipes are a perfect fit for SmartShops, they work
+                brilliantly for ANYTHING that sells better when contextually
+                bundled (think skincare regimens, DIY kits, party packs, etc).
+                It allows consumers to choose among products and select
+                variants, while dynamically showing relevant local retailers.
               </Paragraphs>
             </div>
             <div className="relative w-full order-last lg:order-first">
@@ -169,14 +169,13 @@ export default function SmartSite({ pageData }) {
             <div className="order-first lg:order-last">
               <Heading dark>Click2Cart® difference</Heading>
               <Paragraphs dark>
-                Why SmartCommerce? We like to think of it as behind-the-scenes
-                magic that makes the carting process as simple and seamless as
-                possible. The friction-free, one-click path to purchase means
-                consumers aren’t distracted by competitor ads or cross-selling,
-                and there is no waiting (i.e. forgetting) to check out. And even
-                when shoppers don’t complete a purchase, you still win because
-                carting triggers retargeting (building brand awareness) and
-                improves retailer-side SEO/SEM results.
+                We like to think of it as behind-the-scenes magic.
+                Friction-free, one-click carting means consumers aren’t
+                distracted by competitor ads or cross-selling, and there’s no
+                waiting (i.e. forgetting) to check out. <br /> <br />
+                And even when shoppers don’t complete a purchase, you still win
+                because carting triggers retargeting and improves retailer-side
+                SEO/SEM results.
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">

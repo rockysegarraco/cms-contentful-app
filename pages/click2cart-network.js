@@ -86,7 +86,7 @@ export default function Example() {
             </div>
             <div className="relative order-first lg:order-last">
               <img
-                src="img/HeroRetailers.jpg"
+                src="img/HeroCompany.jpg"
                 className="relative rounded-2xl w-full"
               />
             </div>
@@ -112,8 +112,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-                        src="img/brands/_abbott.svg"
-                        alt="Abbott"
+                        src="img/partners/amazon.svg"
+                        alt="Amazon"
                         width={158}
                         height={48}
                       />
@@ -122,8 +122,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_boston.svg"
-                        alt="Boston Beer"
+                        src="img/partners/bestbuy.svg"
+                        alt="Best Buy"
                         width={158}
                         height={48}
                       />
@@ -132,38 +132,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_png.svg"
-                        alt="P&G"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_kimberly.svg"
-                        alt="Kimberly"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_nestle.svg"
-                        alt="Nestle"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/bananaboat.svg"
-                        alt="Banana Boat"
+                        src="img/partners/chewy.svg"
+                        alt="Chewy"
                         width={158}
                         height={48}
                       />
@@ -173,8 +143,38 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/barilla.svg"
-                        alt="Barilla"
+                        src="img/partners/target.svg"
+                        alt="Target"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/dollargeneral.svg"
+                        alt="Dollar General"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/instacart.svg"
+                        alt="Instacart"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/kroger.svg"
+                        alt="Kroger"
                         width={158}
                         height={48}
                       />
@@ -184,8 +184,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/microsoft.svg"
-                        alt="Microsoft"
+                        src="img/partners/homedepot.png"
+                        alt="Home Depot"
                         width={158}
                         height={48}
                       />
@@ -194,7 +194,7 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/clorox.svg"
+                        src="img/partners/walgreens.svg"
                         alt="Clorox"
                         width={158}
                         height={48}
@@ -204,19 +204,18 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/beyondmeat.svg"
+                        src="img/partners/walmart.svg"
                         alt="Beyond Meat"
                         width={158}
                         height={48}
                       />
                     </div>
-
                     <div className="slide">
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-                        src="img/brands/_abbott.svg"
-                        alt="Abbott"
+                        src="img/partners/amazon.svg"
+                        alt="Amazon"
                         width={158}
                         height={48}
                       />
@@ -225,8 +224,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_boston.svg"
-                        alt="Boston Beer"
+                        src="img/partners/bestbuy.svg"
+                        alt="Best Buy"
                         width={158}
                         height={48}
                       />
@@ -235,38 +234,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_png.svg"
-                        alt="P&G"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_kimberly.svg"
-                        alt="Kimberly"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/_nestle.svg"
-                        alt="Nestle"
-                        width={158}
-                        height={48}
-                      />
-                    </div>
-                    <div className="slide">
-                      <Image
-                        loader={imageLoader}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/bananaboat.svg"
-                        alt="Banana Boat"
+                        src="img/partners/chewy.svg"
+                        alt="Chewy"
                         width={158}
                         height={48}
                       />
@@ -276,8 +245,38 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/barilla.svg"
-                        alt="Barilla"
+                        src="img/partners/target.svg"
+                        alt="Target"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/dollargeneral.svg"
+                        alt="Dollar General"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/instacart.svg"
+                        alt="Instacart"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/partners/kroger.svg"
+                        alt="Kroger"
                         width={158}
                         height={48}
                       />
@@ -287,8 +286,8 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/microsoft.svg"
-                        alt="Microsoft"
+                        src="img/partners/homedepot.png"
+                        alt="Home Depot"
                         width={158}
                         height={48}
                       />
@@ -297,7 +296,7 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/clorox.svg"
+                        src="img/partners/walgreens.svg"
                         alt="Clorox"
                         width={158}
                         height={48}
@@ -307,7 +306,7 @@ export default function Example() {
                       <Image
                         loader={imageLoader}
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="img/brands/beyondmeat.svg"
+                        src="img/partners/walmart.svg"
                         alt="Beyond Meat"
                         width={158}
                         height={48}
