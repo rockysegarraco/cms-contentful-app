@@ -96,7 +96,7 @@ export default function Example() {
           <_Container onecolumn>
             <div className="order-last lg:order-first">
               <Heading light>
-                <div className="max-w-6xl">Retailer Rolodex</div>
+                <div className="max-w-full">Retailer Rolodex</div>
               </Heading>
               <div className="mx-auto max-w-none lg:max-w-xl">
                 <Paragraphs light>
