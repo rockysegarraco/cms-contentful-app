@@ -24,12 +24,17 @@ import Benefits from "../components/careers/Benefits";
 import Intro from "../components/intro";
 import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
+import Image from "next/image";
 import Head from "next/head";
 import {
   BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+
+const imageLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
 
 const features = [
   {
@@ -84,6 +89,233 @@ export default function Example() {
                 src="img/HeroRetailers.jpg"
                 className="relative rounded-2xl w-full"
               />
+            </div>
+          </_Container>
+        </Wrapper>
+        <Wrapper secondary>
+          <_Container onecolumn>
+            <div className="order-last lg:order-first">
+              <Heading light>
+                <div className="max-w-6xl">Retailer Rolodex</div>
+              </Heading>
+              <div className="mx-auto max-w-none lg:max-w-xl">
+                <Paragraphs light>
+                  Major players leverage SmartCommerce to reach consumers across
+                  categories – grocery, wellness, beauty, pet, electronics and
+                  more.
+                </Paragraphs>
+              </div>
+              <div className="mx-auto max-w-7xl lg:max-w-7xl mt-8 grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-x-0 lg:mx-0">
+                <div className="slider">
+                  <div className="slide-track">
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+                        src="img/brands/_abbott.svg"
+                        alt="Abbott"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_boston.svg"
+                        alt="Boston Beer"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_png.svg"
+                        alt="P&G"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_kimberly.svg"
+                        alt="Kimberly"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_nestle.svg"
+                        alt="Nestle"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/bananaboat.svg"
+                        alt="Banana Boat"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/barilla.svg"
+                        alt="Barilla"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/microsoft.svg"
+                        alt="Microsoft"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/clorox.svg"
+                        alt="Clorox"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/beyondmeat.svg"
+                        alt="Beyond Meat"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+                        src="img/brands/_abbott.svg"
+                        alt="Abbott"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_boston.svg"
+                        alt="Boston Beer"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_png.svg"
+                        alt="P&G"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_kimberly.svg"
+                        alt="Kimberly"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/_nestle.svg"
+                        alt="Nestle"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/bananaboat.svg"
+                        alt="Banana Boat"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/barilla.svg"
+                        alt="Barilla"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      {" "}
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/microsoft.svg"
+                        alt="Microsoft"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/clorox.svg"
+                        alt="Clorox"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                    <div className="slide">
+                      <Image
+                        loader={imageLoader}
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        src="img/brands/beyondmeat.svg"
+                        alt="Beyond Meat"
+                        width={158}
+                        height={48}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </_Container>
         </Wrapper>
