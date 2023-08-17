@@ -13,6 +13,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="https://js.chatlio.com/widget.js" async></script>
+        <chatlio-widget widgetid="1c69b44a-0229-4822-706d-8108a57d8257"></chatlio-widget>
       </body>
     </Html>
   );
