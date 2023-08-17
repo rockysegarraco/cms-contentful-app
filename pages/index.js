@@ -16,6 +16,7 @@ import ReactPlayer from "react-player";
 import Image from "next/image";
 import heroPic from ".//../public/img/HomepageHeroImage.png";
 import heroPics from ".//../public/img/HomepageHeroImage.png";
+import heroVid from ".//../public/img/video.jpg";
 import reportingPic from ".//../public/img/reporting.png";
 import statPic from ".//../public/img/stat.jpg";
 
@@ -357,7 +358,12 @@ export default function Index({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last text-white">
-              'VIDEO GOES HERE'
+              <Image
+                loader={imageLoader}
+                src={heroVid}
+                alt="Smart Commerce"
+                className="relative"
+              />
             </div>
           </_Container>
         </Wrapper>
