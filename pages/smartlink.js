@@ -146,7 +146,7 @@ export default function SmartLink({ pageData }) {
               ))}
             </dl>
             <div className="flex items-center justify-center gap-x-6">
-              <Link href="/">
+              <Link href="/contact-us">
                 <Button primary>Improve by numbers</Button>
               </Link>
             </div>
