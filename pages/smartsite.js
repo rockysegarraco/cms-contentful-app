@@ -16,7 +16,6 @@ import Layout from "../components/Layout";
 import SmartLinkHero from "../components/smartlink/SmartLinkHero";
 import Brands from "../components/brands";
 import _Stats from "../components/_Stats";
-import Diff from "/components/smartlink/Diff";
 import _Primary from "../components/_Primary";
 import Testimonials from "../components/smartlink/Testimonials";
 import Cta from "../components/Cta";
