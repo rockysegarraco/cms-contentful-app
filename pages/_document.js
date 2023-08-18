@@ -13,8 +13,18 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script src="https://js.chatlio.com/widget.js" async></script>
-        <chatlio-widget widgetid="1c69b44a-0229-4822-706d-8108a57d8257"></chatlio-widget>
+        <Script type="text/javascript">
+          {`
+            window._chatlio = window._chatlio || [];
+            !function() {
+              var t = document.getElementById("chatlio-widget-embed");
+              if (t && window.ChatlioReact && _chatlio.init) {
+                return void _chatlio.init(t, ChatlioReact);
+              }
+              // ... (rest of your script)
+            }();
+          `}
+        </Script>
       </body>
     </Html>
   );

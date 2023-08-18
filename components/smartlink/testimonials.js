@@ -12,10 +12,10 @@ const testimonials = [
   [
     [
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "Click2Cart works with the way consumers actually behave, not the way they wish they did.",
         author: {
-          name: "Leslie Alexander",
-          handle: "lesliealexander",
+          name: "CMO",
+          handle: "Major CPG Mfr",
           imageUrl:
             "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -69,17 +69,11 @@ function classNames(...classes) {
 
 export default function Testimonials() {
   return (
-    <div className="relative isolate pb-32 pt-24 sm:pt-32 bg-slate-50">
+    <div className="relative isolate py-24 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl text-center">
-          <h2 className="text-lg font-semibold leading-8 text-secondary-950">
-            TESTIMONIALS
-          </h2>
-          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-6xl lg:leading-[5rem]  mb-8 font-bold text-info-950">
-            Don’t just take our word for it
-            <span className="text-secondary-950">.</span>
-            <br /> Here’s what clients are saying
-            <span className="text-secondary-950">...</span>
+        <div className="mx-auto max-w-5xl text-center">
+          <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-8 font-bold text-info-950">
+            Don’t just take our word for it. Here’s what clients are saying.
           </h1>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -88,22 +82,12 @@ export default function Testimonials() {
               <p>{`“${featuredTestimonial.body}”`}</p>
             </blockquote>
             <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
-              <img
-                className="h-10 w-10 flex-none rounded-full bg-gray-50"
-                src={featuredTestimonial.author.imageUrl}
-                alt=""
-              />
               <div className="flex-auto">
-                <div className="font-semibold">
+                <div className="font-semibold text-secondary-950">
                   {featuredTestimonial.author.name}
                 </div>
-                <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                <div className="text-gray-600">{`${featuredTestimonial.author.handle}`}</div>
               </div>
-              <img
-                className="h-10 w-auto flex-none"
-                src={featuredTestimonial.author.logoUrl}
-                alt=""
-              />
             </figcaption>
           </figure>
           {testimonials.map((columnGroup, columnGroupIdx) => (
@@ -132,16 +116,11 @@ export default function Testimonials() {
                         <p>{`“${testimonial.body}”`}</p>
                       </blockquote>
                       <figcaption className="mt-6 flex items-center gap-x-4">
-                        <img
-                          className="h-10 w-10 rounded-full bg-gray-50"
-                          src={testimonial.author.imageUrl}
-                          alt=""
-                        />
                         <div>
-                          <div className="font-semibold">
+                          <div className="font-semibold text-secondary-950">
                             {testimonial.author.name}
                           </div>
-                          <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                          <div className="text-gray-600">{`${testimonial.author.handle}`}</div>
                         </div>
                       </figcaption>
                     </figure>
