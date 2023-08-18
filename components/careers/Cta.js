@@ -12,9 +12,9 @@ export default function Cta() {
             wonderful community of people who are helping our clients create
             magic all day, every day.
           </p>
-          <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600 py-8">
-            <img src="embed.jpg" />
-          </p>
+          <div className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600 py-8">
+            EMBED GOES HERE
+          </div>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Applicants requiring reasonable accommodation for any part of the
             application and hiring process can contact us directly by telephone
