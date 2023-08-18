@@ -9,7 +9,7 @@ import Button from "../components/Button";
 import _Products from "../components/_Products";
 import _Stats from "../components/_Stats";
 import Cta from "../components/Cta";
-import Testimonials from "../components/smartlink/testimonials";
+import Testimonials from "../components/smartlink/Testimonials";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
@@ -219,38 +219,40 @@ export default function Index({ pageData }) {
         </Wrapper>
         <Testimonials />
         <Wrapper secondary>
-          <Image
-            className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
-            loader={imageLoader}
-            src={statPic}
-            alt="SmartCommerce Reporting"
-          />
-          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-            <div className="px-8 py-16 lg:col-start-2 lg:px-16 lg:py-24">
-              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
-                <Heading light>The truth is in the numbers</Heading>
-                <Paragraphs light>
-                  It just works – across all categories and verticals, from
-                  display ads to QR codes, at ALL major points of intent.
-                </Paragraphs>
-                <dl className="mt-8 lg:mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
-                  <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt className="text-sm leading-6 text-white">
-                      Dollar value of products carted in the last 12 months.
-                    </dt>
-                    <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
-                      $3B<span className="text-white">+</span>
-                    </dd>
-                  </div>
-                  <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt className="text-sm leading-6 text-white">
-                      Number of products carted in the last 12 months
-                    </dt>
-                    <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
-                      93M<span className="text-white">+</span>
-                    </dd>
-                  </div>
-                </dl>
+          <div className="bkg-right">
+            <Image
+              className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2"
+              loader={imageLoader}
+              src={statPic}
+              alt="SmartCommerce Reporting"
+            />
+            <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+              <div className="px-8 py-16 lg:col-start-2 lg:px-16 lg:py-24">
+                <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                  <Heading light>The truth is in the numbers</Heading>
+                  <Paragraphs light>
+                    It just works – across all categories and verticals, from
+                    display ads to QR codes, at ALL major points of intent.
+                  </Paragraphs>
+                  <dl className="mt-8 lg:mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
+                    <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                      <dt className="text-sm leading-6 text-white">
+                        Dollar value of products carted in the last 12 months.
+                      </dt>
+                      <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
+                        $3B<span className="text-white">+</span>
+                      </dd>
+                    </div>
+                    <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                      <dt className="text-sm leading-6 text-white">
+                        Number of products carted in the last 12 months
+                      </dt>
+                      <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
+                        93M<span className="text-white">+</span>
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </div>
             </div>
           </div>

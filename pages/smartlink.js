@@ -183,25 +183,27 @@ export default function SmartLink({ pageData }) {
         </_Container>
       </Wrapper>
       <Wrapper secondary>
-        <img
-          className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
-          src="img/img-data.jpg"
-          alt="SmartCommerce Reporting"
-        />
-        <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-          <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
-              <Heading light>Data is your superpower</Heading>
-              <Paragraphs light>
-                The SmartSuite Dashboard gives clients 24/7 access to metrics,
-                so you can meet your goals faster. Real-time data and insights
-                let you manage the live performance of your campaigns and make
-                changes to retailers, products, redirect pages, and more
-                anytime.
-              </Paragraphs>
-              <Link href="/reporting">
-                <Button primary>Learn more</Button>
-              </Link>
+        <div className="bkg-left">
+          <img
+            className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
+            src="img/img-data.jpg"
+            alt="SmartCommerce Reporting"
+          />
+          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+            <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
+              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                <Heading light>Data is your superpower</Heading>
+                <Paragraphs light>
+                  The SmartSuite Dashboard gives clients 24/7 access to metrics,
+                  so you can meet your goals faster. Real-time data and insights
+                  let you manage the live performance of your campaigns and make
+                  changes to retailers, products, redirect pages, and more
+                  anytime.
+                </Paragraphs>
+                <Link href="/reporting">
+                  <Button primary>Learn more</Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

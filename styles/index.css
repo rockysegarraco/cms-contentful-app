@@ -28,10 +28,18 @@ h6 {
   z-index: 9999999999;
 }
 
-.bkg {
-  background-image: url("/bkg.png");
+.bkg-left {
+  background-image: url("/img/bkg-swirl.png");
+  background-repeat: no-repeat, repeat;
+  background-position: bottom left; /* Center the image */
+  background-blend-mode: overlay;
+}
+
+.bkg-right {
+  background-image: url("/img/bkg-swirl.png");
   background-repeat: no-repeat, repeat;
   background-position: bottom right; /* Center the image */
+  background-blend-mode: overlay;
 }
 
 :focus-visible {
