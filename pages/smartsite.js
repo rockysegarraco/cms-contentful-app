@@ -18,7 +18,7 @@ import Brands from "../components/brands";
 import _Stats from "../components/_Stats";
 import Diff from "/components/smartlink/Diff";
 import _Primary from "../components/_Primary";
-import Testimonials from "../components/smartlink/testimonials";
+import Testimonials from "../components/smartlink/Testimonials";
 import Cta from "../components/Cta";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
