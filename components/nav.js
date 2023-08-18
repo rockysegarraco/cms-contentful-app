@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import Banner from "../components/Banner";
+import Wrapper from "../components/Wrapper";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   ArrowPathIcon,
@@ -83,7 +84,9 @@ export default function Nav() {
 
   return (
     <>
-      <Banner />
+      <Wrapper slate>
+        <Banner />
+      </Wrapper>
       <header className="bg-white sticky-thc">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"

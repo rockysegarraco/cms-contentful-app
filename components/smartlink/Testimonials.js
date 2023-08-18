@@ -24,10 +24,10 @@ const testimonials = [
     ],
     [
       {
-        body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
         author: {
-          name: "Lindsay Walton",
-          handle: "lindsaywalton",
+          name: "Innovation Lead",
+          handle: "Ready Set Eat",
           imageUrl:
             "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -38,10 +38,10 @@ const testimonials = [
   [
     [
       {
-        body: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.",
+        body: "Using Click2Cart is a no-brainer. And your team has made it so easy!",
         author: {
-          name: "Tom Cook",
-          handle: "tomcook",
+          name: "Brand Manager",
+          handle: "Canada Dry",
           imageUrl:
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -50,10 +50,10 @@ const testimonials = [
     ],
     [
       {
-        body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+        body: "We appreciate the work their solutions-oriented team has done for our brands and couldn’t ask for a better partner to continue to learn and innovate with.",
         author: {
-          name: "Leonard Krasner",
-          handle: "leonardkrasner",
+          name: "Manager, Owned Platforms & CRM",
+          handle: "Conagra Brands",
           imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },

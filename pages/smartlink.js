@@ -80,9 +80,9 @@ export default function SmartLink({ pageData }) {
               faster and more frequently – boosting sales, increasing product
               awareness, and creating repeat customers - sorta like magic!
             </Paragraphs>
-            <Link href="/careers">
-              <Button primary>Come work with us</Button>
-            </Link>
+            <a href="#examples">
+              <Button primary>View Examples</Button>
+            </a>
           </div>
           <div className="relative w-full order-first lg:order-last">
             <img src="img/Group 3.png" className="relative" />
@@ -115,7 +115,9 @@ export default function SmartLink({ pageData }) {
           </div>
         </_Container>
       </Wrapper>
-      <_SmartLinkProducts />
+      <div id="examples">
+        <_SmartLinkProducts />
+      </div>
       <Wrapper slate>
         <_Container onecolumn>
           <div className="order-last lg:order-first">

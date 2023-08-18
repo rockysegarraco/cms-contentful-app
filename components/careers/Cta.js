@@ -19,7 +19,11 @@ export default function Cta() {
             Applicants requiring reasonable accommodation for any part of the
             application and hiring process can contact us directly by telephone
             at 800-571-3520 or by emailing hr@smartcommerce.co.{" "}
-            <a className="text-secondary-950" href="">
+            <a
+              className="text-secondary-950"
+              target="_blank"
+              href="img/EEOC-Statement.pdf"
+            >
               Click here for the EEOC Statement
             </a>
           </p>

@@ -18,6 +18,10 @@ h6 {
   line-height: 120%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .deep {
   z-index: 999999999999999;
 }
@@ -26,6 +30,12 @@ h6 {
   position: sticky;
   top: 0;
   z-index: 9999999999;
+}
+
+@media print {
+  p {
+    widows: 3;
+  }
 }
 
 .bkg-left {
