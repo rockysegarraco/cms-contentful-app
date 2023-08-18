@@ -40,7 +40,7 @@ export default function Partners() {
           />
           <img
             className="col-span-2  max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="img/brands/playtex.svg"
+            src="img/brands/microsoft.svg"
             alt="Statamic"
             width={158}
             height={48}

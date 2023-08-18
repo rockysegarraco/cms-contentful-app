@@ -4,14 +4,14 @@ export default function Clients() {
   return (
     <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
-        <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-4">
+        <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/Vericast.svg"
               alt="Vericast"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Vericast</p>
@@ -24,8 +24,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/catalina.svg"
               alt="Catalina"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Catalina</p>A recognized leader in highly
@@ -38,8 +38,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/ogury.png"
               alt="Ogury"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Ogury</p>
@@ -52,8 +52,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/aki.svg"
               alt="Aki"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Aki Technologies, Inc.</p>
@@ -66,8 +66,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/inmar.png"
               alt="Inmar"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Inmar</p>
@@ -80,8 +80,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/adadapted.svg"
               alt="AdAdapted"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">AdAdapted</p>
@@ -94,8 +94,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/acorn.svg"
               alt="Acorn"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Acorn</p>
@@ -107,8 +107,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/gt.svg"
               alt="Groundtruth"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">GroundTruth</p>A mobile advertising
@@ -120,8 +120,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/brandshare.png"
               alt="brandshare"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center">
               <p className="font-bold">BrandShare</p>
@@ -130,11 +130,11 @@ export default function Clients() {
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
-              className="mx-auto max-h-10 object-contain bg-[#080830] p-2"
+              className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/kargo.png"
               alt="brandshare"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Kargo</p>
@@ -143,11 +143,11 @@ export default function Clients() {
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
-              className="mx-auto max-h-10 object-contain bg-[#052244] p-2"
+              className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/optimad.svg"
               alt="Optimal"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Optimal</p>A leading global media network
@@ -159,8 +159,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/soapbox.png"
               alt="brandshare"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Soapbox Influence</p>
@@ -172,8 +172,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/padsquad.svg"
               alt="PadSquad"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Pad Squad LLC</p>
@@ -182,11 +182,11 @@ export default function Clients() {
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
-              className="mx-auto max-h-10 object-contain bg-[#0B2341] p-2"
+              className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/inmarket.png"
               alt="inmarket"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">InMarket</p>
@@ -198,8 +198,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/neptune.png"
               alt="Neptune"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Neptune Retail Solutions</p>
@@ -209,11 +209,11 @@ export default function Clients() {
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
-              className="mx-auto max-h-10 object-contain bg-[#052244] p-2"
+              className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/breaktime.svg"
               alt="Breaktime"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Breaktime Media MWH LLC</p>
@@ -225,8 +225,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/shipt.svg"
               alt="Breaktime"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Shipt</p>
@@ -237,8 +237,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/meta.svg"
               alt="Meta"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Meta</p>
@@ -249,8 +249,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/pinterest.svg"
               alt="Meta"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Pinterest</p>
@@ -261,8 +261,8 @@ export default function Clients() {
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/nextdoor.svg"
               alt="Meta"
-              width={158}
-              height={48}
+              width={168}
+              height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Nextdoor</p>

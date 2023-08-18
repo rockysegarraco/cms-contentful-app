@@ -5,7 +5,7 @@ export default function Banners() {
         <p className="text-xs leading-6 text-gray-900">
           <a
             href="https://smartsuite.co/en-us/cookies/"
-            className="hover:underline underline-offset-8"
+            className="hover:underline underline-offset-8 font-bold text-info-950"
           >
             SmartSuite Login
           </a>
@@ -18,7 +18,7 @@ export default function Banners() {
           </svg>
           <a
             href="https://smartcommerce.wufoo.com/forms/smartcommerce-campaign-order-form/"
-            className="hover:underline underline-offset-8"
+            className="hover:underline underline-offset-8 font-bold text-info-950"
           >
             Campaign Request Form
           </a>
