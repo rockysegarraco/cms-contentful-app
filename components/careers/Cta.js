@@ -1,3 +1,5 @@
+import WorkableEmbed from "../WorkableEmbed";
+
 export default function Cta() {
   return (
     <div className="bg-white">
@@ -13,7 +15,7 @@ export default function Cta() {
             magic all day, every day.
           </p>
           <div className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600 py-8">
-            EMBED GOES HERE
+            <WorkableEmbed />
           </div>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Applicants requiring reasonable accommodation for any part of the
