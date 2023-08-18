@@ -122,16 +122,38 @@ export default function AboutUs() {
             </div>
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((stat) => (
-              <div key={stat.id} className="flex flex-col bg-gray-400/5 p-8">
-                <dt className="text-sm font-semibold leading-6 text-gray-600">
-                  {stat.name}
-                </dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight text-secondary-950">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
+            <div className="flex flex-col bg-gray-400/5 p-8">
+              <dt className="text-sm font-semibold leading-6 text-gray-600">
+                Teammates
+              </dt>
+              <dd className="order-first text-6xl font-semibold tracking-tight text-secondary-950">
+                8
+              </dd>
+            </div>
+            <div className="flex flex-col bg-gray-400/5 p-8">
+              <dt className="text-sm font-semibold leading-6 text-gray-600">
+                Countries
+              </dt>
+              <dd className="order-first text-6xl font-semibold tracking-tight text-info-950">
+                120
+              </dd>
+            </div>
+            <div className="flex flex-col bg-gray-400/5 p-8">
+              <dt className="text-sm font-semibold leading-6 text-gray-600">
+                Bundles of Joy (and counting)
+              </dt>
+              <dd className="order-first text-6xl font-semibold tracking-tight text-[#89BB48]">
+                12
+              </dd>
+            </div>
+            <div className="flex flex-col bg-gray-400/5 p-8">
+              <dt className="text-sm font-semibold leading-6 text-gray-600">
+                Brand & Agency Partners
+              </dt>
+              <dd className="order-first text-6xl font-semibold tracking-tight text-primary-950">
+                922
+              </dd>
+            </div>
           </dl>
         </_Container>
       </Wrapper>
