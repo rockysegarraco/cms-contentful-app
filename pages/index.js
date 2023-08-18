@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Wrapper from "../components/Wrapper";
+import Video from "../components/Video";
 import Partners from "../components/Partners";
 import _Container from "../components/_Container";
 import Heading from "../components/Heading";
@@ -150,12 +151,9 @@ export default function Index({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last text-white">
-              <Image
-                loader={imageLoader}
-                src={heroVid}
-                alt="Smart Commerce"
-                className="relative"
-              />
+              <Link href="/request-demo">
+                <Video />
+              </Link>
             </div>
           </_Container>
         </Wrapper>
