@@ -76,10 +76,8 @@ export default function Remote() {
               <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
 
               <h3 className="mt-3 text-2xl font-semibold leading-6 text-white">
-                <a href={post.href}>
-                  <span className="absolute inset-0" />
-                  {post.title}
-                </a>
+                <span className="absolute inset-0" />
+                {post.title}
               </h3>
             </article>
           ))}
