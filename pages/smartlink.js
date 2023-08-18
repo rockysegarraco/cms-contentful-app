@@ -41,13 +41,13 @@ const features = [
 const stats = [
   {
     id: 1,
-    name: "Using SmartCommerce increases your chances of items being in stock by 25%.",
-    value: "25%",
+    name: "Seamlessly sidestep the current 27% OOS rates (yes, really!) with Dynamic Substitution",
+    value: "27%",
     imgg: "img/cta-refresh.svg",
   },
   {
     id: 2,
-    name: "Clients using SmartCommerce bundles typically see 2x the CTR of single products.",
+    name: "Contextual bundles enjoy >2x the CTR of single-product ads!",
     value: "2x",
     imgg: "img/cta-cart.svg",
   },
@@ -63,7 +63,7 @@ export default function SmartLink({ pageData }) {
         </title>
       </Head>
       <Wrapper light>
-        <PageTitle title="SmartLinks" />
+        <PageTitle title="SmartLink" />
       </Wrapper>
       <Wrapper slate>
         <_Container twocolumn>

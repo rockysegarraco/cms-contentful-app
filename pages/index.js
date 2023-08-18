@@ -27,7 +27,7 @@ const imageLoader = ({ src, width, quality }) => {
 import { CheckIcon } from "@heroicons/react/20/solid";
 const features = [
   {
-    description: "Maintain up-to-the-minute stock status.",
+    description: "Maintain constantly-updated stock status.",
     icon: CheckIcon,
   },
   {
@@ -120,9 +120,9 @@ export default function Index({ pageData }) {
               </Heading>
               <div className="mx-auto max-w-none lg:max-w-xl">
                 <Paragraphs light>
-                  Major players leverage SmartCommerce to reach consumers across
-                  categories – grocery, wellness, beauty, pet, electronics and
-                  more
+                  Major players across categories -- grocery, wellness, beauty,
+                  pet, electronics, and more - leverage SmartCommerce to reach
+                  and convert consumers.
                 </Paragraphs>
               </div>
               <div className="mx-auto max-w-7xl lg:max-w-7xl mt-8 grid grid-cols-1 items-center gap-x-8 gap-y-10 sm:gap-x-0 lg:mx-0">

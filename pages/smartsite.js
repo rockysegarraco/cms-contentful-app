@@ -85,6 +85,7 @@ export default function SmartSite({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
+        <Testimonials />
         <Wrapper primary>
           <_Container onecolumn>
             <div className="order-last lg:order-first">

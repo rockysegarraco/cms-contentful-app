@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="space-y-8">
             <img className="h-12" src="/logo-white.svg" alt="Company name" />
             <p className="text-sm leading-6 text-gray-300">
-              75 5th Street NW, Suite2000
+              75 5th Street NW, Suite 2000
               <br />
               Atlanta, Georgia 30308
               <br />
