@@ -129,7 +129,10 @@ export default function SmartSite({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/SmartSiteCaro.png" className="relative" />
+              <img
+                src="img/SmartSiteCaro.jpg"
+                className="relative rounded-xl"
+              />
             </div>
           </_Container>
         </Wrapper>
