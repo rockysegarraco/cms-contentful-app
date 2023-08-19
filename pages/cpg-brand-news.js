@@ -53,7 +53,14 @@ export default function News({ preview, posts, total }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
+          <title>
+            SmartCommerce - Accelerate E-commerce from all existing touchpoints
+            - SmartCommerce
+          </title>
+          <meta
+            name="description"
+            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+          />
         </Head>
         <Intro title="News & Events" />
         <div className="mx-auto max-w-7xl px-8 pt-16 pb-0 sm:px-8 sm:pt-16">

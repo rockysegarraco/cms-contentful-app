@@ -52,6 +52,13 @@ html {
   background-blend-mode: overlay;
 }
 
+.bkg-magic {
+  background-image: url("/img/bkg-magic.png");
+  background-repeat: no-repeat, repeat;
+  background-position: bottom right; /* Center the image */
+  background-blend-mode: overlay;
+}
+
 :focus-visible {
   outline: 0px;
 }
