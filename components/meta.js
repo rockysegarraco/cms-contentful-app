@@ -42,8 +42,10 @@ export default function Meta() {
       <meta property="og:url" content="https://smartcommerce.com/" />
       <meta property="og:site_name" content="SmartCommerce" />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <meta
+        name="facebook-domain-verification"
+        content="bc4iwnozh0phcwk9d8vorr9ly1so80"
+      />
     </Head>
   );
 }

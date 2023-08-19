@@ -19,6 +19,7 @@ const navigation = {
     },
     { name: "White Papers", href: "/whitepapers" },
     { name: "CPG Scoop", href: "#" },
+    { name: "Get Demo", href: "/request-demo" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy-policy" },
@@ -26,7 +27,6 @@ const navigation = {
       name: "SmartSuite - Log In",
       href: "https://smartsuite.co/en-us/cookies/",
     },
-    { name: "Get Demo", href: "/request-demo" },
   ],
   social: [
     {

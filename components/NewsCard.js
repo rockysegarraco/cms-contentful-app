@@ -20,7 +20,7 @@ export default function NewsletterCard({ posts }) {
                 <div className="text-sm uppercase text-secondary-950 pb-3">
                   {post.fields.topic}
                 </div>
-                <div className="font-semibold text-xl mb-2 text-dark-950 normal-case">
+                <div className="font-semibold text-xl mb-2 text-dark-950">
                   {post.fields.title}
                 </div>
                 <div className="text-dark-950 line-clamp-3">

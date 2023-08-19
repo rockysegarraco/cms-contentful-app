@@ -8,19 +8,16 @@ export default function NewsletterCard({ posts }) {
         >
           <a href={post.fields.url} target="_blank">
             <div className="max-w-full rounded-2xl overflow-hidden">
-              <img
-                className="w-full"
-                src={`https:${post.fields.coverImage.fields.file.url}`}
-                alt={post.fields.title}
-              />
-
               <div className="p-6">
-                <div className="text-sm uppercase text-secondary-950 pb-3">
+                <div className="text-sm uppercase text-info-950 font-semibold pb-1">
                   {post.fields.title}
                 </div>
                 <div className="text-dark-950">
                   {" "}
                   <p>{post.fields.excerpt}</p>
+                  <div className="mt-4 text-xs text-primary-950 underline underline-offset-8">
+                    Read More
+                  </div>
                 </div>
               </div>
             </div>

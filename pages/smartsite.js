@@ -1,25 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Head from "next/head";
+import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import Wrapper from "../components/Wrapper";
 import _Container from "../components/_Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
-import Button from "../components/Button";
-import _PageTitle from "../components/_PageTitle";
-import Section from "../components/Section";
-import _General from "../components/_General";
-import _Secondary from "../components/_Secondary";
-import _Hero from "../components/_Hero";
-import Layout from "../components/Layout";
-import SmartLinkHero from "../components/smartlink/SmartLinkHero";
-import Brands from "../components/brands";
-import _Stats from "../components/_Stats";
-import _Primary from "../components/_Primary";
-import Testimonials from "../components/smartlink/Testimonials";
 import Cta from "../components/Cta";
-import Head from "next/head";
+import Button from "../components/Button";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
 
@@ -56,6 +45,10 @@ export default function SmartSite({ pageData }) {
             SmartCommerce - Accelerate E-commerce from all existing touchpoints
             - SmartCommerce
           </title>
+          <meta
+            name="description"
+            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+          />
         </Head>
         <Wrapper light>
           <PageTitle title="SmartSite" />
@@ -84,7 +77,6 @@ export default function SmartSite({ pageData }) {
             </div>
           </_Container>
         </Wrapper>
-        <Testimonials />
         <Wrapper primary>
           <_Container onecolumn>
             <div className="order-last lg:order-first">
@@ -137,7 +129,7 @@ export default function SmartSite({ pageData }) {
         </Wrapper>
         <Wrapper slate>
           <_Container twocolumn>
-            <div className="order-first lg:order-last">
+            <div className="order-last lg:order-last">
               <Heading dark>SmartShop</Heading>
               <Paragraphs dark>
                 While recipes are a perfect fit for SmartShops, they work
@@ -147,7 +139,7 @@ export default function SmartSite({ pageData }) {
                 variants, while dynamically showing relevant local retailers.
               </Paragraphs>
             </div>
-            <div className="relative w-full order-last lg:order-first">
+            <div className="relative w-full order-first lg:order-first">
               <img src="img/img-smartshop.png" className="relative" />
             </div>
           </_Container>
@@ -168,44 +160,47 @@ export default function SmartSite({ pageData }) {
           </_Container>
         </Wrapper>
         <Wrapper slate>
-          <_Container twocolumn>
-            <div className="order-first lg:order-last">
-              <Heading dark>Click2Cart® difference</Heading>
-              <Paragraphs dark>
-                We like to think of it as behind-the-scenes magic.
-                Friction-free, one-click carting means consumers aren’t
-                distracted by competitor ads or cross-selling, and there’s no
-                waiting (i.e. forgetting) to check out. <br /> <br />
-                And even when shoppers don’t complete a purchase, you still win
-                because carting triggers retargeting and improves retailer-side
-                SEO/SEM results.
-              </Paragraphs>
-            </div>
-            <div className="relative w-full order-first lg:order-last">
-              <img src="img/SmartSiteCaro.png" className="relative" />
-            </div>
-          </_Container>
+          <div className="bkg-magic">
+            <_Container one column>
+              <div className="mx-auto max-w-4xl text-center">
+                <Heading dark>
+                  Click2Cart<span className="font-normal">®</span> difference
+                </Heading>
+                <Paragraphs dark>
+                  We like to think of it as behind-the-scenes magic.
+                  Friction-free, one-click carting means consumers aren’t
+                  distracted by competitor ads or cross-selling, and there’s no
+                  waiting (i.e. forgetting) to check out. <br /> <br />
+                  And even when shoppers don’t complete a purchase, you still
+                  win because carting triggers retargeting and improves
+                  retailer-side SEO/SEM results.
+                </Paragraphs>
+              </div>
+            </_Container>
+          </div>
         </Wrapper>
         <Wrapper secondary>
-          <img
-            className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
-            src="img/img-reporting-super.jpg"
-            alt="SmartCommerce Reporting"
-          />
-          <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-            <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
-              <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
-                <Heading light>Data is your superpower</Heading>
-                <Paragraphs light>
-                  The SmartSuite Dashboard gives clients 24/7 access to metrics,
-                  so you can meet your goals faster. Real-time data and insights
-                  let you manage the live performance of your campaigns and make
-                  changes to retailers, products, redirect pages, and more
-                  anytime.
-                </Paragraphs>
-                <Link href="/reporting">
-                  <Button primary>Learn more</Button>
-                </Link>
+          <div className="bkg-left">
+            <img
+              className="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2"
+              src="img/img-reporting-super.jpg"
+              alt="SmartCommerce Reporting"
+            />
+            <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+              <div className="px-8 py-16 lg:col-end-2 lg:px-8 lg:py-24">
+                <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
+                  <Heading light>Data is your superpower</Heading>
+                  <Paragraphs light>
+                    The SmartSuite Dashboard gives clients 24/7 access to
+                    metrics, so you can meet your goals faster. Real-time data
+                    and insights let you manage the live performance of your
+                    campaigns and make changes to retailers, products, redirect
+                    pages, and more anytime.
+                  </Paragraphs>
+                  <Link href="/reporting">
+                    <Button primary>Learn more</Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

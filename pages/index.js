@@ -1,33 +1,33 @@
-import Layout from "../components/Layout";
+import React from "react";
 import Link from "next/link";
+import Head from "next/head";
+import Layout from "../components/Layout";
+import PageTitle from "../components/PageTitle";
 import Wrapper from "../components/Wrapper";
-import Video from "../components/Video";
-import Partners from "../components/Partners";
 import _Container from "../components/_Container";
 import Heading from "../components/Heading";
 import Paragraphs from "../components/Paragraphs";
 import Button from "../components/Button";
-import _Products from "../components/_Products";
-import _Stats from "../components/_Stats";
-import Cta from "../components/Cta";
 import Testimonials from "../components/smartlink/Testimonials";
-import Head from "next/head";
+import Partners from "../components/Partners";
+import Video from "../components/Video";
+import _Products from "../components/_Products";
+import Cta from "../components/Cta";
 import { CMS_NAME } from "../lib/constants";
 import { fetchHomepage } from "../lib/api";
-import ReactPlayer from "react-player";
-
 import Image from "next/image";
-import heroPic from ".//../public/img/HomepageHeroImage.png";
-import heroPics from ".//../public/img/HomepageHeroImage.png";
-import heroVid from ".//../public/img/video.jpg";
-import reportingPic from ".//../public/img/reporting.png";
-import statPic from ".//../public/img/stat.jpg";
+import ReactPlayer from "react-player";
+import { CheckIcon } from "@heroicons/react/20/solid";
+
+import heroPic from "../public/img/HomepageHeroImage.png";
+import reportingPic from "../public/img/reporting.png";
+import statPic from "../public/img/stat.jpg";
+import heroVid from "../public/img/video.jpg";
 
 const imageLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
 };
 
-import { CheckIcon } from "@heroicons/react/20/solid";
 const features = [
   {
     description: "Maintain constantly-updated stock status.",

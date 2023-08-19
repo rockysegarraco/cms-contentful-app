@@ -14,7 +14,14 @@ export default function Example() {
     <>
       <Layout>
         <Head>
-          <title>{`Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co`}</title>
+          <title>
+            SmartCommerce - Accelerate E-commerce from all existing touchpoints
+            - SmartCommerce
+          </title>
+          <meta
+            name="description"
+            content="Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co"
+          />
         </Head>
         <Intro title="Contact" />
         <Container>

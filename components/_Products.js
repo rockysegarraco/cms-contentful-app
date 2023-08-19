@@ -36,7 +36,7 @@ export default function _Product(props) {
               </div>
               <div class="mt-auto pt-0 pb-16 dark:border-neutral-600 dark:text-neutral-50">
                 <a
-                  href="/smartsite"
+                  href="/smartlink"
                   className="rounded-full bg-primary-950 px-8 py-4 text-md font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Tell me more
@@ -67,7 +67,7 @@ export default function _Product(props) {
               </div>
               <div class="mt-auto pt-0 pb-16 dark:border-neutral-600 dark:text-neutral-50">
                 <a
-                  href="/smartlink"
+                  href="/smartsite"
                   className="rounded-full bg-primary-950 px-8 py-4 text-md font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Tell me more
