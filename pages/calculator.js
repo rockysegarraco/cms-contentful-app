@@ -1,6 +1,7 @@
 import { useState } from "react";
 import UsernamePasswordDialog from "../components/UserPasswordDialog";
 import { toast } from 'react-toastify';
+import CalculatorComponent from "../components/CalculatorEmbed";
 
 export default function _Primary(props) {
   const { children } = props; // Destructure 'children' from 'props'
@@ -20,7 +21,7 @@ export default function _Primary(props) {
   const renderContent = () => {
     return (
       <div>
-        Your content goes here
+        <CalculatorComponent />
       </div>
     )
   }
