@@ -1,4 +1,5 @@
-import Container from "../components/container";
+import Wrapper from "../components/Wrapper";
+import _Container from "../components/_Container";
 import Intro from "../components/intro";
 import Layout from "../components/Layout";
 import { fetchNewsletter } from "../lib/api";
@@ -68,11 +69,11 @@ export default function Index({ preview, allPosts, total }) {
           />
         </Head>
         <Intro title="Newsletter" />
-        <Container>
-          <div className="mx-auto">
-            <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-24 text-center shadow-sm sm:rounded-3xl sm:px-16">
+        <Wrapper>
+          <div className="mx-auto grid max-w-7xl px-8 py-8 lg:py-8">
+            <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-16 text-center shadow-sm sm:rounded-3xl sm:px-16">
               <img className="h-16 mx-auto" src="img/logo-smartbites.svg" />
-              <h2 className="py-4 text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
+              <h2 className="py-4 text-2xl leading-[2rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
                 Be a SmartCookie<span className="text-secondary-950">.</span>
               </h2>
               <p className="mx-auto mt-0 max-w-xl text-lg leading-8 text-dark-950">
@@ -88,18 +89,18 @@ export default function Index({ preview, allPosts, total }) {
                 </a>
               </div>
             </div>
+            <style>{"body { background-color: #f5f5f7; }"}</style>
+            {postData.length > 0 && <NewsletterCard posts={postData} />}
+            <Pagination
+              total={total}
+              currentPage={currentPage}
+              numberOfResult={NUMBER_OF_NEWSLETTER_TO_SHOW}
+              handleNext={handleNext}
+              handlePrev={handlePrev}
+              numberClick={handleNumberclick}
+            />
           </div>
-          <style>{"body { background-color: #f5f5f7; }"}</style>
-          {postData.length > 0 && <NewsletterCard posts={postData} />}
-          <Pagination
-            total={total}
-            currentPage={currentPage}
-            numberOfResult={NUMBER_OF_NEWSLETTER_TO_SHOW}
-            handleNext={handleNext}
-            handlePrev={handlePrev}
-            numberClick={handleNumberclick}
-          />
-        </Container>
+        </Wrapper>
       </Layout>
     </>
   );

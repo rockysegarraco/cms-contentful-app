@@ -15,7 +15,7 @@ export default function _Primary(props) {
   const handleAuthenticate = () => {
     setIsAuthenticated(true);
     setDialogOpen(false);
-    toast("Sign in Successfully")
+    toast("Sign in Successfully");
   };
 
   const renderContent = () => {

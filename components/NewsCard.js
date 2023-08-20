@@ -15,7 +15,6 @@ export default function NewsletterCard({ posts }) {
                 src={post.fields.coverImage?.fields?.file?.url}
                 alt={post.fields.title}
               />
-
               <div className="p-6">
                 <div className="text-sm uppercase text-secondary-950 pb-3">
                   {post.fields.topic}

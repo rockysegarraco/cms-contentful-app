@@ -1,35 +1,39 @@
-import React, { useState } from 'react';
-import { PASSWORD, USERNAME } from '../lib/constants';
+import React, { useState } from "react";
+import { PASSWORD, USERNAME } from "../lib/constants";
 
 function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [isError, setIsError] = useState(false)
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [isError, setIsError] = useState(false);
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
     if (isError) {
-        setIsError(false)
+      setIsError(false);
     }
   };
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
     if (isError) {
-        setIsError(false)
+      setIsError(false);
     }
   };
 
   const handleSubmit = () => {
     if (username === USERNAME && password === PASSWORD) {
-        onAuthenticate();
-      } else {
-        setIsError(true);
-      }
+      onAuthenticate();
+    } else {
+      setIsError(true);
+    }
   };
 
   return (
-    <div className={`fixed inset-0 flex items-center justify-center ${isOpen ? 'visible' : 'invisible'}`}>
+    <div
+      className={`fixed inset-0 flex items-center justify-center ${
+        isOpen ? "visible" : "invisible"
+      }`}
+    >
       <div className="bg-white rounded-lg shadow-lg p-6 w-96">
         <h2 className="text-xl font-semibold mb-4">Sign in</h2>
         <div className="mb-4">
@@ -50,7 +54,9 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
             onChange={handlePasswordChange}
           />
         </div>
-        {isError && <span className='text-red-500'>Username or Password is wrong</span>}
+        {isError && (
+          <span className="text-red-500">Username or Password is wrong</span>
+        )}
         <div className="flex justify-end mt-3">
           <button
             className="px-4 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600"
