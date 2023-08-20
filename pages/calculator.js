@@ -17,6 +17,17 @@ export default function _Primary(props) {
     toast("Sign in Successfully");
   };
 
+<<<<<<< HEAD
+=======
+  const renderContent = () => {
+    return (
+      <div>
+        Your content goes here
+      </div>
+    )
+  }
+
+>>>>>>> 6e1217298578cf5b49a60cf0eeac244fa97049d6
   return (
     <div className={[props.className]}>
       <div className="mx-auto max-w-6xl px-8 py-16 sm:px-6 sm:py-32">
@@ -26,6 +37,7 @@ export default function _Primary(props) {
           onAuthenticate={handleAuthenticate}
         />
         {isAuthenticated && children}
+        {isAuthenticated && renderContent()}
       </div>
     </div>
   );
