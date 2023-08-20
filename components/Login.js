@@ -41,8 +41,8 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
             src="logo-mark.svg"
             alt="SmartCommerce"
           />
-          <h2 className="mt-10 text-center text-xl text-slate-950 font-semibold">
-            Sign in to Pricing Calculator
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+            Sign in to your account
           </h2>
         </div>
 
@@ -53,13 +53,13 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Username
+                Email address
               </label>
               <div className="mt-2">
                 <input
                   type="email"
                   required
-                  className="w-full p-2 rounded-md border border-gray-300 border-gray-300 focus:ring focus:ring-indigo-600"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   value={username}
                   onChange={handleUsernameChange}
                 />
@@ -78,7 +78,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
                 <input
                   type="password"
                   required
-                  className="block w-full rounded-md p-2 border border-gray-300 focus:ring focus:ring-indigo-600"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   value={password}
                   onChange={handlePasswordChange}
                 />
@@ -93,7 +93,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-primary-950 px-3 py-3 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 onClick={handleSubmit}
               >
                 Sign in
@@ -102,7 +102,13 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Message goes here.
+            Not a member?{" "}
+            <a
+              href="#"
+              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+            >
+              Start a 14 day free trial
+            </a>
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import UsernamePasswordDialog from "../components/UserPasswordDialog";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import CalculatorComponent from "../components/CalculatorEmbed";
 
 export default function _Primary(props) {
@@ -20,11 +20,32 @@ export default function _Primary(props) {
 
   const renderContent = () => {
     return (
-      <div>
-        <CalculatorComponent />
-      </div>
-    )
-  }
+      <>
+        <div className="flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8">
+          <div className="sm:mx-auto sm:w-full sm:max-w-md">
+            <img
+              className="mx-auto h-10 w-auto"
+              src="logo-mark.svg"
+              alt="SmartCommerce"
+            />
+            <h2 className="mt-10 text-center text-xl text-slate-950 font-semibold">
+              Pricing Calculator
+            </h2>
+          </div>
+
+          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
+            <div className="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
+              <form className="space-y-6" action="#" method="POST">
+                <div>
+                  <CalculatorComponent />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  };
 
   return (
     <div className={[props.className]}>
