@@ -21,12 +21,9 @@ const navigation = {
     { name: "CPG Scoop", href: "#" },
     { name: "Get Demo", href: "/request-demo" },
   ],
-  legal: [
-    { name: "Privacy Policy", href: "/privacy-policy" },
-    {
-      name: "SmartSuite - Log In",
-      href: "https://smartsuite.co/en-us/cookies/",
-    },
+  partners: [
+    { name: "Partners", href: "/partners" },
+    { name: "Retail Partners", href: "/click2cart-network" },
   ],
   social: [
     {
@@ -159,10 +156,10 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Legal
+                  Partners
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
+                  {navigation.partners.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
@@ -179,7 +176,8 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; 2023 All rights reserved.
+            &copy; 2023 All rights reserved. •{" "}
+            <a href="/privay-policy">Privacy</a>
           </p>
         </div>
       </div>

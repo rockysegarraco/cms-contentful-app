@@ -41,7 +41,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
             src="logo-mark.svg"
             alt="SmartCommerce"
           />
-          <h2 className="mt-10 text-center text-xl text-slate-950 font-semibold">
+          <h2 className="mt-8 text-center text-xl text-slate-950 font-semibold">
             Sign in to Pricing Calculator
           </h2>
         </div>
@@ -59,7 +59,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
                 <input
                   type="email"
                   required
-                  className="w-full p-2 rounded-md border border-gray-300 border-gray-300 focus:ring focus:ring-indigo-600"
+                  className="w-full p-2 rounded-md border border-gray-300 border-gray-300 focus:ring focus:ring-primary-950"
                   value={username}
                   onChange={handleUsernameChange}
                 />
@@ -78,7 +78,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
                 <input
                   type="password"
                   required
-                  className="block w-full rounded-md p-2 border border-gray-300 focus:ring focus:ring-indigo-600"
+                  className="block w-full rounded-md p-2 border border-gray-300 focus:ring focus:ring-primary-950"
                   value={password}
                   onChange={handlePasswordChange}
                 />
@@ -100,10 +100,7 @@ function UsernamePasswordDialog({ isOpen, onClose, onAuthenticate }) {
               </button>
             </div>
           </form>
-
-          <p className="mt-10 text-center text-sm text-gray-500">
-            Message goes here.
-          </p>
+          <style>{"body { background-color: #f5f5f7; }"}</style>
         </div>
       </div>
     </div>

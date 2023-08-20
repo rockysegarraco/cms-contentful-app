@@ -28,7 +28,7 @@ export default function _Primary(props) {
               src="logo-mark.svg"
               alt="SmartCommerce"
             />
-            <h2 className="mt-10 text-center text-xl text-slate-950 font-semibold">
+            <h2 className="mt-8 text-center text-xl text-slate-950 font-semibold">
               Pricing Calculator
             </h2>
           </div>
@@ -43,6 +43,7 @@ export default function _Primary(props) {
             </div>
           </div>
         </div>
+        <style>{"body { background-color: #f5f5f7; }"}</style>
       </>
     );
   };

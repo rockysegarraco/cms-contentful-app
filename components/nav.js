@@ -84,7 +84,7 @@ export default function Nav() {
 
   return (
     <>
-      <Wrapper slate>
+      <Wrapper secondarylight>
         <Banner />
       </Wrapper>
       <header className="bg-white sticky-thc">
@@ -95,11 +95,7 @@ export default function Nav() {
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">SmartCommerce Inc.</span>
-              <img
-                className="h-14 w-auto"
-                src="https://smartcommerce.com/wp-content/uploads/2021/10/smartcommerce_logo_300x150-1-1.png"
-                alt=""
-              />
+              <img className="h-14 w-auto" src="img/logo.svg" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
