@@ -47,7 +47,7 @@ export default function Post({ post, morePosts, preview }) {
                 <li>
                   <div className="flex items-center">
                     <a
-                      href="/blog"
+                      href="/cpg-marketing-blog"
                       className="ml-4 text-sm font-medium text-gray-500 hover:text-gray-400"
                     >
                       Blog Home
@@ -75,13 +75,6 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
               />
               <PostBody content={post.content} />
-              <iframe
-                src={`${post.formId}`}
-                height="800"
-                width="600"
-                frameborder="0"
-              ></iframe>
-              <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
             </article>
           </>
         )}
