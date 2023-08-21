@@ -29,7 +29,7 @@ const products = [
   {
     name: "SmartSite",
     description:
-      "More carting? We’ve got you. Optimize your website with one-click carting at a variety of retailers.",
+      "Ready for your website to perform?  We've got you!  Optimize your website with one-click carting to a consumer's choice of stores. ",
     href: "/smartsite",
     icon: ArrowRightCircleIcon,
   },
