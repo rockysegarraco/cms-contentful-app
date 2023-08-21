@@ -36,7 +36,7 @@ const products = [
   {
     name: "Reporting",
     description:
-      "Smartsuite empowers you with real time data and insights to sync your media spend with your inventory, reduce advertising waste and measure campaign outcomes. ",
+      "SmartSuite empowers you with real time data and insights to sync your media spend with your inventory, reduce advertising waste and measure campaign outcomes. ",
     href: "/reporting",
     icon: ArrowRightCircleIcon,
   },

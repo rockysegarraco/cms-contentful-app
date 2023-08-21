@@ -1,8 +1,8 @@
 const navigation = {
   solutions: [
-    { name: "SmartLink", href: "#" },
-    { name: "SmartSite", href: "#" },
-    { name: "SmartSuite", href: "#" },
+    { name: "SmartLink", href: "/smartlink" },
+    { name: "SmartSite", href: "/smartsite" },
+    { name: "Reporting", href: "/reporting" },
   ],
   support: [
     { name: "About", href: "/about-us" },
@@ -15,7 +15,7 @@ const navigation = {
     { name: "Blog", href: "/cpg-marketing-blog" },
     {
       name: "Newsletter",
-      href: "https://smartcommerce.us20.list-manage.com/subscribe?u=5d71f8753fa72eab4b72788c2&id=8a974f182a",
+      href: "/newsletter",
     },
     { name: "White Papers", href: "/whitepapers" },
     { name: "CPG Scoop", href: "#" },

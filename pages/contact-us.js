@@ -34,8 +34,8 @@ export default function Example() {
                     Get in touch
                   </h2>
                   <p className="mt-6 text-lg leading-8 text-dark-950">
-                    If you’d prefer to talk about Workable with a real human,
-                    just call us. We’re friendly and available on the phone:
+                    Questions? Suggestions? Deep thoughts? We're here for all of
+                    it. Feel free to reach out via email or phone.
                   </p>
                   <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                     <div className="flex gap-x-4">

@@ -33,11 +33,9 @@ export default function Example() {
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                Business partners make it easier for you to produce great
-                creative, scale your ads, and measure performance. We’ve curated
-                a strong list of partners that know all about Pinterest – and
-                they’re ready to help you grow. They’ve all been vetted for
-                their technical expertise and Pinterest knowledge.
+                We have a network of premium agency, platform, and other media
+                partners that are ready and able to help you succeed. And, of
+                course, they’ve all been vetted by us.
               </Paragraphs>
               <Link href="/contact-us">
                 <Button primary>Partner with us</Button>
@@ -58,7 +56,7 @@ export default function Example() {
               <Paragraphs dark minwidth>
                 <span>
                   SmartCommerce is integrated with these premium agencies,
-                  platforms, and media partners – all authorized to implement
+                  platforms, and media partners – all authorize to implement
                   Click2Cart® services.
                 </span>
               </Paragraphs>

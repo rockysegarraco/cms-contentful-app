@@ -25,7 +25,7 @@ const faqs = [
       "We are resourceful problem-solvers not afraid to forge new paths, and we hold ourselves to the highest standards.",
   },
   {
-    question: "In it to win it! ",
+    question: "Partners-First",
     answer:
       "Every brand, agency, or retailer we engage with is treated as our partner – their success is our success.",
   },

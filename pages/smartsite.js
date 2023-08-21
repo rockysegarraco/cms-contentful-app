@@ -23,7 +23,7 @@ const features = [
   {
     name: "Let the consumer choose",
     description:
-      "Our product engine avoids OOS conditions, 3P sellers, changing prices, etc, so your consumers enjoy a frictionless shopping experience.",
+      "Our product engine easily sidesteps OOS conditions, 3P sellers, changing prices, etc, so your consumers enjoy a frictionless shopping experience.",
     href: "#",
     img: "img/cta-barcode.svg",
   },
@@ -113,10 +113,12 @@ export default function SmartSite({ pageData }) {
                 bring the retailer cart onto your page, so ecommerce is just one
                 click away.
                 <br />
-                <br />A carousel renders via brand rules based on retailer
-                relevance and stock status. For category pages or when space is
-                limited, SmartButtons let shoppers choose the retailer in two
-                clicks (1 to open, 1 to select).
+                <br />
+                Carousels render via brand rules to show geographically-relevant
+                retailers with the your brand in stock - and to let consumers
+                save items to cart in a single click! SmartButtons let shoppers
+                choose the retailer in two clicks (1 to open, 1 to select), for
+                pages with multiple products or limited space.
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">

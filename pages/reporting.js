@@ -70,7 +70,7 @@ export default function Reporting() {
                 How to use comprehensive reporting in real time
               </p>
               <Paragraphs dark>
-                SmartSuite empowers you with real time data and insights to sync
+                SmartSuite empowers you with real-time data and insights to sync
                 your media spend with your inventory, reduce advertising waste
                 and measure campaign outcomes. Every subscription comes with
                 unlimited logins and unlimited support!
