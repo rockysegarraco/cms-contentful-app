@@ -17,9 +17,9 @@ import Video from "../components/Video";
 export default function Example() {
   return (
     <div className="relative bg-white">
-      <div className="lg:absolute lg:inset-0 lg:left-1/2">
+      <div className="lg:absolute lg:inset-0 lg:left-1/2 ">
         <img
-          className="h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full"
+          className="h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full "
           src="img/cta-getdemo.jpg"
           alt=""
         />

@@ -22,7 +22,7 @@ const products = [
   {
     name: "SmartLink",
     description:
-      "Shoppable links let you add one (or more) products at one (or multiple) geo-relevant retailers seamlessly.",
+      "Shoppable links let you add products at geo-relevant retailers seamlessly.",
     href: "/smartlink",
     icon: ArrowRightCircleIcon,
   },

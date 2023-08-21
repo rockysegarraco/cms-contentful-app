@@ -22,7 +22,7 @@ export default function Cta() {
             </div>
             <div className="flex items-center justify-center gap-x-6">
               <Link href="/contact-us">
-                <Button primary>Yes, please!</Button>
+                <Button primary>Tell me more</Button>
               </Link>
             </div>
           </div>

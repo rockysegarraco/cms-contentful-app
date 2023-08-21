@@ -6,6 +6,7 @@ const Video = () => {
     <ReactPlayer
       url="/img/video.mp4"
       width="100%"
+      pip
       controls="true"
       light="img/video.jpg"
       playing
