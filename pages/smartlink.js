@@ -177,7 +177,7 @@ export default function SmartLink({ pageData }) {
               <br />
               <br />
               You don’t need to send us feeds, spreadsheets, or links – it
-              continuously updates 10s of millions of Product-Offer pairs across
+              continuously updates 10s of millions of product-offer pairs across
               hundreds of retailers. And because it’s machine-learning enabled,
               it’s always getting smarter. We have a panel of Data Scientists to
               constantly manage all of it!

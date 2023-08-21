@@ -330,12 +330,11 @@ export default function Example() {
             <div className="order-last lg:order-first">
               <Heading dark>Retailer benefits</Heading>
               <Paragraphs dark>
-                It’s easy to join the SmartCommerce Retailer network. We handle
-                any configuration to send products to your shopping cart and
+                It’s easy to join the SmartCommerce Retailer Network. We handle
+                any configuration to send products to your shopping cart, and
                 once complete, you’ll start receiving orders (with no work
-                required on your end). Please note that access to a product
-                catalog, API, or Data Feed is preferred, but not mandatory.
-                Contact us to get started today!
+                required on your end). Note: Access to a product catalog, API,
+                or data feed is preferred but not mandatory.
               </Paragraphs>
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center mt-8">
                 {features.map((feature) => (

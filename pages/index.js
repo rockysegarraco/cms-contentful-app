@@ -50,7 +50,7 @@ const data = [
     icon: CheckIcon,
   },
   {
-    description: "Is always getting smarter: Machine-learning enabled.",
+    description: "Is always getting smarter: Machine-learning enabled",
     icon: CheckIcon,
   },
   {

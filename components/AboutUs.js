@@ -171,9 +171,9 @@ export default function AboutUs() {
               <br />
               <br />
               Our ideal candidate is an A+ player/achiever with an
-              entrepreneurial spirit, infectious personality and the ability to
+              entrepreneurial spirit, infectious personality, and the ability to
               earn instant rapport with internal and external clients. The right
-              candidate learns fast, is self-motivated and wants to grow while
+              candidate learns fast, is self-motivated, and wants to grow while
               contributing to the success of the team.
             </Paragraphs>
           </div>
