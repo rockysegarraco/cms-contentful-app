@@ -98,9 +98,9 @@ export default function Example() {
                       <dd>
                         <a
                           className="hover:text-gray-900"
-                          href="mailto:info@smartcommerce.co"
+                          href="mailto:info@smartcommerce.com"
                         >
-                          info@smartcommerce.co
+                          info@smartcommerce.com
                         </a>
                       </dd>
                     </div>
@@ -122,9 +122,9 @@ export default function Example() {
                       <dd>
                         <a
                           className="hover:text-gray-900"
-                          href="mailto:infoeu@smartcommerce.co"
+                          href="mailto:infoeu@smartcommerce.com"
                         >
-                          infoeu@smartcommerce.co
+                          infoeu@smartcommerce.com
                         </a>
                       </dd>
                     </div>
