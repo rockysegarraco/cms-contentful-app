@@ -133,8 +133,8 @@ export default function Example() {
               </div>
               <iframe
                 src="https://tfaforms.com/4982191"
-                height="800"
-                width="600"
+                height="auto"
+                width="100%"
                 frameborder="0"
               ></iframe>
               <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
