@@ -233,7 +233,7 @@ export default function Index({ pageData }) {
                     display ads to QR codes, at ALL major points of intent.
                   </Paragraphs>
                   <dl className="mt-8 lg:mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
-                    <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                    <div className="flex flex-col gap-y-0 lg:gap-y-3  border-gray-900/10 pl-6">
                       <dt className="text-sm leading-6 text-white">
                         Dollar value of products carted in the last 12 months.
                       </dt>
@@ -241,7 +241,7 @@ export default function Index({ pageData }) {
                         $3B<span className="text-white">+</span>
                       </dd>
                     </div>
-                    <div className="flex flex-col gap-y-0 lg:gap-y-3 border-l border-gray-900/10 pl-6">
+                    <div className="flex flex-col gap-y-0 lg:gap-y-3 border-gray-900/10 pl-6">
                       <dt className="text-sm leading-6 text-white">
                         Number of products carted in the last 12 months
                       </dt>

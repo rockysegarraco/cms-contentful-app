@@ -87,7 +87,7 @@ export default function Example() {
                 consumers drop products directly into store shopping carts from
                 brand websites, social, video, email, etc.
               </Paragraphs>
-              <Link href="/partners">
+              <Link href="https://knowledge.smartsuite.co/retailer-overview-list/">
                 <Button primary>Visit our retailer list</Button>
               </Link>
             </div>

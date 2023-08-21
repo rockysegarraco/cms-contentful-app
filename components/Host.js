@@ -29,7 +29,10 @@ export default function Host() {
                   conversion and success.
                 </p>
                 <div className="mt-4">
-                  <a href="/" className="text-[#0072B1] hover:text-gray-500">
+                  <a
+                    href="https://www.linkedin.com/in/risa-crandall/"
+                    className="text-[#0072B1] hover:text-gray-500"
+                  >
                     <span className="sr-only">LinkedIn</span>
                     <svg
                       className="h-5 w-5"
@@ -52,7 +55,7 @@ export default function Host() {
             <figcaption className="mt-10 flex items-center gap-x-6">
               <img
                 className="h-32 w-32 rounded-full bg-gray-50"
-                src="img/jenn-avatar.jpg"
+                src="https://media.licdn.com/dms/image/D4E03AQGEb3ac19Yt8w/profile-displayphoto-shrink_400_400/0/1692462309496?e=1698278400&v=beta&t=iSdDEgjvrqGC-80d6E-dD3dONjYnQzNiC_sG5uTDIsc"
                 alt=""
               />
               <div className="text-base">
@@ -80,7 +83,10 @@ export default function Host() {
                   great marketing.
                 </p>
                 <div className="mt-4">
-                  <a href="/" className="text-[#0072B1] hover:text-gray-500">
+                  <a
+                    href="https://www.linkedin.com/in/jennifersilverberg/"
+                    className="text-[#0072B1] hover:text-gray-500"
+                  >
                     <span className="sr-only">LinkedIn</span>
                     <svg
                       className="h-5 w-5"

@@ -223,18 +223,6 @@ export default function Clients() {
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
-              src="img/partners/shipt.svg"
-              alt="Breaktime"
-              width={168}
-              height={58}
-            />
-            <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Shipt</p>
-            </div>
-          </div>
-          <div className="bg-white  p-6 sm:p-6">
-            <img
-              className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/meta.svg"
               alt="Meta"
               width={168}
@@ -242,6 +230,8 @@ export default function Clients() {
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Meta</p>
+              Meta ads help brand reach customers online with ads on Facebook,
+              Instagram, Messenger & WhatsApp.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
@@ -253,19 +243,8 @@ export default function Clients() {
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Pinterest</p>
-            </div>
-          </div>
-          <div className="bg-white  p-6 sm:p-6">
-            <img
-              className="mx-auto max-h-10 object-contain p-2"
-              src="img/partners/nextdoor.svg"
-              alt="Meta"
-              width={168}
-              height={58}
-            />
-            <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Nextdoor</p>
+              <p className="font-bold">Pinterest</p>A visual discovery engine
+              allows users to find ideas that ignite inspiration.
             </div>
           </div>
         </div>

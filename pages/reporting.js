@@ -131,7 +131,7 @@ export default function Reporting() {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <img src="img/SmartSiteCaro.png" className="relative" />
+              <img src="img/reporting.png" className="relative" />
             </div>
           </_Container>
         </Wrapper>

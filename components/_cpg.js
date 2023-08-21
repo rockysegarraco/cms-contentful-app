@@ -3,7 +3,7 @@ const posts = [
     id: 1,
     title:
       "Tony Fung, Director of Shopper Marketing & eCommerce, Bob Evans Farms",
-    href: "#",
+    href: "https://www.cpgscoop.com/tony-fung-director-of-shopper-marketing-ecommerce-bob-evans-farms/",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "img/cpg-tonyfung.png",
@@ -20,7 +20,7 @@ const posts = [
   {
     id: 2,
     title: "Sam Nehme, Performance Lead at Mediacom",
-    href: "#",
+    href: "https://www.cpgscoop.com/sam-nehme-performance-lead-at-mediacom/",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "img/cpg-samnehme.png",
@@ -29,7 +29,7 @@ const posts = [
   {
     id: 3,
     title: "Lee Dunbar - SVP, Head of Retail Media, Starcom",
-    href: "#",
+    href: "https://www.cpgscoop.com/lee-dunbar-svp-head-of-retail-media-starcom/",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl: "img/cpg-leedunbar.png",
