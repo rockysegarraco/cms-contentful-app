@@ -70,7 +70,7 @@ export default function Reporting() {
                 How to use comprehensive reporting in real time
               </p>
               <Paragraphs dark>
-                Smartsuite empowers you with real time data and insights to sync
+                SmartSuite empowers you with real time data and insights to sync
                 your media spend with your inventory, reduce advertising waste
                 and measure campaign outcomes. Every subscription comes with
                 unlimited logins and unlimited support!
@@ -142,7 +142,7 @@ export default function Reporting() {
                 className="h-16 mx-auto mb-8"
                 src="img/logo-transunion.svg"
               />
-              <Heading dark>A deeper dive into you audience</Heading>
+              <Heading dark>A deeper dive into your audience</Heading>
               <div className="mx-auto max-w-4xl">
                 <Paragraphs dark>
                   Our partnership with TruAudience™ by TransUnion powers

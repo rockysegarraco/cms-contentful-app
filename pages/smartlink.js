@@ -153,7 +153,7 @@ export default function SmartLink({ pageData }) {
             </dl>
             <div className="flex items-center justify-center gap-x-6">
               <Link href="/contact-us">
-                <Button primary>Improve by numbers</Button>
+                <Button primary>Improve my numbers</Button>
               </Link>
             </div>
           </div>

@@ -17,7 +17,7 @@ const features = [
   {
     name: "Healthcare",
     description:
-      "We have a medical plan option, a dental plan option and a vision plan available through Major Medical Plans.",
+      "We offer medical, dental, and vision coverage through a major medical plan.",
     excerpt: "Because a Healthy Employee Is a Happy Employee",
     icon: LockClosedIcon,
     img: "img/icon-health.svg",

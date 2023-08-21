@@ -123,7 +123,7 @@ export default function Index({ pageData }) {
               </Heading>
               <div className="mx-auto max-w-none lg:max-w-xl">
                 <Paragraphs light>
-                  Major players across categories -- grocery, wellness, beauty,
+                  Major players across categories - grocery, wellness, beauty,
                   pet, electronics, and more - leverage SmartCommerce to reach
                   and convert consumers.
                 </Paragraphs>
