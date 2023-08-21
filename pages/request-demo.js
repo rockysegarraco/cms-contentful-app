@@ -1,4 +1,5 @@
-import Container from "../components/container";
+import _Container from "../components/_Container";
+import Wrapper from "../components/Wrapper";
 import Intro from "../components/intro";
 import GetDemo from "../components/getdemo";
 import Layout from "../components/Layout";
@@ -25,10 +26,12 @@ export default function Example() {
           />
         </Head>
         <Intro title="Get Demo" />
-        <Container>
-          <style>{"body { background-color: #f5f5f7; }"}</style>
-          <GetDemo />
-        </Container>
+        <Wrapper>
+          <_Container>
+            <style>{"body { background-color: #f5f5f7; }"}</style>
+            <GetDemo />
+          </_Container>
+        </Wrapper>
       </Layout>
     </>
   );

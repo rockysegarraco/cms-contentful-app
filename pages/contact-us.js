@@ -28,7 +28,7 @@ export default function Example() {
           <style>{"body { background-color: #f5f5f7; }"}</style>
           <div className="relative isolate">
             <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-              <div className="relative pb-20 sm:pt-0 lg:static">
+              <div className="relative pb-0 sm:pt-0 lg:static">
                 <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
                   <h2 className="text-3xl font-bold text-info-950">
                     Get in touch

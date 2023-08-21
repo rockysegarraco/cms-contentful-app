@@ -1,4 +1,5 @@
 import Button from "../components/elements/Button";
+import Video from "../components/Video";
 /*
   This example requires some changes to your config:
   
@@ -23,9 +24,12 @@ export default function Example() {
           alt=""
         />
       </div>
-      <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:pt-32">
+      <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:pt-8">
         <div className="px-6 lg:px-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+            <div className="mb-4">
+              <Video />
+            </div>
             <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-4xl lg:leading-[5rem]  mb-1 font-bold text-info-950">
               Request a Demo
               <span className="text-secondary-950">.</span>
@@ -35,7 +39,7 @@ export default function Example() {
               your digital ads, social channels and website? Fill out the form
               below and one our team members will be in touch.
             </p>
-            <form className="mt-16">
+            <form className="mt-8">
               <iframe
                 src="https://tfaforms.com/4988154"
                 height="700"
