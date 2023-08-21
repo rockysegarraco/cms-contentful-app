@@ -127,7 +127,6 @@ export default function Reporting() {
                 Of course, we’re always here to help – clients receive unlimited
                 White Glove Support. Our team of experts will work with you
                 every step of the way to ensure your campaign is successful.
-                (And, no, we don’t charge extra for that.)
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last">
@@ -154,7 +153,7 @@ export default function Reporting() {
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Link href="/request-demo">
-                  <Button primary>Request Demo</Button>
+                  <Button primary>Request demo</Button>
                 </Link>
               </div>
             </div>

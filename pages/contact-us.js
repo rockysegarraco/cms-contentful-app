@@ -108,7 +108,7 @@ export default function Example() {
                   <hr className="my-8" />
                   <h2 className="text-xl text-dark-950 font-bold">Europe</h2>
                   <h3 className="text-lg text-dark-950 pt-0">
-                    Barcelona, Spain
+                    Barcelona, Spain (through our partner, SCDC)
                   </h3>
                   <dl className="mt-4 space-y-4 text-base leading-7 text-gray-600">
                     <div className="flex gap-x-4">

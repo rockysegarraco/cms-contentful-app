@@ -169,7 +169,7 @@ export default function SmartSite({ pageData }) {
                   Click2Cart<span className="font-normal">®</span> difference
                 </Heading>
                 <Paragraphs dark>
-                  We like to think of it as behind-the-scenes magic.
+                  Think of it as your behind-the-scenes magic ecommerce wand.
                   Friction-free, one-click carting means consumers aren’t
                   distracted by competitor ads or cross-selling, and there’s no
                   waiting (i.e. forgetting) to check out. <br /> <br />

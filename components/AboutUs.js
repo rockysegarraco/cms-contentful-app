@@ -28,8 +28,8 @@ export default function AboutUs() {
             <Paragraphs dark>
               We’re a community of problem solvers passionate about helping
               clients take their sales to the next level. We develop tools that
-              reinvent the way CPG products get into the hands of consumers
-              across the globe.
+              reinvent the way products get into the hands of consumers across
+              the globe.
             </Paragraphs>
             <Link href="/careers">
               <Button primary>Come work with us</Button>
@@ -106,9 +106,8 @@ export default function AboutUs() {
         <_Container onecolumn>
           <Heading dark>Welcome to our world</Heading>
           <Paragraphs dark>
-            We are a globally distributed community of people living and working
-            in 8 countries around the world. We love to build products that help
-            our clients create magic for their consumers.
+            We are a globally-distributed team working around the world to
+            support global clients.
           </Paragraphs>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">

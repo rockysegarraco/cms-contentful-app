@@ -33,9 +33,11 @@ export default function Example() {
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                We have a network of premium agency, platform, and other media
-                partners that are ready and able to help you succeed. And, of
-                course, they’ve all been vetted by us.
+                SmartCommerce partners are well-versed in putting Click2Cart to
+                work on your ads, social media, influencer sites, websites,
+                packaging, and more! Take a look at the short intros below, and
+                please let us know if we could make an introduction IRL to help
+                grow your brand!
               </Paragraphs>
               <Link href="/contact-us">
                 <Button primary>Partner with us</Button>

@@ -7,7 +7,7 @@ import {
 
 const features = [
   {
-    name: "Remote First Company",
+    name: "Remote-First Company",
     description:
       "We are committed to the notion that great employees can and do work hard anywhere, anytime.",
     excerpt: "Because We Trust Our Employees to Get the Job Done",

@@ -54,7 +54,7 @@ const features = [
   {
     name: "Expand your reach",
     description:
-      "Click2Cart® has access to millions of consumers and sends them to retailers.",
+      "Click2Cart® links reach millions of consumers, letting them save products right into your cart!",
     href: "#",
     img: "img/icon-world.svg",
   },

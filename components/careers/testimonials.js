@@ -58,7 +58,7 @@ export default function Testimonials() {
                   The company has a huge emphasis on taking care of our clients,
                   The company has a huge emphasis on taking care of our clients,
                   by providing the best user experience and making sure our
-                  products are the right fit for their needs. More importantly,
+                  products are the right fit for their needs. More important,
                   they care about their employees.
                 </p>
               </blockquote>
