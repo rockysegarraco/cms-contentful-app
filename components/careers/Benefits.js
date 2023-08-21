@@ -25,7 +25,7 @@ const features = [
   {
     name: "401K & Profit Sharing",
     description:
-      "SmartCommerce provides a 401k Plan and annual Profit Sharing with vestig after 1 year.",
+      "SmartCommerce provides a 401k and annual profit sharing with vesting after one year.",
     excerpt: "Because We Invest in Your Future",
     icon: ArrowPathIcon,
     img: "img/icon-profit.svg",
@@ -33,7 +33,7 @@ const features = [
   {
     name: "Flexible PTO",
     description:
-      "We know you work hard, so enjoy your leisure time! At SmartCommerce, you aren’t limited to a certain number of vacation days. We trust you to get your work done and be a responsible team member.",
+      "We know you work hard and want you to enjoy your leisure time! Employees aren’t limited to a certain number of vacation days. We trust you to get your work done and be a responsible team member.",
     excerpt: "Because It’s All About Balance",
     icon: FingerPrintIcon,
     img: "img/icon-vacation.svg",
@@ -41,7 +41,7 @@ const features = [
   {
     name: "Medical Health Focus",
     description:
-      "At SmartCommerce, our employees are encouraged to bring their whole self to work. To do so, SmartCommerce provides several mental health perks including an EAP.",
+      "Our employees are encouraged to bring their whole self to work. In order to do so, SmartCommerce provides several mental health perks including an EAP.",
     icon: FingerPrintIcon,
     img: "img/icon-mental.svg",
   },

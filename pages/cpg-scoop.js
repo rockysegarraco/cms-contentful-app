@@ -42,9 +42,6 @@ export default function Reporting() {
                 The CPG Scoop Podcast
                 <span className="text-secondary-950">.</span>
               </Heading>
-              <p className="font-bold text-secondary-950 mb-8">
-                How to use comprehensive reporting in real time
-              </p>
               <Paragraphs dark>
                 Discover what’s new and next in CPG commerce and marketing with
                 hosts Jennifer Silverberg, CEO of SmartCommerce, and Risa
