@@ -151,9 +151,7 @@ export default function Index({ pageData }) {
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last text-white">
-              <Link href="/request-demo">
-                <Video />
-              </Link>
+              <Video />
             </div>
           </_Container>
         </Wrapper>

@@ -24,7 +24,7 @@ const testimonials = [
     ],
     [
       {
-        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+        body: "This has completely changed the way we look at our marketing mix – literally everything now is a potential path to purchase.",
         author: {
           name: "Innovation Lead",
           handle: "Ready Set Eat",

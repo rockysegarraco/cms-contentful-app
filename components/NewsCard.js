@@ -10,15 +10,7 @@ export default function NewsletterCard({ posts }) {
         >
           <a href={post.fields.externalLink}>
             <div className="max-w-full rounded-2xl overflow-hidden">
-              <img
-                className="w-full"
-                src={post.fields.coverImage?.fields?.file?.url}
-                alt={post.fields.title}
-              />
               <div className="p-6">
-                <div className="text-sm uppercase text-secondary-950 pb-3">
-                  {post.fields.topic}
-                </div>
                 <div className="font-semibold text-xl mb-2 text-dark-950">
                   {post.fields.title}
                 </div>
@@ -28,6 +20,9 @@ export default function NewsletterCard({ posts }) {
 
                 <div className="pt-3 text-dark-950 text-sm uppercase">
                   <DateComponent dateString={post.fields.date} />
+                </div>
+                <div className="mt-4 text-xs text-primary-950 underline underline-offset-8">
+                  Read More
                 </div>
               </div>
             </div>

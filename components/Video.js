@@ -1,10 +1,15 @@
+import React from "react";
+import ReactPlayer from "react-player";
+
 const Video = () => {
   return (
-    <video controls width="100%" poster="img/video.jpg">
-      <source src="/img/video.mp4" type="video/webm" />
-      <source src="/img/video.mp4" type="video/mp4" />
-      Sorry, your browser doesn't support videos.
-    </video>
+    <ReactPlayer
+      url="/img/video.mp4"
+      width="100%"
+      controls="true"
+      light="img/video.jpg"
+      playing
+    />
   );
 };
 
