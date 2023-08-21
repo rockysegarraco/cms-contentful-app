@@ -140,7 +140,7 @@ export default function Reporting() {
             <div className="order-last lg:order-first">
               <img
                 className="h-16 mx-auto mb-8"
-                src="img/logo-transunion.svg"
+                src="img/TruAudience_Logo.png"
               />
               <Heading dark>A deeper dive into your audience</Heading>
               <div className="mx-auto max-w-4xl">
