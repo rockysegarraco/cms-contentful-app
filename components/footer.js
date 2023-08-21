@@ -18,7 +18,7 @@ const navigation = {
       href: "/newsletter",
     },
     { name: "White Papers", href: "/whitepapers" },
-    { name: "CPG Scoop", href: "#" },
+    { name: "CPG Scoop", href: "/cpg-scoop" },
     { name: "Get Demo", href: "/request-demo" },
   ],
   partners: [
