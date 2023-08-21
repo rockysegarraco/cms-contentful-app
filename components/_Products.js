@@ -25,7 +25,7 @@ export default function _Product(props) {
                   SMART<span className="font-normal">LINK</span>
                 </h1>
                 <p className="text-dark-950 px-8 pt-8 pb-16">
-                  For ads & social media.
+                  For ads & social media
                   <br />
                   <br />
                   Click2Cart links let you add one (or more) products at one (or
@@ -57,7 +57,7 @@ export default function _Product(props) {
                   SMART<span className="font-normal">SITE</span>
                 </h1>
                 <p className="text-dark-950 px-8 pt-8 pb-16">
-                  For websites.
+                  For websites
                   <br />
                   <br />
                   More carting? We’ve got you. Optimize your website with

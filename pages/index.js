@@ -50,7 +50,7 @@ const data = [
     icon: CheckIcon,
   },
   {
-    description: "Is always getting smarter: Machine-learning enabled",
+    description: "Is always getting smarter: Machine-learning enabled.",
     icon: CheckIcon,
   },
   {
@@ -65,8 +65,8 @@ export default function Index({ pageData }) {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            SmartCommerce - Revolutionize E-commerce with SmartCommerce's
+            Multi-Touchpoint Acceleration
           </title>
           <meta
             name="description"
