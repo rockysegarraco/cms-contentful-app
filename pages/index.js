@@ -70,7 +70,7 @@ export default function Index({ pageData }) {
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Maximize your e-commerce potential by transforming every marketing touchpoint into a launch point. Discover how to boost your sales today."
           />
         </Head>
         <Wrapper slate>

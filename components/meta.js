@@ -37,7 +37,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`SmartCommerce - Accelerate E-commerce from all existing touchpoints`}
+        content={`Maximize your e-commerce potential by transforming every marketing touchpoint into a launch point. Discover how to boost your sales today.`}
       />
       <meta property="og:url" content="https://smartcommerce.com/" />
       <meta property="og:site_name" content="SmartCommerce" />
