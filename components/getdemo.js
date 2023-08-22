@@ -20,7 +20,7 @@ export default function Example() {
       <div className="lg:absolute lg:inset-0 lg:left-1/2 ">
         <img
           className="h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full "
-          src="img/cta-getdemo.jpg"
+          src="/img/cta-getdemo.jpg"
           alt=""
         />
       </div>
