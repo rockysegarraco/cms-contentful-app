@@ -3,8 +3,8 @@ export default function Testimonials() {
   return (
     <>
       <section className="isolate overflow-hidden bg-white px-6 lg:px-8">
-        <div className="relative mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-4xl px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-6 gap-12">
+        <div className="relative mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-4xl px-0">
+          <div class="grid grid-cols-1 lg:grid-cols-6 gap-8">
             <div className="col-span-1 lg:col-span-2 text-center">
               <img
                 className="rounded-full mx-auto"
