@@ -29,7 +29,7 @@ export default function Clients() {
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Catalina</p>A recognized leader in highly
-              targeted, personalized digital media that drives, tracks and
+              targeted, personalized digital media that drives, tracks, and
               measures sales lift for leading CPG retailers and brands.
             </div>
           </div>
@@ -230,8 +230,8 @@ export default function Clients() {
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Meta</p>
-              Meta ads help brand reach customers online with ads on Facebook,
-              Instagram, Messenger & WhatsApp.
+              Meta ads help brands reach customers online with ads on Facebook,
+              Instagram, Messenger, and WhatsApp.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">

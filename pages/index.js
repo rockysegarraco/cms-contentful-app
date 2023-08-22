@@ -50,7 +50,7 @@ const data = [
     icon: CheckIcon,
   },
   {
-    description: "Is always getting smarter: Machine-learning enabled",
+    description: "Is always getting smarter: Machine-learning enabled.",
     icon: CheckIcon,
   },
   {
@@ -123,9 +123,9 @@ export default function Index({ pageData }) {
               </Heading>
               <div className="mx-auto max-w-none lg:max-w-xl">
                 <Paragraphs light>
-                  Major players across categories - grocery, wellness, beauty,
-                  pet, electronics, and more - leverage SmartCommerce to reach
-                  and convert consumers.
+                  Major players leverage SmartCommerce to reach consumers across
+                  categories – grocery, wellness, beauty, pet, electronics, and
+                  more.
                 </Paragraphs>
               </div>
               <Partners />

@@ -38,7 +38,7 @@ const imageLoader = ({ src, width, quality }) => {
 
 const features = [
   {
-    name: "No cost to Retailers",
+    name: "No cost to retailers",
     description:
       "SmartCommerce is entirely brand-supported, meaning we do not charge retailers to be in our network or to receive orders.",
     href: "#",
@@ -103,7 +103,7 @@ export default function Example() {
           <_Container onecolumn>
             <div className="order-last lg:order-first">
               <Heading light>
-                <div className="max-w-full">Retailer Rolodex</div>
+                <div className="max-w-full">Retailer Network</div>
               </Heading>
               <div className="mx-auto max-w-none lg:max-w-xl">
                 <Paragraphs light>

@@ -85,7 +85,7 @@ export default function SmartLink({ pageData }) {
               awareness, and creating repeat customers - sorta like magic!
             </Paragraphs>
             <a href="#examples">
-              <Button primary>View Examples</Button>
+              <Button primary>View examples</Button>
             </a>
           </div>
           <div className="relative w-full order-first lg:order-last">

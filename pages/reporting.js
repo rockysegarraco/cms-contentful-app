@@ -29,7 +29,7 @@ const features = [
   {
     name: "Analyze",
     description:
-      "Manage the live performance of your links and make changes to retailers, products,redirect pages, etc. This is where you learn who your audience is and what they want.",
+      "Manage the live performance of your links and make changes to retailers, products, redirect pages, etc. This is where you learn who your audience is and what they want.",
     href: "#",
     img: "img/cta-2.svg",
   },
@@ -71,9 +71,9 @@ export default function Reporting() {
               </p>
               <Paragraphs dark>
                 SmartSuite empowers you with real-time data and insights to sync
-                your media spend with your inventory, reduce advertising waste
-                and measure campaign outcomes. Every subscription comes with
-                unlimited logins and unlimited support!
+                your media spend with your inventory, reduce advertising waste,
+                and measure campaign outcomes. Every subscription comes with
+                unlimited logins and unlimited support.
               </Paragraphs>
               <Link href="/request-demo">
                 <Button primary>Request Demo</Button>

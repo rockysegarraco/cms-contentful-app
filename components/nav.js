@@ -274,7 +274,7 @@ export default function Nav() {
                 href="/request-demo"
                 className="rounded-full bg-primary-950 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get Demo
+                Get demo
               </a>
             </div>
           </div>
