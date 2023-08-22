@@ -15,7 +15,7 @@ export default function PostPreview({
   return (
     <>
       <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-        <a href={`/posts/${slug}`}>
+        <a href={`/${slug}`}>
           <div className="max-w-full rounded-2xl overflow-hidden">
             <img className="w-full" src={coverImage.url} alt={title} />
             <div className="p-6">

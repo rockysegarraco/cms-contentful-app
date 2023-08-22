@@ -22,7 +22,7 @@ export default function HeroHero({
           <div className="p-6">
             <div className="text-sm uppercase text-white pb-3">{topic}</div>
             <h1 className="lg:text-4xl font-semibold text-white lg:leading-[3rem] leading-[2rem] text-2xl">
-              <a href={`/posts/${slug}`}>{title}</a>
+              <a href={`/${slug}`}>{title}</a>
             </h1>
             <div className="flex flex-wrap items-center gap-y-3 overflow-hidden text-sm leading-6 text-gray-300 py-3 uppercase">
               <DateComponent dateString={date} />
