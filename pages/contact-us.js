@@ -51,7 +51,7 @@ export default function Example() {
                         <br />
                         75 5th Street NW, Suite 2000
                         <br />
-                        Atlanta, Georgia 30308
+                        Atlanta, GA 30308
                       </dd>
                     </div>
                     <div className="flex gap-x-4">

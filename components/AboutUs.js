@@ -35,20 +35,24 @@ export default function AboutUs() {
               <Button primary>Come work with us</Button>
             </Link>
             <div className="mx-auto grid max-w-lg grid-cols-6 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-3 mt-16">
-              <img
-                className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
-                src="best-ceo-for-women-2022-small 1.svg"
-                alt="Transistor"
-                width={158}
-                height={68}
-              />
-              <img
-                className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
-                src="best-company-for-women-2022-small 1.svg"
-                alt="Reform"
-                width={158}
-                height={48}
-              />
+              <a href="https://www.comparably.com/companies/smartcommerce/awards?utm_medium=cfc&utm_source=comparably&utm_campaign=awards&utm_content=best-ceo-for-women-2022-small">
+                <img
+                  className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
+                  src="best-ceo-for-women-2022-small 1.svg"
+                  alt="Transistor"
+                  width={158}
+                  height={68}
+                />
+              </a>
+              <a href="https://www.comparably.com/companies/smartcommerce/awards?utm_medium=cfc&utm_source=comparably&utm_campaign=awards&utm_content=best-company-for-women-2022-small">
+                <img
+                  className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
+                  src="best-company-for-women-2022-small 1.svg"
+                  alt="Reform"
+                  width={158}
+                  height={48}
+                />
+              </a>
               <img
                 className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
                 src="Best_Workplaces_Badge 1.svg"

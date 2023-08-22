@@ -42,6 +42,7 @@ const features = [
     name: "Medical Health Focus",
     description:
       "Our employees are encouraged to bring their whole self to work. In order to do so, SmartCommerce provides several mental health perks including an EAP.",
+    excerpt: "Because Your Wellbeing Is Our Top Priority",
     icon: FingerPrintIcon,
     img: "img/icon-mental.svg",
   },
