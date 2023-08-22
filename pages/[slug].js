@@ -1,9 +1,10 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
-import ErrorPage from "next/error";
+// import ErrorPage from "next/error";
 import {
     ArrowLongLeftIcon,
   } from "@heroicons/react/20/solid";
+
 
 // Absolute imports
 import Container from "../components/container";
@@ -13,12 +14,13 @@ import Layout from "../components/Layout";
 import { getAllPostsWithSlug, getPostAndMorePosts } from "../lib/api";
 import PostTitle from "../components/post-title";
 import Newsletter from "../components/newsletter";
+import PageNotFound from "../components/pagenotfound";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
 
   if (!router.isFallback && !post) {
-    return <ErrorPage statusCode={404} />;
+    return <PageNotFound />;
   }
 
   return (
@@ -84,6 +86,7 @@ export default function Post({ post, morePosts, preview }) {
 
 export async function getStaticProps({ params, preview = false }) {
   const data = await getPostAndMorePosts(params.slug, preview);
+
   return {
     props: {
       preview,
@@ -97,6 +100,6 @@ export async function getStaticPaths() {
   const allPosts = await getAllPostsWithSlug();
   return {
     paths: allPosts?.map(({ slug }) => `/${slug}`) ?? [],
-    fallback: true,
+    fallback: "blocking",
   };
 }
