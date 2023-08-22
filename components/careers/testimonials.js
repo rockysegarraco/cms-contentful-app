@@ -56,7 +56,6 @@ export default function Testimonials() {
               <blockquote className="text-lg font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                 <p>
                   The company has a huge emphasis on taking care of our clients,
-                  The company has a huge emphasis on taking care of our clients,
                   by providing the best user experience and making sure our
                   products are the right fit for their needs. More important,
                   they care about their employees.

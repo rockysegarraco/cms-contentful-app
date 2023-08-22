@@ -105,8 +105,13 @@ export default function AboutUs() {
       <Wrapper light>
         <_Container onecolumn>
           <Heading dark>Welcome to our world</Heading>
-
-          <dl className="mt-8 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto max-w-lg">
+            <Paragraphs dark>
+              We’re a fully-remote team, empowered to deliver for clients daily.
+              But most importantly, we have fun while doing it!
+            </Paragraphs>
+          </div>
+          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col bg-gray-400/5 p-8">
               <dt className="text-sm font-semibold leading-6 text-gray-600">
                 Teammates
