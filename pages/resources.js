@@ -5,11 +5,11 @@ const myPage = () => {
   useEffect(() => {
     const { pathname } = Router;
     // conditional redirect
-    if (pathname == "/schedule-a-demo") {
+    if (pathname == "/resources") {
       // with router.push the page may be added to history
       // the browser on history back will  go back to this page and then forward again to the redirected page
       // you can prevent this behaviour using location.replace
-      Router.push("/request-demo");
+      Router.push("/");
       //location.replace("/hello-nextjs")
     } else {
       setLoaded(true);
