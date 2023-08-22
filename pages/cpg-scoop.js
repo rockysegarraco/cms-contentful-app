@@ -74,11 +74,10 @@ export default function Reporting() {
               <h2 className="mx-auto max-w-2xl text-3xl font-bold sm:text-4xl text-info-950">
                 Want to be a guest?
               </h2>
-              <p className="mx-auto mt-6 max-w-sm text-lg leading-8 text-info-950">
-                Contact Risa and Jennifer to see if you can join the
-                conversation!
+              <p className="mx-auto mt-4 max-w-sm text-lg leading-8 text-info-950">
+                Contact Risa and Jennifer!
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-4 flex items-center justify-center gap-x-6">
                 <a
                   href="https://www.cpgscoop.com/contact/"
                   className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
