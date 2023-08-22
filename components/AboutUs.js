@@ -105,30 +105,13 @@ export default function AboutUs() {
       <Wrapper light>
         <_Container onecolumn>
           <Heading dark>Welcome to our world</Heading>
-          <Paragraphs dark>
-            We are a globally-distributed team working around the world to
-            support global clients.
-          </Paragraphs>
-          <div className="relative overflow-hidden pt-16">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <img
-                src="map.png"
-                alt="App screenshot"
-                className="mb-[-3%]"
-                width={2432}
-                height={1442}
-              />
-            </div>
+          <div className="mx-auto max-w-md">
+            <Paragraphs dark>
+              We are a globally-distributed team working around the world to
+              support global clients.
+            </Paragraphs>
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col bg-gray-400/5 p-8">
-              <dt className="text-sm font-semibold leading-6 text-gray-600">
-                Countries
-              </dt>
-              <dd className="order-first text-6xl font-semibold tracking-tight text-secondary-950">
-                8
-              </dd>
-            </div>
+          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col bg-gray-400/5 p-8">
               <dt className="text-sm font-semibold leading-6 text-gray-600">
                 Teammates
