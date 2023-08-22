@@ -81,7 +81,7 @@ export default function SmartSite({ pageData }) {
           <_Container onecolumn>
             <div className="order-last lg:order-first">
               <Heading light>Multi-solutions for multi-channels</Heading>
-              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center mt-24">
+              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 text-center mt-24  mx-auto">
                 {features.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
                     <dt className="text-2xl font-normal text-white">
