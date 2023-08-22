@@ -34,7 +34,7 @@ export default function AboutUs() {
             <Link href="/careers">
               <Button primary>Come work with us</Button>
             </Link>
-            <div className="mx-auto grid max-w-lg grid-cols-6 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-3 mt-16">
+            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-2 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-3 mt-16">
               <a href="https://www.comparably.com/companies/smartcommerce/awards?utm_medium=cfc&utm_source=comparably&utm_campaign=awards&utm_content=best-ceo-for-women-2022-small">
                 <img
                   className="col-span-2 max-h-48 w-full object-contain lg:col-span-1"
