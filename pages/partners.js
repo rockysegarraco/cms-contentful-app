@@ -45,7 +45,7 @@ export default function Example() {
             </div>
             <div className="relative w-full order-first lg:order-last">
               <img
-                src="img/HeroPartners.jpg"
+                src="/img/HeroPartners.jpg"
                 className="relative rounded-2xl w-full"
               />
             </div>

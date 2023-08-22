@@ -72,7 +72,7 @@ export default function Index({ preview, allPosts, total }) {
         <Wrapper>
           <div className="mx-auto grid max-w-7xl px-8 py-8 lg:py-8">
             <div className="relative isolate overflow-hidden bg-primary-100 px-6 py-16 text-center shadow-sm sm:rounded-3xl sm:px-16">
-              <img className="h-16 mx-auto" src="img/logo-smartbites.svg" />
+              <img className="h-16 mx-auto" src="/img/logo-smartbites.svg" />
               <h2 className="py-4 text-2xl leading-[2rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
                 Be a SmartCookie<span className="text-secondary-950">.</span>
               </h2>
