@@ -95,7 +95,7 @@ export default function Nav() {
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">SmartCommerce Inc.</span>
-              <img className="h-14 w-auto" src="img/logo.svg" alt="" />
+              <img className="h-14 w-auto" src="/img/logo.svg" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
