@@ -8,15 +8,12 @@ export default function Cta() {
           <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem]  mb-8 font-bold text-info-950">
             Join our community
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
+          <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600">
             We’re committed to building a diverse team and a work environment
             that’s inclusive of people of all backgrounds. Get to know the
             wonderful community of people who are helping our clients create
             magic all day, every day.
           </p>
-          <div className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600 py-8">
-            <WorkableEmbed />
-          </div>
           <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600">
             Applicants requiring reasonable accommodation for any part of the
             application and hiring process can contact us directly by telephone
@@ -36,7 +33,7 @@ export default function Cta() {
               href="https://apply.workable.com/smartcommerce/"
               className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              Apply now
+              Open Positions
             </a>
           </div>
         </div>
