@@ -7,6 +7,7 @@ import {
   Bars3Icon,
   LinkIcon,
   UserIcon,
+  ChatBubbleBottomCenterTextIcon,
   CursorArrowRippleIcon,
   ArrowRightCircleIcon,
   SquaresPlusIcon,
@@ -43,7 +44,11 @@ const products = [
 ];
 const callsToAction = [
   { name: "Get demo", href: "/request-demo", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "/contact-us", icon: PhoneIcon },
+  {
+    name: "Contact sales",
+    href: "/contact-us",
+    icon: ChatBubbleBottomCenterTextIcon,
+  },
 ];
 
 const partners = [
