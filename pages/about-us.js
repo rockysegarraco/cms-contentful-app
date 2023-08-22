@@ -1,16 +1,17 @@
+import React, { useEffect } from "react";
 import _PageTitle from "../components/_PageTitle";
 import AboutUs from "../components/AboutUs";
-import Values from "../components/Values";
 import Layout from "../components/Layout";
-import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import ReactGA from 'react-ga';
+
 
 export default function Example() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <>
       <Layout>

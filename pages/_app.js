@@ -3,8 +3,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { Poppins } from "next/font/google";
 import ReactGA from "react-ga";
-const TRACKING_ID = "UA-74080712-1"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -14,6 +12,7 @@ const poppins = Poppins({
 });
 
 export default function MyApp({ Component, pageProps }) {
+  ReactGA.initialize(process.env.PUBLIC_NEXT_TRACKING_ID); 
   return (
     <main className={poppins.className}>
       <Component {...pageProps} />
