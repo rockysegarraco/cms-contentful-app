@@ -1,12 +1,20 @@
-import { useState } from "react";
-import UsernamePasswordDialog from "../components/UserPasswordDialog";
+import { useState, useEffect } from "react";
+import ReactGA from 'react-ga';
 import { toast } from "react-toastify";
+
+// Absolute import
+import UsernamePasswordDialog from "../components/UserPasswordDialog";
 import CalculatorComponent from "../components/CalculatorEmbed";
+
 
 export default function _Primary(props) {
   const { children } = props; // Destructure 'children' from 'props'
   const [dialogOpen, setDialogOpen] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   const handleCloseDialog = () => {
     setDialogOpen(false);
