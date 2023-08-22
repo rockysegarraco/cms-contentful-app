@@ -33,7 +33,7 @@ export default function Testimonials() {
                 <div className="mt-10 mx-auto">
                   {" "}
                   <Button
-                    title="Click to cart my favorite snacks"
+                    title="Click to cart my favorite items"
                     link="https://2cart.net/03500Wl"
                   />
                 </div>
