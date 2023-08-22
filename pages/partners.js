@@ -58,7 +58,7 @@ export default function Example() {
               <Paragraphs dark minwidth>
                 <span>
                   SmartCommerce is integrated with these premium agencies,
-                  platforms, and media partners – all authorize to implement
+                  platforms, and media partners – all authorized to implement
                   Click2Cart® services.
                 </span>
               </Paragraphs>
