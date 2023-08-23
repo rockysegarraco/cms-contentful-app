@@ -11,17 +11,36 @@ export default function Document() {
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <script src="https://js.chatlio.com/widget.js" async></script>
-        <chatlio-widget widgetid="21276619-1a50-4dc5-64d0-4abfae3e95b2"></chatlio-widget>
-        <script
-          id="cookieyes"
-          type="text/javascript"
-          src="https://cdn-cookieyes.com/client_data/8cddd9e07b2f233dbfda8450/script.js"
-        ></script>
+
+        {/* Include other head elements here */}
       </Head>
       <body>
         <Main />
         <NextScript />
+        {/* Chatlio Widget */}
+        <Script src="https://js.chatlio.com/widget.js" strategy="lazyOnload" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              Chatlio('init', { widgetId: '21276619-1a50-4dc5-64d0-4abfae3e95b2' });
+            `,
+          }}
+        />
+        {/* Mountain Analytics
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                "use strict";
+                var version = "4.0.0";
+                var shaid = "34274";
+                var additional = "term=value";
+                // Rest of your script...
+              })();
+            `,
+          }}
+          */}
+        />
       </body>
     </Html>
   );
