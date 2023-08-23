@@ -18,8 +18,8 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Schedule a Meetup - Accelerate E-commerce from all existing
+            touchpoints - SmartCommerce
           </title>
           <meta
             name="description"
