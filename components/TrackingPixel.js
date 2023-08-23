@@ -4,7 +4,7 @@ const TrackingPixel = () => {
   useEffect(() => {
     (function () {
       "use strict";
-        b = "4.0.0",
+       var b = "4.0.0",
         n = "34274",
         additional = "term=value",
         t, r, i;
