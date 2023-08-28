@@ -33,7 +33,7 @@ export default function Cta() {
               href="https://apply.workable.com/smartcommerce/"
               className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              Open Positions
+              Open positions
             </a>
           </div>
         </div>
