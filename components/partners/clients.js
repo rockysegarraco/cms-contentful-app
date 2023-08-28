@@ -144,14 +144,14 @@ export default function Clients() {
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
-              src="img/partners/optimad.svg"
-              alt="Optimal"
+              src="img/partners/gumgum.svg"
+              alt="GumGum"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Optimal</p>A leading global media network
-              with a client-first approach.
+              <p className="font-bold">GumGum</p>Industry-leader in cookie-less
+              digital advertising.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
@@ -170,14 +170,14 @@ export default function Clients() {
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
-              src="img/partners/padsquad.svg"
-              alt="PadSquad"
+              src="img/partners/undertone.png"
+              alt="Undertone"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Pad Squad LLC</p>
-              Remarkable creative connecting humans and brands.
+              <p className="font-bold">Undertone</p>
+              High-impact advertising campaign across all screens and platforms.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
