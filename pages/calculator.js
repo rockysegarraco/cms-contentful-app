@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 import { toast } from "react-toastify";
 
 // Absolute import
 import UsernamePasswordDialog from "../components/UserPasswordDialog";
 import CalculatorComponent from "../components/CalculatorEmbed";
-
 
 export default function _Primary(props) {
   const { children } = props; // Destructure 'children' from 'props'
@@ -39,9 +38,15 @@ export default function _Primary(props) {
             <h2 className="mt-8 text-center text-xl text-slate-950 font-semibold">
               Pricing Calculator
             </h2>
+            <div className="text-xs mt-4 leading-[1.10rem]">
+              This calculator is based on standard pricing (in USD) - please
+              refer to your reseller agreement for details. Final pricing is is
+              based actual lead skus and actual number of weeks - reach out to
+              your SmartCommerce representative if you have any questions!
+            </div>
           </div>
 
-          <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
+          <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-[480px]">
             <div className="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
               <form className="space-y-6" action="#" method="POST">
                 <div>
