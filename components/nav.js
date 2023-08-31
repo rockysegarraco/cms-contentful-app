@@ -425,10 +425,16 @@ export default function Nav() {
                 </div>
                 <div className="py-6">
                   <a
+                    href="request-demo"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Get Demo
+                  </a>
+                  <a
                     href="https://smartcommerce.wufoo.com/forms/smartcommerce-campaign-order-form/"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Request Form
+                    Campaign Request Form
                   </a>
                   <a
                     href="https://smartsuite.co/en-us/backend/"
