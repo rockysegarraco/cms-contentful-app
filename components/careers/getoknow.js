@@ -7,10 +7,7 @@ export default function GetToKnow() {
             Get to know the people here to support your success
           </p>
           <p className="mt-6 text-lg leading-8 text-dark-950">
-            All SmartCommerce employees can work remotely. but we do have
-            offices in several cities, including Atlanta and Minneapolis, and
-            our partner team in Barcelona, Spain would love to take you out for
-            tapas!
+All SmartCommerce employees can work remotely, but we do have offices in Atlanta and Minneapolis, and our partner team in Barcelona, Spain would love to take you out for tapas!
           </p>
         </div>
       </div>

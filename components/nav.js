@@ -23,21 +23,21 @@ const products = [
   {
     name: "SmartLink",
     description:
-      "Shoppable links let consumers save products directly to favorite store carts, seamlessly!",
+      "Click2Cart links bring the cart to your ads and social media, getting your products into carts faster and more frequently.",
     href: "/smartlink",
     icon: ArrowRightCircleIcon,
   },
   {
     name: "SmartSite",
     description:
-      "Ready for your website to perform?  We've got you!  Optimize your website with one-click carting to a consumer's choice of stores. ",
+      "Optimize your website with one-click carting at a variety of retailers, including your own DTC experience.",
     href: "/smartsite",
     icon: ArrowRightCircleIcon,
   },
   {
     name: "Reporting",
     description:
-      "SmartSuite empowers you with real time data and insights to sync your media spend with your inventory, reduce advertising waste and measure campaign outcomes. ",
+      "Real-time data and insights let clients manage campaigns, make changes, and meet their goals faster.",
     href: "/reporting",
     icon: ArrowRightCircleIcon,
   },
@@ -425,10 +425,16 @@ export default function Nav() {
                 </div>
                 <div className="py-6">
                   <a
+                    href="request-demo"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Get Demo
+                  </a>
+                  <a
                     href="https://smartcommerce.wufoo.com/forms/smartcommerce-campaign-order-form/"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Request Form
+                    Campaign Request Form
                   </a>
                   <a
                     href="https://smartsuite.co/en-us/backend/"

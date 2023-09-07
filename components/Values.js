@@ -20,7 +20,7 @@ const faqs = [
       "Every day, in every way, we look for ways to say “yes” to clients and coworkers, even when there isn’t an easy answer. And we live for creative, new ideas.",
   },
   {
-    question: "Think outside the box (or better yet, recycle that box!)",
+    question: "Think outside the box. (And while you're at it, recycle that box!)",
     answer:
       "We are resourceful problem-solvers not afraid to forge new paths and try new things that may benefit our clients or their customers.",
   },

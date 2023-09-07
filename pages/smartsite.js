@@ -69,7 +69,7 @@ export default function SmartSite({ pageData }) {
                 your website, making every moment a shoppable one.
               </Paragraphs>
               <Link href="/request-demo">
-                <Button primary>Request Demo</Button>
+                <Button primary>Request demo</Button>
               </Link>
             </div>
             <div className="relative w-full order-first lg:order-last">

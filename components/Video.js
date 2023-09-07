@@ -8,18 +8,20 @@ const Video = () => {
     if (typeof window != "undefined") {
       setHasWindow(true);
     }
-  }, [])
+  }, []);
 
   return (
     <>
-    {hasWindow && (<ReactPlayer
-      url="/img/video.mp4"
-      width="100%"
-      pip
-      controls="true"
-      light="img/video.jpg"
-      playing
-    />)}
+      {hasWindow && (
+        <ReactPlayer
+          url="/img/video.mp4"
+          width="100%"
+          pip
+          controls="true"
+          light="/img/video.jpg"
+          playing
+        />
+      )}
     </>
   );
 };

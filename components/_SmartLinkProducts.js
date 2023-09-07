@@ -7,9 +7,7 @@ export default function _SmartLinkProducts() {
             Smart solutions that boost your bottom line
           </p>
           <p className="mt-6 text-lg leading-8 text-dark-950">
-            Our suite of solutions fits any campaign objective and comes with a
-            convenient-to-use 24/7 platform and next-level client support.
-            Anywhere you can use a URL, you can drive commerce!
+Our suite of solutions fits any campaign objective and comes with a convenient-to-use 24/7 platform and next-level client support. Anywhere you can use a URL, you can drive commerce!
             <br />{" "}
             <span className="font-bold text-info-950">
               It’s really that easy.
