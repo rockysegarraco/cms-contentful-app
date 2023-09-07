@@ -20,21 +20,20 @@ export default function Document() {
         ></script>
         {/* Tag manager script */}
         <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-15J5MMF9N6"
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-15J5MMF9N6"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
                 gtag('config', 'G-15J5MMF9N6');
               `,
-            }}
-          ></script>
-
+          }}
+        ></script>
       </Head>
       <body>
         <Main />
