@@ -3,7 +3,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { Poppins } from "next/font/google";
 import ReactGA from "react-ga";
-import TrackingPixel from "../components/TrackingPixel";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -16,7 +15,6 @@ export default function MyApp({ Component, pageProps }) {
   ReactGA.initialize(process.env.PUBLIC_NEXT_TRACKING_ID); 
   return (
     <main className={poppins.className}>
-      <TrackingPixel />
       <Component {...pageProps} />
       <ToastContainer
         hideProgressBar
