@@ -21,6 +21,14 @@ import reportingPic from "../public/img/reporting.png";
 import statPic from "../public/img/stat.jpg";
 // import TrackingPixel from '../components/TrackingPixel';
 
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "GTM-K6MBFWV",
+};
+
+TagManager.initialize(tagManagerArgs);
+
 const imageLoader = ({ src, width, quality }) => {
   return `${src}?w=${width}&q=${quality || 75}`;
 };
