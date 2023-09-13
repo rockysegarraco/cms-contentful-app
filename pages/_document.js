@@ -21,7 +21,7 @@ export default function Document() {
         {/* Tag manager script */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-15J5MMF9N6"
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-K6MBFWV"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -30,16 +30,16 @@ export default function Document() {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', 'G-15J5MMF9N6');
+                gtag('config', 'GTM-K6MBFWV');
               `,
-            }}
-          ></script>
+          }}
+        ></script>
 
-          {/* MNTN Tracking Pixel */}
-          <script
-            type="text/javascript"
-            dangerouslySetInnerHTML={{
-              __html: `
+        {/* MNTN Tracking Pixel */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
                 (function() {
                   "use strict";
                   var e = null,
@@ -125,9 +125,8 @@ export default function Document() {
                   v.parentNode.insertBefore(c, v);
                 })()
               `,
-            }}
-          />
-
+          }}
+        />
       </Head>
       <body>
         <Main />
