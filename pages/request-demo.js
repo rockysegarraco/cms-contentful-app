@@ -10,7 +10,6 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import MNTNConversionPixel from "../components/MNTNConversionPixel";
 
 export default function Example() {
   return (
@@ -25,7 +24,6 @@ export default function Example() {
             name="description"
             content="Interested in learning how Click2Cart® can drive e- commerce from your digital ads, social channels and website? Fill out the form below and one our team members will be in touch."
           />
-          <MNTNConversionPixel />
         </Head>
         <Intro title="Get Demo" />
         <Wrapper>
