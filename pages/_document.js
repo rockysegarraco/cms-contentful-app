@@ -10,7 +10,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script src="https://js.chatlio.com/widget.js" async></script>
         <chatlio-widget widgetid="21276619-1a50-4dc5-64d0-4abfae3e95b2"></chatlio-widget>
         <script
