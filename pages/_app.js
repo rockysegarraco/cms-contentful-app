@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export default function MyApp({ Component, pageProps }) {
-  ReactGA.initialize(process.env.PUBLIC_NEXT_TRACKING_ID); 
+  ReactGA.initialize(process.env.PUBLIC_NEXT_TRACKING_ID);
   return (
     <main className={poppins.className}>
       <Component {...pageProps} />

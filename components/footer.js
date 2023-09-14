@@ -9,6 +9,7 @@ const navigation = {
     { name: "News & Events", href: "/cpg-brand-news" },
     { name: "Partners", href: "/partners" },
     { name: "Careers", href: "/careers" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
   ],
   company: [
     { name: "", href: "#" },
@@ -176,8 +177,7 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; 2023 All rights reserved. •{" "}
-            <a href="/privacy-policy">Privacy</a>
+            &copy; 2023 All rights reserved.
           </p>
         </div>
       </div>
