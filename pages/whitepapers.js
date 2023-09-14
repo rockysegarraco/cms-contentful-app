@@ -13,6 +13,10 @@ export default function WhitePapers({ preview, posts, total }) {
   const [postData, setPostData] = useState(posts);
   const [totalLength, setTotalLength] = useState(NUMBER_OF_WHITEPAPERS_TO_SHOW);
 
+  console.log('====================================');
+  console.log(postData[0]?.formId);
+  console.log('====================================');
+
   const handleNext = async (e) => {
     e.preventDefault();
     if (totalLength != total) {
@@ -82,6 +86,15 @@ export default function WhitePapers({ preview, posts, total }) {
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <WhiteCard posts={postData} />}
+          {postData.length > 0 && (
+                <iframe
+                  src={postData[0]?.fields.formId}
+                  height="800"
+                  width="100%"
+                  frameBorder="0"
+                  title="My iFrame"
+                ></iframe>
+              )}
           <Pagination
             total={total}
             currentPage={currentPage}
