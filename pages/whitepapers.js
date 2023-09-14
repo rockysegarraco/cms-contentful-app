@@ -13,10 +13,6 @@ export default function WhitePapers({ preview, posts, total }) {
   const [postData, setPostData] = useState(posts);
   const [totalLength, setTotalLength] = useState(NUMBER_OF_WHITEPAPERS_TO_SHOW);
 
-  console.log('====================================');
-  console.log(postData[0]?.formId);
-  console.log('====================================');
-
   const handleNext = async (e) => {
     e.preventDefault();
     if (totalLength != total) {
