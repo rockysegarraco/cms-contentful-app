@@ -82,15 +82,6 @@ export default function WhitePapers({ preview, posts, total }) {
         <Container>
           <style>{"body { background-color: #f5f5f7; }"}</style>
           {postData.length > 0 && <WhiteCard posts={postData} />}
-          {postData.length > 0 && (
-                <iframe
-                  src={postData[0]?.fields.formId}
-                  height="800"
-                  width="100%"
-                  frameBorder="0"
-                  title="My iFrame"
-                ></iframe>
-              )}
           <Pagination
             total={total}
             currentPage={currentPage}

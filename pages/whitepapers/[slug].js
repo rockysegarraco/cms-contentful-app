@@ -45,6 +45,13 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
               />
               <PostBody content={post.content} />
+             {post?.formId && (<iframe
+              src={post?.formId}
+              height="800"
+              width="100%"
+              frameBorder="0"
+              title="My iFrame"
+             />)}
             </article>
           </>
         )}
