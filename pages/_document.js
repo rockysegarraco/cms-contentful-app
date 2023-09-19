@@ -27,17 +27,6 @@ export default function Document() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=GTM-K6MBFWV"
         ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'GTM-K6MBFWV');
-              `,
-          }}
-        ></script>
       </Head>
       <body>
         <Main />
