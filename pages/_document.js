@@ -25,7 +25,7 @@ export default function Document() {
         {/* Tag manager scripts */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=GTM-K6MBFWV"
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-K6MBFWV"
         ></script>
       </Head>
       <body>
