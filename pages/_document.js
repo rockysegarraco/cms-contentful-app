@@ -22,7 +22,7 @@ export default function Document() {
           type="text/javascript"
           src="https://cdn-cookieyes.com/client_data/8cddd9e07b2f233dbfda8450/script.js"
         ></script>
-        {/* Tag manager script */}
+        {/* Tag manager scripts */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=GTM-K6MBFWV"
