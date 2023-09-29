@@ -1,27 +1,43 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
-const DynamicForm = () => {
+const FormDemo = () => {
   useEffect(() => {
-    // Load the external script dynamically
-    const script = document.createElement('script');
-    script.src = 'https://www.tfaforms.com/publish/4988154';
-    script.defer = true;
-    
-    // Define a callback to execute when the script is loaded
-    script.onload = () => {
-      // You can use the external script to generate content inside the "fa-form" div
-      // For example:
-      const formContainer = document.getElementById('fa-form');
-      if (formContainer) {
-        // Add the content or initialize the form here
-        // Example: formContainer.innerHTML = 'This is the form content';
+    // Function to check if the element with data-qp-target-id exists
+    const checkElement = () => {
+      const element = document.getElementById('fa-form');
+      if (element && element.hasAttribute('data-qp-target-id')) {
+        // Create the script element when the element is found
+        const script = document.createElement('script');
+        script.src = 'https://www.tfaforms.com/publish/4988154';
+        script.setAttribute('data-qp-target-id', 'fa-form');
+        script.defer = true;
+
+        // Append the script to the document's body to load it
+        document.body.appendChild(script);
+      } else {
+        // Check again after a short delay
+        setTimeout(checkElement, 100);
       }
     };
-    
-    document.head.appendChild(script);
+
+    // Start checking for the element
+    checkElement();
+
+    // Cleanup: remove the script when the component unmounts
+    return () => {
+      const scriptElement = document.querySelector('script[src="https://www.tfaforms.com/publish/4988154"]');
+      if (scriptElement) {
+        document.body.removeChild(scriptElement);
+      }
+    };
   }, []);
 
-  return <div id="fa-form"></div>;
+  return (
+    <div>
+      <div id="fa-form"></div>
+      {/* Add any other content or components related to your form */}
+    </div>
+  );
 };
 
-export default DynamicForm;
+export default FormDemo;

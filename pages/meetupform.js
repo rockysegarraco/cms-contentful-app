@@ -46,7 +46,7 @@ export default function Example() {
                   src="https://tfaforms.com/5008721?tfa_7=a0f5b00000AvHEzAAN"
                   height="487"
                   width="100%"
-                  frameborder="0"
+                  frameBorder="0"
                 ></iframe>
                 <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
               </div>
