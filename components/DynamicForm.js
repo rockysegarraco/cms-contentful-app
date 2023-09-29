@@ -21,7 +21,6 @@ const FormDemo = () => {
 
   return (
     <div>
-      <h1>Form demo</h1>
       <div id="fa-form"></div>
       {/* Add any other content or components related to your form */}
     </div>
