@@ -48,6 +48,7 @@ export default function Example() {
                 frameborder="0"
               ></iframe>
             </form>
+            <div id="fa-form"></div>
           </div>
         </div>
       </div>
