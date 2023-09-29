@@ -5,7 +5,7 @@ const FormDemo = () => {
   useEffect(() => {
     // Create a script element for the external script
     const script = document.createElement('script');
-    script.src = 'https://www.tfaforms.com/publish/4988154';
+    script.src = 'https://www.tfaforms.com/4988154';
     script.defer = true;
 
     // Append the script to the document's body to load it
