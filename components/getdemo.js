@@ -1,5 +1,5 @@
-import Button from "../components/elements/Button";
 import Video from "../components/Video";
+import DynamicForm from "./DynamicForm";
 /*
   This example requires some changes to your config:
   
@@ -40,16 +40,8 @@ export default function Example() {
               to see a sample link for your brand? Please introduce yourself
               below, and one our team members will be right back with you!
             </p>
-            <form className="mt-8">
-              <iframe
-                src="https://tfaforms.com/4988154"
-                height="700"
-                width="100%"
-                frameborder="0"
-              ></iframe>
-            </form>
-            <div id="fa-form"></div>
           </div>
+          <DynamicForm />
         </div>
       </div>
     </div>

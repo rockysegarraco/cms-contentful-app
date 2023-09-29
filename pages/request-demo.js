@@ -3,13 +3,7 @@ import Wrapper from "../components/Wrapper";
 import Intro from "../components/intro";
 import GetDemo from "../components/getdemo";
 import Layout from "../components/Layout";
-import { fetchNewsletter } from "../lib/api";
 import Head from "next/head";
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
 
 export default function Example() {
   return (
