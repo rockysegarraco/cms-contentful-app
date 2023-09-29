@@ -41,14 +41,14 @@ export default function Example() {
             </p>
           </div>
           <form className="mt-8">
-              <iframe
-                src="https://tfaforms.com/4988154"
-                height="700"
-                width="100%"
-                frameborder="0"
-              ></iframe>
-            </form>
-            <div id="fa-form"></div>
+            <iframe
+              src="https://tfaforms.com/4988154"
+              height="700"
+              width="100%"
+              frameborder="0"
+            ></iframe>
+          </form>
+          <div id="fa-form"></div>
         </div>
       </div>
     </div>
