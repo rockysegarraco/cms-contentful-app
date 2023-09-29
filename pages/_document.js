@@ -28,6 +28,7 @@ export default function Document() {
           src="https://www.googletagmanager.com/gtm.js?id=GTM-K6MBFWV"
         ></script>
         <script
+          async
           src="https://www.tfaforms.com/publish/4988154"
           data-qp-target-id=""
           defer
