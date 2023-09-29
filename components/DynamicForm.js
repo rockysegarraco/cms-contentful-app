@@ -1,27 +1,29 @@
-import React, { useEffect } from 'react';
+// components/FormDemo.js
+import { useEffect } from 'react';
 
-const DynamicForm = () => {
+const FormDemo = () => {
   useEffect(() => {
-    // Load the external script dynamically
+    // Create a script element for the external script
     const script = document.createElement('script');
     script.src = 'https://www.tfaforms.com/publish/4988154';
     script.defer = true;
-    
-    // Define a callback to execute when the script is loaded
-    script.onload = () => {
-      // You can use the external script to generate content inside the "fa-form" div
-      // For example:
-      const formContainer = document.getElementById('fa-form');
-      if (formContainer) {
-        // Add the content or initialize the form here
-        // Example: formContainer.innerHTML = 'This is the form content';
-      }
+
+    // Append the script to the document's body to load it
+    document.body.appendChild(script);
+
+    // Cleanup: remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
     };
-    
-    document.head.appendChild(script);
   }, []);
 
-  return <div id="fa-form"></div>;
+  return (
+    <div>
+      <h1>Form demo</h1>
+      <div id="fa-form"></div>
+      {/* Add any other content or components related to your form */}
+    </div>
+  );
 };
 
-export default DynamicForm;
+export default FormDemo;

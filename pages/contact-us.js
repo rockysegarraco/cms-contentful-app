@@ -135,7 +135,7 @@ export default function Example() {
                 src="https://tfaforms.com/4982191"
                 height="1000"
                 width="100%"
-                frameborder="0"
+                frameBorder="0"
               ></iframe>
               <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
             </div>
