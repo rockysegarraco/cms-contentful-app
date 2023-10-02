@@ -1,5 +1,5 @@
 import Video from "../components/Video";
-import DynamicForm from './DynamicForm'
+import DynamicForm from "./DynamicForm";
 /*
   This example requires some changes to your config:
   
