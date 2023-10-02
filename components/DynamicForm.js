@@ -1,12 +1,12 @@
-
-// this is static hack - still waiting on on update from Formassembly support 
+// this is static hack - still waiting on on update from Formassembly support
 // for a more elegant solution
 // The main benefit is that this is a no-iframe solution so we can make the form submit redirect to a another pageon the site.
 function FormDemo() {
   return (
-    <div dangerouslySetInnerHTML={{ __html: 
-`
-<!-- FORM: HEAD SECTION -->
+    <div
+      dangerouslySetInnerHTML={{
+        __html: `
+<!-- FORM: HEAD SECTIONS -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="referrer" content="no-referrer-when-downgrade">
 <!-- THIS SCRIPT NEEDS TO BE LOADED FIRST BEFORE wforms.js -->
@@ -278,9 +278,9 @@ function FormDemo() {
 										<p class="supportInfo">
 										</p>
 									</div>
-`
-    
-    }} />
+`,
+      }}
+    />
   );
 }
 export default FormDemo;
