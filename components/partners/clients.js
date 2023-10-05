@@ -247,6 +247,156 @@ export default function Clients() {
               allows users to find ideas that ignite inspiration.
             </div>
           </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/googlelogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Google</p>Offering unparalleled expertise
+              in search, digital products and services, and commitment to
+              innovation
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/horizonmedialogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Horizon Media</p>Full service media
+              agency providing complete brand strategy, communications planning
+              and activation acorss all channels
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/influentiallogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Influential</p>Connecting brands with the
+              perfect inlfuencers to boost digital presence
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/linqialogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Linqia</p>Linqia drives authentic
+              connections and measurable results through AI-powered influencer
+              marketing
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/nextdoorlogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Nextdoor</p>Connecting neighbors and
+              fostering community engagement through sharing local information
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/Quotientlogo.svg"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Quotient</p>Delivering value with
+              promotions and media at every consumer touchpoint
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/teadslogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Teads</p>Reaching millions of consumers
+              across devices and platforms through innovative video and display
+              advertising
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/twitter(x)logo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Twitter now (X)</p>Globally connecting
+              users by fostering conversations, news dissemination, and public
+              discourse
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/tiktoklogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Tik Tok</p>Social media platform that
+              allows users to showcase creativty, talent, and knowledge to a
+              global audience
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/univisionlogo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Univision</p>Offering a diverse range of
+              television, radio, and digital content catered to Hispanic
+              audiences
+            </div>
+          </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <img
+              className="mx-auto max-h-10 object-contain p-2"
+              src="img/partners/yahoologo.png"
+              alt="Meta"
+              width={168}
+              height={58}
+            />
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Yahoo</p>Global media and tech company
+              connecting people to their passions
+            </div>
+          </div>
         </div>
       </div>
     </div>
