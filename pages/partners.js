@@ -33,11 +33,12 @@ export default function Example() {
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                SmartCommerce partners are well-versed in putting Click2Cart to
-                work on your ads, social media, influencer sites, websites,
-                packaging, and more! Take a look at the short intros below, and
-                please let us know if we could make an introduction IRL to help
-                grow your brand!
+                Our wonderful partners are all well-versed when it comes to
+                Click2Cart technology and know how to use it to boost the
+                performance of ads, social posts, influencer blogs, websites,
+                packaging, and more. Learn more about each of them below, and
+                let us know if you’d like an intro. We love nothing more than
+                making connections and watching your business grow!
               </Paragraphs>
               <Link href="/contact-us">
                 <Button primary>Partner with us</Button>

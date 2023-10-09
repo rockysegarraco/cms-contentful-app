@@ -9,392 +9,414 @@ export default function Clients() {
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/Vericast.svg"
-              alt="Vericast"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Vericast</p>
-              Bringing marketing to new heights with data, media, technology,
-              and people.
+              Trailblazers in data intelligence, they elevate marketing
+              campaigns using data, media, and technology.
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/catalina.svg"
-              alt="Catalina"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Catalina</p>A recognized leader in highly
-              targeted, personalized digital media that drives, tracks, and
-              measures sales lift for leading CPG retailers and brands.
+              <p className="font-bold">Catalina</p>A market leader in shopper
+              intelligence and highly targeted in-store and digital media that
+              personalizes the shopper journey.
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/ogury.png"
-              alt="Ogury"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Ogury</p>
-              Ogury engages consumers with fully on-screen and choice-driven
-              ads.
+              <p className="font-bold">Ogury</p>A global leader in personified
+              advertising, thanks to a breakthrough advertising engine that
+              delivers targeting based on personas rather than users’
+              identities.
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/aki.svg"
-              alt="Aki"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Aki Technologies, Inc.</p>
-              Reaching consumers with personalized advertising driving
-              industry-leading campaign results.
+              Award-winning technology empowers brands and retailers to reach
+              people by targeting pivotal moments in the consumer journey with
+              personalized advertising.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/inmar.png"
-              alt="Inmar"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Inmar</p>
-              Uncovering valuable insights for businesses to meet the
-              personalized needs of consumers.
+              Using data science and technology, they make it easier for
+              brands/retailers to meet the personalized needs of consumers.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/adadapted.svg"
-              alt="AdAdapted"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">AdAdapted</p>
-              Delivering real-world value for advertisers using machine learning
-              and data science.
+              Connects CPG brands and shoppers through meaningful engagements in
+              the apps that impact path-to-purchase.
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/acorn.svg"
-              alt="Acorn"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
               <p className="font-bold">Acorn</p>
-              Curators of beautiful creator content that converts.
+              Create and manage influencer marketing campaigns based on real
+              relationships with data-vetted influencers relevant to your brand
+              and project.
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/gt.svg"
-              alt="Groundtruth"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="bg-white  mt-3 text-center text-sm">
-              <p className="font-bold">GroundTruth</p>A mobile advertising
-              platform using location-based ads to drive business results.
+              <p className="font-bold">GroundTruth</p>A media company that turns
+              real-world behavior into marketing that delivers real business
+              results.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/brandshare.png"
-              alt="brandshare"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center">
               <p className="font-bold">BrandShare</p>
-              The leader in connected sampling.
+              Omnichannel product sampling through curated subscription boxes,
+              loyalty programs, and e-commerce sampling with digital
+              connectivity.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/kargo.png"
-              alt="brandshare"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Kargo</p>
-              Leader in attention-based and innovative advertising solutions.
+              <p className="font-bold">Kargo</p>A suite of exclusive omnichannel
+              advertising solutions to drive meaningful customer connections
+              across mobile, video, and social.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/gumgum.svg"
-              alt="GumGum"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">GumGum</p>Industry-leader in cookie-less
-              digital advertising.
+              <p className="font-bold">GumGum</p>A contextual-first, global
+              digital ad platform that captures people’s attention, without the
+              use of personal data.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/soapbox.png"
-              alt="brandshare"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Soapbox Influence</p>
-              Building brands through authentic conversations.
+              Connects brands to influencers, crafting authentic conversations
+              leading to brand awareness, activation, and conversion.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/undertone.png"
-              alt="Undertone"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Undertone</p>
-              High-impact advertising campaign across all screens and platforms.
+              Creates memorable ad experiences by thoughtfully orchestrating
+              solutions across Display, Video, CTV, and DOOH.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/inmarket.png"
-              alt="inmarket"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">InMarket</p>
-              360 degree consumer intelligence and real-time activation.
+              <p className="font-bold">InMarket</p>A data-driven marketing
+              platform allowing brands to build targeted audiences, activate
+              real-time omni-channel marketing programs, and measure their
+              success.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/neptune.png"
-              alt="Neptune"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Neptune Retail Solutions</p>
-              Tools that drive sustained revenue and margin growth for retail
-              and brand partners.
+              <p className="font-bold">Neptune Retail Solutions</p>A complete
+              omni-channel network of proven solutions that helps brands and
+              retailers guide consumers from shopping to buying.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/breaktime.svg"
-              alt="Breaktime"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Breaktime Media MWH LLC</p>
-              Connecting brands and consumers using bite-sized digital content.
+              Engagement specialists that use bite-sized digital content that
+              helps shoppers decide what to buy and where to buy it.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/meta.svg"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Meta</p>
-              Meta ads help brands reach customers online with ads on Facebook,
-              Instagram, Messenger, and WhatsApp.
+              Reach highly-targeted audiences with engaging ad campaigns across
+              the extensive user bases of Facebook, Instagram, WhatsApp, and
+              Messenger.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/pinterest.svg"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Pinterest</p>A visual discovery engine
-              allows users to find ideas that ignite inspiration.
+              <p className="font-bold">Pinterest</p>Reach 400 million people who
+              use the visual social site every month to discover and buy your
+              products.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/googlelogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Google</p>Offering unparalleled expertise
-              in search, digital products and services, and commitment to
-              innovation
+              in search, digital products, and services, and commitment to
+              innovation.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/horizonmedialogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
               <p className="font-bold">Horizon Media</p>Full service media
-              agency providing complete brand strategy, communications planning
-              and activation acorss all channels
+              agency providing complete brand strategy, communications planning,
+              and activation across all channels.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/influentiallogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Influential</p>Connecting brands with the
-              perfect inlfuencers to boost digital presence
+              <p className="font-bold">Influential</p>Using rich data and
+              powered by the smartest AI, they precisely match brands with the
+              right talent to reach the right audiences to drive business
+              impact.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/linqialogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Linqia</p>Linqia drives authentic
-              connections and measurable results through AI-powered influencer
-              marketing
+              <p className="font-bold">Linqia</p>A full-service, tech-enabled
+              platform that handles influencer campaigns for fortune 500 brands,
+              from content creator selection to campaign strategy to scale.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/nextdoorlogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Nextdoor</p>Connecting neighbors and
-              fostering community engagement through sharing local information
+              <p className="font-bold">Nextdoor</p>A hyperlocal social network
+              where neighbors connect, make recommendations, and share the
+              goings on in their community.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/Quotientlogo.svg"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Quotient</p>Delivering value with
-              promotions and media at every consumer touchpoint
+              <p className="font-bold">Quotient</p>A digital media and
+              promotions company that uses consumer data and location
+              intelligence to boost sales for advertisers and retailers.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/teadslogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Teads</p>Reaching millions of consumers
-              across devices and platforms through innovative video and display
-              advertising
+              <p className="font-bold">Teads</p>End-to-end platform delivers
+              full-funnel, outcome-oriented advertising powered by cutting-edge
+              creative technology and AI-driven optimization.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/twitter(x)logo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Twitter now (X)</p>Globally connecting
-              users by fostering conversations, news dissemination, and public
-              discourse
+              <p className="font-bold">Twitter now (X)</p>A social media
+              platform for sharing short messages and multimedia content with a
+              global audience.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/tiktoklogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Tik Tok</p>Social media platform that
-              allows users to showcase creativty, talent, and knowledge to a
-              global audience
+              <p className="font-bold">Tik Tok</p>A global platform that gives
+              brands and marketers the opportunity for rich storytelling via
+              full-screen video formats that appear natively within the user
+              experience.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/univisionlogo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Univision</p>Offering a diverse range of
-              television, radio, and digital content catered to Hispanic
-              audiences
+              <p className="font-bold">Univision</p>A diverse range of
+              television, radio, and digital content for Hispanic audiences in
+              the United States.
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
             <img
               className="mx-auto max-h-10 object-contain p-2"
               src="img/partners/yahoologo.png"
-              alt="Meta"
+              alt="Smart Commerce"
               width={168}
               height={58}
             />
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">Yahoo</p>Global media and tech company
-              connecting people to their passions
+              <p className="font-bold">Yahoo</p>An internet OG global media and
+              tech company offering a variety of online services, including web
+              search, email, and news.
             </div>
           </div>
         </div>
