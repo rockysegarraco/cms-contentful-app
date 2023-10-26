@@ -479,7 +479,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="#">
+            <Link href="https://www.a2influence.com">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/a2.svg"
