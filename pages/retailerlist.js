@@ -5,7 +5,7 @@ const myPage = () => {
   useEffect(() => {
     const { pathname } = Router;
     // conditional redirect
-    if (pathname == "https://knowledge.smartsuite.co/retailer-overview-list/") {
+    if (pathname == "/retailerlist") {
       // with router.push the page may be added to history
       // the browser on history back will  go back to this page and then forward again to the redirected page
       // you can prevent this behaviour using location.replace
@@ -21,7 +21,8 @@ const myPage = () => {
   }
   return (
     <p>
-      You will see this page only if pathname !== "/" , <br />
+      You will see this page only if pathname !==
+      "https://knowledge.smartsuite.co/retailer-overview-list/" , <br />
     </p>
   );
 };
