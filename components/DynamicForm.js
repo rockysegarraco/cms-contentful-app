@@ -225,6 +225,9 @@ function FormDemo() {
         .wFormContainer {
             max-width: 320px;
         }
+        .wFormContainer .wForm form {
+    padding: 0 0rem 0rem 0rem;
+}
 }
 	</style>
 	<div class="">
