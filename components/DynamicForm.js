@@ -217,6 +217,15 @@ function FormDemo() {
 			width: 285px !important;
 			min-width: 0px;
 		}
+        .wFormContainer {
+            max-width: 770px;
+        }
+
+        @media (max-width: 600px) {
+        .wFormContainer {
+            max-width: 320px;
+        }
+}
 	</style>
 	<div class="">
 		<div class="wForm" id="4988154-WRPR" dir="ltr">
