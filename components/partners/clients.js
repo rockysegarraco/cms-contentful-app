@@ -495,6 +495,23 @@ export default function Clients() {
               your business demands.
             </div>
           </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <Link href="https://captiv8.io/">
+              <img
+                className="mx-auto max-h-16 object-contain p-2"
+                src="img/partners/captive8.svg"
+                alt="Smart Commerce"
+                width={168}
+                height={58}
+              />
+            </Link>
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">Captive8</p>This leading influencer
+              marketing platform amplifies brand campaigns by identifying
+              creators, optimizing content, and growing customer segments across
+              social media.
+            </div>
+          </div>
         </div>
       </div>
     </div>

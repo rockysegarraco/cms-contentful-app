@@ -31,13 +31,13 @@ export default function Example() {
         </Head>
         <_PageTitle title="Events" />
         <_Hero
-          title="Amazon unBoxed 2023"
+          title="Events Title Goes Here 2024"
           ButtonTitle="Learn more about our presence"
           ButtonLink="https://apply.workable.com/smartcommerce/"
-          ImageUrl="https://cdn.shortpixel.ai/spai/q_lossy+w_1017+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/09/AMZ-Unboxed_Featured-Image.jpg"
+          ImageUrl="https://v1.tailwindcss.com/img/card-top.jpg"
         >
-          Tinuiti is proud to be a platinum sponsor at this year’s Amazon Ads
-          unBoxed!
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dolor sit
+          amet, consectetur adipiscing elit, sed
         </_Hero>
         <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -45,84 +45,57 @@ export default function Example() {
               Upcoming Events
             </h1>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
+                </div>
+              </div>
             </div>
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -130,84 +103,57 @@ export default function Example() {
               Past Events
             </h1>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
-              <article className="flex flex-col items-start justify-between bg-white rounded-2xl shadow-sm">
-                <a href="/">
-                  <div className="max-w-full rounded-2xl overflow-hidden">
-                    <div className="p-6">
-                      <img
-                        className="mb-4"
-                        src="https://cdn.shortpixel.ai/spai/q_lossy+w_379+to_webp+ret_img/tinuiti.com/wp-content/uploads/2023/08/braze-forge.png"
-                      />
-                      <div className="font-semibold text-xl mb-2 text-dark-950">
-                        Braze Forge
-                      </div>
-                      <div className="text-dark-950 line-clamp-3">
-                        OCTOBER 2023
-                      </div>
-
-                      <div className="pt-3 text-dark-950 text-sm">
-                        Joe O’Connor, Senior Director, Strategic Marketplace
-                        Services – Amazon | Tinuiti
-                      </div>
-                      <div className="mt-4 text-lg text-primary-950 underline underline-offset-8">
-                        Read More
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Event Title</div>
+                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
+                  <p class="text-gray-700 text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  </p>
+                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                    Read More
                   </div>
-                </a>
-              </article>
+                </div>
+              </div>
             </div>
           </div>
         </div>
