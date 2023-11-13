@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const navigation = {
   solutions: [
     { name: "SmartLink", href: "/smartlink" },
@@ -95,10 +97,14 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-24">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img className="h-12" src="/logo-white.svg" alt="Company name" />
+            <img
+              className="h-12 mr-8"
+              src="/logo-white.svg"
+              alt="Company name"
+            />
             <p className="text-sm leading-6 text-gray-300">
               75 5th Street NW, Suite 2000
               <br />
@@ -196,9 +202,25 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-400">
-            &copy; 2023 All rights reserved.
-          </p>
+          <div className="flex justify-between">
+            <div className="flex">
+              <Link href="https://www.inc.com/profile/smartcommerce">
+                <img
+                  className="h-14 px-4"
+                  src="img/inc-logo.svg"
+                  alt="Company name"
+                />
+              </Link>
+              <img
+                className="h-14 px-4"
+                src="Best_Workplaces_Badge 1.svg"
+                alt="Company name"
+              />
+            </div>
+            <p className="text-xs leading-5 text-gray-400 mt-4">
+              &copy; 2023 All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
