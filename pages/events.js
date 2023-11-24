@@ -31,126 +31,49 @@ export default function Example() {
         </Head>
         <_PageTitle title="Events" />
         <_Hero
-          title="Events Title Goes Here 2024"
-          ButtonTitle="Learn more about our presence"
-          ButtonLink="https://apply.workable.com/smartcommerce/"
-          ImageUrl="https://v1.tailwindcss.com/img/card-top.jpg"
+          title="Shop Talk 2024"
+          ButtonTitle="Learn more"
+          ButtonLink="https://shoptalk.com/us"
+          ImageUrl="img/events/shop-talk.jpg"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dolor sit
-          amet, consectetur adipiscing elit, sed
+          <h1 className="text-xl">
+            March 17th-20th 2024 <br /> at Mandalay Bay Las Vegas.
+          </h1>
+          <p className="pt-4">
+            For four days, top execs from innovative brands and retailers gather
+            in Las Vegas to discuss the evolving landscape of consumer
+            discovery, shopping, and purchasing.
+          </p>
         </_Hero>
         <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h1 className="text-3xl mb-4 font-bold text-info-950 lg:mt-0 mt-16">
-              Upcoming Events
-            </h1>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <img
                   class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
+                  src="img/events/grocery-shop.jpg"
                   alt="Sunset in the mountains"
                 />
                 <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
-                  <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  </p>
-                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
+                  <div class="font-bold text-xl mb-2 text-info-950">
+                    GroceryShop
                   </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
-                  <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  </p>
-                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
+                  <div className="text-dark-950 pb-2 text-sm">
+                    Oct 7th-9th 2024
+                    <br /> at Mandalay Bay Las Vegas.
                   </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
                   <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    Grocery industry vets come together to focus on the latest
+                    technologies and trends affecting how consumers discover,
+                    shop, and buy CPG products in the current digital world.
                   </p>
                   <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h1 className="text-3xl mb-4 font-bold text-info-950 lg:mt-0 mt-16">
-              Past Events
-            </h1>
-            <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
-                  <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  </p>
-                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
-                  </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
-                  <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  </p>
-                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
-                  </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="https://v1.tailwindcss.com/img/card-top.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Event Title</div>
-                  <div className="text-dark-950 pb-2 text-sm">OCTOBER 2023</div>
-                  <p class="text-gray-700 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  </p>
-                  <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                    Read More
+                    <Link
+                      href="https://groceryshop.com/"
+                      className="py-4 text-base text-primary-950 underline underline-offset-8"
+                    >
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
