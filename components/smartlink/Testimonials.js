@@ -34,8 +34,6 @@ const testimonials = [
       },
       // More testimonials...
     ],
-  ],
-  [
     [
       {
         body: "Using Click2Cart is a no-brainer. And your team has made it so easy!",
@@ -76,7 +74,7 @@ export default function Testimonials() {
             Don’t just take our word for it. Here’s what clients are saying...
           </h1>
         </div>
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+        <div className="mx-auto mt-16 grid max-w-full grid-cols-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-cols-4 md:grid-cols-1">
           {testimonials.map((columnGroup, columnGroupIdx) => (
             <div
               key={columnGroupIdx}
@@ -116,6 +114,32 @@ export default function Testimonials() {
               ))}
             </div>
           ))}
+        </div>
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-8 pt-8">
+          <div className="col-span-6 xl:col-span-6 lg:col-span-8 md:col-span-2 place-content-center">
+            <figure className="rounded-2xl bg-white text-sm leading-6 p-6 shadow-lg ring-1 ring-gray-900/5">
+              <blockquote className="text-gray-900">
+                <p>
+                  “SmartCommerce has been an exceptional partner throughout our
+                  implementation of SmartSite. They provided invaluable support,
+                  working closely with us to ensure a successful go live. Their
+                  post-implementation support and responsiveness have been
+                  outstanding, with proactive monitoring and prompt issue
+                  resolution. We greatly appreciate their dedication to our
+                  success and their commitment to delivering a seamless
+                  experience.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-6 flex items-center gap-x-4 ">
+                <div>
+                  <div className="font-semibold text-secondary-950">
+                    Unanimous
+                  </div>
+                  <div className="text-gray-600"></div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </div>
