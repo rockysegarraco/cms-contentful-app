@@ -206,13 +206,13 @@ export default function Footer() {
             <div className="flex">
               <Link href="https://www.inc.com/profile/smartcommerce">
                 <img
-                  className="h-14 px-4"
+                  className="h-24 px-4"
                   src="img/inc-logo.svg"
                   alt="Company name"
                 />
               </Link>
               <img
-                className="h-14 px-4"
+                className="h-24 px-4"
                 src="Best_Workplaces_Badge 1.svg"
                 alt="Company name"
               />
