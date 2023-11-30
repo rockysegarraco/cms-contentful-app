@@ -16,6 +16,7 @@ const navigation = {
   company: [
     { name: "", href: "#" },
     { name: "Blog", href: "/cpg-marketing-blog" },
+    { name: "Events", href: "/events" },
     {
       name: "Newsletter",
       href: "/newsletter",
