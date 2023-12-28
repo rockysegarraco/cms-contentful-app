@@ -22,7 +22,7 @@ export default function _Product(props) {
               </a>
               <div class="pb-0 pt-16">
                 <h1 className="text-3xl text-info-950 font-bold">
-                  SMART<span className="font-normal">LINK</span>
+                  <span className="font-normal">SMART</span>LINK
                 </h1>
                 <p className="text-dark-950 px-8 pt-8 pb-16">
                   For ads & social media
@@ -54,7 +54,7 @@ export default function _Product(props) {
               </a>
               <div class="pb-0 pt-16">
                 <h1 className="text-3xl text-info-950 font-bold">
-                  SMART<span className="font-normal">SITE</span>
+                  <span className="font-normal">SMART</span>SITE
                 </h1>
                 <p className="text-dark-950 px-8 pt-8 pb-16">
                   For websites
