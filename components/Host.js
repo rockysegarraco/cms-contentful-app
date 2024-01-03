@@ -55,7 +55,7 @@ export default function Host() {
             <figcaption className="mt-10 flex items-center gap-x-6">
               <img
                 className="h-32 w-32 rounded-full bg-gray-50"
-                src="https://media.licdn.com/dms/image/D4E03AQGEb3ac19Yt8w/profile-displayphoto-shrink_400_400/0/1692462309496?e=1698278400&v=beta&t=iSdDEgjvrqGC-80d6E-dD3dONjYnQzNiC_sG5uTDIsc"
+                src="img/jenn-avatar.jpg"
                 alt=""
               />
               <div className="text-base">
