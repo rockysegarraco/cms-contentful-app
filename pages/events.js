@@ -28,7 +28,7 @@ export default function Example() {
           </title>
           <meta
             name="description"
-            content="Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co"
+            content="Want to connect at one of these events? Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co"
           />
         </Head>
         <_PageTitle title="Events" />
@@ -68,12 +68,12 @@ export default function Example() {
                 />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2 text-info-950">
-                    ShopTalk
+                    Shoptalk
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     March 17 - 20, 2023
                     <br />
-                    Mandalay Bay Las Vegas
+                    Mandalay Bay, Las Vegas
                   </div>
                   <div className="py-4 text-base text-primary-950 underline underline-offset-8">
                     <Link
@@ -98,7 +98,7 @@ export default function Example() {
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     October 7-9, 2024
                     <br />
-                    Mandalay Bay Las Vegas
+                    Mandalay Bay, Las Vegas
                   </div>
                   <div className="py-4 text-base text-primary-950 underline underline-offset-8">
                     <Link
