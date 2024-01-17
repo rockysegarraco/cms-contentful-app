@@ -31,10 +31,7 @@ export default function Reporting() {
             name="description"
             content="Learn about the latest trends and technologies in CPG commerce and marketing on the CPG Scoop Podcast, co-hosted by SmartCommerce CEO Jennifer Silverberg and Aki Technologies’ Risa Crandall. Find the most recent episodes of the CPG Scoop Podcast on SmartCommerce."
           />
-          <meta
-            property="og:image"
-            content="https://images.podpage.com/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fshowpage%2Fuploads%2Fimages%2F8bb924fbb2e84b58a20100adc43fc844.png?auto=format%2Ccompress&dpr=2&h=75&q=50&s=a30a2b82de81a6ef68519cb2f905e87b"
-          />
+          <meta property="og:image" content="img/cpg/og-cpg.png" />
           <meta
             property="og:title"
             content="SmartCommerce - Accelerate E-commerce from all existing touchpoints - SmartCommerce"
