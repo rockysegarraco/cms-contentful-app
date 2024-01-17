@@ -133,7 +133,7 @@ export default function Testimonials() {
               <figcaption className="mt-6 flex items-center gap-x-4 ">
                 <div>
                   <div className="font-semibold text-secondary-950">
-                    Unanimous
+                    Anonymous
                   </div>
                   <div className="text-gray-600"></div>
                 </div>
