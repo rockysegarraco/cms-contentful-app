@@ -41,7 +41,7 @@ export default function Reporting() {
           />
           <meta
             property="og:description"
-            content="Learns about the latest trends and technologies in CPG commerce and marketing on the CPG Scoop Podcast, co-hosted by SmartCommerce CEO Jennifer Silverberg and Aki Technologies’ Risa Crandall. Find the most recent episodes of the CPG Scoop Podcast on SmartCommerce."
+            content="Learn about the latest trends and technologies in CPG commerce and marketing on the CPG Scoop Podcast, co-hosted by SmartCommerce CEO Jennifer Silverberg and Aki Technologies’ Risa Crandall. Find the most recent episodes of the CPG Scoop Podcast on SmartCommerce."
           />
         </Head>
         <Wrapper light>
