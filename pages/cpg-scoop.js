@@ -29,7 +29,19 @@ export default function Reporting() {
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Learn about the latest trends and technologies in CPG commerce and marketing on the CPG Scoop Podcast, co-hosted by SmartCommerce CEO Jennifer Silverberg and Aki Technologies’ Risa Crandall. Find the most recent episodes of the CPG Scoop Podcast on SmartCommerce."
+          />
+          <meta
+            property="og:image"
+            content="https://images.podpage.com/https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fredwood-labs%2Fshowpage%2Fuploads%2Fimages%2F8bb924fbb2e84b58a20100adc43fc844.png?auto=format%2Ccompress&dpr=2&h=75&q=50&s=a30a2b82de81a6ef68519cb2f905e87b"
+          />
+          <meta
+            property="og:title"
+            content="SmartCommerce - Accelerate E-commerce from all existing touchpoints - SmartCommerce"
+          />
+          <meta
+            property="og:description"
+            content="Learns about the latest trends and technologies in CPG commerce and marketing on the CPG Scoop Podcast, co-hosted by SmartCommerce CEO Jennifer Silverberg and Aki Technologies’ Risa Crandall. Find the most recent episodes of the CPG Scoop Podcast on SmartCommerce."
           />
         </Head>
         <Wrapper light>
