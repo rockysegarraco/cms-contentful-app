@@ -141,7 +141,6 @@ export default function Example() {
               <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
             </div>
           </div>
-          <TypeformContact />
         </Container>
       </Layout>
     </>
