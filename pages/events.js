@@ -34,7 +34,7 @@ export default function Example() {
         <_PageTitle title="Events" />
         <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="pt-16 pb-2 font-bold text-4xl text-info-950 text-center">
+            <div className="pt-16 lg:pb-8 pb-4 font-bold lg:text-5xl text-4xl text-info-950 text-center">
               Let's Meet Up!
             </div>
             <p className="text-center lg:pb-4 pb-0">
