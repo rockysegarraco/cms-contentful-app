@@ -34,6 +34,13 @@ export default function Example() {
         <_PageTitle title="Events" />
         <div className="bg-white lg:bg-slate-50 py-0 lg:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="pt-16 pb-2 font-bold text-4xl text-info-950 text-center">
+              Let's Meet Up!
+            </div>
+            <p className="text-center lg:pb-4 pb-0">
+              We're looking forward to attending these upcoming events and would
+              love to connect if you'll be there too.
+            </p>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://tinuiti.com/content/webinars/2024-amazon-retail-media-summit">
