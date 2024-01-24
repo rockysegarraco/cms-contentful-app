@@ -100,7 +100,7 @@ export default function Example() {
                       Shoptalk
                     </div>
                     <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      March 17 - 20, 2023
+                      March 17 - 20, 2024
                       <br />
                       Mandalay Bay, Las Vegas
                     </div>
@@ -405,7 +405,7 @@ export default function Example() {
                     Shoptalk Europe
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    June 3-5, 2004
+                    June 3-5, 2024
                     <br />
                     Barcelona, Spain
                   </div>
