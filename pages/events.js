@@ -78,7 +78,7 @@ export default function Example() {
                       Adweek Commerceweek
                     </div>
                     <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      February 28-29, 2023
+                      February 28-29, 2024
                       <br />
                       New York, New York
                     </div>
@@ -178,6 +178,23 @@ export default function Example() {
                 </Link>
               </div>
               <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="img/events/summersocial.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-info-950">
+                    Summer Social
+                  </div>
+                  <div className="text-dark-950 pb-2 text-sm font-semibold">
+                    June 2024
+                    <br />
+                    Location: TBD
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://events.p2pi.com/retailmediasummit2024">
                   <img
                     class="w-full"
@@ -271,23 +288,6 @@ export default function Example() {
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     Date: TBD
-                    <br />
-                    Location: TBD
-                  </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="img/events/summersocial.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2 text-info-950">
-                    Summer Social
-                  </div>
-                  <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    June 2024
                     <br />
                     Location: TBD
                   </div>
@@ -462,12 +462,12 @@ export default function Example() {
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2 text-info-950">
-                    Palm Dessert, CA
+                    Digital Food & Beverage
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     June 24-26, 2024
                     <br />
-                    Mandalay Bay, Las Vegas
+                    Palm Dessert, CA
                   </div>
                   <div className="py-4 text-base text-primary-950 underline underline-offset-8">
                     <Link
