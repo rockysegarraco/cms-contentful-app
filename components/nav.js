@@ -58,7 +58,7 @@ const partners = [
 
 const company = [
   { name: "About", href: "/about-us" },
-  { name: "News & Events", href: "/cpg-brand-news" },
+  { name: "News", href: "/cpg-brand-news" },
   { name: "Careers", href: "/careers" },
 ];
 
