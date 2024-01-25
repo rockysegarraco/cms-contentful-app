@@ -185,3 +185,11 @@ html {
 .whr-items {
   font-size: 16px;
 }
+
+div[data-sc-id][data-sc-type="SmartButton"] {
+    min-width: 245px;
+    max-width: 245px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 10px;
+}
