@@ -512,6 +512,22 @@ export default function Clients() {
               social media.
             </div>
           </div>
+          <div className="bg-white  p-6 sm:p-6">
+            <Link href="https://www.shespeaks.com/">
+              <img
+                className="mx-auto max-h-16 object-contain p-2"
+                src="img/partners/shespeaks.png"
+                alt="Smart Commerce"
+                width={168}
+                height={58}
+              />
+            </Link>
+            <div className="text-slate-950 mt-3 text-center text-sm">
+              <p className="font-bold">shespeaks</p>SheSpeaks inspires women to
+              speak and be heard. Members share their opinions, try products and
+              influence companies and the world around them.
+            </div>
+          </div>
         </div>
       </div>
     </div>
