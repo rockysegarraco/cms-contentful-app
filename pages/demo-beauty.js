@@ -269,7 +269,7 @@ export default function Example() {
           </div>
         </div>
         {/* SECTION */}
-        <div className="bg-white">
+        <div className="bg-[#EEC7BD]/40">
           <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className="text-center leading-[4rem] lg:pb-6 text-3xl lg:text-5xl font-bold text-[#4363F9]">
               Make everything shoppable
@@ -324,7 +324,7 @@ export default function Example() {
           </div>
         </div>
         {/* SECTION */}
-        <div className="bg-[#EEC7BD]/20">
+        <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className="text-center leading-[4rem] lg:pb-6 text-3xl lg:text-5xl font-bold text-[#4363F9]">
               That’s how Click2Cart works!
