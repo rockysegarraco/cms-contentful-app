@@ -21,6 +21,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Heading from "../components/Heading";
 import Button from "../components/Button";
+import Footer from "../components/footer";
 import {
   BuildingOffice2Icon,
   EnvelopeIcon,
@@ -35,6 +36,23 @@ export default function Example() {
   return (
     <>
       <div>
+        {/* HEADER */}
+        <div className="bg-[#252D6C] py-4">
+          <div className="mx-auto max-w-7xl px-6">
+            <div className="flex justify-between items-center">
+              <div>
+                <img className="h-8" src="/img/demo/c2c-logo.svg" />
+              </div>
+              <Link
+                href="contact-us"
+                className="bg-primary-950 text-white py-3 px-6 rounded-full"
+                data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
+              >
+                Talk to Us
+              </Link>
+            </div>
+          </div>
+        </div>
         {/* HERO */}
         <div className="bg-white">
           <div className="relative bg-gray-900">
@@ -129,7 +147,7 @@ export default function Example() {
               <div className="group relative">
                 <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src="/img/demo/beauty-2.jpg"
+                    src="/img/demo/beauty-3.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -151,7 +169,7 @@ export default function Example() {
               <div className="group relative">
                 <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src="/img/demo/beauty-2.jpg"
+                    src="/img/demo/beauty-4.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -187,28 +205,28 @@ export default function Example() {
               <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
                 Smoke Show
               </p>
-              <p className="py-6 text-base leading-7 text-slate-950 font-bold uppercase">
+              <p className="py-2 text-base leading-7 text-slate-950 font-bold uppercase">
                 Product Uses
               </p>
               <div className="grid grid-cols-1 mb-8 gap-x-6">
                 <div>
-                  <ul>
+                  <ul classNames="list-disc">
                     <li>Eye shadow</li>
                     <li>Liner</li>
                     <li>Mascar</li>
                   </ul>
                 </div>
-                <p className="py-6 text-base leading-7 text-slate-950 font-bold uppercase">
+                <p className="pt-6 pb-2 text-base leading-7 text-slate-950 font-bold uppercase">
                   Instructions
                 </p>
-                <div>
-                  <ol>
+                <div className="px-4">
+                  <ol className="list-decimal">
                     <li>
-                      1. Cover eye lid up to eye brow with with base color,
-                      layer with darker brown shadow
+                      Cover eye lid up to eye brow with <br />
+                      with base color, layer with darker brown shadow
                     </li>
-                    <li>2. Line top of lid with black liner</li>
-                    <li>3. Finish with black mascara</li>
+                    <li>Line top of lid with black liner</li>
+                    <li>Finish with black mascara</li>
                   </ol>
                 </div>
               </div>
@@ -240,7 +258,7 @@ export default function Example() {
             </div>
           </div>
           <div className="relative overflow-hidden pt-16">
-            <div className="mx-auto max-w-full px-6 lg:px-16">
+            <div className="mx-auto max-w-7xl px-6 lg:px-16">
               <iframe
                 src="https://shop.basketful.co/productLocator?origin=https://shop.basketful.co&publisher=shop.basketful.co"
                 height="1000"
@@ -250,7 +268,85 @@ export default function Example() {
             </div>
           </div>
         </div>
+        {/* SECTION */}
+        <div className="bg-white">
+          <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+            <div className="text-center leading-[4rem] lg:pb-6 text-3xl lg:text-5xl font-bold text-[#4363F9]">
+              Make everything shoppable
+            </div>
+            <p className="text-center mb-16">
+              eCommerce enable all of your digital touch points with SmartLinks
+            </p>
+            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
+              <div className="group relative">
+                <Link href="https://click2cart.com/0350bl7">
+                  <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
+                    <img
+                      src="/img/demo/beauty-5.png"
+                      className="h-full w-full"
+                    />
+                  </div>
+                  <h3 className="py-4 text-lg text-[#4363F9] text-center pt-4 ">
+                    <span className="absolute inset-0" />
+                    Click2Cart Direct
+                  </h3>
+                </Link>
+              </div>
+              <div className="group relative">
+                <Link href="https://click2cart.com/0350bl8">
+                  <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
+                    <img
+                      src="/img/demo/beauty-6.png"
+                      className="h-full w-full"
+                    />
+                  </div>
+                  <h3 className="py-4 text-lg text-[#4363F9] text-center pt-4">
+                    <span className="absolute inset-0" />
+                    Shopper’s Choice
+                  </h3>
+                </Link>
+              </div>
+              <div className="group relative">
+                <Link href="#">
+                  <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
+                    <img
+                      src="/img/demo/beauty-7.png"
+                      className="h-full w-full"
+                    />
+                  </div>
+                  <h3 className="py-4 text-lg text-[#4363F9] text-center pt-4">
+                    <span className="absolute inset-0" />
+                    SmartShelf
+                  </h3>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* SECTION */}
+        <div className="bg-[#EEC7BD]/20">
+          <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+            <div className="text-center leading-[4rem] lg:pb-6 text-3xl lg:text-5xl font-bold text-[#4363F9]">
+              That’s how Click2Cart works!
+            </div>
+            <p className="text-center mb-0">
+              Get in touch to get your products into carts faster (and more
+              frequently)
+            </p>
+            <div className="mt-0 mx-auto max-w-xl">
+              <iframe
+                src="https://tfaforms.com/4982191"
+                height="800"
+                width="100%"
+                frameBorder="0"
+              ></iframe>
+              <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
+            </div>
+          </div>
+        </div>
+        <Footer />
       </div>
+
       <style>{"body { background-color: #f8fafc; }"}</style>
     </>
   );
