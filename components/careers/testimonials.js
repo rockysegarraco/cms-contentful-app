@@ -2,46 +2,6 @@ import Button from "/components/elements/Button";
 export default function Testimonials() {
   return (
     <>
-      <section className="isolate overflow-hidden bg-white px-6 lg:px-8">
-        <div className="relative mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-4xl px-0">
-          <div class="grid grid-cols-1 lg:grid-cols-6 gap-8">
-            <div className="col-span-1 lg:col-span-2 text-center">
-              <img
-                className="rounded-full mx-auto"
-                src="img/avatar-jp.png"
-                alt=""
-              />
-            </div>
-            <div className="col-span-1 lg:col-span-4">
-              <blockquote className="text-lg font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-                <p>
-                  I love working for SmartCommerce! When there’s an issue to
-                  resolve, everyone who can help jumps in to lend a hand because
-                  we share the common goal of wanting to deliver the best
-                  product for our customers.
-                </p>
-              </blockquote>
-              <figcaption className="text-base mt-8">
-                <div className="font-semibold text-secondary-950">
-                  JP PICKEL
-                </div>
-                <div className="mt-1 text-gray-500">
-                  SVP, Product Management
-                </div>
-              </figcaption>
-              <div class="flex">
-                <div className="mt-10 mx-auto">
-                  {" "}
-                  <Button
-                    title="Click to cart my favorite items"
-                    link="https://2cart.net/03500Wl"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="isolate overflow-hidden bg-slate-50 px-6 lg:px-8">
         <div className="relative mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-4xl px-8">
           <div class="grid grid-cols-1 lg:grid-cols-6 gap-12">

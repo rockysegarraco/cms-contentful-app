@@ -67,13 +67,13 @@ export default function Example() {
         {/* SECTION */}
         <div className="bg-white">
           <div className="mx-auto max-w-7xl md:px-6 lg:px-8 py-8 sm:py-24 overflow-hidden">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-4 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
               <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
                 <div className="mx-auto">
                   <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
                     Are You Blushing?
                   </p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600 bg-slate-200">
+                  <p className="mt-6 text-lg leading-8 text-gray-600">
                     Our pressed blush powder pallette delivers a long-lasting,
                     velvet-matte flush of color. This lightweight, buildable
                     formula effortlessly blends into skin for a comfortable,
@@ -99,15 +99,15 @@ export default function Example() {
         </div>
         {/* SECTION */}
         <div className="bg-[#EEC7BD]/20">
-          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-            <div className="text-center leading-[4rem] lg:pb-12 text-5xl font-bold text-[#4363F9]">
+          <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+            <div className="text-center leading-[4rem] lg:pb-12 text-3xl lg:text-5xl font-bold text-[#4363F9]">
               Get Glossy Lip Service
             </div>
             <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
               <div className="group relative">
                 <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src="https://images.squarespace-cdn.com/content/v1/64fb5865ed807a448ce13391/f21ffe53-3b56-4abc-a6f9-8d76808cf6bf/Grapefruit.png?format=2500w"
+                    src="/img/demo/beauty-2.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -129,7 +129,7 @@ export default function Example() {
               <div className="group relative">
                 <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src="https://images.squarespace-cdn.com/content/v1/64fb5865ed807a448ce13391/8c9a3b60-94a2-48db-ac92-4bfab77fbc49/Lime.png?format=2500w"
+                    src="/img/demo/beauty-2.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -151,7 +151,7 @@ export default function Example() {
               <div className="group relative">
                 <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src="https://images.squarespace-cdn.com/content/v1/64fb5865ed807a448ce13391/f21ffe53-3b56-4abc-a6f9-8d76808cf6bf/Grapefruit.png?format=2500w"
+                    src="/img/demo/beauty-2.jpg"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -182,10 +182,10 @@ export default function Example() {
               alt=""
             />
           </div>
-          <div className="relative mx-auto max-w-8xl py-24 sm:py-32 lg:px-8 lg:py-40">
+          <div className="relative mx-auto max-w-8xl py-8 sm:py-32 lg:px-8 lg:py-40">
             <div className="pl-6 pr-6 md:mr-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-16 xl:pl-32 ">
               <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
-                Are You Blushing?
+                Smoke Show
               </p>
               <p className="py-6 text-base leading-7 text-slate-950 font-bold uppercase">
                 Product Uses
@@ -193,10 +193,9 @@ export default function Example() {
               <div className="grid grid-cols-1 mb-8 gap-x-6">
                 <div>
                   <ul>
-                    <li>1 large lemon</li>
-                    <li>A few fresh rosemary sprigs</li>
-                    <li>3 cans of Lemon Seltzer</li>
-                    <li>1 bottle of chilled Prosecco</li>
+                    <li>Eye shadow</li>
+                    <li>Liner</li>
+                    <li>Mascar</li>
                   </ul>
                 </div>
                 <p className="py-6 text-base leading-7 text-slate-950 font-bold uppercase">
@@ -205,49 +204,11 @@ export default function Example() {
                 <div>
                   <ol>
                     <li>
-                      1. Using a 32-ounce pitcher, place the rosemary inside of
-                      it and pour in the Lemon Seltzer.
-                      <br />
-                      <br />
+                      1. Cover eye lid up to eye brow with with base color,
+                      layer with darker brown shadow
                     </li>
-
-                    <li>
-                      2. Top the pitcher with the Prosecco.
-                      <br />
-                      <br />
-                    </li>
-
-                    <li>
-                      3. Fill two highball glasses with ice and fill three
-                      quarters of the way with the pitcher mixture.
-                      <br />
-                      <br />
-                    </li>
-
-                    <li>
-                      4. Top each glass up with a splash more of Lemon Seltzer.
-                      <br />
-                      <br />
-                    </li>
-
-                    <li>
-                      5. Slice the lemon in half and cut one half into wedges.
-                      <br />
-                      <br />
-                    </li>
-
-                    <li>
-                      6. Squeeze the other half between the two glasses.
-                      <br />
-                      <br />
-                    </li>
-
-                    <li>
-                      7. Place a wedge of lemon on the side of each glass and
-                      decorate with a sprig of rosemary. Enjoy immediately.
-                      <br />
-                      <br />
-                    </li>
+                    <li>2. Line top of lid with black liner</li>
+                    <li>3. Finish with black mascara</li>
                   </ol>
                 </div>
               </div>
@@ -256,7 +217,7 @@ export default function Example() {
                   className="bg-primary-950 text-white py-4 px-6 rounded-full"
                   data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
                 >
-                  Buy Ingredients
+                  Cart this Look
                 </button>
                 <script
                   src="https://shop.basketful.co/basketful.js"
@@ -267,15 +228,14 @@ export default function Example() {
           </div>
         </div>
         {/* MAP */}
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-[#EEC7BD]/20 py-8 sm:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
-              <p className="mt-2 text-3xl font-bold text-info-950 sm:text-4xl">
-                Get the Goods
+              <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
+                Look Locator
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Our Product Locator will find flavored seltzer at a retailer
-                near you.
+                Our Product Locator will find makeup at a retailer near you.
               </p>
             </div>
           </div>
