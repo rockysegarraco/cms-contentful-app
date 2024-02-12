@@ -230,12 +230,13 @@ export default function Example() {
                 </div>
               </div>
               <div>
-                <button
+                <Link
+                  href="https://shop.basketful.co/bundle?bundle=f8157266-4129-4646-942f-b431b15e90cc "
                   className="bg-primary-950 text-white py-4 px-6 rounded-full"
                   data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
                 >
                   Cart this Look
-                </button>
+                </Link>
                 <script
                   src="https://shop.basketful.co/basketful.js"
                   async
@@ -257,7 +258,7 @@ export default function Example() {
             </div>
           </div>
           <div className="relative overflow-hidden pt-16">
-            <div className="mx-auto max-w-7xl px-6 lg:px-16">
+            <div className="mx-auto max-w-full px-6 lg:px-16">
               <iframe
                 src="https://shop.basketful.co/productLocator?origin=https://shop.basketful.co&publisher=shop.basketful.co"
                 height="1000"
