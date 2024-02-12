@@ -228,7 +228,7 @@ export default function Example() {
                   href="https://shop.basketful.co/bundle?bundle=f8157266-4129-4646-942f-b431b15e90cc"
                   target="_blank"
                   className="bg-primary-950 text-white py-4 px-6 rounded-lg font-bold"
-                  data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
+                  data-basketful-bundle-id="f8157266-4129-4646-942f-b431b15e90cc"
                 >
                   Cart this Look
                 </Link>
