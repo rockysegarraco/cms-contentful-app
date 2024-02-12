@@ -127,7 +127,7 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="py-4 text-2xl lg:text-3xl text-[#4363F9] text-center pt-4 ">
+                <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4 ">
                   <a>
                     <span className="absolute inset-0" />
                     Rosé Eclat
@@ -149,7 +149,7 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="py-4 text-2xl lg:text-3xl text-[#4363F9] text-center pt-4">
+                <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4">
                   <a>
                     <span className="absolute inset-0" />
                     Berry Bright
@@ -171,7 +171,7 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="py-4 text-2xl lg:text-3xl text-[#4363F9] text-center pt-4">
+                <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4">
                   <a>
                     <span className="absolute inset-0" />
                     Cotton Candy
