@@ -71,7 +71,7 @@ export default function Example() {
               className="absolute inset-0 bg-gray-900 opacity-0"
             />
             <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-32 text-center sm:py-64 lg:px-0">
-              <h1 className="text-4xl font-bold text-white lg:text-7xl mb-8">
+              <h1 className="text-4xl font-bold text-white lg:text-7xl mb-8 lg:mt-24">
                 The Beauty of Click2Cart
               </h1>
               <p className="mt-4 text-2xl leading-10 text-white">
