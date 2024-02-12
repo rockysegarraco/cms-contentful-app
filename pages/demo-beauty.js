@@ -89,7 +89,7 @@ export default function Example() {
                   <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
                     Are You Blushing?
                   </p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">
+                  <p className="mt-6 text-lg leading-8 text-slate-950">
                     Our pressed blush powder pallette delivers a long-lasting,
                     velvet-matte flush of color. This lightweight, buildable
                     formula effortlessly blends into skin for a comfortable,
@@ -252,7 +252,7 @@ export default function Example() {
               <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
                 Look Locator
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-slate-950">
                 Our Product Locator will find makeup at a retailer near you.
               </p>
             </div>
