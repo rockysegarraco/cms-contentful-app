@@ -231,7 +231,8 @@ export default function Example() {
               </div>
               <div className="py-8">
                 <Link
-                  href="https://shop.basketful.co/bundle?bundle=f8157266-4129-4646-942f-b431b15e90cc "
+                  href="https://shop.basketful.co/bundle?bundle=f8157266-4129-4646-942f-b431b15e90cc"
+                  target="_blank"
                   className="bg-primary-950 text-white py-4 px-6 rounded-full"
                   data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
                 >
@@ -279,7 +280,7 @@ export default function Example() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
               <div className="group relative">
-                <Link href="https://click2cart.com/0350bl7">
+                <Link href="https://click2cart.com/0350bl7" target="_blank">
                   <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
                     <img
                       src="/img/demo/beauty-5.png"
@@ -293,7 +294,7 @@ export default function Example() {
                 </Link>
               </div>
               <div className="group relative">
-                <Link href="https://click2cart.com/0350bl8">
+                <Link href="https://click2cart.com/0350bl8" target="_blank">
                   <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
                     <img
                       src="/img/demo/beauty-6.png"
@@ -307,7 +308,7 @@ export default function Example() {
                 </Link>
               </div>
               <div className="group relative">
-                <Link href="#">
+                <Link href="https://click2cart.com/0350blA" target="_blank">
                   <div className="w-full overflow-hidden rounded-md group-hover:opacity-75">
                     <img
                       src="/img/demo/beauty-7.png"
