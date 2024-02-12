@@ -76,8 +76,7 @@ export default function Example() {
               </h1>
               <p className="mt-4 text-2xl leading-10 text-white">
                 Drive more commerce to your brand with our technology. <br />
-                This demo site shows how our technology can drive more commerce
-                to your brand.
+                See how our technology can drive more commerce to your brand.
               </p>
             </div>
           </div>
@@ -213,7 +212,7 @@ export default function Example() {
                   <ul classNames="list-disc">
                     <li>Eye shadow</li>
                     <li>Liner</li>
-                    <li>Mascar</li>
+                    <li>Mascara</li>
                   </ul>
                 </div>
                 <p className="pt-6 pb-2 text-base leading-7 text-slate-950 font-bold uppercase">
