@@ -329,7 +329,7 @@ export default function Example() {
             <div className="text-center leading-[4rem] lg:pb-6 text-3xl lg:text-5xl font-bold text-[#4363F9]">
               That’s how Click2Cart works!
             </div>
-            <p className="text-center mb-0">
+            <p className="text-center mb-0 text-slate-950">
               Get in touch to get your products into carts faster (and more
               frequently)
             </p>
