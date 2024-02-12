@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Meta from "../components/meta";
 import { Disclosure, RadioGroup, Tab } from "@headlessui/react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { HeartIcon, MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
@@ -35,6 +36,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
+      <Meta />
       <div>
         {/* HEADER */}
         <div className="bg-[#252D6C] py-4">
