@@ -48,7 +48,6 @@ export default function Example() {
               <Link
                 href="contact-us"
                 className="bg-primary-950 text-white py-3 px-6 rounded-full"
-                data-basketful-bundle-id="784b8862-a7df-40da-b0fe-1f102052d920"
               >
                 Talk to Us
               </Link>
