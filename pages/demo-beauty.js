@@ -203,7 +203,7 @@ export default function Example() {
               <p className="py-2 lg:py-6 font-bold text-3xl text-[#4363F9] sm:text-5xl">
                 Smoke Show
               </p>
-              <p className="py-2 text-base leading-7 text-slate-950 font-bold uppercase">
+              <p className="py-2 text-base leading-7 text-slate-950 font-bold">
                 Product Uses
               </p>
               <div className="grid grid-cols-1 mb-8 gap-x-6">
@@ -214,7 +214,7 @@ export default function Example() {
                     <li>Mascara</li>
                   </ul>
                 </div>
-                <p className="pt-6 pb-2 text-base leading-7 text-slate-950 font-bold uppercase">
+                <p className="pt-6 pb-2 text-base leading-7 text-slate-950 font-bold">
                   Instructions
                 </p>
                 <div className="px-4">
