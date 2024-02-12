@@ -45,12 +45,12 @@ export default function Example() {
               <div>
                 <img className="h-8" src="/img/demo/c2c-logo.svg" />
               </div>
-              <Link
-                href="contact-us"
+              <a
+                href="/contact-us"
                 className="bg-primary-950 text-white py-3 px-6 rounded-full"
               >
                 Talk to Us
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -99,7 +99,10 @@ export default function Example() {
                   {/* CODE */}
                   <div className="pt-8">
                     <div id="smart-cart" data-sc-type="ec"></div>
-                    <div data-sc-id="21297555-1329-430e-81f1-c37b52768289"></div>
+                    <div
+                      data-sc-id="69b3482e-9808-4f21-83b5-74a1a5038727"
+                      data-mp-id="1653595"
+                    ></div>
                     <script
                       type="text/javascript"
                       src="https://ss.click2cart.com/assets/js/smartcart.js"
@@ -118,7 +121,7 @@ export default function Example() {
         <div className="bg-[#EEC7BD]/20">
           <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <div className="text-center leading-[4rem] lg:pb-12 text-3xl lg:text-5xl font-bold text-[#4363F9]">
-              Get Glossy Lip Service
+              Get Glossy
             </div>
             <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
               <div className="group relative">
@@ -205,7 +208,7 @@ export default function Example() {
                 Smoke Show
               </p>
               <p className="py-2 text-base leading-7 text-slate-950 font-bold">
-                Product Uses
+                Product
               </p>
               <div className="grid grid-cols-1 mb-8 gap-x-6">
                 <div>
@@ -222,7 +225,7 @@ export default function Example() {
                   <ol className="list-decimal">
                     <li>
                       Cover eye lid up to eye brow with <br />
-                      with base color, layer with darker brown shadow
+                      base color, layer with darker brown shadow
                     </li>
                     <li>Line top of lid with black liner</li>
                     <li>Finish with black mascara</li>
