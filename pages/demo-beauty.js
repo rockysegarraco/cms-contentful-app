@@ -75,8 +75,7 @@ export default function Example() {
                 The Beauty of Click2Cart
               </h1>
               <p className="mt-4 text-2xl leading-10 text-white">
-                Drive more commerce to your brand with our technology. <br />
-                See how our technology can drive more commerce to your brand.
+                Drive more commerce to your brand with our technology.
               </p>
             </div>
           </div>
