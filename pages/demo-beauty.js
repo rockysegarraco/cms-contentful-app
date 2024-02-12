@@ -123,13 +123,10 @@ export default function Example() {
             <div className="text-center leading-[4rem] lg:pb-12 text-3xl lg:text-5xl font-bold text-[#4363F9]">
               Get Glossy
             </div>
-            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
+            <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
               <div className="group relative">
-                <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
-                  <img
-                    src="/img/demo/beauty-2.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
+                <div className="h-[300] w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="/img/demo/beauty-2.jpg" />
                 </div>
                 <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4 ">
                   <a>
@@ -147,11 +144,8 @@ export default function Example() {
                 ></script>
               </div>
               <div className="group relative">
-                <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
-                  <img
-                    src="/img/demo/beauty-3.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
+                <div className="h-[300] w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="/img/demo/beauty-3.jpg" />
                 </div>
                 <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4">
                   <a>
@@ -169,11 +163,8 @@ export default function Example() {
                 ></script>
               </div>
               <div className="group relative">
-                <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
-                  <img
-                    src="/img/demo/beauty-4.jpg"
-                    className="h-full w-full object-cover object-center"
-                  />
+                <div className="h-[300] w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="/img/demo/beauty-4.jpg" />
                 </div>
                 <h3 className="py-4 text-2xl lg:text-3xl text-slate-950 text-center pt-4">
                   <a>
