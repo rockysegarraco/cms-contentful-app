@@ -255,7 +255,7 @@ export default function Example() {
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-full px-6 lg:px-16">
               <iframe
-                src="https://shop.basketful.co/productLocator?origin=https://demo.smartcommerce.com&publisher=demo.smartcommerce.com"
+                src="https://shop.basketful.co/productLocator?origin=https://www.smartcommerce.com&publisher=www.smartcommerce.com"
                 height="1000"
                 width="100%"
                 frameBorder="0"
