@@ -27,12 +27,12 @@ const imageLoader = ({ src, width, quality }) => {
 
 const features = [
   {
-    description: "Maintain constantly-updated stock status.",
+    description: "Real-time (as in up-to-the-minute) stock status",
     icon: CheckIcon,
   },
   {
     description:
-      "Bypass dead ends (out-of-stocks, seasonal item changes, 3rd party sellers).",
+      "No dead ends (out-of-stocks, seasonal items, 3rd party sellers), thanks to SmartSubstitutions",
     icon: CheckIcon,
   },
   {
@@ -74,12 +74,14 @@ export default function Index({ pageData }) {
           <_Container twocolumnmargin>
             <div className="order-last lg:order-first">
               <Heading dark>
-                Make everything shoppable
+                Commerce at the speed of life
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                SmartCommerce is a simple tool that transforms all of your
-                marketing touchpoints into e-commerce launch points.
+                Unlock the full potential of your brand with our{" "}
+                <span className="font-bold">omnicommerce solution</span>,
+                empowering you to engage consumers wherever they are and however
+                they choose to shop.
               </Paragraphs>
               <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
