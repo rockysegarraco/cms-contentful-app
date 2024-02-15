@@ -79,7 +79,7 @@ export default function Index({ pageData }) {
               </Heading>
               <Paragraphs dark>
                 Unlock the full potential of your brand with our{" "}
-                <span className="font-bold">omnicommerce solution</span>,
+                <span className="font-bold">omnicommerce solutions</span>,
                 empowering you to engage consumers wherever they are and however
                 they choose to shop.
               </Paragraphs>
