@@ -166,21 +166,19 @@ export default function SmartLink({ pageData }) {
               MOE knows
               <span className="text-secondary-950">.</span>
             </Heading>
-            <p className="font-bold text-secondary-950 mb-8">
-              Why use Click2Cart for your ads & social media?
-            </p>
             <Paragraphs dark>
-              The SmartCommerce Master Optimization Engine (MOE for short) gives
-              our clients superpowers. Up-to-the-minute technology always knows
-              what’s in stock and can easily ID the best substitutes for OOS/3P
-              items, driving friction out and volume up.
+              MOE (Master Optimization Engine) is the big brain behind the whole
+              SmartCommerce operation, and it can do a LOT for your brand. We
+              like to say it gives our clients superpowers because the real-time
+              (as in up-to-the-minute) machine learning always knows what’s in
+              stock and can easily ID the best substitutes for OOS/3P items, so
+              you don’t miss out on sales.
               <br />
               <br />
-              You don’t need to send us feeds, spreadsheets, or links – it
+              And you don’t need to send us feeds, spreadsheets, or links – MOE
               continuously updates 10s of millions of product-offer pairs across
-              hundreds of retailers. And because it’s machine-learning enabled,
-              it’s always getting smarter. We have a panel of Data Scientists to
-              constantly manage all of it!
+              hundreds of retailers, truly driving commerce at the speed of
+              life.
             </Paragraphs>
           </div>
           <div className="relative w-full order-first lg:order-last">
