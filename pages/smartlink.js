@@ -163,7 +163,7 @@ export default function SmartLink({ pageData }) {
         <_Container twocolumn>
           <div className="order-last lg:order-first">
             <Heading dark>
-              Meet MOE
+              MOE knows
               <span className="text-secondary-950">.</span>
             </Heading>
             <Paragraphs dark>

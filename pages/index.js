@@ -74,14 +74,12 @@ export default function Index({ pageData }) {
           <_Container twocolumnmargin>
             <div className="order-last lg:order-first">
               <Heading dark>
-                Commerce at the speed of life
+                Make everything shoppable
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                Unlock the full potential of your brand with our{" "}
-                <span className="font-bold">omnicommerce solutions</span>,
-                empowering you to engage consumers wherever they are and however
-                they choose to shop.
+                SmartCommerce is a simple tool that transforms all of your
+                marketing touchpoints into e-commerce launch points.
               </Paragraphs>
               <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
