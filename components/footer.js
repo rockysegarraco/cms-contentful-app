@@ -1,6 +1,5 @@
 import Link from "next/link";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import FooterForm from "../components/FooterForm";
 
 const navigation = {
   solutions: [
