@@ -11,11 +11,11 @@ export default function Example() {
       <main className="bg-white px-0 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
           <h1 className="mt-0 text-3xl font-bold tracking-tight text-secondary-950 sm:text-5xl">
-            Thank You!
+            You’re clearly a <br />
+            genius already!
           </h1>
           <p className="mt-6 text-base leading-7 text-slate-950">
-            Your response has been <br />
-            processed successfully.
+            Stay tuned for our monthly newsletter, SmartBites.
           </p>
         </div>
       </main>
