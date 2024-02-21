@@ -1,4 +1,6 @@
 import Link from "next/link";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import FooterForm from "../components/FooterForm";
 
 const navigation = {
   solutions: [
@@ -90,6 +92,7 @@ const navigation = {
 };
 
 export default function Footer() {
+  const MAILCHIMP_URL = process.env.REACT_APP_MAILCHIMP_URL;
   return (
     <footer
       className="bg-gradient-to-r from-info-950 to-dark-accent"
@@ -98,8 +101,8 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-24">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 lg:px-8 lg:pt-24">
+        <div className="grid md:grid-cols-3 xl:grid xs:grid-cols-3 xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <img
               className="h-12 mr-8"
@@ -126,9 +129,29 @@ export default function Footer() {
                 </a>
               ))}
             </div>
+            <div className="hidden lg:block">
+              <div className="mt-4 border-t border-white/10 pt-8 sm:mt-20 lg:mt-0">
+                <div className="flex lg:justify-between flex-col">
+                  <div className="flex">
+                    <Link href="https://www.inc.com/profile/smartcommerce">
+                      <img
+                        className="h-24 px-4"
+                        src="img/inc-logo.svg"
+                        alt="Company name"
+                      />
+                    </Link>
+                    <img
+                      className="h-24 px-4"
+                      src="Best_Workplaces_Badge 1.svg"
+                      alt="Company name"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div className="xl:col-span-1 lg:mt-0 mt-10">
+            <div className="grid grid-cols-2 md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Products
@@ -145,9 +168,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-white mt-10">
                   Company
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -163,8 +184,6 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Resources
@@ -181,9 +200,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-white mt-10">
                   Partners
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -201,10 +218,24 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <div className="xl:col-span-1 lg:mt-0 mt-10">
+            <div id="footer">
+              <div className="text-white text-xl mb-4 lg:text-xl">
+                Be A SmartCookie
+              </div>{" "}
+              <iframe
+                allowtransparency="true"
+                src="https://demo.smartcommerce.co/smartcommerce/forms/subscribe-form.html"
+                height="375"
+                width="100%"
+                frameBorder="0"
+              ></iframe>
+            </div>
+          </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <div className="flex justify-between">
-            <div className="flex">
+        <div className="mt-4 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+          <div className="flex justify-between flex-col lg:flex-col">
+            <div className="flex lg:hidden block mx-auto lg:mx-none">
               <Link href="https://www.inc.com/profile/smartcommerce">
                 <img
                   className="h-24 px-4"
@@ -218,8 +249,8 @@ export default function Footer() {
                 alt="Company name"
               />
             </div>
-            <p className="text-xs leading-5 text-gray-400 mt-4">
-              &copy; 2023 All rights reserved.
+            <p className="text-xs leading-5 text-gray-400 lg:mt-0 mt-8 lg:text-start text-center ">
+              &copy; 2024 All rights reserved.
             </p>
           </div>
         </div>
