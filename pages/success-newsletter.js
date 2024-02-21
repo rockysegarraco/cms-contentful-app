@@ -15,7 +15,8 @@ export default function Example() {
             genius already!
           </h1>
           <p className="mt-6 text-base leading-7 text-slate-950">
-            Stay tuned for our monthly newsletter, SmartBites.
+            Stay tuned for our monthly <br />
+            newsletter, SmartBites.
           </p>
         </div>
       </main>
