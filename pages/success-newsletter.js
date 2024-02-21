@@ -10,7 +10,7 @@ export default function Example() {
     <>
       <main className="bg-white px-0 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
-          <h1 className="mt-0 text-3xl font-bold tracking-tight text-secondary-950 sm:text-5xl">
+          <h1 className="mt-0 text-3xl leading-[4rem] font-bold tracking-tight text-secondary-950 sm:text-5xl">
             You’re clearly a <br />
             genius already!
           </h1>
