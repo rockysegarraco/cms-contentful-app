@@ -4,6 +4,7 @@ import Intro from "../components/intro";
 import GetDemo from "../components/getdemo";
 import Layout from "../components/Layout";
 import Head from "next/head";
+
 export default function Example() {
   return (
     <>
@@ -13,7 +14,8 @@ export default function Example() {
             Thank You!
           </h1>
           <p className="mt-6 text-base leading-7 text-slate-950">
-            Your response has been processed successfully.
+            Your response has been <br />
+            processed successfully.
           </p>
         </div>
       </main>
