@@ -228,6 +228,7 @@ export default function Footer() {
                 height="375"
                 width="100%"
                 frameBorder="0"
+                scrolling="no"
               ></iframe>
             </div>
           </div>

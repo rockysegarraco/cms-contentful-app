@@ -47,6 +47,7 @@ export default function Example() {
                   height="320"
                   width="100%"
                   frameBorder="0"
+                  scrolling="no"
                 ></iframe>
                 <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
               </div>
