@@ -23,7 +23,7 @@ export default function Example() {
           </title>
           <meta
             name="description"
-            content="Are you attending an event we will be at too? If so, we'd love to chat about how we can help you drive more commerce."
+            content="We would love to connect and show you how SmartCommerce can drive more sales. Fill out the form below, and we’ll be in touch soon – looking forward!"
           />
         </Head>
         <Intro title="Schedule a Meet up" />
@@ -36,10 +36,9 @@ export default function Example() {
                     Let's meet up!
                   </h2>
                   <Paragraphs>
-                    Are you attending an event we will be at too? If so, we'd
-                    love to chat about how we can help you drive more commerce.
-                    Fill out the form below to schedule a meet up with one of
-                    the SmartCommerce team members!
+                    We would love to connect and show you how SmartCommerce can
+                    drive more sales. Fill out the form below, and we’ll be in
+                    touch soon – looking forward!
                   </Paragraphs>
                 </div>
                 <iframe
