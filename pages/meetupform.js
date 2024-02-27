@@ -23,14 +23,14 @@ export default function Example() {
           </title>
           <meta
             name="description"
-            content="Contact us For general inquiries, please use the form below. Locations US Offices: Atlanta, GA Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co"
+            content="Are you attending an event we will be at too? If so, we'd love to chat about how we can help you drive more commerce."
           />
         </Head>
         <Intro title="Schedule a Meet up" />
-        <Wrapper slate>
+        <Wrapper>
           <_Container onecolumn>
             <div className="text-start">
-              <div className="mx-auto max-w-xl">
+              <div className="mx-auto max-w-xl bg-white shadow py-8 px-8 rounded-md">
                 <div className="mb-8">
                   <h2 className="text-3xl font-bold text-info-950 mb-4">
                     Let's meet up!
@@ -43,8 +43,8 @@ export default function Example() {
                   </Paragraphs>
                 </div>
                 <iframe
-                  src="https://tfaforms.com/5008721?tfa_7=a0f5b00000AvHEzAAN"
-                  height="487"
+                  src="https://demo.smartcommerce.co/smartcommerce/forms/meetup-form.html"
+                  height="320"
                   width="100%"
                   frameBorder="0"
                 ></iframe>
@@ -53,6 +53,7 @@ export default function Example() {
             </div>
           </_Container>
         </Wrapper>
+        <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>
     </>
   );
