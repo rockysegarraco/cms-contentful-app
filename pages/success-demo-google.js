@@ -14,7 +14,7 @@ export default function Example() {
             Can’t wait to connect!
           </h1>
           <p className="mt-6 text-base leading-7 text-slate-950">
-            We’ll be in touch soon...
+            We’ll be in touch soon.
           </p>
         </div>
       </main>
