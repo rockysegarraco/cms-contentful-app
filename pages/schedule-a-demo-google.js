@@ -39,11 +39,10 @@ export default function Example() {
                 <span className="text-secondary-950">.</span>
               </h1>
               <p className="mt-1 text-lg leading-8 text-gray-600">
-                Interested in learning how Click2Cart® can drive e- commerce
-                from your digital ads, social channels and website - or would
-                you like to see a sample link for your brand? Please introduce
-                yourself below, and one our team members will be right back with
-                you!
+                Interested in learning how Click2Cart® can drive e-commerce from
+                your digital ads, social channels, and website? Or would you
+                like to see a sample link for your brand? Introduce yourself
+                below, and one of our team members will be in touch!
               </p>
               <div className="mt-8">
                 <Video />

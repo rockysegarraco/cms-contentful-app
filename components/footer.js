@@ -225,7 +225,7 @@ export default function Footer() {
               <iframe
                 allowtransparency="true"
                 src="https://demo.smartcommerce.co/smartcommerce/forms/subscribe-form.html"
-                height="375"
+                height="500"
                 width="100%"
                 frameBorder="0"
                 scrolling="no"
