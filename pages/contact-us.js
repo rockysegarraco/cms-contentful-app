@@ -132,13 +132,19 @@ export default function Example() {
                   </dl>
                 </div>
               </div>
-              <iframe
-                src="https://tfaforms.com/4982191"
-                height="1000"
-                width="100%"
-                frameBorder="0"
-              ></iframe>
-              <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
+              <div className="relative w-full order-first lg:order-last">
+                <div className="p-6">
+                  <div className="font-bold text-info-950 mb-4">Contact Us</div>
+                  <iframe
+                    src="https://demo.smartcommerce.co/smartcommerce/forms/contact.html"
+                    height="900"
+                    width="100%"
+                    frameBorder="0"
+                    scrolling="no"
+                  ></iframe>
+                  <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
+                </div>
+              </div>
             </div>
           </div>
         </Container>
