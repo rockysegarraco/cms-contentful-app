@@ -30,7 +30,7 @@ export default function Example() {
         <Wrapper>
           <_Container onecolumn>
             <div className="text-start">
-              <div className="mx-auto max-w-xl bg-white shadow p-4 lg:p-8 rounded-md">
+              <div className="mx-auto max-w-xl p-4 lg:p-8">
                 <div className="mb-8">
                   <h2 className="text-3xl font-bold text-info-950 mb-4">
                     Let's meet up!
