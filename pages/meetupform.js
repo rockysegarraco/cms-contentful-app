@@ -43,7 +43,7 @@ export default function Example() {
                 </div>
                 <iframe
                   src="https://demo.smartcommerce.co/smartcommerce/forms/meetup-form.html"
-                  height="320"
+                  height="550"
                   width="100%"
                   frameBorder="0"
                   scrolling="no"
