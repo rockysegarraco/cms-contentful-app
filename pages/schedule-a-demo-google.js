@@ -21,7 +21,7 @@ export default function Example() {
           </title>
           <meta
             name="description"
-            content="Interested in learning how Click2Cart® can drive e- commerce from your digital ads, social channels and website? Fill out the form below and one our team members will be in touch."
+            content="Interested in learning how Click2Cart® can drive e-commerce from your digital ads, social channels and website? Fill out the form below and one our team members will be in touch."
           />
           <script
             async
@@ -50,13 +50,13 @@ export default function Example() {
               </div>
             </div>
             <div className="relative w-full order-first lg:order-last">
-              <div className="bg-white p-6 rounded-lg shadow">
+              <div className="p-6">
                 <div className="font-bold text-info-950 mb-4">
                   Schedule a Demo
                 </div>
                 <iframe
                   src="https://demo.smartcommerce.co/smartcommerce/forms/demo-google-form.html"
-                  height="410"
+                  height="550"
                   width="100%"
                   frameBorder="0"
                   scrolling="no"
