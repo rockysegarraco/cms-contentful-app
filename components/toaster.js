@@ -29,7 +29,7 @@ export default function Example() {
       </div>
       <div className="flex items-center gap-x-4 gap-y-2">
         <p className="text-sm leading-6 text-gray-900">
-          <strong className="font-semibold">NEW</strong>
+          <strong className="font-semibold">JUST IN</strong>
           <svg
             viewBox="0 0 2 2"
             className="mx-2 inline h-0.5 w-0.5 fill-current"
