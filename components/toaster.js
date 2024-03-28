@@ -2,7 +2,7 @@ import { XMarkIcon } from "@heroicons/react/20/solid";
 
 export default function Example() {
   return (
-    <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+    <div className="relative isolate lg:flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
       <div
         className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
         aria-hidden="true"
@@ -27,8 +27,8 @@ export default function Example() {
           }}
         />
       </div>
-      <div className="flex items-center gap-x-4 gap-y-2">
-        <p className="text-sm leading-6 text-gray-900">
+      <div className="lg:flex lg:flex-wrap lg:items-center lg:gap-x-4 lg:gap-y-2 text-center">
+        <p className="text-sm leading-6 text-gray-900 text-center mb-2 lg:mb-0">
           <strong className="font-semibold">JUST IN</strong>
           <svg
             viewBox="0 0 2 2"
@@ -43,10 +43,10 @@ export default function Example() {
           href="https://www.smartcommerce.com/whitepapers/2024-cpg-ecommerce-and-promotions-smartreport"
           className="flex-none rounded-full bg-primary-950 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-primary-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-          Download Now
+          Learn More
         </a>
       </div>
-      <div className="flex flex-1 justify-end"></div>
+      <div className="lg:flex lg:flex-1 lg:justify-end hidden"></div>
     </div>
   );
 }
