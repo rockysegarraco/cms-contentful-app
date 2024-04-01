@@ -123,7 +123,7 @@ export default function Example() {
                     Spring Social
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    April 18, 2024
+                    May 30, 2024
                     <br />
                     Chicago, IL
                   </div>
