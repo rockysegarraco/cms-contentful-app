@@ -194,3 +194,11 @@ div[data-sc-id][data-sc-type="SmartButton"] {
     margin-bottom: 10px;
 }
 
+.img-center img {
+ text-align: center !important;
+ margin: 0 auto;
+}
+
+.post-link a {
+  color: #4363f9;
+}
