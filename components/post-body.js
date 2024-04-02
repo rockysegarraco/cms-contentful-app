@@ -3,7 +3,7 @@ import { BLOCKS } from "@contentful/rich-text-types";
 import markdownStyles from "./markdown-styles.module.css";
 import RichTextAsset from "./rich-text-asset";
 
-const customMarkdownOptions = (content) => ({  
+const customMarkdownOptions = (content) => ({
   renderNode: {
     [BLOCKS.EMBEDDED_ASSET]: (node) => (
       <RichTextAsset
@@ -17,7 +17,7 @@ const customMarkdownOptions = (content) => ({
 export default function PostBody({ content }) {
   return (
     <>
-      <div className="max-w-3xl mx-auto text-dark-950 font-normal">
+      <div className="max-w-3xl mx-auto text-dark-950 font-normal img-center">
         <div className={markdownStyles["markdown"]}>
           {documentToReactComponents(
             content.json,
