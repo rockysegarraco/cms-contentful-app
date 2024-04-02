@@ -17,7 +17,7 @@ const customMarkdownOptions = (content) => ({
 export default function PostBody({ content }) {
   return (
     <>
-      <div className="max-w-3xl mx-auto text-dark-950 font-normal img-center">
+      <div className="max-w-3xl mx-auto text-dark-950 font-normal img-center post-link">
         <div className={markdownStyles["markdown"]}>
           {documentToReactComponents(
             content.json,
