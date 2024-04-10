@@ -66,7 +66,7 @@ export default function Benefits() {
       <div className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-2xl lg:max-w-7xl">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 md:max-w-full lg:max-w-none md:mx-auto md:grid-cols-3 lg:grid-cols-4 lg:gap-y-24">
+            <dl className="grid max-w-xl grid-cols-2 gap-x-8 gap-y-10 md:max-w-full lg:max-w-none md:mx-auto md:grid-cols-3 lg:grid-cols-4 lg:gap-y-24">
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-0">
                   <img
