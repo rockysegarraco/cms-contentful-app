@@ -28,10 +28,10 @@ export default function _Product(props) {
                   For ads & social media
                   <br />
                   <br />
-                  Click2Cart links let you add products at one (or multiple)
-                  geo-relevant retailers seamlessly. Multiple UI options –
-                  branded pages, curated shelves, custom bundles – fit every
-                  campaign objective to drive action.
+                  Click2Cart shoppable links let you add one (or more) products
+                  at one (or multiple) geo-relevant retailers seamlessly.
+                  Multiple UI options (branded pages, curated shelves, custom
+                  bundles) fit every campaign objective to drive action.
                 </p>
               </div>
               <div class="mt-auto pt-0 pb-16 dark:border-neutral-600 dark:text-neutral-50">
@@ -60,7 +60,7 @@ export default function _Product(props) {
                   For websites
                   <br />
                   <br />
-                  More carting? We’ve got you. Optimize your website with
+                  More carting? We've got you. Optimize your website with
                   one-click carting at a variety of retailers, including your
                   own DTC experience.
                 </p>

@@ -11,6 +11,7 @@ import Testimonials from "../components/smartlink/Testimonials";
 import Partners from "../components/Partners";
 import Video from "../components/Video";
 import _Products from "../components/_Products";
+import Moe from "../components/moe";
 import Cta from "../components/Cta";
 import { fetchHomepage } from "../lib/api";
 import Image from "next/image";
@@ -74,14 +75,16 @@ export default function Index({ pageData }) {
           <_Container twocolumnmargin>
             <div className="order-last lg:order-first">
               <Heading dark>
-                Make everything shoppable
+                The omnicommerce experience for multichannel brands
                 <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
-                SmartCommerce is a simple tool that transforms all of your
-                marketing touchpoints into e-commerce launch points.
+                Our data-focused solutions deliver commerce at the speed of
+                life, empowering you to engage consumers wherever and however
+                they choose to shop. <br />
+                <br /> P.S. Wait until you see what MOE can do for you!
               </Paragraphs>
-              <dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
+              {/*<dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
@@ -93,7 +96,8 @@ export default function Index({ pageData }) {
                     <dd className="inline">{feature.description}</dd>
                   </div>
                 ))}
-              </dl>
+              </dl>*/}
+
               <Link href="/request-demo">
                 <div className="pb-0 md:pb-8">
                   <Button primary>Let's do this!</Button>
@@ -105,27 +109,8 @@ export default function Index({ pageData }) {
                 loader={imageLoader}
                 src={heroPic}
                 alt="Smart Commerce"
-                className="relative"
+                className="relative lg:pt-32"
               />
-            </div>
-          </_Container>
-        </Wrapper>
-        <Wrapper secondary>
-          <_Container onecolumn>
-            <div className="order-last lg:order-first">
-              <Heading light>
-                <div className="max-w-6xl">
-                  Trusted by leading consumer brands across the globe
-                </div>
-              </Heading>
-              <div className="mx-auto max-w-none lg:max-w-xl">
-                <Paragraphs light>
-                  Major players leverage SmartCommerce to reach consumers across
-                  categories – grocery, wellness, beauty, pet, electronics, and
-                  more.
-                </Paragraphs>
-              </div>
-              <Partners />
             </div>
           </_Container>
         </Wrapper>
@@ -136,15 +121,14 @@ export default function Index({ pageData }) {
                 The Click2Cart<span className="font-normal">®</span> Difference
               </Heading>
               <Paragraphs light>
-                Why Click2Cart? We like to think of it as behind-the-scenes
-                magic that makes the carting process as simple and seamless as
-                possible. The friction-free, one-click path to purchase means
-                consumers aren’t distracted by competitor ads or cross-selling,
-                and there is no waiting (i.e. forgetting) to check out.
+                We like to think of it as behind-the-scenes magic.
+                Friction-free, one-click carting means consumers aren't
+                distracted by competitor ads or cross-selling, and there's no
+                waiting (i.e. forgetting) to check out.
                 <br /> <br />
-                And even when shoppers don’t complete a purchase, you still win
-                because carting triggers retargeting (building brand awareness)
-                and improves retailer-side SEO/SEM results.
+                And even when shoppers don't complete a purchase, you still win
+                because carting triggers retargeting and improves retailer-side
+                SEO/SEM results.
               </Paragraphs>
             </div>
             <div className="relative w-full order-first lg:order-last text-white">
@@ -155,62 +139,43 @@ export default function Index({ pageData }) {
         <Wrapper light>
           <_Container>
             <div className="text-center">
-              <div className="mx-auto max-w-4xl">
+              <div className="mx-auto max-w-5xl">
                 <Heading dark>
-                  Smart solutions that boost your bottom line
+                  Shoppable experiences that boost your bottom line
                 </Heading>
                 <Paragraphs dark>
-                  Our suite of solutions fits any campaign objective and comes
-                  with a convenient to use 24/7 platform and next-level client
-                  support! Anywhere you can use a URL, you can drive commerce.
+                  Our suite of omnichannel solutions fits any campaign objective
+                  and comes with a convenient to use 24/7 platform, with deep
+                  data and insights. Anywhere you can use a URL, you can drive
+                  commerce - display ads, social posts, influencer blogs,
+                  websites, emails, videos, packaging, and more.
                 </Paragraphs>
               </div>
             </div>
             <_Products />
           </_Container>
         </Wrapper>
-        <Wrapper slate>
-          <_Container twocolumn>
+        <Moe />
+
+        <Wrapper primary>
+          <_Container onecolumn>
             <div className="order-last lg:order-first">
-              <Heading dark>The difference is data</Heading>
-              <Paragraphs dark>
-                The SmartCommerce Master Optimization Engine (MOE for short):
-              </Paragraphs>
-              <dl className="mt-0 max-w-xl text-gray-600 lg:max-w-none mb-0 py-6">
-                {data.map((data) => (
-                  <div key={data.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <data.icon
-                        className="absolute left-1 top-1 h-5 w-5 text-secondary-950"
-                        aria-hidden="true"
-                      />
-                    </dt>{" "}
-                    <dd className="inline">{data.description}</dd>
-                  </div>
-                ))}
-              </dl>
-              <Paragraphs dark>
-                Our up-to-the-minute technology always knows what’s in stock and
-                IDs the best substitutes for OOS/3P items. It continuously
-                updates 10s of millions of product-offer pairs across hundreds
-                of retailers. And you don’t need to do a thing – our panel of
-                Data Scientists manage all of it!
-              </Paragraphs>
-              <Link href="/reporting">
-                <Button primary>Tell me more</Button>
-              </Link>
-            </div>
-            <div className="relative w-full order-first lg:order-last">
-              <Image
-                loader={imageLoader}
-                src={reportingPic}
-                className="relative"
-                alt="SmartCommerce Reporting"
-              />
+              <Heading light>
+                <div className="max-w-6xl">
+                  Trusted by leading consumer brands across the globe
+                </div>
+              </Heading>
+              <div className="mx-auto max-w-none lg:max-w-xl">
+                <Paragraphs light>
+                  Major players leverage SmartCommerce to reach consumers across
+                  categories - grocery, wellness, beauty, pet, electronics and
+                  more
+                </Paragraphs>
+              </div>
+              <Partners />
             </div>
           </_Container>
         </Wrapper>
-        <Testimonials />
         <Wrapper secondary>
           <div className="bkg-right">
             <Image
@@ -224,13 +189,18 @@ export default function Index({ pageData }) {
                 <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-7xl">
                   <Heading light>The truth is in the numbers</Heading>
                   <Paragraphs light>
-                    It just works – across all categories and verticals, from
+                    It just works - across all categories and verticals, from
                     display ads to QR codes, at ALL major points of intent.
                   </Paragraphs>
+                  <div className="font-medium mt-4 text-white">
+                    Anywhere you can use a URL, you can drive commerce <br />{" "}
+                    with Click2Cart.
+                  </div>
                   <dl className="mt-8 lg:mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
                     <div className="flex flex-col gap-y-0 lg:gap-y-3  border-gray-900/10 pl-6">
                       <dt className="text-sm leading-6 text-white">
-                        Dollar value of products carted in the last 12 months.
+                        Carted by over 50 million consumers in the last 12
+                        months
                       </dt>
                       <dd className="order-first text-5xl font-semibold tracking-tight text-info-950">
                         $3B<span className="text-white">+</span>
@@ -250,6 +220,7 @@ export default function Index({ pageData }) {
             </div>
           </div>
         </Wrapper>
+        <Testimonials />
         <Cta />
         <style>{"body { background-color: #f5f5f7; }"}</style>
       </Layout>

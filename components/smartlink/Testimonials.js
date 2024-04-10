@@ -67,7 +67,7 @@ function classNames(...classes) {
 
 export default function Testimonials() {
   return (
-    <div className="relative isolate py-24 bg-white">
+    <div className="relative isolate py-24 bg-slate-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
           <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-8 font-bold text-info-950">

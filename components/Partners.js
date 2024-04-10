@@ -23,7 +23,7 @@ export default function Partners() {
           <img
             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src="img/brands/clorox.svg"
-            alt="Tuple"
+            alt="Clorox"
             width={158}
             height={48}
           />
