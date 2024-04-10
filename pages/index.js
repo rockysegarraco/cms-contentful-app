@@ -76,7 +76,6 @@ export default function Index({ pageData }) {
             <div className="order-last lg:order-first">
               <Heading dark>
                 The omnicommerce experience for multichannel brands
-                <span className="text-secondary-950">.</span>
               </Heading>
               <Paragraphs dark>
                 Our data-focused solutions deliver commerce at the speed of
