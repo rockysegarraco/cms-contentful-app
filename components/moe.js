@@ -61,11 +61,7 @@ export default function Benefits() {
               how:
             </p>
           </div>
-        </div>
-      </div>
-      <div className="bg-slate-50">
-        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
-          <div className="mx-auto max-w-2xl lg:max-w-7xl">
+          <div className="mx-auto max-w-2xl lg:max-w-7xl mt-16">
             <dl className="grid max-w-xl grid-cols-2 gap-x-8 gap-y-10 md:max-w-full lg:max-w-none md:mx-auto md:grid-cols-3 lg:grid-cols-4 lg:gap-y-24">
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-0">
@@ -76,21 +72,12 @@ export default function Benefits() {
                     width={200}
                     height={48}
                   />
-                  <dd className="mt-2 text-base leading-7 text-gray-600 lg:text-left text-center">
+                  <dd className="mt-2 text-base leading-7 text-white lg:text-left text-center">
                     {feature.description}
                   </dd>
                 </div>
               ))}
             </dl>
-          </div>
-          <div className="text-center text-gray-600 pt-24 text-xl font-medium">
-            What exactly can MOE do for your brand? We’d love to connect and
-            walk you through it!
-          </div>
-          <div className="flex items-center justify-center gap-x-6">
-            <Link href="/request-demo">
-              <Button primary>Reach out</Button>
-            </Link>
           </div>
         </div>
       </div>
