@@ -513,7 +513,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.shespeaks.com/">
+            <Link href="https://www.shespeaksinc.com">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/shespeaks.png"
@@ -523,9 +523,9 @@ export default function Clients() {
               />
             </Link>
             <div className="text-slate-950 mt-3 text-center text-sm">
-              <p className="font-bold">shespeaks</p>SheSpeaks inspires women to
-              speak and be heard. Members share their opinions, try products and
-              influence companies and the world around them.
+              <p className="font-bold">shespeaks</p>A women-owned influencer
+              marketing company crafting insight-driven, high-performing
+              programs that drive real results.
             </div>
           </div>
         </div>
