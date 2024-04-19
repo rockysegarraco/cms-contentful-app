@@ -81,7 +81,10 @@ export default function Index({ pageData }) {
                 Our data-focused solutions deliver commerce at the speed of
                 life, empowering you to engage consumers wherever and however
                 they choose to shop. <br />
-                <br /> P.S. Wait until you see what MOE can do for you!
+                <br />{" "}
+                <a className="text-primary-950" href="#moe">
+                  (P.S. Wait until you see what MOE can do for you!)
+                </a>
               </Paragraphs>
               {/*<dl className="mt-8 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -99,7 +102,7 @@ export default function Index({ pageData }) {
 
               <Link href="/request-demo">
                 <div className="pb-0 md:pb-8">
-                  <Button primary>Let's do this!</Button>
+                  <Button primary>Request Demo</Button>
                 </div>
               </Link>
             </div>

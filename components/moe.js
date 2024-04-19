@@ -47,7 +47,10 @@ const features = [
 export default function Benefits() {
   return (
     <>
-      <div className="bg-slate-50 pt-32 pb-12 lg:pt-36 lg:pb-36 bg-[url('/moe-pic.jpg')] bg-cover  bg-no-repeat ">
+      <div
+        id="moe"
+        className="bg-slate-50 pt-32 pb-12 lg:pt-36 lg:pb-36 bg-[url('/moe-pic.jpg')] bg-cover  bg-no-repeat "
+      >
         <div className="mx-auto max-w-full px-6 lg:px-8">
           <div className="mx-auto max-w-full lg:text-center">
             <img className="mx-auto h-36 mb-4" src="moe-graphic.png" />
