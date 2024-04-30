@@ -14,13 +14,13 @@ export default function Example({ preview, privacy }) {
     <>
       <Layout>
         <Head>
-          <title>Terms and Conditions</title>
+          <title>Term of Service</title>
           <meta
             name="description"
-            content="By using SmartCommerce, you agree to these Terms and Conditions which govern your use of this website."
+            content="By using SmartCommerce, you agree to these terms of service which govern your use of this website."
           />
         </Head>
-        <_PageTitle title="Terms and Conditions" />
+        <_PageTitle title="Terms of Service" />
         <Wrapper light>
           <div className="mx-auto max-w-4xl text-left px-8 text-dark-950 py-8">
             <div className="font-bold">Last Updated: April 17, 2024</div>
