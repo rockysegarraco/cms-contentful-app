@@ -13,7 +13,7 @@ const navigation = {
     { name: "Partners", href: "/partners" },
     { name: "Careers", href: "/careers" },
     { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Terms and Conditions", href: "/terms-of-service" },
+    { name: "Terms", href: "/terms-of-service" },
   ],
   company: [
     { name: "", href: "#" },
