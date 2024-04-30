@@ -14,7 +14,7 @@ export default function Example({ preview, privacy }) {
     <>
       <Layout>
         <Head>
-          <title>Terms of Use</title>
+          <title>Terms and Conditions</title>
           <meta
             name="description"
             content="By using SmartCommerce, you agree to these Terms and Conditions which govern your use of this website."
