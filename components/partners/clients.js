@@ -206,7 +206,7 @@ export default function Clients() {
             <Link href="https://www.undertone.com/">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
-                src="img/partners/undertone.png"
+                src="img/partners/undertone.svg"
                 alt="Smart Commerce"
                 width={168}
                 height={58}
