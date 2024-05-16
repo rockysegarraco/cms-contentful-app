@@ -27,23 +27,24 @@ export default function Example() {
           />
         </Head>
         <Intro title="Schedule a Meet up" />
-        <Wrapper>
-          <_Container onecolumn>
-            <div className="text-start">
-              <div className="mx-auto max-w-xl p-4 lg:p-8">
-                <div className="mb-8">
-                  <h2 className="text-3xl font-bold text-info-950 mb-4">
-                    Let's meet up!
-                  </h2>
-                  <Paragraphs>
-                    We would love to connect and show you how SmartCommerce can
-                    drive more sales. Fill out the form below, and we’ll be in
-                    touch soon – looking forward!
-                  </Paragraphs>
-                </div>
+        <Wrapper slate>
+          <_Container twocolumn>
+            <div className="order-first lg:order-last">
+              <h1 className="text-4xl leading-[3rem] sm:text-6xl sm:leading-[5.5rem] md:text-5xl md:leading-[4.5rem] lg:text-4xl lg:leading-[5rem] mb-1 font-bold text-info-950">
+                Let's meet up!
+                <span className="text-secondary-950">.</span>
+              </h1>
+              <p className="mt-1 text-lg leading-8 text-gray-600">
+                We would love to connect and show you how SmartCommerce can
+                drive more sales. Fill out the form below, and we’ll be in touch
+                soon – looking forward!
+              </p>
+            </div>
+            <div className="relative w-full order-first lg:order-last">
+              <div className="p-6 rounded-lg">
                 <iframe
                   src="https://demo.smartcommerce.co/smartcommerce/forms/meetup-form.html"
-                  height="550"
+                  height="650"
                   width="100%"
                   frameBorder="0"
                   scrolling="no"
