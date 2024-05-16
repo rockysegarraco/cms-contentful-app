@@ -26,7 +26,7 @@ export default function Example() {
             content="We would love to connect and show you how SmartCommerce can drive more sales. Fill out the form below, and we’ll be in touch soon – looking forward!"
           />
         </Head>
-        <Intro title="Schedule a Meet up" />
+        <Intro title="Schedule a meetup" />
         <Wrapper slate>
           <_Container twocolumn>
             <div className="order-first lg:order-last">

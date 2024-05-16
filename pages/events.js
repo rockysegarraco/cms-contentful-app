@@ -41,6 +41,14 @@ export default function Example() {
               We're looking forward to attending these upcoming events and would
               love to connect if you'll be there too.
             </p>
+            <div className="py-6 flex items-center justify-center gap-x-6">
+              <a
+                href="https://www.smartcommerce.com/meetupform"
+                className="rounded-full bg-primary-950 px-8 py-4 text-md font-medium text-white shadow-sm hover:bg-primary-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Schedule a Meetup
+              </a>
+            </div>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://tinuiti.com/content/webinars/2024-amazon-retail-media-summit">
