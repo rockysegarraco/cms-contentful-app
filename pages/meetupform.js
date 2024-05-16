@@ -39,6 +39,7 @@ export default function Example() {
                 drive more sales. Fill out the form below, and we’ll be in touch
                 soon – looking forward!
               </p>
+              <img className="w-full pt-8" src="/img/meetup_form.png" />
             </div>
             <div className="relative w-full order-first lg:order-last">
               <div className="p-6 rounded-lg">
