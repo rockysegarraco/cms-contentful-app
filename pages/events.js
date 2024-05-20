@@ -174,7 +174,7 @@ export default function Example() {
                     Summer Social
                   </div>
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    June 2024
+                    August 2024
                     <br />
                     Location: TBD in the event we do one at Blake Street again
                   </div>
