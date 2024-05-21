@@ -127,7 +127,7 @@ export default function Example() {
                       ShopTalk Europe
                     </div>
                     <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      June 3-5 2024
+                      June 3-5, 2024
                       <br />
                       Europe
                     </div>
@@ -192,7 +192,7 @@ export default function Example() {
                       Digital Food & Beverage
                     </div>
                     <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      June 24-26 2024
+                      June 24-26, 2024
                       <br />
                       Paul Desert, CA
                     </div>
