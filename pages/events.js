@@ -176,7 +176,7 @@ export default function Example() {
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     August 2024
                     <br />
-                    Location: TBD in the event we do one at Blake Street again
+                    Location: TBD
                   </div>
                 </div>
               </div>
