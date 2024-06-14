@@ -164,23 +164,6 @@ export default function Example() {
                 </Link>
               </div>
               <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="img/events/summersocial.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2 text-info-950">
-                    Summer Social
-                  </div>
-                  <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    August 2024
-                    <br />
-                    Location: TBD
-                  </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://foodandbeverage.wbresearch.com/">
                   <img
                     class="w-full"
@@ -227,6 +210,23 @@ export default function Example() {
                     </div>
                   </div>
                 </Link>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="img/events/summersocial.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-info-950">
+                    Summer Social
+                  </div>
+                  <div className="text-dark-950 pb-2 text-sm font-semibold">
+                    August 2024
+                    <br />
+                    Location: TBD
+                  </div>
+                </div>
               </div>
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://groceryshop.com/">
@@ -467,7 +467,7 @@ export default function Example() {
                   <div className="text-dark-950 pb-2 text-sm font-semibold">
                     June 24-26, 2024
                     <br />
-                    Palm Dessert, CA
+                    Palm Desert, CA
                   </div>
                   <div className="py-4 text-base text-primary-950 underline underline-offset-8">
                     <Link
