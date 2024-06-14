@@ -177,7 +177,7 @@ export default function Example() {
                     <div className="text-dark-950 pb-2 text-sm font-semibold">
                       June 24-26, 2024
                       <br />
-                      Paul Desert, CA
+                      Palm Desert, CA
                     </div>
                     <div className="py-4 text-base text-primary-950 underline underline-offset-8">
                       <div className="py-4 text-base text-primary-950 underline underline-offset-8">
