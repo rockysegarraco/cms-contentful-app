@@ -51,71 +51,6 @@ export default function Example() {
             </div>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
               <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <Link href="https://adage.com/events">
-                  <img
-                    class="w-full"
-                    src="img/events/adage.jpg"
-                    alt="Sunset in the mountains"
-                  />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-info-950">
-                      Ad Age TV & Streaming Summit
-                    </div>
-                    <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      May 21-22, 2024
-                      <br />
-                      New York, NY
-                    </div>
-                    <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                      <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                        Register
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <Link href="https://www.digitalgrocerysummit.com/">
-                  <img
-                    class="w-full"
-                    src="img/events/dgs.jpg"
-                    alt="Sunset in the mountains"
-                  />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2 text-info-950">
-                      Digital Grocery Summit
-                    </div>
-                    <div className="text-dark-950 pb-2 text-sm font-semibold">
-                      May 23, 2024
-                      <br />
-                      Chicago, IL
-                    </div>
-                    <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                      <div className="py-4 text-base text-primary-950 underline underline-offset-8">
-                        Register
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
-                <img
-                  class="w-full"
-                  src="img/events/springsocial.jpg"
-                  alt="Sunset in the mountains"
-                />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2 text-info-950">
-                    Spring Social
-                  </div>
-                  <div className="text-dark-950 pb-2 text-sm font-semibold">
-                    May 30, 2024
-                    <br />
-                    Chicago, IL
-                  </div>
-                </div>
-              </div>
-              <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://shoptalkeurope.com/">
                   <img
                     class="w-full"
@@ -541,6 +476,71 @@ export default function Example() {
               Past Events
             </div>
             <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-3 sm:grid-cols-2 mb-16">
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <Link href="https://adage.com/events">
+                  <img
+                    class="w-full"
+                    src="img/events/adage.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-info-950">
+                      Ad Age TV & Streaming Summit
+                    </div>
+                    <div className="text-dark-950 pb-2 text-sm font-semibold">
+                      May 21-22, 2024
+                      <br />
+                      New York, NY
+                    </div>
+                    <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                      <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                        Register
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <Link href="https://www.digitalgrocerysummit.com/">
+                  <img
+                    class="w-full"
+                    src="img/events/dgs.jpg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-info-950">
+                      Digital Grocery Summit
+                    </div>
+                    <div className="text-dark-950 pb-2 text-sm font-semibold">
+                      May 23, 2024
+                      <br />
+                      Chicago, IL
+                    </div>
+                    <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                      <div className="py-4 text-base text-primary-950 underline underline-offset-8">
+                        Register
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div class="max-w-full rounded overflow-hidden shadow-lg">
+                <img
+                  class="w-full"
+                  src="img/events/springsocial.jpg"
+                  alt="Sunset in the mountains"
+                />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2 text-info-950">
+                    Spring Social
+                  </div>
+                  <div className="text-dark-950 pb-2 text-sm font-semibold">
+                    May 30, 2024
+                    <br />
+                    Chicago, IL
+                  </div>
+                </div>
+              </div>
               <div class="max-w-full rounded overflow-hidden shadow-lg">
                 <Link href="https://tinuiti.com/content/webinars/2024-amazon-retail-media-summit">
                   <img
