@@ -37,13 +37,13 @@ export default function Example() {
           >
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Our 2024 eCommerce SmartReport is here!
+          Our 2024 Omnichannel Insights Report!
         </p>
         <a
-          href="https://www.smartcommerce.com/whitepapers/2024-cpg-ecommerce-and-promotions-smartreport"
+          href="https://www.smartcommerce.com/whitepapers/2024-omnichannel-report"
           className="flex-none rounded-full bg-primary-950 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-primary-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-          Learn More
+          Get the intel
         </a>
       </div>
       <div className="lg:flex lg:flex-1 lg:justify-end hidden"></div>
