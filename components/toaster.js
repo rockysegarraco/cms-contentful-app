@@ -40,7 +40,7 @@ export default function Example() {
           Our 2024 Omnichannel Insights Report!
         </p>
         <a
-          href="https://www.smartcommerce.com/whitepapers/2024-omnichannel-report"
+          href="https://www.smartcommerce.com/whitepapers/2024-omnichannel-insights-report"
           className="flex-none rounded-full bg-primary-950 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-primary-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Get the intel
