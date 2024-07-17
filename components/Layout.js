@@ -8,7 +8,7 @@ export default function Layout({ preview, children }) {
     <>
       <Meta />
       <Nav />
-      <Toaster />
+
       <div className="min-h-screen">
         <main>{children}</main>
       </div>
