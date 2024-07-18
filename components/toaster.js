@@ -37,7 +37,7 @@ export default function Example() {
           >
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Our 2024 Omnichannel Insights Report!
+          &#x1F4E3; Our 2024 Omnichannel Insights Report!
         </p>
         <a
           href="https://www.smartcommerce.com/whitepapers/2024-omnichannel-insights-report"
