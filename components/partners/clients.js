@@ -7,7 +7,7 @@ export default function Clients() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
           <div className="bg-white p-6 sm:p-6">
-            <Link href="https://www.vericast.com/">
+            <Link href="https://www.vericast.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/Vericast.svg"
@@ -23,7 +23,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
-            <Link href=" https://www.catalina.com/">
+            <Link href=" https://www.catalina.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/catalina.svg"
@@ -39,7 +39,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
-            <Link href="https://ogury.com/">
+            <Link href="https://ogury.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/ogury.png"
@@ -56,7 +56,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
-            <Link href="https://www.a.ki/">
+            <Link href="https://www.a.ki/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/aki.svg"
@@ -73,7 +73,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.inmar.com/">
+            <Link href="https://www.inmar.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/inmar.png"
@@ -89,7 +89,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.adadapted.com/">
+            <Link href="https://www.adadapted.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/adadapted.svg"
@@ -105,7 +105,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
-            <Link href="https://acorninfluence.com/">
+            <Link href="https://acorninfluence.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/acorn.svg"
@@ -122,7 +122,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white p-6 sm:p-6">
-            <Link href="https://www.groundtruth.com/">
+            <Link href="https://www.groundtruth.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/gt.svg"
@@ -138,7 +138,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.brandshare.us/">
+            <Link href="https://www.brandshare.us/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/brandshare.png"
@@ -155,7 +155,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.kargo.com/">
+            <Link href="https://www.kargo.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/kargo.png"
@@ -171,7 +171,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://gumgum.com/">
+            <Link href="https://gumgum.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/gumgum.svg"
@@ -187,7 +187,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://soapboxinfluence.com/">
+            <Link href="https://soapboxinfluence.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/soapbox.png"
@@ -203,7 +203,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.undertone.com/">
+            <Link href="https://www.undertone.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/undertone.svg"
@@ -219,7 +219,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://inmarket.com/">
+            <Link href="https://inmarket.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/inmarket.png"
@@ -236,7 +236,10 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.neptuneretailsolutions.com/">
+            <Link
+              href="https://www.neptuneretailsolutions.com/"
+              target="_blank"
+            >
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/neptune.png"
@@ -252,7 +255,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.breaktimemedia.com/">
+            <Link href="https://www.breaktimemedia.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/breaktime.svg"
@@ -268,7 +271,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href=" https://www.meta.com/">
+            <Link href=" https://www.meta.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/meta.svg"
@@ -285,7 +288,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.pinterest.com/">
+            <Link href="https://www.pinterest.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/pinterest.svg"
@@ -301,7 +304,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.google.com/">
+            <Link href="https://www.google.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/googlelogo.png"
@@ -317,7 +320,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.horizonmedia.com/">
+            <Link href="https://www.horizonmedia.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/horizonmedialogo.png"
@@ -333,7 +336,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://influential.co/">
+            <Link href="https://influential.co/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/influentiallogo.png"
@@ -350,7 +353,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.linqia.com/">
+            <Link href="https://www.linqia.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/linqialogo.png"
@@ -366,7 +369,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href=" https://www.nextdoor.com/">
+            <Link href=" https://www.nextdoor.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/nextdoorlogo.png"
@@ -382,7 +385,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.quotient.com/">
+            <Link href="https://www.quotient.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/Quotientlogo.svg"
@@ -398,7 +401,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.teads.com/">
+            <Link href="https://www.teads.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/teadslogo.png"
@@ -414,7 +417,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href=" https://www.x.com">
+            <Link href=" https://www.x.com" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/twitter(x)logo.png"
@@ -430,7 +433,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.tiktok.com/">
+            <Link href="https://www.tiktok.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/tiktoklogo.png"
@@ -447,7 +450,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href=" https://www.univision.com/">
+            <Link href=" https://www.univision.com/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/univisionlogo.png"
@@ -463,7 +466,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href=" https://www.yahoo.com">
+            <Link href=" https://www.yahoo.com" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/yahoologo.png"
@@ -479,7 +482,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.a2influence.com">
+            <Link href="https://www.a2influence.com" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/a2.svg"
@@ -496,7 +499,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://captiv8.io/">
+            <Link href="https://captiv8.io/" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/captive8.svg"
@@ -513,7 +516,7 @@ export default function Clients() {
             </div>
           </div>
           <div className="bg-white  p-6 sm:p-6">
-            <Link href="https://www.shespeaksinc.com">
+            <Link href="https://www.shespeaksinc.com" target="_blank">
               <img
                 className="mx-auto max-h-16 object-contain p-2"
                 src="img/partners/shespeaks.png"
