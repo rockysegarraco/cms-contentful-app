@@ -78,10 +78,7 @@ export default function Example() {
         <Wrapper slate>
           <_Container twocolumn>
             <div className="order-last lg:order-first">
-              <Heading dark>
-                Unlock the value of Click2Cart
-                <span className="text-secondary-950">.</span>
-              </Heading>
+              <Heading dark>Unlock the value of Click2Cart</Heading>
               <Paragraphs dark>
                 CPG brands use SmartCommerce Click2Cart® technology to let
                 consumers drop products directly into store shopping carts from
