@@ -14,38 +14,44 @@ export default function News({ preview, posts, total, tabs }) {
   const [postData, setPostData] = useState(posts);
   const [totalLength, setTotalLength] = useState(NUMBER_OF_NEWS_TO_SHOW);
   const [selectedTab, setSelectedTab] = useState(tabs.tabname[0]);
-  const [isFirstTime, setIsFirsttime] = useState(true)
+  const [isFirstTime, setIsFirsttime] = useState(true);
 
   useEffect(() => {
     if (!isFirstTime) {
-      onTabSelect()
+      onTabSelect();
     } else {
-      setIsFirsttime(false)
+      setIsFirsttime(false);
     }
-  }, [selectedTab])
-  
+  }, [selectedTab]);
 
   const handleNext = async (e) => {
     e.preventDefault();
     if (totalLength != total) {
-      const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalLength, selectedTab);
+      const { posts } = await fetchNews(
+        NUMBER_OF_NEWS_TO_SHOW,
+        totalLength,
+        selectedTab
+      );
       setTotalLength(totalLength + posts.length);
       setCurrentPage(currentPage + 1);
       setPostData(posts);
     }
   };
 
-
-  const onTabSelect = async() => {
+  const onTabSelect = async () => {
     const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, 0, selectedTab);
-    setPostData(posts)
-  }
+    setPostData(posts);
+  };
 
   const handlePrev = async (e) => {
     e.preventDefault();
     if (currentPage != 1) {
       const totalSkip = currentPage == 2 ? 0 : totalLength - postData.length;
-      const { posts } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, totalSkip, selectedTab);
+      const { posts } = await fetchNews(
+        NUMBER_OF_NEWS_TO_SHOW,
+        totalSkip,
+        selectedTab
+      );
       setTotalLength(totalLength - postData.length);
       setCurrentPage(currentPage - 1);
       setPostData(posts);
@@ -81,21 +87,26 @@ export default function News({ preview, posts, total, tabs }) {
           />
         </Head>
         <Intro title="News" />
-        <div className="bg-gray-200 sm:max-w-7xl px-6 mx-auto py-2 space-x-4">
-          {tabs.tabname?.map((item) => (
-            <span 
-              onClick={() => setSelectedTab(item)}
-             className={`cursor-pointer ${selectedTab === item && 'text-orange-500'} `} key={item}>{item}</span>
-          ))}
+        <div className="mx-auto py-6 space-x-4 uppercase font-medium bg-white/40">
+          <div className="mx-auto max-w-7xl px-8 space-x-8">
+            {tabs.tabname?.map((item) => (
+              <span
+                onClick={() => setSelectedTab(item)}
+                className={`cursor-pointer ${
+                  selectedTab === item && "text-orange-500"
+                } `}
+                key={item}
+              >
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
-        <div className="mx-auto max-w-7xl px-8 pt-16 pb-0 sm:px-8 sm:pt-16">
+        <div className="mx-auto max-w-7xl px-8 pt-8 pb-0 sm:px-8 sm:pt-8">
           <div className="text-center">
             <h2 className="text-4xl leading-[3rem] sm:text-5xl sm:leading-[5rem] md:text-5xl md:leading-[4.5rem] lg:text-5xl lg:leading-[4.5rem] mb-0 font-bold text-info-950">
               What’s happening?
             </h2>
-            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-              SmartCommerce in the news
-            </p>
           </div>
         </div>
         <Container>
@@ -116,8 +127,12 @@ export default function News({ preview, posts, total, tabs }) {
 }
 
 export async function getStaticProps({ preview = false }) {
-  const {tabs} = await fetchNewsTabs();
-  const { posts, total } = await fetchNews(NUMBER_OF_NEWS_TO_SHOW, 0, tabs?.tabname[0]);
+  const { tabs } = await fetchNewsTabs();
+  const { posts, total } = await fetchNews(
+    NUMBER_OF_NEWS_TO_SHOW,
+    0,
+    tabs?.tabname[0]
+  );
   return {
     props: { preview, posts, total, tabs },
     revalidate: 60,
