@@ -37,7 +37,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into retailer carts.`}
+        content={`SmartCommerce provides innovative omnichannel solutions that empower multichannel brands to engage consumers seamlessly. Our data-driven platform enhances the shopping experience with one-click carting, shoppable links, and real-time stock tracking. Trusted by leading brands, we help you drive sales across all digital touchpoints, ensuring your products reach consumers wherever they shop. Discover how our Master Optimization Engine (MOE) can transform your commerce strategy today!`}
       />
       <meta property="og:url" content="https://smartcommerce.com/" />
       <meta property="og:site_name" content="SmartCommerce" />

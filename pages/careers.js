@@ -27,12 +27,12 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            We're a team of go-getters who wake up excited about helping clients
+            take their sales to the next level.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Explore exciting career opportunities at SmartCommerce, a remote-first company dedicated to employee well-being and professional growth. Join our diverse team and enjoy flexible work arrangements, comprehensive healthcare, generous parental leave, and a culture that values your contributions. Discover how you can thrive in a supportive environment where your career can truly click."
           />
         </Head>
         <_PageTitle title="Careers" />

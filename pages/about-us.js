@@ -3,11 +3,9 @@ import _PageTitle from "../components/_PageTitle";
 import AboutUs from "../components/AboutUs";
 import Layout from "../components/Layout";
 import Head from "next/head";
-import ReactGA from 'react-ga';
-
+import ReactGA from "react-ga";
 
 export default function Example() {
-
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
@@ -16,10 +14,10 @@ export default function Example() {
     <>
       <Layout>
         <Head>
-          <title>{`About us - SmartCommerce is a simple tool that transforms all of your marketing touchpoints into e-commerce launch points.`}</title>
+          <title>{`At our core, SmartCommerce helps brands build their success stories.`}</title>
           <meta
             name="description"
-            content="SmartCommerce Team Who We Are Your international SmartCommerce team has decades of experience in CPG eCommerce (it’s our passion), and would love the opportunity to show you what our next-gen eCommerce tools could be doing for your brand! Your SmartCommerce Team Angie Atkins Director, Implementations..."
+            content="Discover SmartCommerce, a pioneering community dedicated to simplifying the sales process for fast-moving consumer goods. Our innovative tools empower brands to connect directly with consumers, enhancing sales and conversions. Founded by industry veterans, we leverage decades of experience to transform complex challenges into seamless solutions. Join us in redefining commerce and driving success for our clients."
           />
         </Head>
         <_PageTitle title="About Us" />

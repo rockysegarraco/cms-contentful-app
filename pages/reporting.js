@@ -48,12 +48,12 @@ export default function Reporting() {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Real-time data and insights let clients manage campaigns, make
+            changes, and meet their goals faster.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Discover how SmartCommerce's reporting tools can enhance your e-commerce strategy. Access real-time performance metrics through the SmartSuite Dashboard, analyze audience behavior, and optimize your campaigns with expert support. Transform insights into action and create a better experience for your customers."
           />
         </Head>
         <Wrapper light>

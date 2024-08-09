@@ -16,12 +16,12 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Learn how Click2Cart can drive e-commerce from your digital ads,
+            social channels, and website.
           </title>
           <meta
             name="description"
-            content="Interested in learning how Click2Cart® can drive e-commerce from your digital ads, social channels and website? Fill out the form below and one our team members will be in touch."
+            content="Request a demo of SmartCommerce's cutting-edge solutions to enhance your business operations. Experience firsthand how our technology can streamline your processes and drive growth."
           />
           <script
             async

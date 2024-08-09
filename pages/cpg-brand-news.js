@@ -78,12 +78,12 @@ export default function News({ preview, posts, total, tabs }) {
       <Layout preview={preview}>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Be the first to know about our latest reports and studies,
+            SmartCommerce and CPG news.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Stay informed with the latest insights in retail tech and eCommerce. Explore expert analysis and updates on consumer packaged goods (CPG) trends, last-mile delivery demands, and evolving shopping behaviors. "
           />
         </Head>
         <Intro title="News" />

@@ -57,12 +57,12 @@ export default function Index({ preview, allPosts, total }) {
       <Layout preview={preview}>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Stay informed on trends and best practices in the CPG commerce and
+            marketing space.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Explore SmartCommerce's CPG Marketing Blog for the latest insights and strategies in e-commerce. Discover expert tips, industry trends, and innovative solutions to boost your brand's online presence and drive sales. Stay ahead with our comprehensive guides and reports."
           />
         </Head>
         <Intro title="Blog" />

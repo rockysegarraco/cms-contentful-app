@@ -23,12 +23,11 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            Events - Accelerate E-commerce from all existing touchpoints -
-            SmartCommerce
+            Be the first to know what events we will be attending or hosting.
           </title>
           <meta
             name="description"
-            content="Want to connect at one of these events? Email:&nbsp;info@smartcommerce.co Phone:&nbsp;1-800-571-3520 Europe: Barcelona, Spain Email: infoEU@smartcommerce.co"
+            content="Explore upcoming industry events with SmartCommerce! Join us at major industry events such as ShopTalk, Cannes International Festival of Creativity, and Groceryshop. Connect with peers and industry leaders while enhancing your knowledge and networking opportunities. Don't miss out—register now and schedule a meetup!"
           />
         </Head>
         <_PageTitle title="Events" />

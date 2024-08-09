@@ -42,12 +42,12 @@ export default function SmartSite({ pageData }) {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Optimize your website with one-click carting at a variety of
+            retailers, including your own DTC experience.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Transform your e-commerce strategy with SmartSite by SmartCommerce. Our easy-to-implement solutions enable seamless shopping experiences, allowing consumers to add products to their carts from various retailers at any touchpoint on your website. Enjoy frictionless transactions, enhanced insights, and powerful data analytics to drive sales and optimize your omni-channel presence. Experience the Click2Cart® difference and elevate your brand's online shopping journey today!"
           />
         </Head>
         <Wrapper light>

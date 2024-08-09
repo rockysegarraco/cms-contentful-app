@@ -16,12 +16,12 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            Partners - SmartCommerce - Accelerate E-commerce from all existing
-            touchpoints - SmartCommerce
+            Join forces with our partners – premium agencies, platforms, and
+            media partners – for better results.
           </title>
           <meta
             name="description"
-            content="SmartCommerce is integrated with the following premium agency, platform, and other media partners, who are authorized to implement Click2Cart® services."
+            content="Discover SmartCommerce's extensive network of partners, each skilled in leveraging Click2Cart technology to enhance your e-commerce success. From data-driven marketing agencies to innovative advertising platforms, our partners are dedicated to boosting your brand's performance across various touchpoints. Explore how collaboration can lead to impactful results for your business."
           />
         </Head>
         <Intro title="Partners" />

@@ -60,12 +60,12 @@ export default function Index({ preview, allPosts, total }) {
       <Layout preview={preview}>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            A monthly newsletter focused on the latest trends, insights, and
+            events in the CPG commerce and marketing world.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Stay ahead in the eCommerce landscape with SmartCommerce's newsletter. Subscribe for exclusive updates on new products, industry insights, and monthly highlights, including consumer behavior trends and strategies to optimize your omnichannel approach."
           />
         </Head>
         <Intro title="Newsletter" />

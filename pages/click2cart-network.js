@@ -66,12 +66,12 @@ export default function Example() {
       <Layout>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Retail partners receive shoppers with high purchase-intent at no
+            cost to them.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Unlock the power of SmartCommerce's Click2Cart® technology, enabling CPG brands to seamlessly integrate shopping experiences across all touchpoints. Join our retailer network at no cost and enhance your visibility, reaching millions of consumers ready to add products directly to their carts from brand websites, social media, and more. Start receiving orders effortlessly and expand your market reach today!"
           />
         </Head>
         <_PageTitle title="Retailers" />

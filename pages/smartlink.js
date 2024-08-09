@@ -58,12 +58,12 @@ export default function SmartLink({ pageData }) {
     <Layout>
       <Head>
         <title>
-          SmartCommerce - Accelerate E-commerce from all existing touchpoints -
-          SmartCommerce
+          Click2Cart links bring the cart to your ads and social media, getting
+          your products into carts faster and more frequently.
         </title>
         <meta
           name="description"
-          content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+          content="Boost your e-commerce sales with SmartCommerce's SmartLink. Our innovative Click2Cart technology simplifies the shopping experience by allowing consumers to add products directly to their carts with a single click. Eliminate friction in the purchasing process and enhance product visibility across ads, social media, and more. Experience real-time inventory awareness, dynamic substitutions, and personalized shopping options that drive conversions and customer loyalty. Discover how our suite of solutions can transform your campaigns and optimize your bottom line today!"
         />
       </Head>
       <Wrapper light>

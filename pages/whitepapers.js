@@ -59,12 +59,12 @@ export default function WhitePapers({ preview, posts, total }) {
       <Layout preview={preview}>
         <Head>
           <title>
-            SmartCommerce - Accelerate E-commerce from all existing touchpoints
-            - SmartCommerce
+            Get informed with our researched reports that help find solutions to
+            CPG commerce and marketing pain points.
           </title>
           <meta
             name="description"
-            content="A FRICTIONLESS ONE-CLICK PATH TO PURCHASE THAT COLLECTS INSIGHTS ALONG THE WAY! ACCELERATE ECOMMERCE Click2Cart® from SmartCommerce helps brands dramatically accelerate ecommerce from all of their existing touchpoints, by replacing typical friction-filled paths to purchase with a single click that sends products all the way into..."
+            content="Discover valuable insights into the evolving landscape of eCommerce and promotional trends with SmartCommerce's white papers. Stay informed on consumer shopping behaviors and access our latest 2024 Omnichannel Insights Report and 2024 CPG eCommerce & Promotions SmartReport for in-depth analysis and data-driven strategies."
           />
         </Head>
         <Intro title="White Papers" />
